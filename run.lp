@@ -1,7 +1,3 @@
-#include "dl-incremental.lp".
-#include "state_space.lp".
-#include <incmode>.
-
 state(S) :- transition(S,_).
 state(S) :- transition(_,S).
 

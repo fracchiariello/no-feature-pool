@@ -256,4 +256,48 @@ print("-" * (sum(widths2) + len(SEPARATOR) * (len(widths2) - 1)))
 for r in rows2[1:]:
     print(fmt_row(r, widths2))
 
-# Exit
+# -----------------------------
+# Parse evaluation(feature,state,value) for THIRD TABLE
+# -----------------------------
+eval_re = re.compile(
+    r'evaluation\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*([0-9]+)\s*\)'
+)
+eval_facts = eval_re.findall(data)
+
+# Build dictionary: eval_map[state][feature] = value
+eval_map = defaultdict(dict)
+eval_features = set()
+eval_states = set()
+
+for feat, state, val_s in eval_facts:
+    f = clean_token(feat)
+    s = clean_token(state)
+    v = int(val_s)
+    eval_map[s][f] = v
+    eval_features.add(f)
+    eval_states.add(s)
+
+# Restrict to SELECTED FEATURES only (your requirement)
+selected_eval_features = sorted([f for f in eval_features if f in selected])
+
+# Build Third Table
+header3 = ["Feature"] + ordered_states
+rows3 = [header3]
+
+for f in selected_eval_features:
+    row = [f]
+    for st in ordered_states:
+        cell = eval_map.get(st, {}).get(f, "")
+        row.append(cell)
+    rows3.append(row)
+
+# Compute widths
+widths3 = compute_col_widths(rows3, min_width=CELL_WIDTH)
+
+# Print third table
+print("\nTHIRD TABLE (boolean evaluations):")
+print(fmt_row(rows3[0], widths3))
+print("-" * (sum(widths3) + len(SEPARATOR) * (len(widths3) - 1)))
+for r in rows3[1:]:
+    print(fmt_row(r, widths3))
+

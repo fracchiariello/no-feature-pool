@@ -5,7 +5,7 @@ time(1..t).
 % Rules
 % ============================================
 
-rule(top;bottom;negation;conjunction;disjunction;exists;forall;nominal).
+rule(top;bottom;negation;conjunction;disjunction;exists;forall;nominal; copy).
 
 % ============================================
 % Dynamic selection of rules
@@ -64,6 +64,9 @@ concept(C, S, O1, T) :- selectRule(T, C, forall), paramR(T, C, R), state(S), tim
 
 % nominals
 concept(C, S, O, T) :- selectRule(T, C, nominal), paramN(T, C, O), state(S), time(T), object(O).
+
+% copy
+concept(C, S, O, T) :- selectRule(T,C, copy), concept(C, S, o, T-1), state(S), time(T), object(O).
 
 % ============================================
 % Features
@@ -149,3 +152,9 @@ poss_dist(0..maxdist).
 #const delta = 2.
 {v(S,D) : v_star(S,D_star), poss_dist(D), D_star <= D, D <= delta*D_star} = 1 :- state(S), live(S).
 :- good(S1,S2), v(S1,D1), v(S2,D2), D1 <= D2.
+
+
+% Optimization 
+#minimize{1@10,C: select(C)}.
+#maximize{1@5,T,C: selectRule(T, C, copy)}.
+#maximize{1@3,C: boolean_feature(C)}.

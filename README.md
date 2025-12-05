@@ -1,9 +1,3 @@
-# no-feature-pool
+clingo run.lp dl.lp "state_space" 1 | python asp2table.py > output.txt (for search)
 
-This repository was initialized with Git by an automated assistant.
-
-Contents: planning and logic files used for ASP/PDDL state-space generation and solutions.
-
-Next steps:
-- Add a remote with `git remote add origin <url>`
-- Push the initial commit with `git push -u origin main` (or `master` depending on your branch)
+clingo run.lp dl.lp experiments/instance_3_clear_x_2.lp --quiet=1 | python asp2table.py > output.txt  (for optimization) 
