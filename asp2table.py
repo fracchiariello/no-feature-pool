@@ -88,12 +88,8 @@ numerical_features = {clean_token(s) for s in num_pattern.findall(data)}
 
 # params: param(time,"concept","val") paramR(...) paramN(...)
 param_pattern  = re.compile(r'param\(\s*([0-9]+)\s*,\s*"([^"]+)"\s*,\s*"?(.*?)"?\s*\)')
-paramR_pattern = re.compile(r'paramR\(\s*([0-9]+)\s*,\s*"([^"]+)"\s*,\s*"?(.*?)"?\s*\)')
-paramN_pattern = re.compile(r'paramN\(\s*([0-9]+)\s*,\s*"([^"]+)"\s*,\s*(.*?)\s*\)')
 
 param  = {(int(t), clean_token(c)): v for t, c, v in param_pattern.findall(data)}
-paramR = {(int(t), clean_token(c)): v for t, c, v in paramR_pattern.findall(data)}
-paramN = {(int(t), clean_token(c)): v for t, c, v in paramN_pattern.findall(data)}
 
 no_param_rules = {"negation", "top", "bottom"}
 
@@ -101,11 +97,7 @@ def fetch_param(t, c, rule):
     """Return parameter string or None if rule has no parameter."""
     if rule in no_param_rules:
         return None
-    if rule in ("conjunction", "disjunction"):
-        return param.get((t, c))
-    if rule in ("forall", "exists"):
-        return paramR.get((t, c))
-    return paramN.get((t, c))
+    return param.get((t, c))
 
 # -----------------------------
 # Parse concept facts for second table

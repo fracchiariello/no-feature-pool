@@ -1,72 +1,69 @@
-#const t=3.
-time(1..t).
+#const l=3.
+layer(1..l).
 
 % ============================================
 % Rules
 % ============================================
 
-rule(top;bottom;negation;conjunction;disjunction;exists;forall;nominal; copy).
+rule(top;bottom;negation;conjunction;disjunction;exists;forall;nominal;copy).
 
 % ============================================
 % Dynamic selection of rules
 % ============================================
 
-% selectRule(Time, Concept, Rule) is guessed by ASP
-{ selectRule(T, C, R) : rule(R) } = 1 :- time(T), concept(C).
+% selectRule(Layer, Concept, Rule) is guessed by ASP
+{ selectRule(L, C, R) : rule(R) } = 1 :- layer(L), concept(C).
 
 % ============================================
 % Parameters (dynamic, guessed)
 % ============================================
 
 % For conjunction and disjunction
-{ param(T, C, D) : concept(D) } = 1 :- selectRule(T, C, conjunction).
-{ param(T, C, D) : concept(D) } = 1 :- selectRule(T, C, disjunction).
+{ param(L, C, D) : concept(D) } = 1 :- selectRule(L, C, conjunction).
+{ param(L, C, D) : concept(D) } = 1 :- selectRule(L, C, disjunction).
 
 % For exists and forall relations
-{ paramR(T, C, R) : role(R)} = 1 :- selectRule(T, C, exists).
-{ paramR(T, C, R) : role(R)} = 1 :- selectRule(T, C, forall).
+{ param(L, C, R) : role(R)} = 1 :- selectRule(L, C, exists).
+{ param(L, C, R) : role(R)} = 1 :- selectRule(L, C, forall).
 
 % For nominals
-{ paramN(T, C, O) : object(O)} = 1 :- selectRule(T, C, nominal).
-
+{ param(L, C, O) : object(O)} = 1 :- selectRule(L, C, nominal).
 
 % ============================================
 % DL constructors
 % ============================================
 
 % Top
-concept(C, S, O, T) :- selectRule(T, C, top), state(S), time(T), object(O).
+concept(C, S, O, L) :- selectRule(L, C, top), state(S), object(O).
 
 % Bottom
-%:- concept(C, S, O, T), selectRule(T, C, bottom), state(S), time(T), object(O).
+%:- concept(C, S, O, L), selectRule(L, C, bottom), state(S), object(O).
 
 % Negation
-concept(C, S, O, T) :- selectRule(T, C, negation), state(S), time(T), object(O), 
-                        not concept(C, S, O, T-1).
+concept(C, S, O, L) :- selectRule(L, C, negation), state(S), object(O), 
+                        not concept(C, S, O, L-1).
 
 % Conjunction
-concept(C, S, O, T) :- selectRule(T, C, conjunction), param(T, C, D), time(T), object(O),
-                   concept(C, S, O, T-1), concept(D, S, O, T-1).
+concept(C, S, O, L) :- selectRule(L, C, conjunction), param(L, C, D),
+                   concept(C, S, O, L-1), concept(D, S, O, L-1).
 
 % Disjunction
-concept(C, S, O, T) :- selectRule(T, C, disjunction), time(T), object(O),
-                   concept(C, S, O, T-1).
-concept(C, S, O, T) :- selectRule(T, C, disjunction), param(T, C, D), time(T), object(O),
-                   concept(D, S, O, T-1).
+concept(C, S, O, L) :- selectRule(L, C, disjunction), concept(C, S, O, L-1).
+concept(C, S, O, L) :- selectRule(L, C, disjunction), param(L, C, D), concept(D, S, O, L-1).
 
 % Existential restriction
-concept(C, S, O1, T) :- selectRule(T, C, exists), time(T), paramR(T, C, R),
-                        holds(S,(R,O1,O2)),  concept(C, S, O2, T-1).
+concept(C, S, O1, L) :- selectRule(L, C, exists), param(L, C, R),
+                        holds(S,(R,O1,O2)),  concept(C, S, O2, L-1).
 
 % Universal restriction
-concept(C, S, O1, T) :- selectRule(T, C, forall), paramR(T, C, R), state(S), time(T), object(O1),
-                         concept(C, S, O2, T-1) : holds(S,(R,O1,O2)).
+concept(C, S, O1, L) :- selectRule(L, C, forall), param(L, C, R), state(S), object(O1),
+                         concept(C, S, O2, L-1) : holds(S,(R,O1,O2)).
 
 % nominals
-concept(C, S, O, T) :- selectRule(T, C, nominal), paramN(T, C, O), state(S), time(T), object(O).
+concept(C, S, O, L) :- selectRule(L, C, nominal), param(L, C, O), state(S).
 
 % copy
-concept(C, S, O, T) :- selectRule(T,C, copy), concept(C, S, o, T-1), state(S), time(T), object(O).
+concept(C, S, O, L) :- selectRule(L, C, copy), concept(C, S, O, L-1).
 
 % ============================================
 % Features
@@ -74,13 +71,13 @@ concept(C, S, O, T) :- selectRule(T,C, copy), concept(C, S, o, T-1), state(S), t
 
 {boolean_feature(C); numerical_feature(C)} = 1 :- select(C).
 
-% boolean feature: true if any O exists s.t. concept(C,S,O,t)
-value(C,S,1) :- concept(C,S,O,t), boolean_feature(C).
+% boolean feature: true if any O exists s.t. concept(C,S,O,l)
+value(C,S,1) :- concept(C,S,O,l), boolean_feature(C).
 value(C,S,0) :- not value(C,S,1), boolean_feature(C), state(S).
 evaluation(C,S,V) :- value(C,S,V), boolean_feature(C).
 
 % numerical feature: count number of O
-value(C,S,N) :- N = #count { O : concept(C,S,O,t) }, numerical_feature(C), state(S).
+value(C,S,N) :- N = #count{ O : concept(C,S,O,l) }, numerical_feature(C), state(S).
 evaluation(C,S,1) :- value(C,S,N), N=0, numerical_feature(C).
 evaluation(C,S,0) :- value(C,S,N), N>0, numerical_feature(C).
 
@@ -156,5 +153,5 @@ poss_dist(0..maxdist).
 
 % Optimization 
 #minimize{1@10,C: select(C)}.
-#maximize{1@5,T,C: selectRule(T, C, copy)}.
+#maximize{1@5,L,C: selectRule(L, C, copy)}.
 #maximize{1@3,C: boolean_feature(C)}.
