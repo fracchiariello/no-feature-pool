@@ -9,7 +9,7 @@ try:
     # Use sys.executable to ensure clingo runs from the current Python environment (e.g., virtual env)
     # Assumes clingo is installed via pip; runs as module: python -m clingo
     result = subprocess.run(
-        [sys.executable, '-m', 'clingo', 'Generate_roles.lp', 'state_space.lp', '--outf=1'],  # No --outf=1 for textual output
+        [sys.executable, '-m', 'clingo', 'Generate_Roles.lp', 'state_space.lp', '--outf=1'],  # No --outf=1 for textual output
         capture_output=True,
         text=True,
         check=False  # Don't raise on non-zero
