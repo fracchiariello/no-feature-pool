@@ -8,8 +8,15 @@ CLINGO_SUCCESS_CODES = {0, 20, 30}  # 0: UNSAT, 20: SAT (one model), 30: all mod
 try:
     # Use sys.executable to ensure clingo runs from the current Python environment (e.g., virtual env)
     # Assumes clingo is installed via pip; runs as module: python -m clingo
+    # Get input file from command line argument
+    if len(sys.argv) < 2:
+        print("Usage: python Generate_Roles.py <input_file>")
+        exit(1)
+    
+    input_file = sys.argv[1]
+
     result = subprocess.run(
-        [sys.executable, '-m', 'clingo', 'Generate_Roles.lp', 'state_space.lp', '--outf=1'],  # No --outf=1 for textual output
+        [sys.executable, '-m', 'clingo', 'Generate_Roles.lp', input_file, '--outf=1'],
         capture_output=True,
         text=True,
         check=False  # Don't raise on non-zero
@@ -51,11 +58,20 @@ print("Processed ANSWER block extracted.")
 pattern = r'holds\("([^"]+)",\("([^"]+)",([a-z]),([a-z])\),([a-z]+)\)\.'
 
 matches_found = 0
-for match in re.finditer(pattern, processed_data):
-    obj_id, relation, b1, b2, role = match.groups()
-    new_relation = f"{relation}_{role}"  # Append role to relation
-    print(f'holds("{obj_id}",("{new_relation}",{b1},{b2})).')
-    matches_found += 1
+output_file = None
+try:
+    for match in re.finditer(pattern, processed_data):
+        obj_id, relation, b1, b2, role = match.groups()
+        new_relation = f"{relation}_{role}"  # Append role to relation
+        if matches_found == 0:
+            # Open file for writing on first match
+            output_filename = input_file.rsplit('.', 1)[0] + '-role.' + input_file.rsplit('.', 1)[1]
+            output_file = open(output_filename, 'w')
+        output_file.write(f'holds("{obj_id}",("{new_relation}",{b1},{b2})).\n')
+        matches_found += 1
+finally:
+    if output_file:
+        output_file.close()
 
 if matches_found == 0:
     print("No matching 'holds' facts found in Clingo output.")

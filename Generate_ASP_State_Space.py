@@ -29,7 +29,7 @@ def upstate_to_asp(state, state_id, asp_states):
     matches = re.findall(pattern, s)
     for predicate, value in matches:
         if value == 'true':
-            asp_states.append(f"holds({state_id}, {predicate_to_tuple(predicate)}, primitive).")
+            asp_states.append(f"holds({state_id}, {predicate_to_tuple(predicate)}).")
 
 
 # In[2]:
