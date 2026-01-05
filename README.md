@@ -15,4 +15,10 @@ It assumes domain.pddl to be present in the same folder /path/to. Return /path/t
 
 2) Generate Roles
 
-`
+`python ./Generate_Roles.py /path/to/problem.lp' 
+
+It generate new roles (predicates) in file /path/to/problem-role.lp'
+
+3) Compute Generalized Plan
+
+`clingo 
