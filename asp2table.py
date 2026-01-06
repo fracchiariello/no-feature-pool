@@ -2,19 +2,13 @@
 """
 asp2table.py
 
-Reads Clingo/ASP output from stdin and prints two tables:
+Reads Clingo/ASP output from stdin and prints:
 
-1) First table: concept rules per time step + Selected + Feature Type
-   - Parses selectRule/3, param/3, paramR/3, paramN/3, select/1,
-     boolean_feature/1, numerical_feature/1
-
-2) Second table: features x states (ordered from initial -> goal by good/2)
-   - Uses only concept(feature, state, object, t) facts with t == LAST_T
-   - Lists the exact objects (unique) for each (feature,state) at LAST_T
-
-Assumptions:
-- No duplicate identical concept facts for the same (feature,state,obj,time)
-- good/2 forms a chain; fallback to best-effort if not exactly a single chain.
+0) The raw input
+1) Concept rules per time step + Selected + Feature Type
+2) Features x States (objects at LAST_T from concept/4)
+3) Values table from value(C,S,N)
+4) Evaluations table from evaluation(C,S,V)
 """
 
 import sys
@@ -24,14 +18,13 @@ from collections import defaultdict
 # -----------------------------
 # Configuration
 # -----------------------------
-CELL_WIDTH = 34    # adjust if you want wider/narrower columns
+CELL_WIDTH = 34
 SEPARATOR = " | "
 
 # -----------------------------
 # Helpers
 # -----------------------------
 def clean_token(tok: str) -> str:
-    """Strip whitespace and surrounding quotes from a token."""
     tok = tok.strip()
     if tok.startswith('"') and tok.endswith('"') and len(tok) >= 2:
         return tok[1:-1]
@@ -41,7 +34,6 @@ def fmt_row(row, widths):
     return SEPARATOR.join(str(col).ljust(w) for col, w in zip(row, widths))
 
 def compute_col_widths(rows, min_width=CELL_WIDTH):
-    """Compute column widths from rows (list of lists)."""
     if not rows:
         return []
     ncols = len(rows[0])
@@ -51,21 +43,29 @@ def compute_col_widths(rows, min_width=CELL_WIDTH):
             widths[i] = max(widths[i], len(str(cell)) + 1)
     return widths
 
+def print_table(title, rows):
+    widths = compute_col_widths(rows)
+    print(f"\n{title}:")
+    print(fmt_row(rows[0], widths))
+    print("-" * (sum(widths) + len(SEPARATOR) * (len(widths) - 1)))
+    for r in rows[1:]:
+        print(fmt_row(r, widths))
+
 # -----------------------------
-# Read input
+# Read & print input
 # -----------------------------
 data = sys.stdin.read()
 print(data)
 
 # -----------------------------
-# Parse first-table related facts
+# FIRST TABLE: rules
 # -----------------------------
-
-# selectRule(time,"concept",rule)
-rule_pattern = re.compile(r'selectRule\(\s*([0-9]+)\s*,\s*"([^"]+)"\s*,\s*([A-Za-z_]+)\s*\)')
+rule_pattern = re.compile(
+    r'selectRule\(\s*([0-9]+)\s*,\s*"([^"]+)"\s*,\s*([A-Za-z_]+)\s*\)'
+)
 rules = rule_pattern.findall(data)
 
-selectRule = defaultdict(dict)  # concept -> time -> rule
+selectRule = defaultdict(dict)
 times_seen = set()
 concepts_seen = set()
 
@@ -76,69 +76,26 @@ for t_s, c_s, rule in rules:
     times_seen.add(t)
     concepts_seen.add(c)
 
-# select("concept")
 selected_pattern = re.compile(r'select\(\s*"([^"]+)"\s*\)')
 selected = {clean_token(s) for s in selected_pattern.findall(data)}
 
-# boolean_feature("f") and numerical_feature("f")
 bool_pattern = re.compile(r'boolean_feature\(\s*"([^"]+)"\s*\)')
 num_pattern = re.compile(r'numerical_feature\(\s*"([^"]+)"\s*\)')
 bool_features = {clean_token(s) for s in bool_pattern.findall(data)}
 numerical_features = {clean_token(s) for s in num_pattern.findall(data)}
 
-# params: param(time,"concept","val") paramR(...) paramN(...)
-param_pattern  = re.compile(r'param\(\s*([0-9]+)\s*,\s*"([^"]+)"\s*,\s*"?(.*?)"?\s*\)')
-
-param  = {(int(t), clean_token(c)): v for t, c, v in param_pattern.findall(data)}
+param_pattern = re.compile(
+    r'param\(\s*([0-9]+)\s*,\s*"([^"]+)"\s*,\s*"?(.*?)"?\s*\)'
+)
+param = {(int(t), clean_token(c)): v for t, c, v in param_pattern.findall(data)}
 
 no_param_rules = {"negation", "top", "bottom", "copy"}
 
 def fetch_param(t, c, rule):
-    """Return parameter string or None if rule has no parameter."""
     if rule in no_param_rules:
         return None
     return param.get((t, c))
 
-# -----------------------------
-# Parse concept facts for second table
-# -----------------------------
-# concept("feature","state", OBJECT, time)
-# OBJECT may be quoted "..." or an unquoted token (alphanumeric + underscore)
-concept_re = re.compile(
-    r'concept\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*(".*?"|[A-Za-z0-9_]+)\s*,\s*([0-9]+)\s*\)'
-)
-concept_facts = concept_re.findall(data)
-
-# Determine LAST_T (max time across all concept facts)
-all_times = [int(t_s) for *_, t_s in concept_facts]
-LAST_T = max(all_times) if all_times else None
-
-# Build mapping state -> feature -> set(objects) but only for t == LAST_T
-state_features = defaultdict(lambda: defaultdict(set))
-states_seen = set()
-features_seen = set()
-
-if LAST_T is not None:
-    for feat, state, obj_tok, t_s in concept_facts:
-        t = int(t_s)
-        if t != LAST_T:
-            continue
-        feat_c = clean_token(feat)
-        state_c = clean_token(state)
-        obj_c = clean_token(obj_tok)
-        state_features[state_c][feat_c].add(obj_c)
-        states_seen.add(state_c)
-        features_seen.add(feat_c)
-
-# -----------------------------
-# Collect all states (no particular order based on good/2))
-# -----------------------------
-
-# States appearing in concept/4 at LAST_T
-ordered_states = sorted(states_seen)
-# -----------------------------
-# Build First Table rows
-# -----------------------------
 times_sorted = sorted(times_seen)
 concepts_sorted = sorted(concepts_seen)
 
@@ -165,87 +122,99 @@ for c in concepts_sorted:
     rows1.append(row)
 
 # -----------------------------
-# Build Second Table rows (objects listed for LAST_T)
+# SECOND TABLE: concept objects at LAST_T
 # -----------------------------
+concept_re = re.compile(
+    r'concept\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*(".*?"|[A-Za-z0-9_]+)\s*,\s*([0-9]+)\s*\)'
+)
+concept_facts = concept_re.findall(data)
+
+all_times = [int(t_s) for *_, t_s in concept_facts]
+LAST_T = max(all_times) if all_times else None
+
+state_features = defaultdict(lambda: defaultdict(set))
+states_seen = set()
+features_seen = set()
+
+if LAST_T is not None:
+    for feat, state, obj_tok, t_s in concept_facts:
+        if int(t_s) != LAST_T:
+            continue
+        f = clean_token(feat)
+        s = clean_token(state)
+        o = clean_token(obj_tok)
+        state_features[s][f].add(o)
+        states_seen.add(s)
+        features_seen.add(f)
+
+ordered_states = sorted(states_seen)
+
 header2 = ["Feature"] + ordered_states
 rows2 = [header2]
-features_sorted = sorted(features_seen)
 
-for f in features_sorted:
+for f in sorted(features_seen):
     row = [f]
     for s in ordered_states:
         objs = state_features.get(s, {}).get(f, set())
-        if objs:
-            # sort object names for reproducible order
-            cell = ", ".join(sorted(objs))
-        else:
-            cell = ""
-        row.append(cell)
+        row.append(", ".join(sorted(objs)) if objs else "")
     rows2.append(row)
 
 # -----------------------------
-# Print both tables with computed widths
+# THIRD TABLE: value(C,S,N)
 # -----------------------------
-# Compute column widths from both tables to keep formatting reasonable
-widths1 = compute_col_widths(rows1, min_width=CELL_WIDTH)
-widths2 = compute_col_widths(rows2, min_width=CELL_WIDTH)
+value_re = re.compile(
+    r'value\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*([0-9]+)\s*\)'
+)
+value_facts = value_re.findall(data)
 
-# Print first table
-print("\nFIRST TABLE:")
-print(fmt_row(rows1[0], widths1))
-print("-" * (sum(widths1) + len(SEPARATOR) * (len(widths1) - 1)))
-for r in rows1[1:]:
-    print(fmt_row(r, widths1))
+value_map = defaultdict(dict)
+value_features = set()
 
-# Print second table
-print("\nSECOND TABLE (objects at last time t={}):".format(LAST_T if LAST_T is not None else "N/A"))
-print(fmt_row(rows2[0], widths2))
-print("-" * (sum(widths2) + len(SEPARATOR) * (len(widths2) - 1)))
-for r in rows2[1:]:
-    print(fmt_row(r, widths2))
+for feat, state, n_s in value_facts:
+    f = clean_token(feat)
+    s = clean_token(state)
+    value_map[s][f] = int(n_s)
+    value_features.add(f)
+
+header3 = ["Feature"] + ordered_states
+rows3 = [header3]
+
+for f in sorted(value_features):
+    row = [f]
+    for s in ordered_states:
+        row.append(value_map.get(s, {}).get(f, ""))
+    rows3.append(row)
 
 # -----------------------------
-# Parse evaluation(feature,state,value) for THIRD TABLE
+# FOURTH TABLE: evaluation(C,S,V)
 # -----------------------------
 eval_re = re.compile(
     r'evaluation\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*([0-9]+)\s*\)'
 )
 eval_facts = eval_re.findall(data)
 
-# Build dictionary: eval_map[state][feature] = value
 eval_map = defaultdict(dict)
 eval_features = set()
-eval_states = set()
 
-for feat, state, val_s in eval_facts:
+for feat, state, v_s in eval_facts:
     f = clean_token(feat)
     s = clean_token(state)
-    v = int(val_s)
-    eval_map[s][f] = v
+    eval_map[s][f] = int(v_s)
     eval_features.add(f)
-    eval_states.add(s)
 
-# Restrict to SELECTED FEATURES only (your requirement)
-selected_eval_features = sorted([f for f in eval_features if f in selected])
+header4 = ["Feature"] + ordered_states
+rows4 = [header4]
 
-# Build Third Table
-header3 = ["Feature"] + ordered_states
-rows3 = [header3]
-
-for f in selected_eval_features:
+for f in sorted(eval_features):
     row = [f]
-    for st in ordered_states:
-        cell = eval_map.get(st, {}).get(f, "")
-        row.append(cell)
-    rows3.append(row)
+    for s in ordered_states:
+        row.append(eval_map.get(s, {}).get(f, ""))
+    rows4.append(row)
 
-# Compute widths
-widths3 = compute_col_widths(rows3, min_width=CELL_WIDTH)
-
-# Print third table
-print("\nTHIRD TABLE (boolean evaluations):")
-print(fmt_row(rows3[0], widths3))
-print("-" * (sum(widths3) + len(SEPARATOR) * (len(widths3) - 1)))
-for r in rows3[1:]:
-    print(fmt_row(r, widths3))
-
+# -----------------------------
+# Print tables
+# -----------------------------
+print_table("FIRST TABLE", rows1)
+print_table(f"SECOND TABLE (objects at last time t={LAST_T})", rows2)
+print_table("THIRD TABLE (values)", rows3)
+print_table("FOURTH TABLE (evaluations)", rows4)
