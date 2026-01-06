@@ -10,6 +10,7 @@ Reads Clingo/ASP output from stdin and prints:
 3) Values table from value(C,S,N)
 4) Evaluations table from evaluation(C,S,V)
 5) Good transitions (ONLY from the LAST Answer)
+   + delta(S1,S2,C,D) vector
 """
 
 import sys
@@ -59,7 +60,7 @@ data = sys.stdin.read()
 print(data)
 
 # -----------------------------
-# Extract LAST Answer block (ROBUST)
+# Extract LAST Answer block
 # -----------------------------
 answer_blocks = re.findall(
     r'Answer:\s*\d+.*?\n(.*?)(?=\nAnswer:|\Z)',
@@ -75,6 +76,7 @@ last_answer = answer_blocks[-1] if answer_blocks else ""
 rule_pattern = re.compile(
     r'selectRule\(\s*([0-9]+)\s*,\s*"([^"]+)"\s*,\s*([A-Za-z_]+)\s*\)'
 )
+
 rules = rule_pattern.findall(data)
 
 selectRule = defaultdict(dict)
@@ -139,8 +141,8 @@ for c in concepts_sorted:
 concept_re = re.compile(
     r'concept\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*(".*?"|[A-Za-z0-9_]+)\s*,\s*([0-9]+)\s*\)'
 )
-concept_facts = concept_re.findall(data)
 
+concept_facts = concept_re.findall(data)
 all_times = [int(t_s) for *_, t_s in concept_facts]
 LAST_T = max(all_times) if all_times else None
 
@@ -175,8 +177,9 @@ for f in sorted(features_seen):
 # THIRD TABLE: values
 # -----------------------------
 value_re = re.compile(
-    r'value\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*([0-9]+)\s*\)'
+    r'value\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*([-\d]+)\s*\)'
 )
+
 value_facts = value_re.findall(data)
 
 value_map = defaultdict(dict)
@@ -201,8 +204,9 @@ for f in sorted(value_features):
 # FOURTH TABLE: evaluations
 # -----------------------------
 eval_re = re.compile(
-    r'evaluation\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*([0-9]+)\s*\)'
+    r'evaluation\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*([-\d]+)\s*\)'
 )
+
 eval_facts = eval_re.findall(data)
 
 eval_map = defaultdict(dict)
@@ -224,6 +228,21 @@ for f in sorted(eval_features):
     rows4.append(row)
 
 # -----------------------------
+# DELTA: delta(S1,S2,C,D)
+# -----------------------------
+delta_re = re.compile(
+    r'delta\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*([-\w]+)\s*\)'
+)
+
+delta_facts = delta_re.findall(data)
+
+# delta_map[(s1,s2)][concept] = D
+delta_map = defaultdict(dict)
+
+for s1, s2, c, d in delta_facts:
+    delta_map[(clean_token(s1), clean_token(s2))][clean_token(c)] = clean_token(d)
+
+# -----------------------------
 # Print tables
 # -----------------------------
 print_table("FIRST TABLE", rows1)
@@ -232,7 +251,7 @@ print_table("THIRD TABLE (values)", rows3)
 print_table("FOURTH TABLE (evaluations)", rows4)
 
 # -----------------------------
-# GOOD TRANSITIONS (LAST ANSWER ONLY)
+# GOOD TRANSITIONS (LAST ANSWER)
 # -----------------------------
 good_re = re.compile(r'good\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*\)')
 
@@ -253,6 +272,9 @@ for s1, s2 in good_edges:
     e1 = [eval_map.get(s1, {}).get(c, "?") for c in selected_concepts]
     e2 = [eval_map.get(s2, {}).get(c, "?") for c in selected_concepts]
 
+    d_vec = [delta_map.get((s1, s2), {}).get(c, "?") for c in selected_concepts]
+
     print(f"\nTransition: {s1} -> {s2}")
-    print(f"Value: {v1} -> {v2}")
-    print(f"Evaluation: {e1} -> {e2}")
+    print(f"Value:       {v1} -> {v2}")
+    print(f"Evaluation:  {e1} -> {e2}")
+    print(f"Delta D:     {d_vec}")
