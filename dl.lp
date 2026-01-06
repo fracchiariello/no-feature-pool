@@ -1,4 +1,4 @@
-#const l=3.
+#const l=2.
 layer(1..l).
 
 % ============================================
@@ -143,7 +143,7 @@ diffDelta(S1,S2,T1,T2) :-
 dist(S,0) :- goal(S).
 dist(S1,V+1) :- transition(S1,S2), dist(S2,V), V+1 <= maxdist.
 v_star(S,N) :- N = #min{D : dist(S,D)}, state(S).
-#const maxdist = 15.
+#const maxdist = 20.
 poss_dist(0..maxdist).
 
 #const delta = 2.

@@ -91,7 +91,7 @@ param_pattern  = re.compile(r'param\(\s*([0-9]+)\s*,\s*"([^"]+)"\s*,\s*"?(.*?)"?
 
 param  = {(int(t), clean_token(c)): v for t, c, v in param_pattern.findall(data)}
 
-no_param_rules = {"negation", "top", "bottom"}
+no_param_rules = {"negation", "top", "bottom", "copy"}
 
 def fetch_param(t, c, rule):
     """Return parameter string or None if rule has no parameter."""
@@ -131,55 +131,11 @@ if LAST_T is not None:
         features_seen.add(feat_c)
 
 # -----------------------------
-# Parse good/2 edges to build ordered states chain
+# Collect all states (no particular order based on good/2))
 # -----------------------------
-good_re = re.compile(r'good\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*\)')
-edges = good_re.findall(data)
 
-successor = {}
-predecessor = set()
-all_states_from_edges = set()
-
-for a_raw, b_raw in edges:
-    a = clean_token(a_raw)
-    b = clean_token(b_raw)
-    successor[a] = b
-    predecessor.add(b)
-    all_states_from_edges.add(a)
-    all_states_from_edges.add(b)
-
-# Determine initial state (not appearing as second arg)
-initial_states = [s for s in all_states_from_edges if s not in predecessor]
-
-if len(initial_states) == 1:
-    initial_state = initial_states[0]
-    # build ordered chain
-    ordered_states = [initial_state]
-    while ordered_states[-1] in successor:
-        ordered_states.append(successor[ordered_states[-1]])
-else:
-    # fallback: if good/2 chain is missing or ambiguous, try to order using states_seen
-    # prefer states appearing in edges first (in sorted order), then remaining states
-    if all_states_from_edges:
-        # attempt to assemble best-effort chain:
-        # find nodes with no predecessor (could be more than one) and walk each
-        starts = [s for s in all_states_from_edges if s not in predecessor]
-        starts_sorted = sorted(starts) if starts else sorted(all_states_from_edges)
-        chain = []
-        visited = set()
-        for st in starts_sorted:
-            cur = st
-            while cur and cur not in visited:
-                chain.append(cur)
-                visited.add(cur)
-                cur = successor.get(cur)
-        # append any leftover states
-        leftover = sorted(all_states_from_edges - set(chain))
-        ordered_states = chain + leftover
-    else:
-        # last fallback: use states discovered in concepts at LAST_T (sorted)
-        ordered_states = sorted(states_seen)
-
+# States appearing in concept/4 at LAST_T
+ordered_states = sorted(states_seen)
 # -----------------------------
 # Build First Table rows
 # -----------------------------

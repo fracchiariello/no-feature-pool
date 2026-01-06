@@ -1,11 +1,4 @@
-clingo run.lp dl.lp "state_space" 1 | python asp2table.py > output.txt (for search)
-
-clingo run.lp dl.lp experiments/instance_3_clear_x_2.lp --quiet=1 | python asp2table.py > output.txt  (for optimization) 
-
-Experiments at: https://github.com/rleap-project/d2l/tree/main/domains
-
-
-
+Problems for experiments at : https://github.com/rleap-project/d2l/tree/main/domains
 
 1) Generate Search Space:
 
@@ -21,4 +14,4 @@ It generate new roles (predicates) in file /path/to/problem-role.lp'
 
 3) Compute Generalized Plan
 
-`clingo 
+`clingo run.lp dl.lp /path/to/problem.lp /path/to/problem-role.lp > python asp2table.py > output.txt
