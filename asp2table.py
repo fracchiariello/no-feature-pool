@@ -9,6 +9,7 @@ Reads Clingo/ASP output from stdin and prints:
 2) Features x States (objects at LAST_T from concept/4)
 3) Values table from value(C,S,N)
 4) Evaluations table from evaluation(C,S,V)
+5) Good transitions (ONLY from the LAST Answer)
 """
 
 import sys
@@ -52,10 +53,21 @@ def print_table(title, rows):
         print(fmt_row(r, widths))
 
 # -----------------------------
-# Read & print input
+# Read raw input
 # -----------------------------
 data = sys.stdin.read()
 print(data)
+
+# -----------------------------
+# Extract LAST Answer block (ROBUST)
+# -----------------------------
+answer_blocks = re.findall(
+    r'Answer:\s*\d+.*?\n(.*?)(?=\nAnswer:|\Z)',
+    data,
+    flags=re.S
+)
+
+last_answer = answer_blocks[-1] if answer_blocks else ""
 
 # -----------------------------
 # FIRST TABLE: rules
@@ -160,7 +172,7 @@ for f in sorted(features_seen):
     rows2.append(row)
 
 # -----------------------------
-# THIRD TABLE: value(C,S,N)
+# THIRD TABLE: values
 # -----------------------------
 value_re = re.compile(
     r'value\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*([0-9]+)\s*\)'
@@ -186,7 +198,7 @@ for f in sorted(value_features):
     rows3.append(row)
 
 # -----------------------------
-# FOURTH TABLE: evaluation(C,S,V)
+# FOURTH TABLE: evaluations
 # -----------------------------
 eval_re = re.compile(
     r'evaluation\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*([0-9]+)\s*\)'
@@ -218,3 +230,29 @@ print_table("FIRST TABLE", rows1)
 print_table(f"SECOND TABLE (objects at last time t={LAST_T})", rows2)
 print_table("THIRD TABLE (values)", rows3)
 print_table("FOURTH TABLE (evaluations)", rows4)
+
+# -----------------------------
+# GOOD TRANSITIONS (LAST ANSWER ONLY)
+# -----------------------------
+good_re = re.compile(r'good\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*\)')
+
+good_edges = [
+    (clean_token(a), clean_token(b))
+    for a, b in good_re.findall(last_answer)
+    if clean_token(a) in ordered_states and clean_token(b) in ordered_states
+]
+
+selected_concepts = sorted(selected)
+
+print("\nGOOD TRANSITIONS:")
+
+for s1, s2 in good_edges:
+    v1 = [value_map.get(s1, {}).get(c, "?") for c in selected_concepts]
+    v2 = [value_map.get(s2, {}).get(c, "?") for c in selected_concepts]
+
+    e1 = [eval_map.get(s1, {}).get(c, "?") for c in selected_concepts]
+    e2 = [eval_map.get(s2, {}).get(c, "?") for c in selected_concepts]
+
+    print(f"\nTransition: {s1} -> {s2}")
+    print(f"Value: {v1} -> {v2}")
+    print(f"Evaluation: {e1} -> {e2}")
