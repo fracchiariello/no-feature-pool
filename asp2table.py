@@ -277,4 +277,4 @@ for s1, s2 in good_edges:
     print(f"\nTransition: {s1} -> {s2}")
     print(f"Value:       {v1} -> {v2}")
     print(f"Evaluation:  {e1} -> {e2}")
-    print(f"Delta D:     {d_vec}")
+    print(f"Delta:     {d_vec}")
