@@ -1,123 +1,123 @@
-transition("s_instance_5_clear_x_p7839049741842845619", "s_instance_5_clear_x_m7968567961636028553").
-transition("s_instance_5_clear_x_p7839049741842845619", "s_instance_5_clear_x_m7503931464314200873").
-transition("s_instance_5_clear_x_m7968567961636028553", "s_instance_5_clear_x_p7839049741842845619").
-transition("s_instance_5_clear_x_m7968567961636028553", "s_instance_5_clear_x_p3125452341904027490").
-transition("s_instance_5_clear_x_m7503931464314200873", "s_instance_5_clear_x_p2339078801002407387").
-transition("s_instance_5_clear_x_m7503931464314200873", "s_instance_5_clear_x_p7839049741842845619").
-transition("s_instance_5_clear_x_m7503931464314200873", "s_instance_5_clear_x_p968697804720796198").
-transition("s_instance_5_clear_x_p3125452341904027490", "s_instance_5_clear_x_m7968567961636028553").
-transition("s_instance_5_clear_x_p2339078801002407387", "s_instance_5_clear_x_m2461779752475945697").
-transition("s_instance_5_clear_x_p2339078801002407387", "s_instance_5_clear_x_m7503931464314200873").
-transition("s_instance_5_clear_x_p2339078801002407387", "s_instance_5_clear_x_m1788299524244324597").
-transition("s_instance_5_clear_x_p968697804720796198", "s_instance_5_clear_x_m3879502202760664842").
-transition("s_instance_5_clear_x_p968697804720796198", "s_instance_5_clear_x_m7503931464314200873").
-transition("s_instance_5_clear_x_m2461779752475945697", "s_instance_5_clear_x_p2339078801002407387").
-transition("s_instance_5_clear_x_m2461779752475945697", "s_instance_5_clear_x_m5573719673994442112").
-transition("s_instance_5_clear_x_m2461779752475945697", "s_instance_5_clear_x_p7485021801086846218").
-transition("s_instance_5_clear_x_m5573719673994442112", "s_instance_5_clear_x_p363831340493009804").
-transition("s_instance_5_clear_x_m5573719673994442112", "s_instance_5_clear_x_m2461779752475945697").
-transition("s_instance_5_clear_x_p7485021801086846218", "s_instance_5_clear_x_m6865562381022814246").
-transition("s_instance_5_clear_x_p7485021801086846218", "s_instance_5_clear_x_m2461779752475945697").
-transition("s_instance_5_clear_x_p363831340493009804", "s_instance_5_clear_x_m5573719673994442112").
-transition("s_instance_5_clear_x_p363831340493009804", "s_instance_5_clear_x_m6944065468390646403").
-transition("s_instance_5_clear_x_m6944065468390646403", "s_instance_5_clear_x_p363831340493009804").
-holds("s_instance_5_clear_x_p7839049741842845619", ("on", e, b)).
-holds("s_instance_5_clear_x_p7839049741842845619", ("on", b, a)).
-holds("s_instance_5_clear_x_p7839049741842845619", ("on", a, c)).
-holds("s_instance_5_clear_x_p7839049741842845619", ("ontable", c)).
-holds("s_instance_5_clear_x_p7839049741842845619", ("ontable", d)).
-holds("s_instance_5_clear_x_p7839049741842845619", ("clear", e)).
-holds("s_instance_5_clear_x_p7839049741842845619", ("clear", d)).
-holds("s_instance_5_clear_x_m7968567961636028553", ("holding", d)).
-holds("s_instance_5_clear_x_m7968567961636028553", ("on", e, b)).
-holds("s_instance_5_clear_x_m7968567961636028553", ("on", b, a)).
-holds("s_instance_5_clear_x_m7968567961636028553", ("on", a, c)).
-holds("s_instance_5_clear_x_m7968567961636028553", ("ontable", c)).
-holds("s_instance_5_clear_x_m7968567961636028553", ("clear", e)).
-holds("s_instance_5_clear_x_m7503931464314200873", ("holding", e)).
-holds("s_instance_5_clear_x_m7503931464314200873", ("clear", b)).
-holds("s_instance_5_clear_x_m7503931464314200873", ("on", b, a)).
-holds("s_instance_5_clear_x_m7503931464314200873", ("on", a, c)).
-holds("s_instance_5_clear_x_m7503931464314200873", ("ontable", c)).
-holds("s_instance_5_clear_x_m7503931464314200873", ("ontable", d)).
-holds("s_instance_5_clear_x_m7503931464314200873", ("clear", d)).
-holds("s_instance_5_clear_x_p3125452341904027490", ("clear", d)).
-holds("s_instance_5_clear_x_p3125452341904027490", ("on", d, e)).
-holds("s_instance_5_clear_x_p3125452341904027490", ("on", e, b)).
-holds("s_instance_5_clear_x_p3125452341904027490", ("on", b, a)).
-holds("s_instance_5_clear_x_p3125452341904027490", ("on", a, c)).
-holds("s_instance_5_clear_x_p3125452341904027490", ("ontable", c)).
-holds("s_instance_5_clear_x_p2339078801002407387", ("clear", e)).
-holds("s_instance_5_clear_x_p2339078801002407387", ("ontable", e)).
-holds("s_instance_5_clear_x_p2339078801002407387", ("clear", b)).
-holds("s_instance_5_clear_x_p2339078801002407387", ("on", b, a)).
-holds("s_instance_5_clear_x_p2339078801002407387", ("on", a, c)).
-holds("s_instance_5_clear_x_p2339078801002407387", ("ontable", c)).
-holds("s_instance_5_clear_x_p2339078801002407387", ("ontable", d)).
-holds("s_instance_5_clear_x_p2339078801002407387", ("clear", d)).
-holds("s_instance_5_clear_x_p968697804720796198", ("clear", e)).
-holds("s_instance_5_clear_x_p968697804720796198", ("on", e, d)).
-holds("s_instance_5_clear_x_p968697804720796198", ("clear", b)).
-holds("s_instance_5_clear_x_p968697804720796198", ("on", b, a)).
-holds("s_instance_5_clear_x_p968697804720796198", ("on", a, c)).
-holds("s_instance_5_clear_x_p968697804720796198", ("ontable", c)).
-holds("s_instance_5_clear_x_p968697804720796198", ("ontable", d)).
-holds("s_instance_5_clear_x_m2461779752475945697", ("holding", d)).
-holds("s_instance_5_clear_x_m2461779752475945697", ("clear", e)).
-holds("s_instance_5_clear_x_m2461779752475945697", ("ontable", e)).
-holds("s_instance_5_clear_x_m2461779752475945697", ("clear", b)).
-holds("s_instance_5_clear_x_m2461779752475945697", ("on", b, a)).
-holds("s_instance_5_clear_x_m2461779752475945697", ("on", a, c)).
-holds("s_instance_5_clear_x_m2461779752475945697", ("ontable", c)).
-holds("s_instance_5_clear_x_m1788299524244324597", ("holding", b)).
-holds("s_instance_5_clear_x_m1788299524244324597", ("clear", a)).
-holds("s_instance_5_clear_x_m1788299524244324597", ("clear", e)).
-holds("s_instance_5_clear_x_m1788299524244324597", ("ontable", e)).
-holds("s_instance_5_clear_x_m1788299524244324597", ("on", a, c)).
-holds("s_instance_5_clear_x_m1788299524244324597", ("ontable", c)).
-holds("s_instance_5_clear_x_m1788299524244324597", ("ontable", d)).
-holds("s_instance_5_clear_x_m1788299524244324597", ("clear", d)).
-holds("s_instance_5_clear_x_m3879502202760664842", ("holding", b)).
-holds("s_instance_5_clear_x_m3879502202760664842", ("clear", a)).
-holds("s_instance_5_clear_x_m3879502202760664842", ("clear", e)).
-holds("s_instance_5_clear_x_m3879502202760664842", ("on", e, d)).
-holds("s_instance_5_clear_x_m3879502202760664842", ("on", a, c)).
-holds("s_instance_5_clear_x_m3879502202760664842", ("ontable", c)).
-holds("s_instance_5_clear_x_m3879502202760664842", ("ontable", d)).
-holds("s_instance_5_clear_x_m5573719673994442112", ("clear", d)).
-holds("s_instance_5_clear_x_m5573719673994442112", ("on", d, b)).
-holds("s_instance_5_clear_x_m5573719673994442112", ("clear", e)).
-holds("s_instance_5_clear_x_m5573719673994442112", ("ontable", e)).
-holds("s_instance_5_clear_x_m5573719673994442112", ("on", b, a)).
-holds("s_instance_5_clear_x_m5573719673994442112", ("on", a, c)).
-holds("s_instance_5_clear_x_m5573719673994442112", ("ontable", c)).
-holds("s_instance_5_clear_x_p7485021801086846218", ("clear", d)).
-holds("s_instance_5_clear_x_p7485021801086846218", ("on", d, e)).
-holds("s_instance_5_clear_x_p7485021801086846218", ("ontable", e)).
-holds("s_instance_5_clear_x_p7485021801086846218", ("clear", b)).
-holds("s_instance_5_clear_x_p7485021801086846218", ("on", b, a)).
-holds("s_instance_5_clear_x_p7485021801086846218", ("on", a, c)).
-holds("s_instance_5_clear_x_p7485021801086846218", ("ontable", c)).
-holds("s_instance_5_clear_x_p363831340493009804", ("holding", e)).
-holds("s_instance_5_clear_x_p363831340493009804", ("clear", d)).
-holds("s_instance_5_clear_x_p363831340493009804", ("on", d, b)).
-holds("s_instance_5_clear_x_p363831340493009804", ("on", b, a)).
-holds("s_instance_5_clear_x_p363831340493009804", ("on", a, c)).
-holds("s_instance_5_clear_x_p363831340493009804", ("ontable", c)).
-holds("s_instance_5_clear_x_m6865562381022814246", ("holding", b)).
-holds("s_instance_5_clear_x_m6865562381022814246", ("clear", a)).
-holds("s_instance_5_clear_x_m6865562381022814246", ("clear", d)).
-holds("s_instance_5_clear_x_m6865562381022814246", ("on", d, e)).
-holds("s_instance_5_clear_x_m6865562381022814246", ("ontable", e)).
-holds("s_instance_5_clear_x_m6865562381022814246", ("on", a, c)).
-holds("s_instance_5_clear_x_m6865562381022814246", ("ontable", c)).
-holds("s_instance_5_clear_x_m6944065468390646403", ("clear", e)).
-holds("s_instance_5_clear_x_m6944065468390646403", ("on", e, d)).
-holds("s_instance_5_clear_x_m6944065468390646403", ("on", d, b)).
-holds("s_instance_5_clear_x_m6944065468390646403", ("on", b, a)).
-holds("s_instance_5_clear_x_m6944065468390646403", ("on", a, c)).
-holds("s_instance_5_clear_x_m6944065468390646403", ("ontable", c)).
-init("s_instance_5_clear_x_p7839049741842845619"). 
-goal("s_instance_5_clear_x_m1788299524244324597").
-goal("s_instance_5_clear_x_m3879502202760664842").
-goal("s_instance_5_clear_x_m6865562381022814246").
+transition("s_instance_5_clear_x_m3380733279326508616", "s_instance_5_clear_x_p4584382006938313162").
+transition("s_instance_5_clear_x_m3380733279326508616", "s_instance_5_clear_x_m993537699533772662").
+transition("s_instance_5_clear_x_p4584382006938313162", "s_instance_5_clear_x_m3380733279326508616").
+transition("s_instance_5_clear_x_p4584382006938313162", "s_instance_5_clear_x_m2887692051432358719").
+transition("s_instance_5_clear_x_m993537699533772662", "s_instance_5_clear_x_p3412967721926320585").
+transition("s_instance_5_clear_x_m993537699533772662", "s_instance_5_clear_x_m3380733279326508616").
+transition("s_instance_5_clear_x_m993537699533772662", "s_instance_5_clear_x_p9121532102363371028").
+transition("s_instance_5_clear_x_m2887692051432358719", "s_instance_5_clear_x_p4584382006938313162").
+transition("s_instance_5_clear_x_p3412967721926320585", "s_instance_5_clear_x_m4479239034233935429").
+transition("s_instance_5_clear_x_p3412967721926320585", "s_instance_5_clear_x_m993537699533772662").
+transition("s_instance_5_clear_x_p3412967721926320585", "s_instance_5_clear_x_p7048946987204531075").
+transition("s_instance_5_clear_x_p9121532102363371028", "s_instance_5_clear_x_p3465976081387414622").
+transition("s_instance_5_clear_x_p9121532102363371028", "s_instance_5_clear_x_m993537699533772662").
+transition("s_instance_5_clear_x_m4479239034233935429", "s_instance_5_clear_x_p3412967721926320585").
+transition("s_instance_5_clear_x_m4479239034233935429", "s_instance_5_clear_x_m4775562419119717495").
+transition("s_instance_5_clear_x_m4479239034233935429", "s_instance_5_clear_x_p3000716289167307952").
+transition("s_instance_5_clear_x_m4775562419119717495", "s_instance_5_clear_x_p6976843276522638026").
+transition("s_instance_5_clear_x_m4775562419119717495", "s_instance_5_clear_x_m4479239034233935429").
+transition("s_instance_5_clear_x_p3000716289167307952", "s_instance_5_clear_x_p7434036084165805818").
+transition("s_instance_5_clear_x_p3000716289167307952", "s_instance_5_clear_x_m4479239034233935429").
+transition("s_instance_5_clear_x_p6976843276522638026", "s_instance_5_clear_x_m4775562419119717495").
+transition("s_instance_5_clear_x_p6976843276522638026", "s_instance_5_clear_x_m1408863236516727724").
+transition("s_instance_5_clear_x_m1408863236516727724", "s_instance_5_clear_x_p6976843276522638026").
+holds("s_instance_5_clear_x_m3380733279326508616", ("on", e, b)).
+holds("s_instance_5_clear_x_m3380733279326508616", ("on", b, a)).
+holds("s_instance_5_clear_x_m3380733279326508616", ("on", a, c)).
+holds("s_instance_5_clear_x_m3380733279326508616", ("ontable", c)).
+holds("s_instance_5_clear_x_m3380733279326508616", ("ontable", d)).
+holds("s_instance_5_clear_x_m3380733279326508616", ("clear", e)).
+holds("s_instance_5_clear_x_m3380733279326508616", ("clear", d)).
+holds("s_instance_5_clear_x_p4584382006938313162", ("holding", d)).
+holds("s_instance_5_clear_x_p4584382006938313162", ("on", e, b)).
+holds("s_instance_5_clear_x_p4584382006938313162", ("on", b, a)).
+holds("s_instance_5_clear_x_p4584382006938313162", ("on", a, c)).
+holds("s_instance_5_clear_x_p4584382006938313162", ("ontable", c)).
+holds("s_instance_5_clear_x_p4584382006938313162", ("clear", e)).
+holds("s_instance_5_clear_x_m993537699533772662", ("holding", e)).
+holds("s_instance_5_clear_x_m993537699533772662", ("clear", b)).
+holds("s_instance_5_clear_x_m993537699533772662", ("on", b, a)).
+holds("s_instance_5_clear_x_m993537699533772662", ("on", a, c)).
+holds("s_instance_5_clear_x_m993537699533772662", ("ontable", c)).
+holds("s_instance_5_clear_x_m993537699533772662", ("ontable", d)).
+holds("s_instance_5_clear_x_m993537699533772662", ("clear", d)).
+holds("s_instance_5_clear_x_m2887692051432358719", ("clear", d)).
+holds("s_instance_5_clear_x_m2887692051432358719", ("on", d, e)).
+holds("s_instance_5_clear_x_m2887692051432358719", ("on", e, b)).
+holds("s_instance_5_clear_x_m2887692051432358719", ("on", b, a)).
+holds("s_instance_5_clear_x_m2887692051432358719", ("on", a, c)).
+holds("s_instance_5_clear_x_m2887692051432358719", ("ontable", c)).
+holds("s_instance_5_clear_x_p3412967721926320585", ("clear", e)).
+holds("s_instance_5_clear_x_p3412967721926320585", ("ontable", e)).
+holds("s_instance_5_clear_x_p3412967721926320585", ("clear", b)).
+holds("s_instance_5_clear_x_p3412967721926320585", ("on", b, a)).
+holds("s_instance_5_clear_x_p3412967721926320585", ("on", a, c)).
+holds("s_instance_5_clear_x_p3412967721926320585", ("ontable", c)).
+holds("s_instance_5_clear_x_p3412967721926320585", ("ontable", d)).
+holds("s_instance_5_clear_x_p3412967721926320585", ("clear", d)).
+holds("s_instance_5_clear_x_p9121532102363371028", ("clear", e)).
+holds("s_instance_5_clear_x_p9121532102363371028", ("on", e, d)).
+holds("s_instance_5_clear_x_p9121532102363371028", ("clear", b)).
+holds("s_instance_5_clear_x_p9121532102363371028", ("on", b, a)).
+holds("s_instance_5_clear_x_p9121532102363371028", ("on", a, c)).
+holds("s_instance_5_clear_x_p9121532102363371028", ("ontable", c)).
+holds("s_instance_5_clear_x_p9121532102363371028", ("ontable", d)).
+holds("s_instance_5_clear_x_m4479239034233935429", ("holding", d)).
+holds("s_instance_5_clear_x_m4479239034233935429", ("clear", e)).
+holds("s_instance_5_clear_x_m4479239034233935429", ("ontable", e)).
+holds("s_instance_5_clear_x_m4479239034233935429", ("clear", b)).
+holds("s_instance_5_clear_x_m4479239034233935429", ("on", b, a)).
+holds("s_instance_5_clear_x_m4479239034233935429", ("on", a, c)).
+holds("s_instance_5_clear_x_m4479239034233935429", ("ontable", c)).
+holds("s_instance_5_clear_x_p7048946987204531075", ("holding", b)).
+holds("s_instance_5_clear_x_p7048946987204531075", ("clear", a)).
+holds("s_instance_5_clear_x_p7048946987204531075", ("clear", e)).
+holds("s_instance_5_clear_x_p7048946987204531075", ("ontable", e)).
+holds("s_instance_5_clear_x_p7048946987204531075", ("on", a, c)).
+holds("s_instance_5_clear_x_p7048946987204531075", ("ontable", c)).
+holds("s_instance_5_clear_x_p7048946987204531075", ("ontable", d)).
+holds("s_instance_5_clear_x_p7048946987204531075", ("clear", d)).
+holds("s_instance_5_clear_x_p3465976081387414622", ("holding", b)).
+holds("s_instance_5_clear_x_p3465976081387414622", ("clear", a)).
+holds("s_instance_5_clear_x_p3465976081387414622", ("clear", e)).
+holds("s_instance_5_clear_x_p3465976081387414622", ("on", e, d)).
+holds("s_instance_5_clear_x_p3465976081387414622", ("on", a, c)).
+holds("s_instance_5_clear_x_p3465976081387414622", ("ontable", c)).
+holds("s_instance_5_clear_x_p3465976081387414622", ("ontable", d)).
+holds("s_instance_5_clear_x_m4775562419119717495", ("clear", d)).
+holds("s_instance_5_clear_x_m4775562419119717495", ("on", d, b)).
+holds("s_instance_5_clear_x_m4775562419119717495", ("clear", e)).
+holds("s_instance_5_clear_x_m4775562419119717495", ("ontable", e)).
+holds("s_instance_5_clear_x_m4775562419119717495", ("on", b, a)).
+holds("s_instance_5_clear_x_m4775562419119717495", ("on", a, c)).
+holds("s_instance_5_clear_x_m4775562419119717495", ("ontable", c)).
+holds("s_instance_5_clear_x_p3000716289167307952", ("clear", d)).
+holds("s_instance_5_clear_x_p3000716289167307952", ("on", d, e)).
+holds("s_instance_5_clear_x_p3000716289167307952", ("ontable", e)).
+holds("s_instance_5_clear_x_p3000716289167307952", ("clear", b)).
+holds("s_instance_5_clear_x_p3000716289167307952", ("on", b, a)).
+holds("s_instance_5_clear_x_p3000716289167307952", ("on", a, c)).
+holds("s_instance_5_clear_x_p3000716289167307952", ("ontable", c)).
+holds("s_instance_5_clear_x_p6976843276522638026", ("holding", e)).
+holds("s_instance_5_clear_x_p6976843276522638026", ("clear", d)).
+holds("s_instance_5_clear_x_p6976843276522638026", ("on", d, b)).
+holds("s_instance_5_clear_x_p6976843276522638026", ("on", b, a)).
+holds("s_instance_5_clear_x_p6976843276522638026", ("on", a, c)).
+holds("s_instance_5_clear_x_p6976843276522638026", ("ontable", c)).
+holds("s_instance_5_clear_x_p7434036084165805818", ("holding", b)).
+holds("s_instance_5_clear_x_p7434036084165805818", ("clear", a)).
+holds("s_instance_5_clear_x_p7434036084165805818", ("clear", d)).
+holds("s_instance_5_clear_x_p7434036084165805818", ("on", d, e)).
+holds("s_instance_5_clear_x_p7434036084165805818", ("ontable", e)).
+holds("s_instance_5_clear_x_p7434036084165805818", ("on", a, c)).
+holds("s_instance_5_clear_x_p7434036084165805818", ("ontable", c)).
+holds("s_instance_5_clear_x_m1408863236516727724", ("clear", e)).
+holds("s_instance_5_clear_x_m1408863236516727724", ("on", e, d)).
+holds("s_instance_5_clear_x_m1408863236516727724", ("on", d, b)).
+holds("s_instance_5_clear_x_m1408863236516727724", ("on", b, a)).
+holds("s_instance_5_clear_x_m1408863236516727724", ("on", a, c)).
+holds("s_instance_5_clear_x_m1408863236516727724", ("ontable", c)).
+init("s_instance_5_clear_x_m3380733279326508616"). 
+goal("s_instance_5_clear_x_p7048946987204531075").
+goal("s_instance_5_clear_x_p3465976081387414622").
+goal("s_instance_5_clear_x_p7434036084165805818").

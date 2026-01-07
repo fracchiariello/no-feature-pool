@@ -1,54 +1,54 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# ---- helpers -------------------------------------------------
-
-die() {
-  echo "Error: $*" >&2
-  exit 1
-}
-
+# -------------------------------------------------------------
+# helpers
+# -------------------------------------------------------------
 run() {
-  echo "> $*"
-  "$@"
+    echo "> $*"
+    "$@"
 }
 
-# ---- checks --------------------------------------------------
-
-if [[ $# -ne 1 ]]; then
-  die "Usage: ./run_pipeline.sh /path/to/problem.pddl"
+# -------------------------------------------------------------
+# argument check
+# -------------------------------------------------------------
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <problem.pddl>"
+    exit 1
 fi
 
-if ! command -v python >/dev/null 2>&1; then
-  die "python not found (is your conda environment activated?)"
-fi
+# -------------------------------------------------------------
+# paths
+# -------------------------------------------------------------
+PROBLEM_PDDL="$1"
 
-if ! command -v clingo >/dev/null 2>&1; then
-  die "clingo not found in the current conda environment"
-fi
+# Output payh
+OUTPUT_TXT="${PROBLEM_PDDL%.pddl}.txt"
 
-# ---- paths ---------------------------------------------------
+# Derived intermediate filenames
+PROBLEM_LP="${PROBLEM_PDDL%.pddl}.lp"
+ROLE_LP="${PROBLEM_PDDL%.pddl}-role.lp"
 
-PROBLEM_PDDL="$(realpath "$1")"
-WORKDIR="$(dirname "$PROBLEM_PDDL")"
-STEM="$(basename "$PROBLEM_PDDL" .pddl)"
+# Ensure output directory exists
+mkdir -p "$(dirname "$OUTPUT_TXT")"
 
-PROBLEM_LP="$WORKDIR/$STEM.lp"
-ROLE_LP="$WORKDIR/$STEM-role.lp"
-OUTPUT_TXT="$WORKDIR/output.txt"
+# -------------------------------------------------------------
+# pipeline
+# -------------------------------------------------------------
 
-# ---- pipeline ------------------------------------------------
-
-# 1) Generate search space
+# 1) Generate ASP state space
 run python Generate_ASP_State_Space.py "$PROBLEM_PDDL"
 
 # 2) Generate roles
 run python Generate_Roles.py "$PROBLEM_LP"
 
 # 3) Compute generalized plan
-echo "> clingo ... | python asp2table.py"
-clingo run.lp dl.lp "$PROBLEM_LP" "$ROLE_LP" | python asp2table.py > "$OUTPUT_TXT"
+echo "> clingo run.lp dl.lp $PROBLEM_LP $ROLE_LP | python asp2table.py > $OUTPUT_TXT"
+clingo run.lp dl.lp "$PROBLEM_LP" "$ROLE_LP" | tee /dev/tty | python asp2table.py > "$OUTPUT_TXT"
 
+# -------------------------------------------------------------
+# done
+# -------------------------------------------------------------
 echo
 echo "Pipeline completed successfully."
 echo "Result written to: $OUTPUT_TXT"

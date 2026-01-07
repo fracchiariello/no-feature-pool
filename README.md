@@ -14,4 +14,4 @@ It generate new roles (predicates) in file /path/to/problem-role.lp'
 
 3) Compute Generalized Plan
 
-`clingo run.lp dl.lp /path/to/problem.lp /path/to/problem-role.lp > python asp2table.py > output.txt
+`clingo run.lp dl.lp /path/to/problem.lp /path/to/problem-role.lp | python asp2table.py > output.txt
