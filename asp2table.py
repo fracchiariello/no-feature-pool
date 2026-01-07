@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-asp2table.py
+asp2table.py  (REPAIRED)
 
 Reads Clingo/ASP output from stdin and prints:
 
 0) The raw input
 1) Concept rules per time step + Selected + Feature Type
-2) Features x States (objects at LAST_T from concept/4)
-3) Values table from value(C,S,N)
-4) Evaluations table from evaluation(C,S,V)
-5) Good transitions (ONLY from the LAST Answer)
+2) Concept objects per state (from LAST Answer only)
+3) Values table (from LAST Answer only)
+4) Evaluations table (from LAST Answer only)
+5) Good transitions (from LAST Answer only)
    + delta(S1,S2,C,D) vector
 """
 
@@ -60,7 +60,7 @@ data = sys.stdin.read()
 print(data)
 
 # -----------------------------
-# Extract LAST Answer block
+# Extract Answer blocks
 # -----------------------------
 answer_blocks = re.findall(
     r'Answer:\s*\d+.*?\n(.*?)(?=\nAnswer:|\Z)',
@@ -69,10 +69,11 @@ answer_blocks = re.findall(
 )
 
 last_answer = answer_blocks[-1] if answer_blocks else ""
+SOURCE = last_answer   # single source of truth for tables
 
-# -----------------------------
-# FIRST TABLE: rules
-# -----------------------------
+# =====================================================
+# FIRST TABLE: rules (global) + selection (local)
+# =====================================================
 rule_pattern = re.compile(
     r'selectRule\(\s*([0-9]+)\s*,\s*"([^"]+)"\s*,\s*([A-Za-z_]+)\s*\)'
 )
@@ -91,7 +92,7 @@ for t_s, c_s, rule in rules:
     concepts_seen.add(c)
 
 selected_pattern = re.compile(r'select\(\s*"([^"]+)"\s*\)')
-selected = {clean_token(s) for s in selected_pattern.findall(data)}
+selected = {clean_token(s) for s in selected_pattern.findall(SOURCE)}
 
 bool_pattern = re.compile(r'boolean_feature\(\s*"([^"]+)"\s*\)')
 num_pattern = re.compile(r'numerical_feature\(\s*"([^"]+)"\s*\)')
@@ -135,31 +136,26 @@ for c in concepts_sorted:
         row.append("")
     rows1.append(row)
 
-# -----------------------------
-# SECOND TABLE: concept objects at LAST_T
-# -----------------------------
+# =====================================================
+# SECOND TABLE: concept objects per state (LAST ANSWER)
+# =====================================================
 concept_re = re.compile(
-    r'concept\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*(".*?"|[A-Za-z0-9_]+)\s*,\s*([0-9]+)\s*\)'
+    r'concept\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*(".*?"|[A-Za-z0-9_]+)\s*,\s*[0-9]+\s*\)'
 )
 
-concept_facts = concept_re.findall(data)
-all_times = [int(t_s) for *_, t_s in concept_facts]
-LAST_T = max(all_times) if all_times else None
+concept_facts = concept_re.findall(SOURCE)
 
 state_features = defaultdict(lambda: defaultdict(set))
 states_seen = set()
 features_seen = set()
 
-if LAST_T is not None:
-    for feat, state, obj_tok, t_s in concept_facts:
-        if int(t_s) != LAST_T:
-            continue
-        f = clean_token(feat)
-        s = clean_token(state)
-        o = clean_token(obj_tok)
-        state_features[s][f].add(o)
-        states_seen.add(s)
-        features_seen.add(f)
+for feat, state, obj_tok in concept_facts:
+    f = clean_token(feat)
+    s = clean_token(state)
+    o = clean_token(obj_tok)
+    state_features[s][f].add(o)
+    states_seen.add(s)
+    features_seen.add(f)
 
 ordered_states = sorted(states_seen)
 
@@ -173,14 +169,14 @@ for f in sorted(features_seen):
         row.append(", ".join(sorted(objs)) if objs else "")
     rows2.append(row)
 
-# -----------------------------
-# THIRD TABLE: values
-# -----------------------------
+# =====================================================
+# THIRD TABLE: values (LAST ANSWER)
+# =====================================================
 value_re = re.compile(
     r'value\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*([-\d]+)\s*\)'
 )
 
-value_facts = value_re.findall(data)
+value_facts = value_re.findall(SOURCE)
 
 value_map = defaultdict(dict)
 value_features = set()
@@ -191,6 +187,9 @@ for feat, state, n_s in value_facts:
     value_map[s][f] = int(n_s)
     value_features.add(f)
 
+states_seen |= set(value_map.keys())
+ordered_states = sorted(states_seen)
+
 header3 = ["Feature"] + ordered_states
 rows3 = [header3]
 
@@ -200,14 +199,14 @@ for f in sorted(value_features):
         row.append(value_map.get(s, {}).get(f, ""))
     rows3.append(row)
 
-# -----------------------------
-# FOURTH TABLE: evaluations
-# -----------------------------
+# =====================================================
+# FOURTH TABLE: evaluations (LAST ANSWER)
+# =====================================================
 eval_re = re.compile(
     r'evaluation\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*([-\d]+)\s*\)'
 )
 
-eval_facts = eval_re.findall(data)
+eval_facts = eval_re.findall(SOURCE)
 
 eval_map = defaultdict(dict)
 eval_features = set()
@@ -218,6 +217,9 @@ for feat, state, v_s in eval_facts:
     eval_map[s][f] = int(v_s)
     eval_features.add(f)
 
+states_seen |= set(eval_map.keys())
+ordered_states = sorted(states_seen)
+
 header4 = ["Feature"] + ordered_states
 rows4 = [header4]
 
@@ -227,38 +229,36 @@ for f in sorted(eval_features):
         row.append(eval_map.get(s, {}).get(f, ""))
     rows4.append(row)
 
-# -----------------------------
-# DELTA: delta(S1,S2,C,D)
-# -----------------------------
+# =====================================================
+# DELTA (LAST ANSWER)
+# =====================================================
 delta_re = re.compile(
     r'delta\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*"([^"]+)"\s*,\s*([-\w]+)\s*\)'
 )
 
-delta_facts = delta_re.findall(data)
+delta_facts = delta_re.findall(SOURCE)
 
-# delta_map[(s1,s2)][concept] = D
 delta_map = defaultdict(dict)
-
 for s1, s2, c, d in delta_facts:
     delta_map[(clean_token(s1), clean_token(s2))][clean_token(c)] = clean_token(d)
 
-# -----------------------------
-# Print tables
-# -----------------------------
+# =====================================================
+# PRINT TABLES
+# =====================================================
 print_table("FIRST TABLE", rows1)
-print_table(f"SECOND TABLE (objects at last time t={LAST_T})", rows2)
+print_table("SECOND TABLE (concept objects per state)", rows2)
 print_table("THIRD TABLE (values)", rows3)
 print_table("FOURTH TABLE (evaluations)", rows4)
 
-# -----------------------------
+# =====================================================
 # GOOD TRANSITIONS (LAST ANSWER)
-# -----------------------------
+# =====================================================
 good_re = re.compile(r'good\(\s*"([^"]+)"\s*,\s*"([^"]+)"\s*\)')
 
 good_edges = [
     (clean_token(a), clean_token(b))
-    for a, b in good_re.findall(last_answer)
-    if clean_token(a) in ordered_states and clean_token(b) in ordered_states
+    for a, b in good_re.findall(SOURCE)
+    if a in ordered_states and b in ordered_states
 ]
 
 selected_concepts = sorted(selected)
@@ -277,4 +277,4 @@ for s1, s2 in good_edges:
     print(f"\nTransition: {s1} -> {s2}")
     print(f"Value:       {v1} -> {v2}")
     print(f"Evaluation:  {e1} -> {e2}")
-    print(f"Delta:     {d_vec}")
+    print(f"Delta:       {d_vec}")

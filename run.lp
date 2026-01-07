@@ -29,3 +29,25 @@ object(Arg) :-
 live(G) :- goal(G).
 live(S1) :- transition(S1, S2), live(S2).
 %:- init(S), not live(S).
+
+#show concept/4.
+#show value/3.
+#show evaluation/3.
+#show good/2.
+#show delta/4.
+
+#show select/1.
+#show selectRule/3.
+#show param/3.
+#show boolean_feature/1.
+#show numerical_feature/1.
+
+#script (python)
+import clingo
+
+def cname(i):
+    return clingo.String(f"c{i}")
+#end.
+
+n(2).
+concept(S) :- n(N), I = 1..N, S = @cname(I).

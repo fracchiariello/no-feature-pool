@@ -43,8 +43,8 @@ run python Generate_ASP_State_Space.py "$PROBLEM_PDDL"
 run python Generate_Roles.py "$PROBLEM_LP"
 
 # 3) Compute generalized plan
-echo "> clingo run.lp dl.lp $PROBLEM_LP $ROLE_LP | python asp2table.py > $OUTPUT_TXT"
-clingo run.lp dl.lp "$PROBLEM_LP" "$ROLE_LP" | tee /dev/tty | python asp2table.py > "$OUTPUT_TXT"
+echo "> clingo run.lp dl.lp $PROBLEM_LP $ROLE_LP | tee /dev/tty | python asp2table.py > $OUTPUT_TXT"
+clingo run.lp dl.lp "$PROBLEM_LP" "$ROLE_LP" | tee /dev/tty | python last_answer_set.py | python asp2table.py > "$OUTPUT_TXT"
 
 # -------------------------------------------------------------
 # done
