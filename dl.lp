@@ -59,10 +59,10 @@ concept(C, S, O1, L) :- selectRule(L, C, exists), param(L, C, R),
 concept(C, S, O1, L) :- selectRule(L, C, forall), param(L, C, R), state(S), object(O1),
                          concept(C, S, O2, L-1) : holds(S,(R,O1,O2)).
 
-% nominals
+% Nominals
 concept(C, S, O, L) :- selectRule(L, C, nominal), param(L, C, O), state(S).
 
-% copy
+% Copy
 concept(C, S, O, L) :- selectRule(L, C, copy), concept(C, S, O, L-1).
 
 % ============================================

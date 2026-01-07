@@ -54,8 +54,8 @@ processed_data = ' '.join(answer_content)
 print("Processed ANSWER block extracted.")
 
 # Updated regex pattern to match textual output: holds("obj_id", ("relation", block1, block2), role).
-# Assumes blocks are single lowercase letters [a-z], roles are words like 'star', 'plus', etc.
-pattern = r'holds\("([^"]+)",\("([^"]+)",([a-z]),([a-z])\),([a-z]+)\)\.'
+# Allows alphanumeric characters for blocks and roles
+pattern = r'holds\("([^"]+)",\("([^"]+)",([a-zA-Z0-9]+),([a-zA-Z0-9]+)\),([a-zA-Z0-9]+)\)\.'
 
 matches_found = 0
 output_file = None

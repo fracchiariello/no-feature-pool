@@ -8,10 +8,10 @@ concept(P) :- holds(_,(P,_)).
 concept(C, S, O, 0) :- holds(S,(C,O)). 
 
 %Additional concept
-%#const n=0. %number of additional concepts
-%concept(1..n).
-%{concept(I, S, O, 0) : object(O) } = 1 :- state(S), I=1..n. 
-%:- concept(I, S, O1, 0), concept(I, S, O2, 0), O1!=O2, I=1..n.
+%#const n=2. %number of additional concepts
+concept("c1").
+concept("c2").
+
 
 %Role
 role(R) :- holds(_,(R,_,_)).
