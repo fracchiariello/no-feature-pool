@@ -59,17 +59,7 @@ def print_table(title, rows):
 data = sys.stdin.read()
 print(data)
 
-# -----------------------------
-# Extract Answer blocks
-# -----------------------------
-answer_blocks = re.findall(
-    r'Answer:\s*\d+.*?\n(.*?)(?=\nAnswer:|\Z)',
-    data,
-    flags=re.S
-)
-
-last_answer = answer_blocks[-1] if answer_blocks else ""
-SOURCE = last_answer   # single source of truth for tables
+SOURCE = data.strip()
 
 # =====================================================
 # FIRST TABLE: rules (global) + selection (local)

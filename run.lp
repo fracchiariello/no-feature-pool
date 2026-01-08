@@ -8,9 +8,13 @@ concept(P) :- holds(_,(P,_)).
 concept(C, S, O, 0) :- holds(S,(C,O)). 
 
 %Additional concept
-%#const n=2. %number of additional concepts
-concept("c1").
-concept("c2").
+#script (python)
+import clingo
+def cname(i):
+    return clingo.String(f"add_c{i}")
+#end.
+#const n = 2.
+concept(S) :- I = 1..n, S = @cname(I).
 
 
 %Role
@@ -42,12 +46,3 @@ live(S1) :- transition(S1, S2), live(S2).
 #show boolean_feature/1.
 #show numerical_feature/1.
 
-#script (python)
-import clingo
-
-def cname(i):
-    return clingo.String(f"c{i}")
-#end.
-
-n(2).
-concept(S) :- n(N), I = 1..N, S = @cname(I).
