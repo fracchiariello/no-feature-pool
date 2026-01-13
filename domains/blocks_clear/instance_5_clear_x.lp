@@ -135,3 +135,4 @@ v_star("s_instance_5_clear_x_p4584382006938313162", 4).
 v_star("s_instance_5_clear_x_p6976843276522638026", 4).
 v_star("s_instance_5_clear_x_m2887692051432358719", 5).
 v_star("s_instance_5_clear_x_m1408863236516727724", 5).
+max_v_star(5).

@@ -139,10 +139,10 @@ diffDelta(S1,S2,T1,T2) :-
 % Value Function 
 % ============================================
 
-% #const delta = 2.
- {v(S,D) : v_star(S,D_star), poss_dist(D), D_star <= D, D <= delta*D_star} = 1 :- state(S), live(S).
- :- good(S1,S2), v(S1,D1), v(S2,D2), D1 <= D2.
-
+#const delta=2.
+dist(0..D) :- max_v_star(D).
+{v(S,D) : dist(D), D_star <= D, D <= delta*D_star} = 1 :- state(S), live(S), v_star(S,D_star).
+:- good(S1,S2), v(S1,D1), v(S2,D2), D1 <= D2.
 
 % Optimization 
 #minimize{1@10,C: select(C)}.

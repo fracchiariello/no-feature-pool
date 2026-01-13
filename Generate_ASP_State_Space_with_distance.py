@@ -109,6 +109,7 @@ while queue:
 # Write ASP output
 # ------------------------------------------------------------------
 
+max_distance = max(distance_to_goal.values()) if distance_to_goal else 0
 output_file = os.path.join(path, f"{problem_name}.lp")
 with open(output_file, 'w') as f:
     for transition in asp_transitions:
@@ -124,5 +125,7 @@ with open(output_file, 'w') as f:
 
     for state_id, dist in distance_to_goal.items():
         f.write(f"v_star({state_id}, {dist}).\n")
+
+    f.write(f"max_v_star({max_distance}).\n")
 
 print(f"ASP states, transitions, and distances saved to {output_file}")
