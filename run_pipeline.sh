@@ -22,7 +22,7 @@ mkdir -p "$(dirname "$OUTPUT_TXT")"
 # pipeline
 # -------------------------------------------------------------
 
-python Generate_ASP_State_Space.py "$PROBLEM_PDDL"
+python Generate_ASP_State_Space_with_distance.py "$PROBLEM_PDDL"
 python Generate_Roles.py "$PROBLEM_LP"
 
 # -------------------------------------------------------------

@@ -117,7 +117,21 @@ holds("s_instance_5_clear_x_m1408863236516727724", ("on", d, b)).
 holds("s_instance_5_clear_x_m1408863236516727724", ("on", b, a)).
 holds("s_instance_5_clear_x_m1408863236516727724", ("on", a, c)).
 holds("s_instance_5_clear_x_m1408863236516727724", ("ontable", c)).
-init("s_instance_5_clear_x_m3380733279326508616"). 
+init("s_instance_5_clear_x_m3380733279326508616").
 goal("s_instance_5_clear_x_p7048946987204531075").
 goal("s_instance_5_clear_x_p3465976081387414622").
 goal("s_instance_5_clear_x_p7434036084165805818").
+v_star("s_instance_5_clear_x_p7048946987204531075", 0).
+v_star("s_instance_5_clear_x_p3465976081387414622", 0).
+v_star("s_instance_5_clear_x_p7434036084165805818", 0).
+v_star("s_instance_5_clear_x_p3412967721926320585", 1).
+v_star("s_instance_5_clear_x_p9121532102363371028", 1).
+v_star("s_instance_5_clear_x_p3000716289167307952", 1).
+v_star("s_instance_5_clear_x_m993537699533772662", 2).
+v_star("s_instance_5_clear_x_m4479239034233935429", 2).
+v_star("s_instance_5_clear_x_m3380733279326508616", 3).
+v_star("s_instance_5_clear_x_m4775562419119717495", 3).
+v_star("s_instance_5_clear_x_p4584382006938313162", 4).
+v_star("s_instance_5_clear_x_p6976843276522638026", 4).
+v_star("s_instance_5_clear_x_m2887692051432358719", 5).
+v_star("s_instance_5_clear_x_m1408863236516727724", 5).
