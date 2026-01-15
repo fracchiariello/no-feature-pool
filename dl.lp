@@ -110,30 +110,30 @@ d2(S1,S2,T1,T2) :- transition(S1,S2), transition(T1,T2), select(C), delta(S1,S2,
 :- good(S1,S2), transition(T1,T2), not good(T1,T2), not d2(S1,S2,T1,T2).
 
 % ============================================
-% D1–D2 Relation
+% D1–D2 Relation (Determinism) [Optional] 
 % ============================================
 
 % D1–D2 constraint:
 % If S1,T1 are indistinguishable, then every outgoing S1→S2 must have a matching T1→T2
-:- state(S1), state(T1), not distinguishable(S1,T1), transition(S1,S2), not matchedTransition(S1,S2,T1).
+%:- state(S1), state(T1), not distinguishable(S1,T1), transition(S1,S2), not matchedTransition(S1,S2,T1).
 
 % S1→S2 matches some T1→T2
-matchedTransition(S1,S2,T1) :- transition(S1,S2), transition(T1,T2), sameDelta(S1,S2,T1,T2).
+%matchedTransition(S1,S2,T1) :- transition(S1,S2), transition(T1,T2), sameDelta(S1,S2,T1,T2).
 
 % Matching transitions require no delta differences
-sameDelta(S1,S2,T1,T2) :-
-    transition(S1,S2),
-    transition(T1,T2),
-    not diffDelta(S1,S2,T1,T2).
+%sameDelta(S1,S2,T1,T2) :-
+%    transition(S1,S2),
+%    transition(T1,T2),
+%    not diffDelta(S1,S2,T1,T2).
 
 % A difference in delta is observed if selected(C) and both deltas exist
-diffDelta(S1,S2,T1,T2) :-
-    transition(S1,S2),
-    transition(T1,T2),
-    select(C),
-    delta(S1,S2,C,D1),
-    delta(T1,T2,C,D2),
-    D1 != D2.
+%diffDelta(S1,S2,T1,T2) :-
+%    transition(S1,S2),
+%    transition(T1,T2),
+%    select(C),
+%    delta(S1,S2,C,D1),
+%    delta(T1,T2,C,D2),
+%    D1 != D2.
 
 % ============================================
 % Value Function 
