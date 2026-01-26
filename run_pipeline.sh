@@ -2,41 +2,63 @@
 set -euo pipefail
 
 # -------------------------------------------------------------
-# argument check
+# check arguments
 # -------------------------------------------------------------
-if [ "$#" -lt 1 ] || [ "$#" -gt 2 ]; then
-    echo "Usage: $0 <problem.pddl> [text]"
+if [ "$#" -lt 1 ]; then
+    echo "Usage: $0 <problem1.pddl> <problem2.pddl> ..."
     exit 1
 fi
 
-PROBLEM_PDDL="$1"
-INPUT_TEXT="${2:-}"
+PROBLEMS=("$@")
 
-OUTPUT_TXT="${PROBLEM_PDDL%.pddl}.txt"
-PROBLEM_LP="${PROBLEM_PDDL%.pddl}.lp"
-ROLE_LP="${PROBLEM_PDDL%.pddl}-role.lp"
+LP_FILES=()
+ROLE_FILES=()
 
-mkdir -p "$(dirname "$OUTPUT_TXT")"
-
-# -------------------------------------------------------------
-# pipeline
-# -------------------------------------------------------------
-
-python Generate_ASP_State_Space_with_distance.py "$PROBLEM_PDDL"
-python Generate_Roles.py "$PROBLEM_LP"
+OUTPUT_DIR="$(dirname "${PROBLEMS[0]}")"
+OUTPUT_TXT="$OUTPUT_DIR/results.txt"
 
 # -------------------------------------------------------------
-# clingo invocation (conditionally add text)
+# generate ASP + role for each PDDL problem
 # -------------------------------------------------------------
-CLINGO_CMD=(clingo auxiliary.lp dl.lp "$PROBLEM_LP" "$ROLE_LP")
+for PROBLEM_PDDL in "${PROBLEMS[@]}"; do
+    if [[ "$PROBLEM_PDDL" != *.pddl ]]; then
+        echo "Skipping non-PDDL file: $PROBLEM_PDDL"
+        continue
+    fi
 
-if [ -n "$INPUT_TEXT" ]; then
-    CLINGO_CMD+=($INPUT_TEXT)
-fi
+    echo "Processing $PROBLEM_PDDL"
 
-"${CLINGO_CMD[@]}" \
+    BASE="${PROBLEM_PDDL%.pddl}"
+    PROBLEM_LP="${BASE}.lp"
+    ROLE_LP="${BASE}-role.lp"
+
+    python Generate_ASP_State_Space_with_distance.py "$PROBLEM_PDDL"
+    python Generate_Roles.py "$PROBLEM_LP"
+
+    LP_FILES+=("$PROBLEM_LP")
+    ROLE_FILES+=("$ROLE_LP")
+done
+
+# -------------------------------------------------------------
+# write PDDL inputs header
+# -------------------------------------------------------------
+{
+  echo "PDDL INPUT PROBLEMS:"
+  for p in "${PROBLEMS[@]}"; do
+      [[ "$p" == *.pddl ]] && echo "  $p"
+  done
+  echo "----------------------------------------"
+} > "$OUTPUT_TXT"
+
+# -------------------------------------------------------------
+# run clingo on all generated files
+# -------------------------------------------------------------
+clingo auxiliary.lp dl.lp \
+       "${LP_FILES[@]}" \
+       "${ROLE_FILES[@]}" \
   | tee /dev/tty \
   | python last_answer_set.py \
-  | python asp2table.py > "$OUTPUT_TXT"
+  | python asp2table.py >> "$OUTPUT_TXT"
 
-echo "Pipeline completed successfully."
+echo "Pipeline completed."
+echo "Results written to $OUTPUT_TXT"

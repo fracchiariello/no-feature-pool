@@ -1,5 +1,21 @@
 Problems for experiments at : https://github.com/rleap-project/d2l/tree/main/domains
 
+
+Run
+
+`./run_pipeline.sh /path/to/problem.pddl'
+
+It is possible to pass command line options to clingo, e.g.
+
+`./run_pipeline.sh /path/to/problem.pddl ""'
+
+It is also possible to pass more problems
+
+`./run_pipeline.sh /path/to/problem1.pddl /path/to/problem2.pddl'
+
+
+STEP BY STEP (for each problem)
+
 1) Generate Search Space:
 
 `python ./Generate_ASP_State_Space.py /path/to/problem.pddl'
@@ -14,4 +30,4 @@ It generate new roles (predicates) in file /path/to/problem-role.lp'
 
 3) Compute Generalized Plan
 
-`clingo run.lp dl.lp /path/to/problem.lp /path/to/problem-role.lp | python asp2table.py > output.txt
+`clingo auxiliary.lp dl.lp /path/to/problem.lp /path/to/problem-role.lp | python asp2table.py > output.txt
