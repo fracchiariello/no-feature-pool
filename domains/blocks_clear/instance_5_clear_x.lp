@@ -121,6 +121,7 @@ init(s_instance_5_clear_x_m3380733279326508616).
 goal(s_instance_5_clear_x_p7048946987204531075).
 goal(s_instance_5_clear_x_p3465976081387414622).
 goal(s_instance_5_clear_x_p7434036084165805818).
+nominal_concept(a).
 v_star(s_instance_5_clear_x_p7048946987204531075, 0).
 v_star(s_instance_5_clear_x_p3465976081387414622, 0).
 v_star(s_instance_5_clear_x_p7434036084165805818, 0).

@@ -1,0 +1,3 @@
+PDDL INPUT PROBLEMS:
+  domains/blocks_on/training_on_5.pddl
+----------------------------------------

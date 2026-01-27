@@ -60,6 +60,8 @@ problem_name = os.path.splitext(os.path.basename(problem_file))[0]
 reader = PDDLReader()
 problem = reader.parse_problem(domain_file, problem_file)
 
+goal_objects = extract_objects_from_goal(problem)
+
 simulator = SequentialSimulator(problem=problem)
 initial_state = simulator.get_initial_state()
 
@@ -137,6 +139,9 @@ with open(output_file, 'w') as f:
 
     for goal_state in asp_goal_states:
         f.write(goal_state + '\n')
+
+    for obj in goal_objects:
+        f.write(f"nominal_concept({str(obj).lower()}).\n")
 
     for state_id, dist in distance_to_goal.items():
         f.write(f"v_star({state_id}, {dist}).\n")
