@@ -12,7 +12,7 @@ from unified_planning.shortcuts import *
 def predicate_to_tuple(atom):
     predicate, args = atom.rstrip(')').split('(')
     arg_list = [arg.strip() for arg in args.split(',')]
-    return f'("{predicate}", {", ".join(arg_list)})'
+    return f'({predicate}, {", ".join(arg_list)})'
 
 
 def upstate_to_asp(state, state_id, asp_states):
@@ -30,7 +30,7 @@ def get_state_id(problem_name, state):
         state_id = f"s_{problem_name}_p{state_hash}"
     else:
         state_id = f"s_{problem_name}_m{abs(state_hash)}"
-    return '"' + state_id + '"'
+    return state_id
 
 def extract_objects_from_goal(problem):
     objs = set()

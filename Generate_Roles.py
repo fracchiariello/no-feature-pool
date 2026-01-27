@@ -55,7 +55,7 @@ print("Processed ANSWER block extracted.")
 
 # Updated regex pattern to match textual output: holds("obj_id", ("relation", block1, block2), role).
 # Allows alphanumeric characters for blocks and roles
-pattern = r'holds\("([^"]+)",\("([^"]+)",([a-zA-Z0-9]+),([a-zA-Z0-9]+)\),([a-zA-Z0-9]+)\)\.'
+pattern = r'holds\(([^,]+),\(([^,]+),([^,]+),([^,]+)\),([^)]+)\)\.'
 
 matches_found = 0
 output_file = None
@@ -67,7 +67,7 @@ try:
             # Open file for writing on first match
             output_filename = input_file.rsplit('.', 1)[0] + '-role.' + input_file.rsplit('.', 1)[1]
             output_file = open(output_filename, 'w')
-        output_file.write(f'holds("{obj_id}",("{new_relation}",{b1},{b2})).\n')
+        output_file.write(f'holds({obj_id},({new_relation},{b1},{b2})).\n')
         matches_found += 1
 finally:
     if output_file:

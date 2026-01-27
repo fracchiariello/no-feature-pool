@@ -8,9 +8,8 @@ concept(P) :- holds(_,(P,_)).
 concept(C, S, O, 0) :- holds(S,(C,O)). 
 
 %Nominal Concepts
-concept("a").
-concept("a", S, a, 0) :- state(S).
-
+concept(N) :- nominal_concept(N).
+concept(N, S, N, 0) :- state(S), nominal_concept(N).
 
 %Additional concept
 #script (python)
