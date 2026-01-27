@@ -17,7 +17,7 @@ import clingo
 def cname(i):
     return clingo.String(f"add_c{i}")
 #end.
-#const n = 0.
+#const n=0.
 concept(S) :- I = 1..n, S = @cname(I).
 
 
