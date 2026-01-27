@@ -32,7 +32,7 @@ for PROBLEM_PDDL in "${PROBLEMS[@]}"; do
     PROBLEM_LP="${BASE}.lp"
     ROLE_LP="${BASE}-role.lp"
 
-    python Generate_ASP_State_Space_with_distance.py "$PROBLEM_PDDL"
+    python Generate_ASP_State_Space.py "$PROBLEM_PDDL"
     python Generate_Roles.py "$PROBLEM_LP"
 
     LP_FILES+=("$PROBLEM_LP")

@@ -7,13 +7,18 @@ concept(P) :- holds(_,(P,_)).
 %Initialization
 concept(C, S, O, 0) :- holds(S,(C,O)). 
 
+%Nominal Concepts
+concept("a").
+concept("a", S, a, 0) :- state(S).
+
+
 %Additional concept
 #script (python)
 import clingo
 def cname(i):
     return clingo.String(f"add_c{i}")
 #end.
-#const n = 2.
+#const n = 0.
 concept(S) :- I = 1..n, S = @cname(I).
 
 

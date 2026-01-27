@@ -5,7 +5,7 @@ layer(1..l).
 % Rules
 % ============================================
 
-rule(top;bottom;negation;conjunction;disjunction;exists;forall;nominal;copy).
+rule(top;bottom;negation;conjunction;disjunction;exists;forall;copy).
 
 % ============================================
 % Dynamic selection of rules
@@ -58,9 +58,6 @@ concept(C, S, O1, L) :- selectRule(L, C, exists), param(L, C, R),
 % Universal restriction
 concept(C, S, O1, L) :- selectRule(L, C, forall), param(L, C, R), state(S), object(O1),
                          concept(C, S, O2, L-1) : holds(S,(R,O1,O2)).
-
-% Nominals
-concept(C, S, O, L) :- selectRule(L, C, nominal), param(L, C, O), state(S).
 
 % Copy
 concept(C, S, O, L) :- selectRule(L, C, copy), concept(C, S, O, L-1).

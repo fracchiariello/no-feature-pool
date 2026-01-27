@@ -1,0 +1,22 @@
+PDDL INPUT PROBLEMS:
+  domains/reward/instance_3x3_0.pddl
+----------------------------------------
+
+
+FIRST TABLE:
+Concept                            | Selected                           | Feature Type                      
+------------------------------------------------------------------------------------------------------------
+
+SECOND TABLE (concept objects per state):
+Feature                           
+----------------------------------
+
+THIRD TABLE (values):
+Feature                           
+----------------------------------
+
+FOURTH TABLE (evaluations):
+Feature                           
+----------------------------------
+
+GOOD TRANSITIONS:
