@@ -88,7 +88,7 @@ def fetch_param(t, c, rule):
 times_sorted = sorted(times_seen)
 concepts_sorted = sorted(concepts_seen)
 
-header1 = ["Concept"] + [f"t={t}" for t in times_sorted] + ["Selected", "Feature Type"]
+header1 = ["Concept"] + [f"l={t}" for t in times_sorted] + ["Selected", "Feature Type"]
 rows1 = [header1]
 
 for c in concepts_sorted:
