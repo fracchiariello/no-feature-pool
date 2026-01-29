@@ -8,8 +8,13 @@ concept(P) :- holds(_,(P,_)).
 concept(C, S, O, 0) :- holds(S,(C,O)). 
 
 %Nominal Concepts
+{nominal_concept(N)} :- goal_object(N).
 concept(N) :- nominal_concept(N).
 concept(N, S, N, 0) :- state(S), nominal_concept(N).
+
+%Nullary predicates
+nullary(P) :-  holds(_,(P,)). 
+
 
 %Additional concept
 #script (python)
@@ -18,8 +23,8 @@ def cname(i):
     return clingo.Function(f"add_c{i}")
 #end.
 #const n=0.
-concept(S) :- I = 1..n, S = @cname(I).
-
+add_concept(C) :- I = 1..n, C = @cname(I).
+concept(S) :- add_concept(S).
 
 %Role
 role(R) :- holds(_,(R,_,_)).

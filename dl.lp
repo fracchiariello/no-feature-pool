@@ -14,6 +14,7 @@ rule(top;bottom;negation;conjunction;disjunction;exists;forall;copy).
 % selectRule(Layer, Concept, Rule) is guessed by ASP
 { selectRule(L, C, R) : rule(R) } = 1 :- layer(L), concept(C).
 
+
 % ============================================
 % Parameters (dynamic, guessed)
 % ============================================
@@ -25,9 +26,6 @@ rule(top;bottom;negation;conjunction;disjunction;exists;forall;copy).
 % For exists and forall relations
 { param(L, C, R) : role(R)} = 1 :- selectRule(L, C, exists).
 { param(L, C, R) : role(R)} = 1 :- selectRule(L, C, forall).
-
-% For nominals
-{ param(L, C, O) : object(O)} = 1 :- selectRule(L, C, nominal).
 
 % ============================================
 % DL constructors
@@ -66,7 +64,7 @@ concept(C, S, O, L) :- selectRule(L, C, copy), concept(C, S, O, L-1).
 % Features
 % ============================================
 
-{boolean_feature(C); numerical_feature(C)} = 1 :- select(C).
+{boolean_feature(C); numerical_feature(C)} = 1 :- select_concept(C).
 
 % boolean feature: true if any O exists s.t. concept(C,S,O,l)
 value(C,S,1) :- concept(C,S,O,l), boolean_feature(C).
@@ -77,6 +75,11 @@ evaluation(C,S,V) :- value(C,S,V), boolean_feature(C).
 value(C,S,N) :- N = #count{ O : concept(C,S,O,l) }, numerical_feature(C), state(S).
 evaluation(C,S,1) :- value(C,S,N), N=0, numerical_feature(C).
 evaluation(C,S,0) :- value(C,S,N), N>0, numerical_feature(C).
+
+% nullary feature
+value(P,S,1) :- select_nullary(P), holds(S,(P)).
+value(P,S,0) :- select_nullary(P), state(S), not holds(S,(P)).
+evaluation(P,S,V) :- value(P,S,V), select_nullary(P).
 
 % ============================================
 % Delta
@@ -93,7 +96,10 @@ delta(S1,S2,C,eq) :- transition(S1,S2), value(C,S1,N1), value(C,S2,N2),
 % Planning
 % ============================================
 
-{select(C)} :- concept(C).
+{select_concept(C)} :- concept(C).
+select(C) :- select_concept(C).
+{select_nullary(P)} :- nullary(P).
+select(P) :- select_nullary(P).
 
 
 1{good(S1,S2) : transition(S1,S2)} :- live(S1), not goal(S1).  
