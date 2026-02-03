@@ -1,9 +1,9 @@
 holds(S, (Pred, Arg1, Arg2), primitive) :- holds(S, (Pred, Arg1, Arg2)).
 
-%holds(S, (Pred, Arg2, Arg1), inverse) :- holds(S, (Pred, Arg1, Arg2)).
+holds(S, (Pred, Arg2, Arg1), inverse) :- holds(S, (Pred, Arg1, Arg2)).
 
-%holds(S, (Pred, Arg1, Arg2), plus) :- holds(S, (Pred, Arg1, Arg2)).
-%holds(S, (Pred, Arg1, Arg2), plus) :- holds(S, (Pred, Arg1, Arg3), plus), holds(S, (Pred, Arg3, Arg2)).
+holds(S, (Pred, Arg1, Arg2), plus) :- holds(S, (Pred, Arg1, Arg2)).
+holds(S, (Pred, Arg1, Arg2), plus) :- holds(S, (Pred, Arg1, Arg3), plus), holds(S, (Pred, Arg3, Arg2)).
 
 %holds(S, ((Pred1,Pred2), Arg1, Arg2), intersection) :- holds(S, (Pred1, Arg1, Arg2)), holds(S, (Pred2, Arg1, Arg2)). 
 

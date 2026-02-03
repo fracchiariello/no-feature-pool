@@ -77,8 +77,8 @@ evaluation(C,S,1) :- value(C,S,N), N=0, numerical_feature(C).
 evaluation(C,S,0) :- value(C,S,N), N>0, numerical_feature(C).
 
 % nullary feature
-value(P,S,1) :- select_nullary(P), holds(S,(P)).
-value(P,S,0) :- select_nullary(P), state(S), not holds(S,(P)).
+ :- select_nullary(P), holds(S,(P,)).
+value(P,S,0) :- select_nullary(P), state(S), not value(P,S,1).
 evaluation(P,S,V) :- value(P,S,V), select_nullary(P).
 
 % ============================================
@@ -148,6 +148,6 @@ dist(0..D) :- max_v_star(D).
 :- good(S1,S2), v(S1,D1), v(S2,D2), D1 <= D2.
 
 % Optimization 
-#minimize{1@10,C: select(C)}.
+%#minimize{1@10,C: select(C)}.
 #maximize{1@5,L,C: selectRule(L, C, copy)}.
 #maximize{1@3,C: boolean_feature(C)}.

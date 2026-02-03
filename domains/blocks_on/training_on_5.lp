@@ -1850,7 +1850,7 @@ transition(s_training_on_5_p2267547186473945206, s_training_on_5_m84598910664808
 transition(s_training_on_5_p6625328417238012443, s_training_on_5_p7789911214956008214).
 transition(s_training_on_5_m6851665381189933096, s_training_on_5_m7565122346192197931).
 transition(s_training_on_5_m5694097316629472020, s_training_on_5_m2374941326465935310).
-holds(s_training_on_5_p4482649184152810401, (handempty)).
+holds(s_training_on_5_p4482649184152810401, (handempty,)).
 holds(s_training_on_5_p4482649184152810401, (on, a, d)).
 holds(s_training_on_5_p4482649184152810401, (on, c, b)).
 holds(s_training_on_5_p4482649184152810401, (on, e, a)).
@@ -1872,7 +1872,7 @@ holds(s_training_on_5_p8722072318748498680, (ontable, d)).
 holds(s_training_on_5_p8722072318748498680, (clear, a)).
 holds(s_training_on_5_p8722072318748498680, (clear, c)).
 holds(s_training_on_5_p8722072318748498680, (holding, e)).
-holds(s_training_on_5_m2831223336623137272, (handempty)).
+holds(s_training_on_5_m2831223336623137272, (handempty,)).
 holds(s_training_on_5_m2831223336623137272, (on, a, d)).
 holds(s_training_on_5_m2831223336623137272, (on, e, a)).
 holds(s_training_on_5_m2831223336623137272, (ontable, b)).
@@ -1881,7 +1881,7 @@ holds(s_training_on_5_m2831223336623137272, (ontable, d)).
 holds(s_training_on_5_m2831223336623137272, (clear, b)).
 holds(s_training_on_5_m2831223336623137272, (clear, c)).
 holds(s_training_on_5_m2831223336623137272, (clear, e)).
-holds(s_training_on_5_p686703732754508490, (handempty)).
+holds(s_training_on_5_p686703732754508490, (handempty,)).
 holds(s_training_on_5_p686703732754508490, (on, a, d)).
 holds(s_training_on_5_p686703732754508490, (on, c, e)).
 holds(s_training_on_5_p686703732754508490, (on, e, a)).
@@ -1889,7 +1889,7 @@ holds(s_training_on_5_p686703732754508490, (ontable, b)).
 holds(s_training_on_5_p686703732754508490, (ontable, d)).
 holds(s_training_on_5_p686703732754508490, (clear, b)).
 holds(s_training_on_5_p686703732754508490, (clear, c)).
-holds(s_training_on_5_p1062496651852082682, (handempty)).
+holds(s_training_on_5_p1062496651852082682, (handempty,)).
 holds(s_training_on_5_p1062496651852082682, (on, a, d)).
 holds(s_training_on_5_p1062496651852082682, (on, c, b)).
 holds(s_training_on_5_p1062496651852082682, (ontable, b)).
@@ -1898,7 +1898,7 @@ holds(s_training_on_5_p1062496651852082682, (ontable, e)).
 holds(s_training_on_5_p1062496651852082682, (clear, a)).
 holds(s_training_on_5_p1062496651852082682, (clear, c)).
 holds(s_training_on_5_p1062496651852082682, (clear, e)).
-holds(s_training_on_5_m2477298942473315351, (handempty)).
+holds(s_training_on_5_m2477298942473315351, (handempty,)).
 holds(s_training_on_5_m2477298942473315351, (on, a, d)).
 holds(s_training_on_5_m2477298942473315351, (on, c, b)).
 holds(s_training_on_5_m2477298942473315351, (on, e, c)).
@@ -1950,7 +1950,7 @@ holds(s_training_on_5_m24274632521518253, (ontable, d)).
 holds(s_training_on_5_m24274632521518253, (clear, d)).
 holds(s_training_on_5_m24274632521518253, (clear, e)).
 holds(s_training_on_5_m24274632521518253, (holding, a)).
-holds(s_training_on_5_m4629843254122905868, (handempty)).
+holds(s_training_on_5_m4629843254122905868, (handempty,)).
 holds(s_training_on_5_m4629843254122905868, (on, a, d)).
 holds(s_training_on_5_m4629843254122905868, (on, b, c)).
 holds(s_training_on_5_m4629843254122905868, (on, e, a)).
@@ -1958,7 +1958,7 @@ holds(s_training_on_5_m4629843254122905868, (ontable, c)).
 holds(s_training_on_5_m4629843254122905868, (ontable, d)).
 holds(s_training_on_5_m4629843254122905868, (clear, b)).
 holds(s_training_on_5_m4629843254122905868, (clear, e)).
-holds(s_training_on_5_m52003686267467839, (handempty)).
+holds(s_training_on_5_m52003686267467839, (handempty,)).
 holds(s_training_on_5_m52003686267467839, (on, a, d)).
 holds(s_training_on_5_m52003686267467839, (on, b, e)).
 holds(s_training_on_5_m52003686267467839, (on, e, a)).
@@ -1966,7 +1966,7 @@ holds(s_training_on_5_m52003686267467839, (ontable, c)).
 holds(s_training_on_5_m52003686267467839, (ontable, d)).
 holds(s_training_on_5_m52003686267467839, (clear, b)).
 holds(s_training_on_5_m52003686267467839, (clear, c)).
-holds(s_training_on_5_m1711834198660612013, (handempty)).
+holds(s_training_on_5_m1711834198660612013, (handempty,)).
 holds(s_training_on_5_m1711834198660612013, (on, a, d)).
 holds(s_training_on_5_m1711834198660612013, (ontable, b)).
 holds(s_training_on_5_m1711834198660612013, (ontable, c)).
@@ -1976,7 +1976,7 @@ holds(s_training_on_5_m1711834198660612013, (clear, a)).
 holds(s_training_on_5_m1711834198660612013, (clear, b)).
 holds(s_training_on_5_m1711834198660612013, (clear, c)).
 holds(s_training_on_5_m1711834198660612013, (clear, e)).
-holds(s_training_on_5_m6140455783127793993, (handempty)).
+holds(s_training_on_5_m6140455783127793993, (handempty,)).
 holds(s_training_on_5_m6140455783127793993, (on, a, d)).
 holds(s_training_on_5_m6140455783127793993, (on, e, b)).
 holds(s_training_on_5_m6140455783127793993, (ontable, b)).
@@ -1985,7 +1985,7 @@ holds(s_training_on_5_m6140455783127793993, (ontable, d)).
 holds(s_training_on_5_m6140455783127793993, (clear, a)).
 holds(s_training_on_5_m6140455783127793993, (clear, c)).
 holds(s_training_on_5_m6140455783127793993, (clear, e)).
-holds(s_training_on_5_p4259901062719878720, (handempty)).
+holds(s_training_on_5_p4259901062719878720, (handempty,)).
 holds(s_training_on_5_p4259901062719878720, (on, a, d)).
 holds(s_training_on_5_p4259901062719878720, (on, e, c)).
 holds(s_training_on_5_p4259901062719878720, (ontable, b)).
@@ -1994,14 +1994,14 @@ holds(s_training_on_5_p4259901062719878720, (ontable, d)).
 holds(s_training_on_5_p4259901062719878720, (clear, a)).
 holds(s_training_on_5_p4259901062719878720, (clear, b)).
 holds(s_training_on_5_p4259901062719878720, (clear, e)).
-holds(s_training_on_5_p7966214764262033974, (handempty)).
+holds(s_training_on_5_p7966214764262033974, (handempty,)).
 holds(s_training_on_5_p7966214764262033974, (on, a, d)).
 holds(s_training_on_5_p7966214764262033974, (on, b, c)).
 holds(s_training_on_5_p7966214764262033974, (on, c, e)).
 holds(s_training_on_5_p7966214764262033974, (on, e, a)).
 holds(s_training_on_5_p7966214764262033974, (ontable, d)).
 holds(s_training_on_5_p7966214764262033974, (clear, b)).
-holds(s_training_on_5_m6643604402392419585, (handempty)).
+holds(s_training_on_5_m6643604402392419585, (handempty,)).
 holds(s_training_on_5_m6643604402392419585, (on, c, b)).
 holds(s_training_on_5_m6643604402392419585, (ontable, a)).
 holds(s_training_on_5_m6643604402392419585, (ontable, b)).
@@ -2011,7 +2011,7 @@ holds(s_training_on_5_m6643604402392419585, (clear, a)).
 holds(s_training_on_5_m6643604402392419585, (clear, c)).
 holds(s_training_on_5_m6643604402392419585, (clear, d)).
 holds(s_training_on_5_m6643604402392419585, (clear, e)).
-holds(s_training_on_5_p4862096684849791390, (handempty)).
+holds(s_training_on_5_p4862096684849791390, (handempty,)).
 holds(s_training_on_5_p4862096684849791390, (on, a, c)).
 holds(s_training_on_5_p4862096684849791390, (on, c, b)).
 holds(s_training_on_5_p4862096684849791390, (ontable, b)).
@@ -2020,7 +2020,7 @@ holds(s_training_on_5_p4862096684849791390, (ontable, e)).
 holds(s_training_on_5_p4862096684849791390, (clear, a)).
 holds(s_training_on_5_p4862096684849791390, (clear, d)).
 holds(s_training_on_5_p4862096684849791390, (clear, e)).
-holds(s_training_on_5_m1431146664351051668, (handempty)).
+holds(s_training_on_5_m1431146664351051668, (handempty,)).
 holds(s_training_on_5_m1431146664351051668, (on, a, e)).
 holds(s_training_on_5_m1431146664351051668, (on, c, b)).
 holds(s_training_on_5_m1431146664351051668, (ontable, b)).
@@ -2029,7 +2029,7 @@ holds(s_training_on_5_m1431146664351051668, (ontable, e)).
 holds(s_training_on_5_m1431146664351051668, (clear, a)).
 holds(s_training_on_5_m1431146664351051668, (clear, c)).
 holds(s_training_on_5_m1431146664351051668, (clear, d)).
-holds(s_training_on_5_m6241029487377171886, (handempty)).
+holds(s_training_on_5_m6241029487377171886, (handempty,)).
 holds(s_training_on_5_m6241029487377171886, (on, a, d)).
 holds(s_training_on_5_m6241029487377171886, (on, c, a)).
 holds(s_training_on_5_m6241029487377171886, (ontable, b)).
@@ -2038,7 +2038,7 @@ holds(s_training_on_5_m6241029487377171886, (ontable, e)).
 holds(s_training_on_5_m6241029487377171886, (clear, b)).
 holds(s_training_on_5_m6241029487377171886, (clear, c)).
 holds(s_training_on_5_m6241029487377171886, (clear, e)).
-holds(s_training_on_5_p4110809911438636177, (handempty)).
+holds(s_training_on_5_p4110809911438636177, (handempty,)).
 holds(s_training_on_5_p4110809911438636177, (on, a, d)).
 holds(s_training_on_5_p4110809911438636177, (on, c, e)).
 holds(s_training_on_5_p4110809911438636177, (ontable, b)).
@@ -2047,7 +2047,7 @@ holds(s_training_on_5_p4110809911438636177, (ontable, e)).
 holds(s_training_on_5_p4110809911438636177, (clear, a)).
 holds(s_training_on_5_p4110809911438636177, (clear, b)).
 holds(s_training_on_5_p4110809911438636177, (clear, c)).
-holds(s_training_on_5_p8137246212214457580, (handempty)).
+holds(s_training_on_5_p8137246212214457580, (handempty,)).
 holds(s_training_on_5_p8137246212214457580, (on, c, b)).
 holds(s_training_on_5_p8137246212214457580, (on, e, c)).
 holds(s_training_on_5_p8137246212214457580, (ontable, a)).
@@ -2056,7 +2056,7 @@ holds(s_training_on_5_p8137246212214457580, (ontable, d)).
 holds(s_training_on_5_p8137246212214457580, (clear, a)).
 holds(s_training_on_5_p8137246212214457580, (clear, d)).
 holds(s_training_on_5_p8137246212214457580, (clear, e)).
-holds(s_training_on_5_p4540729169178060415, (handempty)).
+holds(s_training_on_5_p4540729169178060415, (handempty,)).
 holds(s_training_on_5_p4540729169178060415, (on, a, e)).
 holds(s_training_on_5_p4540729169178060415, (on, c, b)).
 holds(s_training_on_5_p4540729169178060415, (on, e, c)).
@@ -2220,7 +2220,7 @@ holds(s_training_on_5_p2335198950356890676, (on, e, c)).
 holds(s_training_on_5_p2335198950356890676, (ontable, b)).
 holds(s_training_on_5_p2335198950356890676, (clear, a)).
 holds(s_training_on_5_p2335198950356890676, (holding, d)).
-holds(s_training_on_5_m8127782733621239633, (handempty)).
+holds(s_training_on_5_m8127782733621239633, (handempty,)).
 holds(s_training_on_5_m8127782733621239633, (on, a, d)).
 holds(s_training_on_5_m8127782733621239633, (on, b, c)).
 holds(s_training_on_5_m8127782733621239633, (ontable, c)).
@@ -2229,7 +2229,7 @@ holds(s_training_on_5_m8127782733621239633, (ontable, e)).
 holds(s_training_on_5_m8127782733621239633, (clear, a)).
 holds(s_training_on_5_m8127782733621239633, (clear, b)).
 holds(s_training_on_5_m8127782733621239633, (clear, e)).
-holds(s_training_on_5_m3620137049150497205, (handempty)).
+holds(s_training_on_5_m3620137049150497205, (handempty,)).
 holds(s_training_on_5_m3620137049150497205, (on, a, d)).
 holds(s_training_on_5_m3620137049150497205, (on, b, c)).
 holds(s_training_on_5_m3620137049150497205, (on, e, b)).
@@ -2237,14 +2237,14 @@ holds(s_training_on_5_m3620137049150497205, (ontable, c)).
 holds(s_training_on_5_m3620137049150497205, (ontable, d)).
 holds(s_training_on_5_m3620137049150497205, (clear, a)).
 holds(s_training_on_5_m3620137049150497205, (clear, e)).
-holds(s_training_on_5_p1857688815646485096, (handempty)).
+holds(s_training_on_5_p1857688815646485096, (handempty,)).
 holds(s_training_on_5_p1857688815646485096, (on, a, d)).
 holds(s_training_on_5_p1857688815646485096, (on, b, e)).
 holds(s_training_on_5_p1857688815646485096, (on, c, b)).
 holds(s_training_on_5_p1857688815646485096, (on, e, a)).
 holds(s_training_on_5_p1857688815646485096, (ontable, d)).
 holds(s_training_on_5_p1857688815646485096, (clear, c)).
-holds(s_training_on_5_p8107964520735421276, (handempty)).
+holds(s_training_on_5_p8107964520735421276, (handempty,)).
 holds(s_training_on_5_p8107964520735421276, (on, a, d)).
 holds(s_training_on_5_p8107964520735421276, (on, b, a)).
 holds(s_training_on_5_p8107964520735421276, (ontable, c)).
@@ -2253,7 +2253,7 @@ holds(s_training_on_5_p8107964520735421276, (ontable, e)).
 holds(s_training_on_5_p8107964520735421276, (clear, b)).
 holds(s_training_on_5_p8107964520735421276, (clear, c)).
 holds(s_training_on_5_p8107964520735421276, (clear, e)).
-holds(s_training_on_5_m3473383269180614246, (handempty)).
+holds(s_training_on_5_m3473383269180614246, (handempty,)).
 holds(s_training_on_5_m3473383269180614246, (on, a, d)).
 holds(s_training_on_5_m3473383269180614246, (on, b, e)).
 holds(s_training_on_5_m3473383269180614246, (ontable, c)).
@@ -2262,7 +2262,7 @@ holds(s_training_on_5_m3473383269180614246, (ontable, e)).
 holds(s_training_on_5_m3473383269180614246, (clear, a)).
 holds(s_training_on_5_m3473383269180614246, (clear, b)).
 holds(s_training_on_5_m3473383269180614246, (clear, c)).
-holds(s_training_on_5_p4993863272965529430, (handempty)).
+holds(s_training_on_5_p4993863272965529430, (handempty,)).
 holds(s_training_on_5_p4993863272965529430, (ontable, a)).
 holds(s_training_on_5_p4993863272965529430, (ontable, b)).
 holds(s_training_on_5_p4993863272965529430, (ontable, c)).
@@ -2273,7 +2273,7 @@ holds(s_training_on_5_p4993863272965529430, (clear, b)).
 holds(s_training_on_5_p4993863272965529430, (clear, c)).
 holds(s_training_on_5_p4993863272965529430, (clear, d)).
 holds(s_training_on_5_p4993863272965529430, (clear, e)).
-holds(s_training_on_5_p2665480133243500654, (handempty)).
+holds(s_training_on_5_p2665480133243500654, (handempty,)).
 holds(s_training_on_5_p2665480133243500654, (on, a, b)).
 holds(s_training_on_5_p2665480133243500654, (ontable, b)).
 holds(s_training_on_5_p2665480133243500654, (ontable, c)).
@@ -2283,7 +2283,7 @@ holds(s_training_on_5_p2665480133243500654, (clear, a)).
 holds(s_training_on_5_p2665480133243500654, (clear, c)).
 holds(s_training_on_5_p2665480133243500654, (clear, d)).
 holds(s_training_on_5_p2665480133243500654, (clear, e)).
-holds(s_training_on_5_m6487070353095594953, (handempty)).
+holds(s_training_on_5_m6487070353095594953, (handempty,)).
 holds(s_training_on_5_m6487070353095594953, (on, a, c)).
 holds(s_training_on_5_m6487070353095594953, (ontable, b)).
 holds(s_training_on_5_m6487070353095594953, (ontable, c)).
@@ -2293,7 +2293,7 @@ holds(s_training_on_5_m6487070353095594953, (clear, a)).
 holds(s_training_on_5_m6487070353095594953, (clear, b)).
 holds(s_training_on_5_m6487070353095594953, (clear, d)).
 holds(s_training_on_5_m6487070353095594953, (clear, e)).
-holds(s_training_on_5_p766565754920877509, (handempty)).
+holds(s_training_on_5_p766565754920877509, (handempty,)).
 holds(s_training_on_5_p766565754920877509, (on, a, e)).
 holds(s_training_on_5_p766565754920877509, (ontable, b)).
 holds(s_training_on_5_p766565754920877509, (ontable, c)).
@@ -2303,7 +2303,7 @@ holds(s_training_on_5_p766565754920877509, (clear, a)).
 holds(s_training_on_5_p766565754920877509, (clear, b)).
 holds(s_training_on_5_p766565754920877509, (clear, c)).
 holds(s_training_on_5_p766565754920877509, (clear, d)).
-holds(s_training_on_5_m1471119493329484618, (handempty)).
+holds(s_training_on_5_m1471119493329484618, (handempty,)).
 holds(s_training_on_5_m1471119493329484618, (on, a, d)).
 holds(s_training_on_5_m1471119493329484618, (on, c, a)).
 holds(s_training_on_5_m1471119493329484618, (on, e, b)).
@@ -2311,7 +2311,7 @@ holds(s_training_on_5_m1471119493329484618, (ontable, b)).
 holds(s_training_on_5_m1471119493329484618, (ontable, d)).
 holds(s_training_on_5_m1471119493329484618, (clear, c)).
 holds(s_training_on_5_m1471119493329484618, (clear, e)).
-holds(s_training_on_5_p8933567123605736053, (handempty)).
+holds(s_training_on_5_p8933567123605736053, (handempty,)).
 holds(s_training_on_5_p8933567123605736053, (on, a, d)).
 holds(s_training_on_5_p8933567123605736053, (on, c, e)).
 holds(s_training_on_5_p8933567123605736053, (on, e, b)).
@@ -2319,7 +2319,7 @@ holds(s_training_on_5_p8933567123605736053, (ontable, b)).
 holds(s_training_on_5_p8933567123605736053, (ontable, d)).
 holds(s_training_on_5_p8933567123605736053, (clear, a)).
 holds(s_training_on_5_p8933567123605736053, (clear, c)).
-holds(s_training_on_5_p557078639513854386, (handempty)).
+holds(s_training_on_5_p557078639513854386, (handempty,)).
 holds(s_training_on_5_p557078639513854386, (on, e, b)).
 holds(s_training_on_5_p557078639513854386, (ontable, a)).
 holds(s_training_on_5_p557078639513854386, (ontable, b)).
@@ -2329,7 +2329,7 @@ holds(s_training_on_5_p557078639513854386, (clear, a)).
 holds(s_training_on_5_p557078639513854386, (clear, c)).
 holds(s_training_on_5_p557078639513854386, (clear, d)).
 holds(s_training_on_5_p557078639513854386, (clear, e)).
-holds(s_training_on_5_m1797028883580562733, (handempty)).
+holds(s_training_on_5_m1797028883580562733, (handempty,)).
 holds(s_training_on_5_m1797028883580562733, (on, a, c)).
 holds(s_training_on_5_m1797028883580562733, (on, e, b)).
 holds(s_training_on_5_m1797028883580562733, (ontable, b)).
@@ -2338,7 +2338,7 @@ holds(s_training_on_5_m1797028883580562733, (ontable, d)).
 holds(s_training_on_5_m1797028883580562733, (clear, a)).
 holds(s_training_on_5_m1797028883580562733, (clear, d)).
 holds(s_training_on_5_m1797028883580562733, (clear, e)).
-holds(s_training_on_5_p5212216574959485729, (handempty)).
+holds(s_training_on_5_p5212216574959485729, (handempty,)).
 holds(s_training_on_5_p5212216574959485729, (on, a, e)).
 holds(s_training_on_5_p5212216574959485729, (on, e, b)).
 holds(s_training_on_5_p5212216574959485729, (ontable, b)).
@@ -2347,7 +2347,7 @@ holds(s_training_on_5_p5212216574959485729, (ontable, d)).
 holds(s_training_on_5_p5212216574959485729, (clear, a)).
 holds(s_training_on_5_p5212216574959485729, (clear, c)).
 holds(s_training_on_5_p5212216574959485729, (clear, d)).
-holds(s_training_on_5_m6654872836917328561, (handempty)).
+holds(s_training_on_5_m6654872836917328561, (handempty,)).
 holds(s_training_on_5_m6654872836917328561, (on, a, d)).
 holds(s_training_on_5_m6654872836917328561, (on, b, a)).
 holds(s_training_on_5_m6654872836917328561, (on, e, c)).
@@ -2355,7 +2355,7 @@ holds(s_training_on_5_m6654872836917328561, (ontable, c)).
 holds(s_training_on_5_m6654872836917328561, (ontable, d)).
 holds(s_training_on_5_m6654872836917328561, (clear, b)).
 holds(s_training_on_5_m6654872836917328561, (clear, e)).
-holds(s_training_on_5_p2084167163357589385, (handempty)).
+holds(s_training_on_5_p2084167163357589385, (handempty,)).
 holds(s_training_on_5_p2084167163357589385, (on, a, d)).
 holds(s_training_on_5_p2084167163357589385, (on, b, e)).
 holds(s_training_on_5_p2084167163357589385, (on, e, c)).
@@ -2363,7 +2363,7 @@ holds(s_training_on_5_p2084167163357589385, (ontable, c)).
 holds(s_training_on_5_p2084167163357589385, (ontable, d)).
 holds(s_training_on_5_p2084167163357589385, (clear, a)).
 holds(s_training_on_5_p2084167163357589385, (clear, b)).
-holds(s_training_on_5_m7607240990269052603, (handempty)).
+holds(s_training_on_5_m7607240990269052603, (handempty,)).
 holds(s_training_on_5_m7607240990269052603, (on, e, c)).
 holds(s_training_on_5_m7607240990269052603, (ontable, a)).
 holds(s_training_on_5_m7607240990269052603, (ontable, b)).
@@ -2373,7 +2373,7 @@ holds(s_training_on_5_m7607240990269052603, (clear, a)).
 holds(s_training_on_5_m7607240990269052603, (clear, b)).
 holds(s_training_on_5_m7607240990269052603, (clear, d)).
 holds(s_training_on_5_m7607240990269052603, (clear, e)).
-holds(s_training_on_5_m586080787723137411, (handempty)).
+holds(s_training_on_5_m586080787723137411, (handempty,)).
 holds(s_training_on_5_m586080787723137411, (on, a, b)).
 holds(s_training_on_5_m586080787723137411, (on, e, c)).
 holds(s_training_on_5_m586080787723137411, (ontable, b)).
@@ -2382,7 +2382,7 @@ holds(s_training_on_5_m586080787723137411, (ontable, d)).
 holds(s_training_on_5_m586080787723137411, (clear, a)).
 holds(s_training_on_5_m586080787723137411, (clear, d)).
 holds(s_training_on_5_m586080787723137411, (clear, e)).
-holds(s_training_on_5_m2773370944196211754, (handempty)).
+holds(s_training_on_5_m2773370944196211754, (handempty,)).
 holds(s_training_on_5_m2773370944196211754, (on, a, e)).
 holds(s_training_on_5_m2773370944196211754, (on, e, c)).
 holds(s_training_on_5_m2773370944196211754, (ontable, b)).
@@ -2391,7 +2391,7 @@ holds(s_training_on_5_m2773370944196211754, (ontable, d)).
 holds(s_training_on_5_m2773370944196211754, (clear, a)).
 holds(s_training_on_5_m2773370944196211754, (clear, b)).
 holds(s_training_on_5_m2773370944196211754, (clear, d)).
-holds(s_training_on_5_p3136391268138370396, (handempty)).
+holds(s_training_on_5_p3136391268138370396, (handempty,)).
 holds(s_training_on_5_p3136391268138370396, (on, c, b)).
 holds(s_training_on_5_p3136391268138370396, (on, d, a)).
 holds(s_training_on_5_p3136391268138370396, (ontable, a)).
@@ -2400,7 +2400,7 @@ holds(s_training_on_5_p3136391268138370396, (ontable, e)).
 holds(s_training_on_5_p3136391268138370396, (clear, c)).
 holds(s_training_on_5_p3136391268138370396, (clear, d)).
 holds(s_training_on_5_p3136391268138370396, (clear, e)).
-holds(s_training_on_5_p8450730976509899648, (handempty)).
+holds(s_training_on_5_p8450730976509899648, (handempty,)).
 holds(s_training_on_5_p8450730976509899648, (on, c, b)).
 holds(s_training_on_5_p8450730976509899648, (on, d, c)).
 holds(s_training_on_5_p8450730976509899648, (ontable, a)).
@@ -2409,7 +2409,7 @@ holds(s_training_on_5_p8450730976509899648, (ontable, e)).
 holds(s_training_on_5_p8450730976509899648, (clear, a)).
 holds(s_training_on_5_p8450730976509899648, (clear, d)).
 holds(s_training_on_5_p8450730976509899648, (clear, e)).
-holds(s_training_on_5_m1778951709732271982, (handempty)).
+holds(s_training_on_5_m1778951709732271982, (handempty,)).
 holds(s_training_on_5_m1778951709732271982, (on, c, b)).
 holds(s_training_on_5_m1778951709732271982, (on, d, e)).
 holds(s_training_on_5_m1778951709732271982, (ontable, a)).
@@ -2418,7 +2418,7 @@ holds(s_training_on_5_m1778951709732271982, (ontable, e)).
 holds(s_training_on_5_m1778951709732271982, (clear, a)).
 holds(s_training_on_5_m1778951709732271982, (clear, c)).
 holds(s_training_on_5_m1778951709732271982, (clear, d)).
-holds(s_training_on_5_m7834572013743264604, (handempty)).
+holds(s_training_on_5_m7834572013743264604, (handempty,)).
 holds(s_training_on_5_m7834572013743264604, (on, c, b)).
 holds(s_training_on_5_m7834572013743264604, (on, e, a)).
 holds(s_training_on_5_m7834572013743264604, (ontable, a)).
@@ -2427,7 +2427,7 @@ holds(s_training_on_5_m7834572013743264604, (ontable, d)).
 holds(s_training_on_5_m7834572013743264604, (clear, c)).
 holds(s_training_on_5_m7834572013743264604, (clear, d)).
 holds(s_training_on_5_m7834572013743264604, (clear, e)).
-holds(s_training_on_5_p8627851210272667204, (handempty)).
+holds(s_training_on_5_p8627851210272667204, (handempty,)).
 holds(s_training_on_5_p8627851210272667204, (on, c, b)).
 holds(s_training_on_5_p8627851210272667204, (on, e, d)).
 holds(s_training_on_5_p8627851210272667204, (ontable, a)).
@@ -2436,7 +2436,7 @@ holds(s_training_on_5_p8627851210272667204, (ontable, d)).
 holds(s_training_on_5_p8627851210272667204, (clear, a)).
 holds(s_training_on_5_p8627851210272667204, (clear, c)).
 holds(s_training_on_5_p8627851210272667204, (clear, e)).
-holds(s_training_on_5_p293010309674165591, (handempty)).
+holds(s_training_on_5_p293010309674165591, (handempty,)).
 holds(s_training_on_5_p293010309674165591, (on, c, a)).
 holds(s_training_on_5_p293010309674165591, (ontable, a)).
 holds(s_training_on_5_p293010309674165591, (ontable, b)).
@@ -2446,7 +2446,7 @@ holds(s_training_on_5_p293010309674165591, (clear, b)).
 holds(s_training_on_5_p293010309674165591, (clear, c)).
 holds(s_training_on_5_p293010309674165591, (clear, d)).
 holds(s_training_on_5_p293010309674165591, (clear, e)).
-holds(s_training_on_5_p128357882448066503, (handempty)).
+holds(s_training_on_5_p128357882448066503, (handempty,)).
 holds(s_training_on_5_p128357882448066503, (on, c, d)).
 holds(s_training_on_5_p128357882448066503, (ontable, a)).
 holds(s_training_on_5_p128357882448066503, (ontable, b)).
@@ -2456,7 +2456,7 @@ holds(s_training_on_5_p128357882448066503, (clear, a)).
 holds(s_training_on_5_p128357882448066503, (clear, b)).
 holds(s_training_on_5_p128357882448066503, (clear, c)).
 holds(s_training_on_5_p128357882448066503, (clear, e)).
-holds(s_training_on_5_m7746450603203187820, (handempty)).
+holds(s_training_on_5_m7746450603203187820, (handempty,)).
 holds(s_training_on_5_m7746450603203187820, (on, c, e)).
 holds(s_training_on_5_m7746450603203187820, (ontable, a)).
 holds(s_training_on_5_m7746450603203187820, (ontable, b)).
@@ -2466,7 +2466,7 @@ holds(s_training_on_5_m7746450603203187820, (clear, a)).
 holds(s_training_on_5_m7746450603203187820, (clear, b)).
 holds(s_training_on_5_m7746450603203187820, (clear, c)).
 holds(s_training_on_5_m7746450603203187820, (clear, d)).
-holds(s_training_on_5_m3804911734268332483, (handempty)).
+holds(s_training_on_5_m3804911734268332483, (handempty,)).
 holds(s_training_on_5_m3804911734268332483, (on, a, c)).
 holds(s_training_on_5_m3804911734268332483, (on, c, b)).
 holds(s_training_on_5_m3804911734268332483, (on, d, a)).
@@ -2474,7 +2474,7 @@ holds(s_training_on_5_m3804911734268332483, (ontable, b)).
 holds(s_training_on_5_m3804911734268332483, (ontable, e)).
 holds(s_training_on_5_m3804911734268332483, (clear, d)).
 holds(s_training_on_5_m3804911734268332483, (clear, e)).
-holds(s_training_on_5_p575171068380822515, (handempty)).
+holds(s_training_on_5_p575171068380822515, (handempty,)).
 holds(s_training_on_5_p575171068380822515, (on, a, c)).
 holds(s_training_on_5_p575171068380822515, (on, c, b)).
 holds(s_training_on_5_p575171068380822515, (on, d, e)).
@@ -2482,7 +2482,7 @@ holds(s_training_on_5_p575171068380822515, (ontable, b)).
 holds(s_training_on_5_p575171068380822515, (ontable, e)).
 holds(s_training_on_5_p575171068380822515, (clear, a)).
 holds(s_training_on_5_p575171068380822515, (clear, d)).
-holds(s_training_on_5_p8354895913216614341, (handempty)).
+holds(s_training_on_5_p8354895913216614341, (handempty,)).
 holds(s_training_on_5_p8354895913216614341, (on, a, c)).
 holds(s_training_on_5_p8354895913216614341, (on, c, b)).
 holds(s_training_on_5_p8354895913216614341, (on, e, a)).
@@ -2490,7 +2490,7 @@ holds(s_training_on_5_p8354895913216614341, (ontable, b)).
 holds(s_training_on_5_p8354895913216614341, (ontable, d)).
 holds(s_training_on_5_p8354895913216614341, (clear, d)).
 holds(s_training_on_5_p8354895913216614341, (clear, e)).
-holds(s_training_on_5_m7563576613380045531, (handempty)).
+holds(s_training_on_5_m7563576613380045531, (handempty,)).
 holds(s_training_on_5_m7563576613380045531, (on, a, c)).
 holds(s_training_on_5_m7563576613380045531, (on, c, b)).
 holds(s_training_on_5_m7563576613380045531, (on, e, d)).
@@ -2498,7 +2498,7 @@ holds(s_training_on_5_m7563576613380045531, (ontable, b)).
 holds(s_training_on_5_m7563576613380045531, (ontable, d)).
 holds(s_training_on_5_m7563576613380045531, (clear, a)).
 holds(s_training_on_5_m7563576613380045531, (clear, e)).
-holds(s_training_on_5_p7235055287688046543, (handempty)).
+holds(s_training_on_5_p7235055287688046543, (handempty,)).
 holds(s_training_on_5_p7235055287688046543, (on, a, e)).
 holds(s_training_on_5_p7235055287688046543, (on, c, b)).
 holds(s_training_on_5_p7235055287688046543, (on, d, a)).
@@ -2506,7 +2506,7 @@ holds(s_training_on_5_p7235055287688046543, (ontable, b)).
 holds(s_training_on_5_p7235055287688046543, (ontable, e)).
 holds(s_training_on_5_p7235055287688046543, (clear, c)).
 holds(s_training_on_5_p7235055287688046543, (clear, d)).
-holds(s_training_on_5_p4227085933506220307, (handempty)).
+holds(s_training_on_5_p4227085933506220307, (handempty,)).
 holds(s_training_on_5_p4227085933506220307, (on, a, e)).
 holds(s_training_on_5_p4227085933506220307, (on, c, b)).
 holds(s_training_on_5_p4227085933506220307, (on, d, c)).
@@ -2514,7 +2514,7 @@ holds(s_training_on_5_p4227085933506220307, (ontable, b)).
 holds(s_training_on_5_p4227085933506220307, (ontable, e)).
 holds(s_training_on_5_p4227085933506220307, (clear, a)).
 holds(s_training_on_5_p4227085933506220307, (clear, d)).
-holds(s_training_on_5_p5475915475635701700, (handempty)).
+holds(s_training_on_5_p5475915475635701700, (handempty,)).
 holds(s_training_on_5_p5475915475635701700, (on, a, e)).
 holds(s_training_on_5_p5475915475635701700, (on, c, a)).
 holds(s_training_on_5_p5475915475635701700, (ontable, b)).
@@ -2523,7 +2523,7 @@ holds(s_training_on_5_p5475915475635701700, (ontable, e)).
 holds(s_training_on_5_p5475915475635701700, (clear, b)).
 holds(s_training_on_5_p5475915475635701700, (clear, c)).
 holds(s_training_on_5_p5475915475635701700, (clear, d)).
-holds(s_training_on_5_p5631368284508214612, (handempty)).
+holds(s_training_on_5_p5631368284508214612, (handempty,)).
 holds(s_training_on_5_p5631368284508214612, (on, a, e)).
 holds(s_training_on_5_p5631368284508214612, (on, c, d)).
 holds(s_training_on_5_p5631368284508214612, (ontable, b)).
@@ -2532,7 +2532,7 @@ holds(s_training_on_5_p5631368284508214612, (ontable, e)).
 holds(s_training_on_5_p5631368284508214612, (clear, a)).
 holds(s_training_on_5_p5631368284508214612, (clear, b)).
 holds(s_training_on_5_p5631368284508214612, (clear, c)).
-holds(s_training_on_5_m3573201922667128146, (handempty)).
+holds(s_training_on_5_m3573201922667128146, (handempty,)).
 holds(s_training_on_5_m3573201922667128146, (on, a, d)).
 holds(s_training_on_5_m3573201922667128146, (on, b, c)).
 holds(s_training_on_5_m3573201922667128146, (on, c, a)).
@@ -2540,7 +2540,7 @@ holds(s_training_on_5_m3573201922667128146, (ontable, d)).
 holds(s_training_on_5_m3573201922667128146, (ontable, e)).
 holds(s_training_on_5_m3573201922667128146, (clear, b)).
 holds(s_training_on_5_m3573201922667128146, (clear, e)).
-holds(s_training_on_5_m8173699952310393957, (handempty)).
+holds(s_training_on_5_m8173699952310393957, (handempty,)).
 holds(s_training_on_5_m8173699952310393957, (on, a, d)).
 holds(s_training_on_5_m8173699952310393957, (on, b, e)).
 holds(s_training_on_5_m8173699952310393957, (on, c, a)).
@@ -2548,7 +2548,7 @@ holds(s_training_on_5_m8173699952310393957, (ontable, d)).
 holds(s_training_on_5_m8173699952310393957, (ontable, e)).
 holds(s_training_on_5_m8173699952310393957, (clear, b)).
 holds(s_training_on_5_m8173699952310393957, (clear, c)).
-holds(s_training_on_5_p8809896362115533889, (handempty)).
+holds(s_training_on_5_p8809896362115533889, (handempty,)).
 holds(s_training_on_5_p8809896362115533889, (on, a, d)).
 holds(s_training_on_5_p8809896362115533889, (on, c, a)).
 holds(s_training_on_5_p8809896362115533889, (on, e, c)).
@@ -2556,7 +2556,7 @@ holds(s_training_on_5_p8809896362115533889, (ontable, b)).
 holds(s_training_on_5_p8809896362115533889, (ontable, d)).
 holds(s_training_on_5_p8809896362115533889, (clear, b)).
 holds(s_training_on_5_p8809896362115533889, (clear, e)).
-holds(s_training_on_5_m6793795700385921122, (handempty)).
+holds(s_training_on_5_m6793795700385921122, (handempty,)).
 holds(s_training_on_5_m6793795700385921122, (on, a, d)).
 holds(s_training_on_5_m6793795700385921122, (on, b, a)).
 holds(s_training_on_5_m6793795700385921122, (on, c, e)).
@@ -2564,7 +2564,7 @@ holds(s_training_on_5_m6793795700385921122, (ontable, d)).
 holds(s_training_on_5_m6793795700385921122, (ontable, e)).
 holds(s_training_on_5_m6793795700385921122, (clear, b)).
 holds(s_training_on_5_m6793795700385921122, (clear, c)).
-holds(s_training_on_5_p6775244125030552685, (handempty)).
+holds(s_training_on_5_p6775244125030552685, (handempty,)).
 holds(s_training_on_5_p6775244125030552685, (on, a, d)).
 holds(s_training_on_5_p6775244125030552685, (on, b, c)).
 holds(s_training_on_5_p6775244125030552685, (on, c, e)).
@@ -2572,7 +2572,7 @@ holds(s_training_on_5_p6775244125030552685, (ontable, d)).
 holds(s_training_on_5_p6775244125030552685, (ontable, e)).
 holds(s_training_on_5_p6775244125030552685, (clear, a)).
 holds(s_training_on_5_p6775244125030552685, (clear, b)).
-holds(s_training_on_5_m734262630019330900, (handempty)).
+holds(s_training_on_5_m734262630019330900, (handempty,)).
 holds(s_training_on_5_m734262630019330900, (on, a, b)).
 holds(s_training_on_5_m734262630019330900, (on, c, e)).
 holds(s_training_on_5_m734262630019330900, (ontable, b)).
@@ -2581,7 +2581,7 @@ holds(s_training_on_5_m734262630019330900, (ontable, e)).
 holds(s_training_on_5_m734262630019330900, (clear, a)).
 holds(s_training_on_5_m734262630019330900, (clear, c)).
 holds(s_training_on_5_m734262630019330900, (clear, d)).
-holds(s_training_on_5_p8415991759855196405, (handempty)).
+holds(s_training_on_5_p8415991759855196405, (handempty,)).
 holds(s_training_on_5_p8415991759855196405, (on, a, c)).
 holds(s_training_on_5_p8415991759855196405, (on, c, e)).
 holds(s_training_on_5_p8415991759855196405, (ontable, b)).
@@ -2590,7 +2590,7 @@ holds(s_training_on_5_p8415991759855196405, (ontable, e)).
 holds(s_training_on_5_p8415991759855196405, (clear, a)).
 holds(s_training_on_5_p8415991759855196405, (clear, b)).
 holds(s_training_on_5_p8415991759855196405, (clear, d)).
-holds(s_training_on_5_m529505479802195121, (handempty)).
+holds(s_training_on_5_m529505479802195121, (handempty,)).
 holds(s_training_on_5_m529505479802195121, (on, c, b)).
 holds(s_training_on_5_m529505479802195121, (on, d, a)).
 holds(s_training_on_5_m529505479802195121, (on, e, c)).
@@ -2598,7 +2598,7 @@ holds(s_training_on_5_m529505479802195121, (ontable, a)).
 holds(s_training_on_5_m529505479802195121, (ontable, b)).
 holds(s_training_on_5_m529505479802195121, (clear, d)).
 holds(s_training_on_5_m529505479802195121, (clear, e)).
-holds(s_training_on_5_p3778386460245737089, (handempty)).
+holds(s_training_on_5_p3778386460245737089, (handempty,)).
 holds(s_training_on_5_p3778386460245737089, (on, c, b)).
 holds(s_training_on_5_p3778386460245737089, (on, d, e)).
 holds(s_training_on_5_p3778386460245737089, (on, e, c)).
@@ -2606,7 +2606,7 @@ holds(s_training_on_5_p3778386460245737089, (ontable, a)).
 holds(s_training_on_5_p3778386460245737089, (ontable, b)).
 holds(s_training_on_5_p3778386460245737089, (clear, a)).
 holds(s_training_on_5_p3778386460245737089, (clear, d)).
-holds(s_training_on_5_m5239807477449027108, (handempty)).
+holds(s_training_on_5_m5239807477449027108, (handempty,)).
 holds(s_training_on_5_m5239807477449027108, (on, a, e)).
 holds(s_training_on_5_m5239807477449027108, (on, c, b)).
 holds(s_training_on_5_m5239807477449027108, (on, d, a)).
@@ -3022,7 +3022,7 @@ holds(s_training_on_5_m4959859023966353090, (on, e, c)).
 holds(s_training_on_5_m4959859023966353090, (ontable, b)).
 holds(s_training_on_5_m4959859023966353090, (clear, d)).
 holds(s_training_on_5_m4959859023966353090, (holding, a)).
-holds(s_training_on_5_p2470157631376932778, (handempty)).
+holds(s_training_on_5_p2470157631376932778, (handempty,)).
 holds(s_training_on_5_p2470157631376932778, (on, b, c)).
 holds(s_training_on_5_p2470157631376932778, (ontable, a)).
 holds(s_training_on_5_p2470157631376932778, (ontable, c)).
@@ -3032,7 +3032,7 @@ holds(s_training_on_5_p2470157631376932778, (clear, a)).
 holds(s_training_on_5_p2470157631376932778, (clear, b)).
 holds(s_training_on_5_p2470157631376932778, (clear, d)).
 holds(s_training_on_5_p2470157631376932778, (clear, e)).
-holds(s_training_on_5_p4897584845902649490, (handempty)).
+holds(s_training_on_5_p4897584845902649490, (handempty,)).
 holds(s_training_on_5_p4897584845902649490, (on, a, b)).
 holds(s_training_on_5_p4897584845902649490, (on, b, c)).
 holds(s_training_on_5_p4897584845902649490, (ontable, c)).
@@ -3041,7 +3041,7 @@ holds(s_training_on_5_p4897584845902649490, (ontable, e)).
 holds(s_training_on_5_p4897584845902649490, (clear, a)).
 holds(s_training_on_5_p4897584845902649490, (clear, d)).
 holds(s_training_on_5_p4897584845902649490, (clear, e)).
-holds(s_training_on_5_p7901957011208822073, (handempty)).
+holds(s_training_on_5_p7901957011208822073, (handempty,)).
 holds(s_training_on_5_p7901957011208822073, (on, a, e)).
 holds(s_training_on_5_p7901957011208822073, (on, b, c)).
 holds(s_training_on_5_p7901957011208822073, (ontable, c)).
@@ -3050,7 +3050,7 @@ holds(s_training_on_5_p7901957011208822073, (ontable, e)).
 holds(s_training_on_5_p7901957011208822073, (clear, a)).
 holds(s_training_on_5_p7901957011208822073, (clear, b)).
 holds(s_training_on_5_p7901957011208822073, (clear, d)).
-holds(s_training_on_5_p6967389015765254478, (handempty)).
+holds(s_training_on_5_p6967389015765254478, (handempty,)).
 holds(s_training_on_5_p6967389015765254478, (on, b, c)).
 holds(s_training_on_5_p6967389015765254478, (on, e, b)).
 holds(s_training_on_5_p6967389015765254478, (ontable, a)).
@@ -3059,7 +3059,7 @@ holds(s_training_on_5_p6967389015765254478, (ontable, d)).
 holds(s_training_on_5_p6967389015765254478, (clear, a)).
 holds(s_training_on_5_p6967389015765254478, (clear, d)).
 holds(s_training_on_5_p6967389015765254478, (clear, e)).
-holds(s_training_on_5_p3413592363163378653, (handempty)).
+holds(s_training_on_5_p3413592363163378653, (handempty,)).
 holds(s_training_on_5_p3413592363163378653, (on, a, e)).
 holds(s_training_on_5_p3413592363163378653, (on, b, c)).
 holds(s_training_on_5_p3413592363163378653, (on, e, b)).
@@ -3067,7 +3067,7 @@ holds(s_training_on_5_p3413592363163378653, (ontable, c)).
 holds(s_training_on_5_p3413592363163378653, (ontable, d)).
 holds(s_training_on_5_p3413592363163378653, (clear, a)).
 holds(s_training_on_5_p3413592363163378653, (clear, d)).
-holds(s_training_on_5_m7636506239673770251, (handempty)).
+holds(s_training_on_5_m7636506239673770251, (handempty,)).
 holds(s_training_on_5_m7636506239673770251, (on, a, d)).
 holds(s_training_on_5_m7636506239673770251, (on, b, a)).
 holds(s_training_on_5_m7636506239673770251, (on, c, b)).
@@ -3075,7 +3075,7 @@ holds(s_training_on_5_m7636506239673770251, (ontable, d)).
 holds(s_training_on_5_m7636506239673770251, (ontable, e)).
 holds(s_training_on_5_m7636506239673770251, (clear, c)).
 holds(s_training_on_5_m7636506239673770251, (clear, e)).
-holds(s_training_on_5_p3635432822538440120, (handempty)).
+holds(s_training_on_5_p3635432822538440120, (handempty,)).
 holds(s_training_on_5_p3635432822538440120, (on, a, d)).
 holds(s_training_on_5_p3635432822538440120, (on, b, a)).
 holds(s_training_on_5_p3635432822538440120, (on, e, b)).
@@ -3083,7 +3083,7 @@ holds(s_training_on_5_p3635432822538440120, (ontable, c)).
 holds(s_training_on_5_p3635432822538440120, (ontable, d)).
 holds(s_training_on_5_p3635432822538440120, (clear, c)).
 holds(s_training_on_5_p3635432822538440120, (clear, e)).
-holds(s_training_on_5_p2976026816128693299, (handempty)).
+holds(s_training_on_5_p2976026816128693299, (handempty,)).
 holds(s_training_on_5_p2976026816128693299, (on, a, d)).
 holds(s_training_on_5_p2976026816128693299, (on, b, e)).
 holds(s_training_on_5_p2976026816128693299, (on, c, b)).
@@ -3091,7 +3091,7 @@ holds(s_training_on_5_p2976026816128693299, (ontable, d)).
 holds(s_training_on_5_p2976026816128693299, (ontable, e)).
 holds(s_training_on_5_p2976026816128693299, (clear, a)).
 holds(s_training_on_5_p2976026816128693299, (clear, c)).
-holds(s_training_on_5_p7115550781292840607, (handempty)).
+holds(s_training_on_5_p7115550781292840607, (handempty,)).
 holds(s_training_on_5_p7115550781292840607, (on, b, e)).
 holds(s_training_on_5_p7115550781292840607, (ontable, a)).
 holds(s_training_on_5_p7115550781292840607, (ontable, c)).
@@ -3101,7 +3101,7 @@ holds(s_training_on_5_p7115550781292840607, (clear, a)).
 holds(s_training_on_5_p7115550781292840607, (clear, b)).
 holds(s_training_on_5_p7115550781292840607, (clear, c)).
 holds(s_training_on_5_p7115550781292840607, (clear, d)).
-holds(s_training_on_5_p220667050456687015, (handempty)).
+holds(s_training_on_5_p220667050456687015, (handempty,)).
 holds(s_training_on_5_p220667050456687015, (on, a, b)).
 holds(s_training_on_5_p220667050456687015, (on, b, e)).
 holds(s_training_on_5_p220667050456687015, (ontable, c)).
@@ -3110,7 +3110,7 @@ holds(s_training_on_5_p220667050456687015, (ontable, e)).
 holds(s_training_on_5_p220667050456687015, (clear, a)).
 holds(s_training_on_5_p220667050456687015, (clear, c)).
 holds(s_training_on_5_p220667050456687015, (clear, d)).
-holds(s_training_on_5_m9076146956525849090, (handempty)).
+holds(s_training_on_5_m9076146956525849090, (handempty,)).
 holds(s_training_on_5_m9076146956525849090, (on, a, c)).
 holds(s_training_on_5_m9076146956525849090, (on, b, e)).
 holds(s_training_on_5_m9076146956525849090, (ontable, c)).
@@ -3119,7 +3119,7 @@ holds(s_training_on_5_m9076146956525849090, (ontable, e)).
 holds(s_training_on_5_m9076146956525849090, (clear, a)).
 holds(s_training_on_5_m9076146956525849090, (clear, b)).
 holds(s_training_on_5_m9076146956525849090, (clear, d)).
-holds(s_training_on_5_m2452538564007334823, (handempty)).
+holds(s_training_on_5_m2452538564007334823, (handempty,)).
 holds(s_training_on_5_m2452538564007334823, (on, b, a)).
 holds(s_training_on_5_m2452538564007334823, (ontable, a)).
 holds(s_training_on_5_m2452538564007334823, (ontable, c)).
@@ -3129,7 +3129,7 @@ holds(s_training_on_5_m2452538564007334823, (clear, b)).
 holds(s_training_on_5_m2452538564007334823, (clear, c)).
 holds(s_training_on_5_m2452538564007334823, (clear, d)).
 holds(s_training_on_5_m2452538564007334823, (clear, e)).
-holds(s_training_on_5_m3929132006073787516, (handempty)).
+holds(s_training_on_5_m3929132006073787516, (handempty,)).
 holds(s_training_on_5_m3929132006073787516, (on, b, d)).
 holds(s_training_on_5_m3929132006073787516, (ontable, a)).
 holds(s_training_on_5_m3929132006073787516, (ontable, c)).
@@ -3139,7 +3139,7 @@ holds(s_training_on_5_m3929132006073787516, (clear, a)).
 holds(s_training_on_5_m3929132006073787516, (clear, b)).
 holds(s_training_on_5_m3929132006073787516, (clear, c)).
 holds(s_training_on_5_m3929132006073787516, (clear, e)).
-holds(s_training_on_5_m3673147345482995467, (handempty)).
+holds(s_training_on_5_m3673147345482995467, (handempty,)).
 holds(s_training_on_5_m3673147345482995467, (on, d, a)).
 holds(s_training_on_5_m3673147345482995467, (ontable, a)).
 holds(s_training_on_5_m3673147345482995467, (ontable, b)).
@@ -3149,7 +3149,7 @@ holds(s_training_on_5_m3673147345482995467, (clear, b)).
 holds(s_training_on_5_m3673147345482995467, (clear, c)).
 holds(s_training_on_5_m3673147345482995467, (clear, d)).
 holds(s_training_on_5_m3673147345482995467, (clear, e)).
-holds(s_training_on_5_p5515603286281021301, (handempty)).
+holds(s_training_on_5_p5515603286281021301, (handempty,)).
 holds(s_training_on_5_p5515603286281021301, (on, d, b)).
 holds(s_training_on_5_p5515603286281021301, (ontable, a)).
 holds(s_training_on_5_p5515603286281021301, (ontable, b)).
@@ -3159,7 +3159,7 @@ holds(s_training_on_5_p5515603286281021301, (clear, a)).
 holds(s_training_on_5_p5515603286281021301, (clear, c)).
 holds(s_training_on_5_p5515603286281021301, (clear, d)).
 holds(s_training_on_5_p5515603286281021301, (clear, e)).
-holds(s_training_on_5_m7798000611159155159, (handempty)).
+holds(s_training_on_5_m7798000611159155159, (handempty,)).
 holds(s_training_on_5_m7798000611159155159, (on, d, c)).
 holds(s_training_on_5_m7798000611159155159, (ontable, a)).
 holds(s_training_on_5_m7798000611159155159, (ontable, b)).
@@ -3169,7 +3169,7 @@ holds(s_training_on_5_m7798000611159155159, (clear, a)).
 holds(s_training_on_5_m7798000611159155159, (clear, b)).
 holds(s_training_on_5_m7798000611159155159, (clear, d)).
 holds(s_training_on_5_m7798000611159155159, (clear, e)).
-holds(s_training_on_5_p130336205027075387, (handempty)).
+holds(s_training_on_5_p130336205027075387, (handempty,)).
 holds(s_training_on_5_p130336205027075387, (on, d, e)).
 holds(s_training_on_5_p130336205027075387, (ontable, a)).
 holds(s_training_on_5_p130336205027075387, (ontable, b)).
@@ -3179,7 +3179,7 @@ holds(s_training_on_5_p130336205027075387, (clear, a)).
 holds(s_training_on_5_p130336205027075387, (clear, b)).
 holds(s_training_on_5_p130336205027075387, (clear, c)).
 holds(s_training_on_5_p130336205027075387, (clear, d)).
-holds(s_training_on_5_p8486728442078478605, (handempty)).
+holds(s_training_on_5_p8486728442078478605, (handempty,)).
 holds(s_training_on_5_p8486728442078478605, (on, e, a)).
 holds(s_training_on_5_p8486728442078478605, (ontable, a)).
 holds(s_training_on_5_p8486728442078478605, (ontable, b)).
@@ -3189,7 +3189,7 @@ holds(s_training_on_5_p8486728442078478605, (clear, b)).
 holds(s_training_on_5_p8486728442078478605, (clear, c)).
 holds(s_training_on_5_p8486728442078478605, (clear, d)).
 holds(s_training_on_5_p8486728442078478605, (clear, e)).
-holds(s_training_on_5_m7981328276055483411, (handempty)).
+holds(s_training_on_5_m7981328276055483411, (handempty,)).
 holds(s_training_on_5_m7981328276055483411, (on, e, d)).
 holds(s_training_on_5_m7981328276055483411, (ontable, a)).
 holds(s_training_on_5_m7981328276055483411, (ontable, b)).
@@ -3199,7 +3199,7 @@ holds(s_training_on_5_m7981328276055483411, (clear, a)).
 holds(s_training_on_5_m7981328276055483411, (clear, b)).
 holds(s_training_on_5_m7981328276055483411, (clear, c)).
 holds(s_training_on_5_m7981328276055483411, (clear, e)).
-holds(s_training_on_5_p4414190614117834552, (handempty)).
+holds(s_training_on_5_p4414190614117834552, (handempty,)).
 holds(s_training_on_5_p4414190614117834552, (on, a, c)).
 holds(s_training_on_5_p4414190614117834552, (on, b, a)).
 holds(s_training_on_5_p4414190614117834552, (ontable, c)).
@@ -3208,7 +3208,7 @@ holds(s_training_on_5_p4414190614117834552, (ontable, e)).
 holds(s_training_on_5_p4414190614117834552, (clear, b)).
 holds(s_training_on_5_p4414190614117834552, (clear, d)).
 holds(s_training_on_5_p4414190614117834552, (clear, e)).
-holds(s_training_on_5_p3011892822277400805, (handempty)).
+holds(s_training_on_5_p3011892822277400805, (handempty,)).
 holds(s_training_on_5_p3011892822277400805, (on, a, c)).
 holds(s_training_on_5_p3011892822277400805, (on, b, d)).
 holds(s_training_on_5_p3011892822277400805, (ontable, c)).
@@ -3217,7 +3217,7 @@ holds(s_training_on_5_p3011892822277400805, (ontable, e)).
 holds(s_training_on_5_p3011892822277400805, (clear, a)).
 holds(s_training_on_5_p3011892822277400805, (clear, b)).
 holds(s_training_on_5_p3011892822277400805, (clear, e)).
-holds(s_training_on_5_p3292927516765789076, (handempty)).
+holds(s_training_on_5_p3292927516765789076, (handempty,)).
 holds(s_training_on_5_p3292927516765789076, (on, a, c)).
 holds(s_training_on_5_p3292927516765789076, (on, d, a)).
 holds(s_training_on_5_p3292927516765789076, (ontable, b)).
@@ -3226,7 +3226,7 @@ holds(s_training_on_5_p3292927516765789076, (ontable, e)).
 holds(s_training_on_5_p3292927516765789076, (clear, b)).
 holds(s_training_on_5_p3292927516765789076, (clear, d)).
 holds(s_training_on_5_p3292927516765789076, (clear, e)).
-holds(s_training_on_5_m6034871719670328300, (handempty)).
+holds(s_training_on_5_m6034871719670328300, (handempty,)).
 holds(s_training_on_5_m6034871719670328300, (on, a, c)).
 holds(s_training_on_5_m6034871719670328300, (on, d, b)).
 holds(s_training_on_5_m6034871719670328300, (ontable, b)).
@@ -3235,7 +3235,7 @@ holds(s_training_on_5_m6034871719670328300, (ontable, e)).
 holds(s_training_on_5_m6034871719670328300, (clear, a)).
 holds(s_training_on_5_m6034871719670328300, (clear, d)).
 holds(s_training_on_5_m6034871719670328300, (clear, e)).
-holds(s_training_on_5_m2199019111290448294, (handempty)).
+holds(s_training_on_5_m2199019111290448294, (handempty,)).
 holds(s_training_on_5_m2199019111290448294, (on, a, c)).
 holds(s_training_on_5_m2199019111290448294, (on, d, e)).
 holds(s_training_on_5_m2199019111290448294, (ontable, b)).
@@ -3244,7 +3244,7 @@ holds(s_training_on_5_m2199019111290448294, (ontable, e)).
 holds(s_training_on_5_m2199019111290448294, (clear, a)).
 holds(s_training_on_5_m2199019111290448294, (clear, b)).
 holds(s_training_on_5_m2199019111290448294, (clear, d)).
-holds(s_training_on_5_m7677962952720977300, (handempty)).
+holds(s_training_on_5_m7677962952720977300, (handempty,)).
 holds(s_training_on_5_m7677962952720977300, (on, a, c)).
 holds(s_training_on_5_m7677962952720977300, (on, e, a)).
 holds(s_training_on_5_m7677962952720977300, (ontable, b)).
@@ -3253,7 +3253,7 @@ holds(s_training_on_5_m7677962952720977300, (ontable, d)).
 holds(s_training_on_5_m7677962952720977300, (clear, b)).
 holds(s_training_on_5_m7677962952720977300, (clear, d)).
 holds(s_training_on_5_m7677962952720977300, (clear, e)).
-holds(s_training_on_5_p8180841405972785292, (handempty)).
+holds(s_training_on_5_p8180841405972785292, (handempty,)).
 holds(s_training_on_5_p8180841405972785292, (on, a, c)).
 holds(s_training_on_5_p8180841405972785292, (on, e, d)).
 holds(s_training_on_5_p8180841405972785292, (ontable, b)).
@@ -3262,7 +3262,7 @@ holds(s_training_on_5_p8180841405972785292, (ontable, d)).
 holds(s_training_on_5_p8180841405972785292, (clear, a)).
 holds(s_training_on_5_p8180841405972785292, (clear, b)).
 holds(s_training_on_5_p8180841405972785292, (clear, e)).
-holds(s_training_on_5_m7919454163516911926, (handempty)).
+holds(s_training_on_5_m7919454163516911926, (handempty,)).
 holds(s_training_on_5_m7919454163516911926, (on, a, e)).
 holds(s_training_on_5_m7919454163516911926, (on, b, a)).
 holds(s_training_on_5_m7919454163516911926, (ontable, c)).
@@ -3271,7 +3271,7 @@ holds(s_training_on_5_m7919454163516911926, (ontable, e)).
 holds(s_training_on_5_m7919454163516911926, (clear, b)).
 holds(s_training_on_5_m7919454163516911926, (clear, c)).
 holds(s_training_on_5_m7919454163516911926, (clear, d)).
-holds(s_training_on_5_m8748721610880845545, (handempty)).
+holds(s_training_on_5_m8748721610880845545, (handempty,)).
 holds(s_training_on_5_m8748721610880845545, (on, a, e)).
 holds(s_training_on_5_m8748721610880845545, (on, b, d)).
 holds(s_training_on_5_m8748721610880845545, (ontable, c)).
@@ -3280,7 +3280,7 @@ holds(s_training_on_5_m8748721610880845545, (ontable, e)).
 holds(s_training_on_5_m8748721610880845545, (clear, a)).
 holds(s_training_on_5_m8748721610880845545, (clear, b)).
 holds(s_training_on_5_m8748721610880845545, (clear, c)).
-holds(s_training_on_5_m9013676763789505946, (handempty)).
+holds(s_training_on_5_m9013676763789505946, (handempty,)).
 holds(s_training_on_5_m9013676763789505946, (on, a, e)).
 holds(s_training_on_5_m9013676763789505946, (on, d, a)).
 holds(s_training_on_5_m9013676763789505946, (ontable, b)).
@@ -3289,7 +3289,7 @@ holds(s_training_on_5_m9013676763789505946, (ontable, e)).
 holds(s_training_on_5_m9013676763789505946, (clear, b)).
 holds(s_training_on_5_m9013676763789505946, (clear, c)).
 holds(s_training_on_5_m9013676763789505946, (clear, d)).
-holds(s_training_on_5_p244879628377949670, (handempty)).
+holds(s_training_on_5_p244879628377949670, (handempty,)).
 holds(s_training_on_5_p244879628377949670, (on, a, e)).
 holds(s_training_on_5_p244879628377949670, (on, d, b)).
 holds(s_training_on_5_p244879628377949670, (ontable, b)).
@@ -3298,7 +3298,7 @@ holds(s_training_on_5_p244879628377949670, (ontable, e)).
 holds(s_training_on_5_p244879628377949670, (clear, a)).
 holds(s_training_on_5_p244879628377949670, (clear, c)).
 holds(s_training_on_5_p244879628377949670, (clear, d)).
-holds(s_training_on_5_m2582453143922590534, (handempty)).
+holds(s_training_on_5_m2582453143922590534, (handempty,)).
 holds(s_training_on_5_m2582453143922590534, (on, a, e)).
 holds(s_training_on_5_m2582453143922590534, (on, d, c)).
 holds(s_training_on_5_m2582453143922590534, (ontable, b)).
@@ -3307,7 +3307,7 @@ holds(s_training_on_5_m2582453143922590534, (ontable, e)).
 holds(s_training_on_5_m2582453143922590534, (clear, a)).
 holds(s_training_on_5_m2582453143922590534, (clear, b)).
 holds(s_training_on_5_m2582453143922590534, (clear, d)).
-holds(s_training_on_5_m2987588484872399504, (handempty)).
+holds(s_training_on_5_m2987588484872399504, (handempty,)).
 holds(s_training_on_5_m2987588484872399504, (on, c, e)).
 holds(s_training_on_5_m2987588484872399504, (on, e, b)).
 holds(s_training_on_5_m2987588484872399504, (ontable, a)).
@@ -3316,7 +3316,7 @@ holds(s_training_on_5_m2987588484872399504, (ontable, d)).
 holds(s_training_on_5_m2987588484872399504, (clear, a)).
 holds(s_training_on_5_m2987588484872399504, (clear, c)).
 holds(s_training_on_5_m2987588484872399504, (clear, d)).
-holds(s_training_on_5_p3908416152482358801, (handempty)).
+holds(s_training_on_5_p3908416152482358801, (handempty,)).
 holds(s_training_on_5_p3908416152482358801, (on, a, c)).
 holds(s_training_on_5_p3908416152482358801, (on, c, e)).
 holds(s_training_on_5_p3908416152482358801, (on, e, b)).
@@ -3324,7 +3324,7 @@ holds(s_training_on_5_p3908416152482358801, (ontable, b)).
 holds(s_training_on_5_p3908416152482358801, (ontable, d)).
 holds(s_training_on_5_p3908416152482358801, (clear, a)).
 holds(s_training_on_5_p3908416152482358801, (clear, d)).
-holds(s_training_on_5_p5108800998947904435, (handempty)).
+holds(s_training_on_5_p5108800998947904435, (handempty,)).
 holds(s_training_on_5_p5108800998947904435, (on, c, a)).
 holds(s_training_on_5_p5108800998947904435, (on, e, b)).
 holds(s_training_on_5_p5108800998947904435, (ontable, a)).
@@ -3333,7 +3333,7 @@ holds(s_training_on_5_p5108800998947904435, (ontable, d)).
 holds(s_training_on_5_p5108800998947904435, (clear, c)).
 holds(s_training_on_5_p5108800998947904435, (clear, d)).
 holds(s_training_on_5_p5108800998947904435, (clear, e)).
-holds(s_training_on_5_p4845561979255163171, (handempty)).
+holds(s_training_on_5_p4845561979255163171, (handempty,)).
 holds(s_training_on_5_p4845561979255163171, (on, c, d)).
 holds(s_training_on_5_p4845561979255163171, (on, e, b)).
 holds(s_training_on_5_p4845561979255163171, (ontable, a)).
@@ -3342,7 +3342,7 @@ holds(s_training_on_5_p4845561979255163171, (ontable, d)).
 holds(s_training_on_5_p4845561979255163171, (clear, a)).
 holds(s_training_on_5_p4845561979255163171, (clear, c)).
 holds(s_training_on_5_p4845561979255163171, (clear, e)).
-holds(s_training_on_5_m8074747624260528623, (handempty)).
+holds(s_training_on_5_m8074747624260528623, (handempty,)).
 holds(s_training_on_5_m8074747624260528623, (on, d, a)).
 holds(s_training_on_5_m8074747624260528623, (on, e, b)).
 holds(s_training_on_5_m8074747624260528623, (ontable, a)).
@@ -3351,7 +3351,7 @@ holds(s_training_on_5_m8074747624260528623, (ontable, c)).
 holds(s_training_on_5_m8074747624260528623, (clear, c)).
 holds(s_training_on_5_m8074747624260528623, (clear, d)).
 holds(s_training_on_5_m8074747624260528623, (clear, e)).
-holds(s_training_on_5_m3372897189561835315, (handempty)).
+holds(s_training_on_5_m3372897189561835315, (handempty,)).
 holds(s_training_on_5_m3372897189561835315, (on, d, c)).
 holds(s_training_on_5_m3372897189561835315, (on, e, b)).
 holds(s_training_on_5_m3372897189561835315, (ontable, a)).
@@ -3360,7 +3360,7 @@ holds(s_training_on_5_m3372897189561835315, (ontable, c)).
 holds(s_training_on_5_m3372897189561835315, (clear, a)).
 holds(s_training_on_5_m3372897189561835315, (clear, d)).
 holds(s_training_on_5_m3372897189561835315, (clear, e)).
-holds(s_training_on_5_p4844162584977759199, (handempty)).
+holds(s_training_on_5_p4844162584977759199, (handempty,)).
 holds(s_training_on_5_p4844162584977759199, (on, d, e)).
 holds(s_training_on_5_p4844162584977759199, (on, e, b)).
 holds(s_training_on_5_p4844162584977759199, (ontable, a)).
@@ -3369,7 +3369,7 @@ holds(s_training_on_5_p4844162584977759199, (ontable, c)).
 holds(s_training_on_5_p4844162584977759199, (clear, a)).
 holds(s_training_on_5_p4844162584977759199, (clear, c)).
 holds(s_training_on_5_p4844162584977759199, (clear, d)).
-holds(s_training_on_5_p8017590424757314928, (handempty)).
+holds(s_training_on_5_p8017590424757314928, (handempty,)).
 holds(s_training_on_5_p8017590424757314928, (on, a, c)).
 holds(s_training_on_5_p8017590424757314928, (on, d, a)).
 holds(s_training_on_5_p8017590424757314928, (on, e, b)).
@@ -3377,7 +3377,7 @@ holds(s_training_on_5_p8017590424757314928, (ontable, b)).
 holds(s_training_on_5_p8017590424757314928, (ontable, c)).
 holds(s_training_on_5_p8017590424757314928, (clear, d)).
 holds(s_training_on_5_p8017590424757314928, (clear, e)).
-holds(s_training_on_5_m6661558430208595778, (handempty)).
+holds(s_training_on_5_m6661558430208595778, (handempty,)).
 holds(s_training_on_5_m6661558430208595778, (on, a, c)).
 holds(s_training_on_5_m6661558430208595778, (on, d, e)).
 holds(s_training_on_5_m6661558430208595778, (on, e, b)).
@@ -3385,7 +3385,7 @@ holds(s_training_on_5_m6661558430208595778, (ontable, b)).
 holds(s_training_on_5_m6661558430208595778, (ontable, c)).
 holds(s_training_on_5_m6661558430208595778, (clear, a)).
 holds(s_training_on_5_m6661558430208595778, (clear, d)).
-holds(s_training_on_5_p650977124194203936, (handempty)).
+holds(s_training_on_5_p650977124194203936, (handempty,)).
 holds(s_training_on_5_p650977124194203936, (on, a, e)).
 holds(s_training_on_5_p650977124194203936, (on, c, a)).
 holds(s_training_on_5_p650977124194203936, (on, e, b)).
@@ -3393,7 +3393,7 @@ holds(s_training_on_5_p650977124194203936, (ontable, b)).
 holds(s_training_on_5_p650977124194203936, (ontable, d)).
 holds(s_training_on_5_p650977124194203936, (clear, c)).
 holds(s_training_on_5_p650977124194203936, (clear, d)).
-holds(s_training_on_5_p923312399557585840, (handempty)).
+holds(s_training_on_5_p923312399557585840, (handempty,)).
 holds(s_training_on_5_p923312399557585840, (on, a, e)).
 holds(s_training_on_5_p923312399557585840, (on, c, d)).
 holds(s_training_on_5_p923312399557585840, (on, e, b)).
@@ -3401,7 +3401,7 @@ holds(s_training_on_5_p923312399557585840, (ontable, b)).
 holds(s_training_on_5_p923312399557585840, (ontable, d)).
 holds(s_training_on_5_p923312399557585840, (clear, a)).
 holds(s_training_on_5_p923312399557585840, (clear, c)).
-holds(s_training_on_5_m4603210297820908414, (handempty)).
+holds(s_training_on_5_m4603210297820908414, (handempty,)).
 holds(s_training_on_5_m4603210297820908414, (on, a, e)).
 holds(s_training_on_5_m4603210297820908414, (on, d, a)).
 holds(s_training_on_5_m4603210297820908414, (on, e, b)).
@@ -3409,7 +3409,7 @@ holds(s_training_on_5_m4603210297820908414, (ontable, b)).
 holds(s_training_on_5_m4603210297820908414, (ontable, c)).
 holds(s_training_on_5_m4603210297820908414, (clear, c)).
 holds(s_training_on_5_m4603210297820908414, (clear, d)).
-holds(s_training_on_5_m6998689829178080674, (handempty)).
+holds(s_training_on_5_m6998689829178080674, (handempty,)).
 holds(s_training_on_5_m6998689829178080674, (on, a, e)).
 holds(s_training_on_5_m6998689829178080674, (on, d, c)).
 holds(s_training_on_5_m6998689829178080674, (on, e, b)).
@@ -3417,7 +3417,7 @@ holds(s_training_on_5_m6998689829178080674, (ontable, b)).
 holds(s_training_on_5_m6998689829178080674, (ontable, c)).
 holds(s_training_on_5_m6998689829178080674, (clear, a)).
 holds(s_training_on_5_m6998689829178080674, (clear, d)).
-holds(s_training_on_5_m5647547932825309044, (handempty)).
+holds(s_training_on_5_m5647547932825309044, (handempty,)).
 holds(s_training_on_5_m5647547932825309044, (on, b, e)).
 holds(s_training_on_5_m5647547932825309044, (on, e, c)).
 holds(s_training_on_5_m5647547932825309044, (ontable, a)).
@@ -3426,7 +3426,7 @@ holds(s_training_on_5_m5647547932825309044, (ontable, d)).
 holds(s_training_on_5_m5647547932825309044, (clear, a)).
 holds(s_training_on_5_m5647547932825309044, (clear, b)).
 holds(s_training_on_5_m5647547932825309044, (clear, d)).
-holds(s_training_on_5_m3445371171492030540, (handempty)).
+holds(s_training_on_5_m3445371171492030540, (handempty,)).
 holds(s_training_on_5_m3445371171492030540, (on, a, b)).
 holds(s_training_on_5_m3445371171492030540, (on, b, e)).
 holds(s_training_on_5_m3445371171492030540, (on, e, c)).
@@ -3434,7 +3434,7 @@ holds(s_training_on_5_m3445371171492030540, (ontable, c)).
 holds(s_training_on_5_m3445371171492030540, (ontable, d)).
 holds(s_training_on_5_m3445371171492030540, (clear, a)).
 holds(s_training_on_5_m3445371171492030540, (clear, d)).
-holds(s_training_on_5_p1069243740883212874, (handempty)).
+holds(s_training_on_5_p1069243740883212874, (handempty,)).
 holds(s_training_on_5_p1069243740883212874, (on, b, a)).
 holds(s_training_on_5_p1069243740883212874, (on, e, c)).
 holds(s_training_on_5_p1069243740883212874, (ontable, a)).
@@ -3443,7 +3443,7 @@ holds(s_training_on_5_p1069243740883212874, (ontable, d)).
 holds(s_training_on_5_p1069243740883212874, (clear, b)).
 holds(s_training_on_5_p1069243740883212874, (clear, d)).
 holds(s_training_on_5_p1069243740883212874, (clear, e)).
-holds(s_training_on_5_p1898418897721798039, (handempty)).
+holds(s_training_on_5_p1898418897721798039, (handempty,)).
 holds(s_training_on_5_p1898418897721798039, (on, b, d)).
 holds(s_training_on_5_p1898418897721798039, (on, e, c)).
 holds(s_training_on_5_p1898418897721798039, (ontable, a)).
@@ -3452,7 +3452,7 @@ holds(s_training_on_5_p1898418897721798039, (ontable, d)).
 holds(s_training_on_5_p1898418897721798039, (clear, a)).
 holds(s_training_on_5_p1898418897721798039, (clear, b)).
 holds(s_training_on_5_p1898418897721798039, (clear, e)).
-holds(s_training_on_5_p2172486940624101094, (handempty)).
+holds(s_training_on_5_p2172486940624101094, (handempty,)).
 holds(s_training_on_5_p2172486940624101094, (on, d, a)).
 holds(s_training_on_5_p2172486940624101094, (on, e, c)).
 holds(s_training_on_5_p2172486940624101094, (ontable, a)).
@@ -3461,7 +3461,7 @@ holds(s_training_on_5_p2172486940624101094, (ontable, c)).
 holds(s_training_on_5_p2172486940624101094, (clear, b)).
 holds(s_training_on_5_p2172486940624101094, (clear, d)).
 holds(s_training_on_5_p2172486940624101094, (clear, e)).
-holds(s_training_on_5_m6941391347605319322, (handempty)).
+holds(s_training_on_5_m6941391347605319322, (handempty,)).
 holds(s_training_on_5_m6941391347605319322, (on, d, b)).
 holds(s_training_on_5_m6941391347605319322, (on, e, c)).
 holds(s_training_on_5_m6941391347605319322, (ontable, a)).
@@ -3470,7 +3470,7 @@ holds(s_training_on_5_m6941391347605319322, (ontable, c)).
 holds(s_training_on_5_m6941391347605319322, (clear, a)).
 holds(s_training_on_5_m6941391347605319322, (clear, d)).
 holds(s_training_on_5_m6941391347605319322, (clear, e)).
-holds(s_training_on_5_m3247255063755697368, (handempty)).
+holds(s_training_on_5_m3247255063755697368, (handempty,)).
 holds(s_training_on_5_m3247255063755697368, (on, d, e)).
 holds(s_training_on_5_m3247255063755697368, (on, e, c)).
 holds(s_training_on_5_m3247255063755697368, (ontable, a)).
@@ -3479,7 +3479,7 @@ holds(s_training_on_5_m3247255063755697368, (ontable, c)).
 holds(s_training_on_5_m3247255063755697368, (clear, a)).
 holds(s_training_on_5_m3247255063755697368, (clear, b)).
 holds(s_training_on_5_m3247255063755697368, (clear, d)).
-holds(s_training_on_5_p4699524672529905881, (handempty)).
+holds(s_training_on_5_p4699524672529905881, (handempty,)).
 holds(s_training_on_5_p4699524672529905881, (on, a, e)).
 holds(s_training_on_5_p4699524672529905881, (on, b, a)).
 holds(s_training_on_5_p4699524672529905881, (on, e, c)).
@@ -3487,7 +3487,7 @@ holds(s_training_on_5_p4699524672529905881, (ontable, c)).
 holds(s_training_on_5_p4699524672529905881, (ontable, d)).
 holds(s_training_on_5_p4699524672529905881, (clear, b)).
 holds(s_training_on_5_p4699524672529905881, (clear, d)).
-holds(s_training_on_5_p6176175220213927684, (handempty)).
+holds(s_training_on_5_p6176175220213927684, (handempty,)).
 holds(s_training_on_5_p6176175220213927684, (on, a, e)).
 holds(s_training_on_5_p6176175220213927684, (on, b, d)).
 holds(s_training_on_5_p6176175220213927684, (on, e, c)).
@@ -3495,7 +3495,7 @@ holds(s_training_on_5_p6176175220213927684, (ontable, c)).
 holds(s_training_on_5_p6176175220213927684, (ontable, d)).
 holds(s_training_on_5_p6176175220213927684, (clear, a)).
 holds(s_training_on_5_p6176175220213927684, (clear, b)).
-holds(s_training_on_5_p5893133914739866741, (handempty)).
+holds(s_training_on_5_p5893133914739866741, (handempty,)).
 holds(s_training_on_5_p5893133914739866741, (on, a, e)).
 holds(s_training_on_5_p5893133914739866741, (on, d, a)).
 holds(s_training_on_5_p5893133914739866741, (on, e, c)).
@@ -3503,7 +3503,7 @@ holds(s_training_on_5_p5893133914739866741, (ontable, b)).
 holds(s_training_on_5_p5893133914739866741, (ontable, c)).
 holds(s_training_on_5_p5893133914739866741, (clear, b)).
 holds(s_training_on_5_p5893133914739866741, (clear, d)).
-holds(s_training_on_5_m3439168920518347787, (handempty)).
+holds(s_training_on_5_m3439168920518347787, (handempty,)).
 holds(s_training_on_5_m3439168920518347787, (on, a, e)).
 holds(s_training_on_5_m3439168920518347787, (on, d, b)).
 holds(s_training_on_5_m3439168920518347787, (on, e, c)).
@@ -3511,7 +3511,7 @@ holds(s_training_on_5_m3439168920518347787, (ontable, b)).
 holds(s_training_on_5_m3439168920518347787, (ontable, c)).
 holds(s_training_on_5_m3439168920518347787, (clear, a)).
 holds(s_training_on_5_m3439168920518347787, (clear, d)).
-holds(s_training_on_5_m2296648498544153, (handempty)).
+holds(s_training_on_5_m2296648498544153, (handempty,)).
 holds(s_training_on_5_m2296648498544153, (on, c, b)).
 holds(s_training_on_5_m2296648498544153, (on, d, a)).
 holds(s_training_on_5_m2296648498544153, (on, e, d)).
@@ -3519,7 +3519,7 @@ holds(s_training_on_5_m2296648498544153, (ontable, a)).
 holds(s_training_on_5_m2296648498544153, (ontable, b)).
 holds(s_training_on_5_m2296648498544153, (clear, c)).
 holds(s_training_on_5_m2296648498544153, (clear, e)).
-holds(s_training_on_5_m8537809962215423900, (handempty)).
+holds(s_training_on_5_m8537809962215423900, (handempty,)).
 holds(s_training_on_5_m8537809962215423900, (on, c, d)).
 holds(s_training_on_5_m8537809962215423900, (on, d, a)).
 holds(s_training_on_5_m8537809962215423900, (ontable, a)).
@@ -3528,7 +3528,7 @@ holds(s_training_on_5_m8537809962215423900, (ontable, e)).
 holds(s_training_on_5_m8537809962215423900, (clear, b)).
 holds(s_training_on_5_m8537809962215423900, (clear, c)).
 holds(s_training_on_5_m8537809962215423900, (clear, e)).
-holds(s_training_on_5_p2032403244098870327, (handempty)).
+holds(s_training_on_5_p2032403244098870327, (handempty,)).
 holds(s_training_on_5_p2032403244098870327, (on, c, e)).
 holds(s_training_on_5_p2032403244098870327, (on, d, a)).
 holds(s_training_on_5_p2032403244098870327, (ontable, a)).
@@ -3537,7 +3537,7 @@ holds(s_training_on_5_p2032403244098870327, (ontable, e)).
 holds(s_training_on_5_p2032403244098870327, (clear, b)).
 holds(s_training_on_5_p2032403244098870327, (clear, c)).
 holds(s_training_on_5_p2032403244098870327, (clear, d)).
-holds(s_training_on_5_m2867503368626901883, (handempty)).
+holds(s_training_on_5_m2867503368626901883, (handempty,)).
 holds(s_training_on_5_m2867503368626901883, (on, a, d)).
 holds(s_training_on_5_m2867503368626901883, (on, c, b)).
 holds(s_training_on_5_m2867503368626901883, (on, d, c)).
@@ -3545,7 +3545,7 @@ holds(s_training_on_5_m2867503368626901883, (ontable, b)).
 holds(s_training_on_5_m2867503368626901883, (ontable, e)).
 holds(s_training_on_5_m2867503368626901883, (clear, a)).
 holds(s_training_on_5_m2867503368626901883, (clear, e)).
-holds(s_training_on_5_p5029440724554427867, (handempty)).
+holds(s_training_on_5_p5029440724554427867, (handempty,)).
 holds(s_training_on_5_p5029440724554427867, (on, c, b)).
 holds(s_training_on_5_p5029440724554427867, (on, d, c)).
 holds(s_training_on_5_p5029440724554427867, (on, e, a)).
@@ -3553,7 +3553,7 @@ holds(s_training_on_5_p5029440724554427867, (ontable, a)).
 holds(s_training_on_5_p5029440724554427867, (ontable, b)).
 holds(s_training_on_5_p5029440724554427867, (clear, d)).
 holds(s_training_on_5_p5029440724554427867, (clear, e)).
-holds(s_training_on_5_m6830162911880054981, (handempty)).
+holds(s_training_on_5_m6830162911880054981, (handempty,)).
 holds(s_training_on_5_m6830162911880054981, (on, c, b)).
 holds(s_training_on_5_m6830162911880054981, (on, d, c)).
 holds(s_training_on_5_m6830162911880054981, (on, e, d)).
@@ -3561,7 +3561,7 @@ holds(s_training_on_5_m6830162911880054981, (ontable, a)).
 holds(s_training_on_5_m6830162911880054981, (ontable, b)).
 holds(s_training_on_5_m6830162911880054981, (clear, a)).
 holds(s_training_on_5_m6830162911880054981, (clear, e)).
-holds(s_training_on_5_p5349281531210192791, (handempty)).
+holds(s_training_on_5_p5349281531210192791, (handempty,)).
 holds(s_training_on_5_p5349281531210192791, (on, a, d)).
 holds(s_training_on_5_p5349281531210192791, (on, c, b)).
 holds(s_training_on_5_p5349281531210192791, (on, d, e)).
@@ -3569,7 +3569,7 @@ holds(s_training_on_5_p5349281531210192791, (ontable, b)).
 holds(s_training_on_5_p5349281531210192791, (ontable, e)).
 holds(s_training_on_5_p5349281531210192791, (clear, a)).
 holds(s_training_on_5_p5349281531210192791, (clear, c)).
-holds(s_training_on_5_p4652837939751935802, (handempty)).
+holds(s_training_on_5_p4652837939751935802, (handempty,)).
 holds(s_training_on_5_p4652837939751935802, (on, c, a)).
 holds(s_training_on_5_p4652837939751935802, (on, d, e)).
 holds(s_training_on_5_p4652837939751935802, (ontable, a)).
@@ -3578,7 +3578,7 @@ holds(s_training_on_5_p4652837939751935802, (ontable, e)).
 holds(s_training_on_5_p4652837939751935802, (clear, b)).
 holds(s_training_on_5_p4652837939751935802, (clear, c)).
 holds(s_training_on_5_p4652837939751935802, (clear, d)).
-holds(s_training_on_5_p4993028497191996842, (handempty)).
+holds(s_training_on_5_p4993028497191996842, (handempty,)).
 holds(s_training_on_5_p4993028497191996842, (on, c, d)).
 holds(s_training_on_5_p4993028497191996842, (on, d, e)).
 holds(s_training_on_5_p4993028497191996842, (ontable, a)).
@@ -3587,7 +3587,7 @@ holds(s_training_on_5_p4993028497191996842, (ontable, e)).
 holds(s_training_on_5_p4993028497191996842, (clear, a)).
 holds(s_training_on_5_p4993028497191996842, (clear, b)).
 holds(s_training_on_5_p4993028497191996842, (clear, c)).
-holds(s_training_on_5_m2898969721180940599, (handempty)).
+holds(s_training_on_5_m2898969721180940599, (handempty,)).
 holds(s_training_on_5_m2898969721180940599, (on, c, b)).
 holds(s_training_on_5_m2898969721180940599, (on, d, e)).
 holds(s_training_on_5_m2898969721180940599, (on, e, a)).
@@ -3595,7 +3595,7 @@ holds(s_training_on_5_m2898969721180940599, (ontable, a)).
 holds(s_training_on_5_m2898969721180940599, (ontable, b)).
 holds(s_training_on_5_m2898969721180940599, (clear, c)).
 holds(s_training_on_5_m2898969721180940599, (clear, d)).
-holds(s_training_on_5_p3549727582792460700, (handempty)).
+holds(s_training_on_5_p3549727582792460700, (handempty,)).
 holds(s_training_on_5_p3549727582792460700, (on, c, d)).
 holds(s_training_on_5_p3549727582792460700, (on, e, a)).
 holds(s_training_on_5_p3549727582792460700, (ontable, a)).
@@ -3604,7 +3604,7 @@ holds(s_training_on_5_p3549727582792460700, (ontable, d)).
 holds(s_training_on_5_p3549727582792460700, (clear, b)).
 holds(s_training_on_5_p3549727582792460700, (clear, c)).
 holds(s_training_on_5_p3549727582792460700, (clear, e)).
-holds(s_training_on_5_m6560554412064459313, (handempty)).
+holds(s_training_on_5_m6560554412064459313, (handempty,)).
 holds(s_training_on_5_m6560554412064459313, (on, c, e)).
 holds(s_training_on_5_m6560554412064459313, (on, e, a)).
 holds(s_training_on_5_m6560554412064459313, (ontable, a)).
@@ -3613,7 +3613,7 @@ holds(s_training_on_5_m6560554412064459313, (ontable, d)).
 holds(s_training_on_5_m6560554412064459313, (clear, b)).
 holds(s_training_on_5_m6560554412064459313, (clear, c)).
 holds(s_training_on_5_m6560554412064459313, (clear, d)).
-holds(s_training_on_5_p4058569790280340695, (handempty)).
+holds(s_training_on_5_p4058569790280340695, (handempty,)).
 holds(s_training_on_5_p4058569790280340695, (on, a, e)).
 holds(s_training_on_5_p4058569790280340695, (on, c, b)).
 holds(s_training_on_5_p4058569790280340695, (on, e, d)).
@@ -3621,7 +3621,7 @@ holds(s_training_on_5_p4058569790280340695, (ontable, b)).
 holds(s_training_on_5_p4058569790280340695, (ontable, d)).
 holds(s_training_on_5_p4058569790280340695, (clear, a)).
 holds(s_training_on_5_p4058569790280340695, (clear, c)).
-holds(s_training_on_5_m3431286229705711124, (handempty)).
+holds(s_training_on_5_m3431286229705711124, (handempty,)).
 holds(s_training_on_5_m3431286229705711124, (on, c, a)).
 holds(s_training_on_5_m3431286229705711124, (on, e, d)).
 holds(s_training_on_5_m3431286229705711124, (ontable, a)).
@@ -3630,7 +3630,7 @@ holds(s_training_on_5_m3431286229705711124, (ontable, d)).
 holds(s_training_on_5_m3431286229705711124, (clear, b)).
 holds(s_training_on_5_m3431286229705711124, (clear, c)).
 holds(s_training_on_5_m3431286229705711124, (clear, e)).
-holds(s_training_on_5_p4615750021338558255, (handempty)).
+holds(s_training_on_5_p4615750021338558255, (handempty,)).
 holds(s_training_on_5_p4615750021338558255, (on, c, e)).
 holds(s_training_on_5_p4615750021338558255, (on, e, d)).
 holds(s_training_on_5_p4615750021338558255, (ontable, a)).
@@ -3639,7 +3639,7 @@ holds(s_training_on_5_p4615750021338558255, (ontable, d)).
 holds(s_training_on_5_p4615750021338558255, (clear, a)).
 holds(s_training_on_5_p4615750021338558255, (clear, b)).
 holds(s_training_on_5_p4615750021338558255, (clear, c)).
-holds(s_training_on_5_p7141297398938863019, (handempty)).
+holds(s_training_on_5_p7141297398938863019, (handempty,)).
 holds(s_training_on_5_p7141297398938863019, (on, b, c)).
 holds(s_training_on_5_p7141297398938863019, (on, c, a)).
 holds(s_training_on_5_p7141297398938863019, (ontable, a)).
@@ -3648,7 +3648,7 @@ holds(s_training_on_5_p7141297398938863019, (ontable, e)).
 holds(s_training_on_5_p7141297398938863019, (clear, b)).
 holds(s_training_on_5_p7141297398938863019, (clear, d)).
 holds(s_training_on_5_p7141297398938863019, (clear, e)).
-holds(s_training_on_5_m8636263473018855035, (handempty)).
+holds(s_training_on_5_m8636263473018855035, (handempty,)).
 holds(s_training_on_5_m8636263473018855035, (on, b, d)).
 holds(s_training_on_5_m8636263473018855035, (on, c, a)).
 holds(s_training_on_5_m8636263473018855035, (ontable, a)).
@@ -3657,7 +3657,7 @@ holds(s_training_on_5_m8636263473018855035, (ontable, e)).
 holds(s_training_on_5_m8636263473018855035, (clear, b)).
 holds(s_training_on_5_m8636263473018855035, (clear, c)).
 holds(s_training_on_5_m8636263473018855035, (clear, e)).
-holds(s_training_on_5_p2585836800055164062, (handempty)).
+holds(s_training_on_5_p2585836800055164062, (handempty,)).
 holds(s_training_on_5_p2585836800055164062, (on, b, e)).
 holds(s_training_on_5_p2585836800055164062, (on, c, a)).
 holds(s_training_on_5_p2585836800055164062, (ontable, a)).
@@ -3666,7 +3666,7 @@ holds(s_training_on_5_p2585836800055164062, (ontable, e)).
 holds(s_training_on_5_p2585836800055164062, (clear, b)).
 holds(s_training_on_5_p2585836800055164062, (clear, c)).
 holds(s_training_on_5_p2585836800055164062, (clear, d)).
-holds(s_training_on_5_p997094961283128692, (handempty)).
+holds(s_training_on_5_p997094961283128692, (handempty,)).
 holds(s_training_on_5_p997094961283128692, (on, c, a)).
 holds(s_training_on_5_p997094961283128692, (on, d, b)).
 holds(s_training_on_5_p997094961283128692, (ontable, a)).
@@ -3675,7 +3675,7 @@ holds(s_training_on_5_p997094961283128692, (ontable, e)).
 holds(s_training_on_5_p997094961283128692, (clear, c)).
 holds(s_training_on_5_p997094961283128692, (clear, d)).
 holds(s_training_on_5_p997094961283128692, (clear, e)).
-holds(s_training_on_5_m3271072790835796952, (handempty)).
+holds(s_training_on_5_m3271072790835796952, (handempty,)).
 holds(s_training_on_5_m3271072790835796952, (on, c, a)).
 holds(s_training_on_5_m3271072790835796952, (on, d, c)).
 holds(s_training_on_5_m3271072790835796952, (ontable, a)).
@@ -3684,7 +3684,7 @@ holds(s_training_on_5_m3271072790835796952, (ontable, e)).
 holds(s_training_on_5_m3271072790835796952, (clear, b)).
 holds(s_training_on_5_m3271072790835796952, (clear, d)).
 holds(s_training_on_5_m3271072790835796952, (clear, e)).
-holds(s_training_on_5_m2940681244357831868, (handempty)).
+holds(s_training_on_5_m2940681244357831868, (handempty,)).
 holds(s_training_on_5_m2940681244357831868, (on, c, a)).
 holds(s_training_on_5_m2940681244357831868, (on, e, c)).
 holds(s_training_on_5_m2940681244357831868, (ontable, a)).
@@ -3693,7 +3693,7 @@ holds(s_training_on_5_m2940681244357831868, (ontable, d)).
 holds(s_training_on_5_m2940681244357831868, (clear, b)).
 holds(s_training_on_5_m2940681244357831868, (clear, d)).
 holds(s_training_on_5_m2940681244357831868, (clear, e)).
-holds(s_training_on_5_p6951430198178615551, (handempty)).
+holds(s_training_on_5_p6951430198178615551, (handempty,)).
 holds(s_training_on_5_p6951430198178615551, (on, a, b)).
 holds(s_training_on_5_p6951430198178615551, (on, c, d)).
 holds(s_training_on_5_p6951430198178615551, (ontable, b)).
@@ -3702,7 +3702,7 @@ holds(s_training_on_5_p6951430198178615551, (ontable, e)).
 holds(s_training_on_5_p6951430198178615551, (clear, a)).
 holds(s_training_on_5_p6951430198178615551, (clear, c)).
 holds(s_training_on_5_p6951430198178615551, (clear, e)).
-holds(s_training_on_5_m2198729677218118490, (handempty)).
+holds(s_training_on_5_m2198729677218118490, (handempty,)).
 holds(s_training_on_5_m2198729677218118490, (on, a, c)).
 holds(s_training_on_5_m2198729677218118490, (on, c, d)).
 holds(s_training_on_5_m2198729677218118490, (ontable, b)).
@@ -3711,7 +3711,7 @@ holds(s_training_on_5_m2198729677218118490, (ontable, e)).
 holds(s_training_on_5_m2198729677218118490, (clear, a)).
 holds(s_training_on_5_m2198729677218118490, (clear, b)).
 holds(s_training_on_5_m2198729677218118490, (clear, e)).
-holds(s_training_on_5_m7389538598658276152, (handempty)).
+holds(s_training_on_5_m7389538598658276152, (handempty,)).
 holds(s_training_on_5_m7389538598658276152, (on, b, a)).
 holds(s_training_on_5_m7389538598658276152, (on, c, d)).
 holds(s_training_on_5_m7389538598658276152, (ontable, a)).
@@ -3720,7 +3720,7 @@ holds(s_training_on_5_m7389538598658276152, (ontable, e)).
 holds(s_training_on_5_m7389538598658276152, (clear, b)).
 holds(s_training_on_5_m7389538598658276152, (clear, c)).
 holds(s_training_on_5_m7389538598658276152, (clear, e)).
-holds(s_training_on_5_p7404484755157931835, (handempty)).
+holds(s_training_on_5_p7404484755157931835, (handempty,)).
 holds(s_training_on_5_p7404484755157931835, (on, b, c)).
 holds(s_training_on_5_p7404484755157931835, (on, c, d)).
 holds(s_training_on_5_p7404484755157931835, (ontable, a)).
@@ -3729,7 +3729,7 @@ holds(s_training_on_5_p7404484755157931835, (ontable, e)).
 holds(s_training_on_5_p7404484755157931835, (clear, a)).
 holds(s_training_on_5_p7404484755157931835, (clear, b)).
 holds(s_training_on_5_p7404484755157931835, (clear, e)).
-holds(s_training_on_5_p2754588184887979534, (handempty)).
+holds(s_training_on_5_p2754588184887979534, (handempty,)).
 holds(s_training_on_5_p2754588184887979534, (on, b, e)).
 holds(s_training_on_5_p2754588184887979534, (on, c, d)).
 holds(s_training_on_5_p2754588184887979534, (ontable, a)).
@@ -3738,7 +3738,7 @@ holds(s_training_on_5_p2754588184887979534, (ontable, e)).
 holds(s_training_on_5_p2754588184887979534, (clear, a)).
 holds(s_training_on_5_p2754588184887979534, (clear, b)).
 holds(s_training_on_5_p2754588184887979534, (clear, c)).
-holds(s_training_on_5_m3249234433274674732, (handempty)).
+holds(s_training_on_5_m3249234433274674732, (handempty,)).
 holds(s_training_on_5_m3249234433274674732, (on, c, d)).
 holds(s_training_on_5_m3249234433274674732, (on, e, c)).
 holds(s_training_on_5_m3249234433274674732, (ontable, a)).
@@ -3747,7 +3747,7 @@ holds(s_training_on_5_m3249234433274674732, (ontable, d)).
 holds(s_training_on_5_m3249234433274674732, (clear, a)).
 holds(s_training_on_5_m3249234433274674732, (clear, b)).
 holds(s_training_on_5_m3249234433274674732, (clear, e)).
-holds(s_training_on_5_p919865874497214619, (handempty)).
+holds(s_training_on_5_p919865874497214619, (handempty,)).
 holds(s_training_on_5_p919865874497214619, (on, b, a)).
 holds(s_training_on_5_p919865874497214619, (on, c, e)).
 holds(s_training_on_5_p919865874497214619, (ontable, a)).
@@ -3756,7 +3756,7 @@ holds(s_training_on_5_p919865874497214619, (ontable, e)).
 holds(s_training_on_5_p919865874497214619, (clear, b)).
 holds(s_training_on_5_p919865874497214619, (clear, c)).
 holds(s_training_on_5_p919865874497214619, (clear, d)).
-holds(s_training_on_5_m903794919901148312, (handempty)).
+holds(s_training_on_5_m903794919901148312, (handempty,)).
 holds(s_training_on_5_m903794919901148312, (on, b, c)).
 holds(s_training_on_5_m903794919901148312, (on, c, e)).
 holds(s_training_on_5_m903794919901148312, (ontable, a)).
@@ -3765,7 +3765,7 @@ holds(s_training_on_5_m903794919901148312, (ontable, e)).
 holds(s_training_on_5_m903794919901148312, (clear, a)).
 holds(s_training_on_5_m903794919901148312, (clear, b)).
 holds(s_training_on_5_m903794919901148312, (clear, d)).
-holds(s_training_on_5_p1750276594910818118, (handempty)).
+holds(s_training_on_5_p1750276594910818118, (handempty,)).
 holds(s_training_on_5_p1750276594910818118, (on, b, d)).
 holds(s_training_on_5_p1750276594910818118, (on, c, e)).
 holds(s_training_on_5_p1750276594910818118, (ontable, a)).
@@ -3774,7 +3774,7 @@ holds(s_training_on_5_p1750276594910818118, (ontable, e)).
 holds(s_training_on_5_p1750276594910818118, (clear, a)).
 holds(s_training_on_5_p1750276594910818118, (clear, b)).
 holds(s_training_on_5_p1750276594910818118, (clear, c)).
-holds(s_training_on_5_m7081475010039278665, (handempty)).
+holds(s_training_on_5_m7081475010039278665, (handempty,)).
 holds(s_training_on_5_m7081475010039278665, (on, c, e)).
 holds(s_training_on_5_m7081475010039278665, (on, d, b)).
 holds(s_training_on_5_m7081475010039278665, (ontable, a)).
@@ -3783,7 +3783,7 @@ holds(s_training_on_5_m7081475010039278665, (ontable, e)).
 holds(s_training_on_5_m7081475010039278665, (clear, a)).
 holds(s_training_on_5_m7081475010039278665, (clear, c)).
 holds(s_training_on_5_m7081475010039278665, (clear, d)).
-holds(s_training_on_5_p4824832713982225131, (handempty)).
+holds(s_training_on_5_p4824832713982225131, (handempty,)).
 holds(s_training_on_5_p4824832713982225131, (on, c, e)).
 holds(s_training_on_5_p4824832713982225131, (on, d, c)).
 holds(s_training_on_5_p4824832713982225131, (ontable, a)).
@@ -3792,21 +3792,21 @@ holds(s_training_on_5_p4824832713982225131, (ontable, e)).
 holds(s_training_on_5_p4824832713982225131, (clear, a)).
 holds(s_training_on_5_p4824832713982225131, (clear, b)).
 holds(s_training_on_5_p4824832713982225131, (clear, d)).
-holds(s_training_on_5_p2252741990748533382, (handempty)).
+holds(s_training_on_5_p2252741990748533382, (handempty,)).
 holds(s_training_on_5_p2252741990748533382, (on, a, c)).
 holds(s_training_on_5_p2252741990748533382, (on, c, b)).
 holds(s_training_on_5_p2252741990748533382, (on, d, a)).
 holds(s_training_on_5_p2252741990748533382, (on, e, d)).
 holds(s_training_on_5_p2252741990748533382, (ontable, b)).
 holds(s_training_on_5_p2252741990748533382, (clear, e)).
-holds(s_training_on_5_p3994769524063446440, (handempty)).
+holds(s_training_on_5_p3994769524063446440, (handempty,)).
 holds(s_training_on_5_p3994769524063446440, (on, a, c)).
 holds(s_training_on_5_p3994769524063446440, (on, c, b)).
 holds(s_training_on_5_p3994769524063446440, (on, d, e)).
 holds(s_training_on_5_p3994769524063446440, (on, e, a)).
 holds(s_training_on_5_p3994769524063446440, (ontable, b)).
 holds(s_training_on_5_p3994769524063446440, (clear, d)).
-holds(s_training_on_5_m4148593310859484425, (handempty)).
+holds(s_training_on_5_m4148593310859484425, (handempty,)).
 holds(s_training_on_5_m4148593310859484425, (on, a, e)).
 holds(s_training_on_5_m4148593310859484425, (on, c, d)).
 holds(s_training_on_5_m4148593310859484425, (on, d, a)).
@@ -3814,7 +3814,7 @@ holds(s_training_on_5_m4148593310859484425, (ontable, b)).
 holds(s_training_on_5_m4148593310859484425, (ontable, e)).
 holds(s_training_on_5_m4148593310859484425, (clear, b)).
 holds(s_training_on_5_m4148593310859484425, (clear, c)).
-holds(s_training_on_5_p3239314550828263224, (handempty)).
+holds(s_training_on_5_p3239314550828263224, (handempty,)).
 holds(s_training_on_5_p3239314550828263224, (on, a, e)).
 holds(s_training_on_5_p3239314550828263224, (on, b, c)).
 holds(s_training_on_5_p3239314550828263224, (on, c, a)).
@@ -3822,7 +3822,7 @@ holds(s_training_on_5_p3239314550828263224, (ontable, d)).
 holds(s_training_on_5_p3239314550828263224, (ontable, e)).
 holds(s_training_on_5_p3239314550828263224, (clear, b)).
 holds(s_training_on_5_p3239314550828263224, (clear, d)).
-holds(s_training_on_5_m4050016519731231978, (handempty)).
+holds(s_training_on_5_m4050016519731231978, (handempty,)).
 holds(s_training_on_5_m4050016519731231978, (on, a, e)).
 holds(s_training_on_5_m4050016519731231978, (on, b, d)).
 holds(s_training_on_5_m4050016519731231978, (on, c, a)).
@@ -3830,7 +3830,7 @@ holds(s_training_on_5_m4050016519731231978, (ontable, d)).
 holds(s_training_on_5_m4050016519731231978, (ontable, e)).
 holds(s_training_on_5_m4050016519731231978, (clear, b)).
 holds(s_training_on_5_m4050016519731231978, (clear, c)).
-holds(s_training_on_5_p4771779153390190567, (handempty)).
+holds(s_training_on_5_p4771779153390190567, (handempty,)).
 holds(s_training_on_5_p4771779153390190567, (on, a, e)).
 holds(s_training_on_5_p4771779153390190567, (on, c, a)).
 holds(s_training_on_5_p4771779153390190567, (on, d, b)).
@@ -3838,7 +3838,7 @@ holds(s_training_on_5_p4771779153390190567, (ontable, b)).
 holds(s_training_on_5_p4771779153390190567, (ontable, e)).
 holds(s_training_on_5_p4771779153390190567, (clear, c)).
 holds(s_training_on_5_p4771779153390190567, (clear, d)).
-holds(s_training_on_5_m7100918845732682053, (handempty)).
+holds(s_training_on_5_m7100918845732682053, (handempty,)).
 holds(s_training_on_5_m7100918845732682053, (on, a, e)).
 holds(s_training_on_5_m7100918845732682053, (on, c, a)).
 holds(s_training_on_5_m7100918845732682053, (on, d, c)).
@@ -3846,7 +3846,7 @@ holds(s_training_on_5_m7100918845732682053, (ontable, b)).
 holds(s_training_on_5_m7100918845732682053, (ontable, e)).
 holds(s_training_on_5_m7100918845732682053, (clear, b)).
 holds(s_training_on_5_m7100918845732682053, (clear, d)).
-holds(s_training_on_5_m2982031089887025573, (handempty)).
+holds(s_training_on_5_m2982031089887025573, (handempty,)).
 holds(s_training_on_5_m2982031089887025573, (on, a, e)).
 holds(s_training_on_5_m2982031089887025573, (on, b, a)).
 holds(s_training_on_5_m2982031089887025573, (on, c, d)).
@@ -3854,7 +3854,7 @@ holds(s_training_on_5_m2982031089887025573, (ontable, d)).
 holds(s_training_on_5_m2982031089887025573, (ontable, e)).
 holds(s_training_on_5_m2982031089887025573, (clear, b)).
 holds(s_training_on_5_m2982031089887025573, (clear, c)).
-holds(s_training_on_5_p2966927576255739304, (handempty)).
+holds(s_training_on_5_p2966927576255739304, (handempty,)).
 holds(s_training_on_5_p2966927576255739304, (on, a, e)).
 holds(s_training_on_5_p2966927576255739304, (on, b, c)).
 holds(s_training_on_5_p2966927576255739304, (on, c, d)).
@@ -3862,21 +3862,21 @@ holds(s_training_on_5_p2966927576255739304, (ontable, d)).
 holds(s_training_on_5_p2966927576255739304, (ontable, e)).
 holds(s_training_on_5_p2966927576255739304, (clear, a)).
 holds(s_training_on_5_p2966927576255739304, (clear, b)).
-holds(s_training_on_5_m8313768150080789430, (handempty)).
+holds(s_training_on_5_m8313768150080789430, (handempty,)).
 holds(s_training_on_5_m8313768150080789430, (on, a, d)).
 holds(s_training_on_5_m8313768150080789430, (on, b, c)).
 holds(s_training_on_5_m8313768150080789430, (on, c, a)).
 holds(s_training_on_5_m8313768150080789430, (on, e, b)).
 holds(s_training_on_5_m8313768150080789430, (ontable, d)).
 holds(s_training_on_5_m8313768150080789430, (clear, e)).
-holds(s_training_on_5_p6751262652945356168, (handempty)).
+holds(s_training_on_5_p6751262652945356168, (handempty,)).
 holds(s_training_on_5_p6751262652945356168, (on, a, d)).
 holds(s_training_on_5_p6751262652945356168, (on, b, e)).
 holds(s_training_on_5_p6751262652945356168, (on, c, a)).
 holds(s_training_on_5_p6751262652945356168, (on, e, c)).
 holds(s_training_on_5_p6751262652945356168, (ontable, d)).
 holds(s_training_on_5_p6751262652945356168, (clear, b)).
-holds(s_training_on_5_m7870771042332873648, (handempty)).
+holds(s_training_on_5_m7870771042332873648, (handempty,)).
 holds(s_training_on_5_m7870771042332873648, (on, a, b)).
 holds(s_training_on_5_m7870771042332873648, (on, b, c)).
 holds(s_training_on_5_m7870771042332873648, (on, c, e)).
@@ -3884,7 +3884,7 @@ holds(s_training_on_5_m7870771042332873648, (ontable, d)).
 holds(s_training_on_5_m7870771042332873648, (ontable, e)).
 holds(s_training_on_5_m7870771042332873648, (clear, a)).
 holds(s_training_on_5_m7870771042332873648, (clear, d)).
-holds(s_training_on_5_m1409473912297280518, (handempty)).
+holds(s_training_on_5_m1409473912297280518, (handempty,)).
 holds(s_training_on_5_m1409473912297280518, (on, a, c)).
 holds(s_training_on_5_m1409473912297280518, (on, b, a)).
 holds(s_training_on_5_m1409473912297280518, (on, c, e)).
@@ -3892,7 +3892,7 @@ holds(s_training_on_5_m1409473912297280518, (ontable, d)).
 holds(s_training_on_5_m1409473912297280518, (ontable, e)).
 holds(s_training_on_5_m1409473912297280518, (clear, b)).
 holds(s_training_on_5_m1409473912297280518, (clear, d)).
-holds(s_training_on_5_m504767542193497049, (handempty)).
+holds(s_training_on_5_m504767542193497049, (handempty,)).
 holds(s_training_on_5_m504767542193497049, (on, a, c)).
 holds(s_training_on_5_m504767542193497049, (on, b, d)).
 holds(s_training_on_5_m504767542193497049, (on, c, e)).
@@ -3900,7 +3900,7 @@ holds(s_training_on_5_m504767542193497049, (ontable, d)).
 holds(s_training_on_5_m504767542193497049, (ontable, e)).
 holds(s_training_on_5_m504767542193497049, (clear, a)).
 holds(s_training_on_5_m504767542193497049, (clear, b)).
-holds(s_training_on_5_m252197004591796394, (handempty)).
+holds(s_training_on_5_m252197004591796394, (handempty,)).
 holds(s_training_on_5_m252197004591796394, (on, a, c)).
 holds(s_training_on_5_m252197004591796394, (on, c, e)).
 holds(s_training_on_5_m252197004591796394, (on, d, a)).
@@ -3908,7 +3908,7 @@ holds(s_training_on_5_m252197004591796394, (ontable, b)).
 holds(s_training_on_5_m252197004591796394, (ontable, e)).
 holds(s_training_on_5_m252197004591796394, (clear, b)).
 holds(s_training_on_5_m252197004591796394, (clear, d)).
-holds(s_training_on_5_p9010863021025894614, (handempty)).
+holds(s_training_on_5_p9010863021025894614, (handempty,)).
 holds(s_training_on_5_p9010863021025894614, (on, a, c)).
 holds(s_training_on_5_p9010863021025894614, (on, c, e)).
 holds(s_training_on_5_p9010863021025894614, (on, d, b)).
@@ -3916,7 +3916,7 @@ holds(s_training_on_5_p9010863021025894614, (ontable, b)).
 holds(s_training_on_5_p9010863021025894614, (ontable, e)).
 holds(s_training_on_5_p9010863021025894614, (clear, a)).
 holds(s_training_on_5_p9010863021025894614, (clear, d)).
-holds(s_training_on_5_m7414027134977089148, (handempty)).
+holds(s_training_on_5_m7414027134977089148, (handempty,)).
 holds(s_training_on_5_m7414027134977089148, (on, a, d)).
 holds(s_training_on_5_m7414027134977089148, (on, c, b)).
 holds(s_training_on_5_m7414027134977089148, (on, d, e)).
@@ -4716,7 +4716,7 @@ holds(s_training_on_5_m7076288745398316168, (on, d, a)).
 holds(s_training_on_5_m7076288745398316168, (ontable, e)).
 holds(s_training_on_5_m7076288745398316168, (clear, d)).
 holds(s_training_on_5_m7076288745398316168, (holding, b)).
-holds(s_training_on_5_m6193473664389036023, (handempty)).
+holds(s_training_on_5_m6193473664389036023, (handempty,)).
 holds(s_training_on_5_m6193473664389036023, (on, b, c)).
 holds(s_training_on_5_m6193473664389036023, (on, d, a)).
 holds(s_training_on_5_m6193473664389036023, (ontable, a)).
@@ -4725,7 +4725,7 @@ holds(s_training_on_5_m6193473664389036023, (ontable, e)).
 holds(s_training_on_5_m6193473664389036023, (clear, b)).
 holds(s_training_on_5_m6193473664389036023, (clear, d)).
 holds(s_training_on_5_m6193473664389036023, (clear, e)).
-holds(s_training_on_5_p3134888522000500617, (handempty)).
+holds(s_training_on_5_p3134888522000500617, (handempty,)).
 holds(s_training_on_5_p3134888522000500617, (on, b, c)).
 holds(s_training_on_5_p3134888522000500617, (on, d, b)).
 holds(s_training_on_5_p3134888522000500617, (ontable, a)).
@@ -4734,7 +4734,7 @@ holds(s_training_on_5_p3134888522000500617, (ontable, e)).
 holds(s_training_on_5_p3134888522000500617, (clear, a)).
 holds(s_training_on_5_p3134888522000500617, (clear, d)).
 holds(s_training_on_5_p3134888522000500617, (clear, e)).
-holds(s_training_on_5_p7405337676045944263, (handempty)).
+holds(s_training_on_5_p7405337676045944263, (handempty,)).
 holds(s_training_on_5_p7405337676045944263, (on, b, c)).
 holds(s_training_on_5_p7405337676045944263, (on, d, e)).
 holds(s_training_on_5_p7405337676045944263, (ontable, a)).
@@ -4743,7 +4743,7 @@ holds(s_training_on_5_p7405337676045944263, (ontable, e)).
 holds(s_training_on_5_p7405337676045944263, (clear, a)).
 holds(s_training_on_5_p7405337676045944263, (clear, b)).
 holds(s_training_on_5_p7405337676045944263, (clear, d)).
-holds(s_training_on_5_p1354719249079280113, (handempty)).
+holds(s_training_on_5_p1354719249079280113, (handempty,)).
 holds(s_training_on_5_p1354719249079280113, (on, b, c)).
 holds(s_training_on_5_p1354719249079280113, (on, e, a)).
 holds(s_training_on_5_p1354719249079280113, (ontable, a)).
@@ -4752,7 +4752,7 @@ holds(s_training_on_5_p1354719249079280113, (ontable, d)).
 holds(s_training_on_5_p1354719249079280113, (clear, b)).
 holds(s_training_on_5_p1354719249079280113, (clear, d)).
 holds(s_training_on_5_p1354719249079280113, (clear, e)).
-holds(s_training_on_5_m705192332527043823, (handempty)).
+holds(s_training_on_5_m705192332527043823, (handempty,)).
 holds(s_training_on_5_m705192332527043823, (on, b, c)).
 holds(s_training_on_5_m705192332527043823, (on, e, d)).
 holds(s_training_on_5_m705192332527043823, (ontable, a)).
@@ -4761,7 +4761,7 @@ holds(s_training_on_5_m705192332527043823, (ontable, d)).
 holds(s_training_on_5_m705192332527043823, (clear, a)).
 holds(s_training_on_5_m705192332527043823, (clear, b)).
 holds(s_training_on_5_m705192332527043823, (clear, e)).
-holds(s_training_on_5_m1881664847361758566, (handempty)).
+holds(s_training_on_5_m1881664847361758566, (handempty,)).
 holds(s_training_on_5_m1881664847361758566, (on, a, e)).
 holds(s_training_on_5_m1881664847361758566, (on, b, c)).
 holds(s_training_on_5_m1881664847361758566, (on, d, a)).
@@ -4769,7 +4769,7 @@ holds(s_training_on_5_m1881664847361758566, (ontable, c)).
 holds(s_training_on_5_m1881664847361758566, (ontable, e)).
 holds(s_training_on_5_m1881664847361758566, (clear, b)).
 holds(s_training_on_5_m1881664847361758566, (clear, d)).
-holds(s_training_on_5_p7237279990180046106, (handempty)).
+holds(s_training_on_5_p7237279990180046106, (handempty,)).
 holds(s_training_on_5_p7237279990180046106, (on, a, e)).
 holds(s_training_on_5_p7237279990180046106, (on, b, c)).
 holds(s_training_on_5_p7237279990180046106, (on, d, b)).
@@ -4777,7 +4777,7 @@ holds(s_training_on_5_p7237279990180046106, (ontable, c)).
 holds(s_training_on_5_p7237279990180046106, (ontable, e)).
 holds(s_training_on_5_p7237279990180046106, (clear, a)).
 holds(s_training_on_5_p7237279990180046106, (clear, d)).
-holds(s_training_on_5_m1658806090079504659, (handempty)).
+holds(s_training_on_5_m1658806090079504659, (handempty,)).
 holds(s_training_on_5_m1658806090079504659, (on, b, c)).
 holds(s_training_on_5_m1658806090079504659, (on, d, a)).
 holds(s_training_on_5_m1658806090079504659, (on, e, b)).
@@ -4785,7 +4785,7 @@ holds(s_training_on_5_m1658806090079504659, (ontable, a)).
 holds(s_training_on_5_m1658806090079504659, (ontable, c)).
 holds(s_training_on_5_m1658806090079504659, (clear, d)).
 holds(s_training_on_5_m1658806090079504659, (clear, e)).
-holds(s_training_on_5_p2608687284511161123, (handempty)).
+holds(s_training_on_5_p2608687284511161123, (handempty,)).
 holds(s_training_on_5_p2608687284511161123, (on, b, c)).
 holds(s_training_on_5_p2608687284511161123, (on, d, e)).
 holds(s_training_on_5_p2608687284511161123, (on, e, b)).
@@ -4793,28 +4793,28 @@ holds(s_training_on_5_p2608687284511161123, (ontable, a)).
 holds(s_training_on_5_p2608687284511161123, (ontable, c)).
 holds(s_training_on_5_p2608687284511161123, (clear, a)).
 holds(s_training_on_5_p2608687284511161123, (clear, d)).
-holds(s_training_on_5_m6407465684724542338, (handempty)).
+holds(s_training_on_5_m6407465684724542338, (handempty,)).
 holds(s_training_on_5_m6407465684724542338, (on, a, e)).
 holds(s_training_on_5_m6407465684724542338, (on, b, c)).
 holds(s_training_on_5_m6407465684724542338, (on, d, a)).
 holds(s_training_on_5_m6407465684724542338, (on, e, b)).
 holds(s_training_on_5_m6407465684724542338, (ontable, c)).
 holds(s_training_on_5_m6407465684724542338, (clear, d)).
-holds(s_training_on_5_p4982613580738390246, (handempty)).
+holds(s_training_on_5_p4982613580738390246, (handempty,)).
 holds(s_training_on_5_p4982613580738390246, (on, a, d)).
 holds(s_training_on_5_p4982613580738390246, (on, b, a)).
 holds(s_training_on_5_p4982613580738390246, (on, c, b)).
 holds(s_training_on_5_p4982613580738390246, (on, e, c)).
 holds(s_training_on_5_p4982613580738390246, (ontable, d)).
 holds(s_training_on_5_p4982613580738390246, (clear, e)).
-holds(s_training_on_5_m2071243597021218438, (handempty)).
+holds(s_training_on_5_m2071243597021218438, (handempty,)).
 holds(s_training_on_5_m2071243597021218438, (on, a, d)).
 holds(s_training_on_5_m2071243597021218438, (on, b, a)).
 holds(s_training_on_5_m2071243597021218438, (on, c, e)).
 holds(s_training_on_5_m2071243597021218438, (on, e, b)).
 holds(s_training_on_5_m2071243597021218438, (ontable, d)).
 holds(s_training_on_5_m2071243597021218438, (clear, c)).
-holds(s_training_on_5_m8917290596664480970, (handempty)).
+holds(s_training_on_5_m8917290596664480970, (handempty,)).
 holds(s_training_on_5_m8917290596664480970, (on, b, e)).
 holds(s_training_on_5_m8917290596664480970, (on, c, b)).
 holds(s_training_on_5_m8917290596664480970, (ontable, a)).
@@ -4823,7 +4823,7 @@ holds(s_training_on_5_m8917290596664480970, (ontable, e)).
 holds(s_training_on_5_m8917290596664480970, (clear, a)).
 holds(s_training_on_5_m8917290596664480970, (clear, c)).
 holds(s_training_on_5_m8917290596664480970, (clear, d)).
-holds(s_training_on_5_p7245135804922583127, (handempty)).
+holds(s_training_on_5_p7245135804922583127, (handempty,)).
 holds(s_training_on_5_p7245135804922583127, (on, a, c)).
 holds(s_training_on_5_p7245135804922583127, (on, b, e)).
 holds(s_training_on_5_p7245135804922583127, (on, c, b)).
@@ -4831,7 +4831,7 @@ holds(s_training_on_5_p7245135804922583127, (ontable, d)).
 holds(s_training_on_5_p7245135804922583127, (ontable, e)).
 holds(s_training_on_5_p7245135804922583127, (clear, a)).
 holds(s_training_on_5_p7245135804922583127, (clear, d)).
-holds(s_training_on_5_m1516555842107903684, (handempty)).
+holds(s_training_on_5_m1516555842107903684, (handempty,)).
 holds(s_training_on_5_m1516555842107903684, (on, b, e)).
 holds(s_training_on_5_m1516555842107903684, (on, d, a)).
 holds(s_training_on_5_m1516555842107903684, (ontable, a)).
@@ -4840,7 +4840,7 @@ holds(s_training_on_5_m1516555842107903684, (ontable, e)).
 holds(s_training_on_5_m1516555842107903684, (clear, b)).
 holds(s_training_on_5_m1516555842107903684, (clear, c)).
 holds(s_training_on_5_m1516555842107903684, (clear, d)).
-holds(s_training_on_5_p7744252349871144636, (handempty)).
+holds(s_training_on_5_p7744252349871144636, (handempty,)).
 holds(s_training_on_5_p7744252349871144636, (on, b, e)).
 holds(s_training_on_5_p7744252349871144636, (on, d, b)).
 holds(s_training_on_5_p7744252349871144636, (ontable, a)).
@@ -4849,7 +4849,7 @@ holds(s_training_on_5_p7744252349871144636, (ontable, e)).
 holds(s_training_on_5_p7744252349871144636, (clear, a)).
 holds(s_training_on_5_p7744252349871144636, (clear, c)).
 holds(s_training_on_5_p7744252349871144636, (clear, d)).
-holds(s_training_on_5_m5461273920015956000, (handempty)).
+holds(s_training_on_5_m5461273920015956000, (handempty,)).
 holds(s_training_on_5_m5461273920015956000, (on, b, e)).
 holds(s_training_on_5_m5461273920015956000, (on, d, c)).
 holds(s_training_on_5_m5461273920015956000, (ontable, a)).
@@ -4858,7 +4858,7 @@ holds(s_training_on_5_m5461273920015956000, (ontable, e)).
 holds(s_training_on_5_m5461273920015956000, (clear, a)).
 holds(s_training_on_5_m5461273920015956000, (clear, b)).
 holds(s_training_on_5_m5461273920015956000, (clear, d)).
-holds(s_training_on_5_p738752711438320221, (handempty)).
+holds(s_training_on_5_p738752711438320221, (handempty,)).
 holds(s_training_on_5_p738752711438320221, (on, a, c)).
 holds(s_training_on_5_p738752711438320221, (on, b, e)).
 holds(s_training_on_5_p738752711438320221, (on, d, a)).
@@ -4866,7 +4866,7 @@ holds(s_training_on_5_p738752711438320221, (ontable, c)).
 holds(s_training_on_5_p738752711438320221, (ontable, e)).
 holds(s_training_on_5_p738752711438320221, (clear, b)).
 holds(s_training_on_5_p738752711438320221, (clear, d)).
-holds(s_training_on_5_m8372873776706908707, (handempty)).
+holds(s_training_on_5_m8372873776706908707, (handempty,)).
 holds(s_training_on_5_m8372873776706908707, (on, a, c)).
 holds(s_training_on_5_m8372873776706908707, (on, b, e)).
 holds(s_training_on_5_m8372873776706908707, (on, d, b)).
@@ -4874,7 +4874,7 @@ holds(s_training_on_5_m8372873776706908707, (ontable, c)).
 holds(s_training_on_5_m8372873776706908707, (ontable, e)).
 holds(s_training_on_5_m8372873776706908707, (clear, a)).
 holds(s_training_on_5_m8372873776706908707, (clear, d)).
-holds(s_training_on_5_p4284680151002907120, (handempty)).
+holds(s_training_on_5_p4284680151002907120, (handempty,)).
 holds(s_training_on_5_p4284680151002907120, (on, b, a)).
 holds(s_training_on_5_p4284680151002907120, (on, c, b)).
 holds(s_training_on_5_p4284680151002907120, (ontable, a)).
@@ -4883,7 +4883,7 @@ holds(s_training_on_5_p4284680151002907120, (ontable, e)).
 holds(s_training_on_5_p4284680151002907120, (clear, c)).
 holds(s_training_on_5_p4284680151002907120, (clear, d)).
 holds(s_training_on_5_p4284680151002907120, (clear, e)).
-holds(s_training_on_5_m3156940957298043782, (handempty)).
+holds(s_training_on_5_m3156940957298043782, (handempty,)).
 holds(s_training_on_5_m3156940957298043782, (on, b, a)).
 holds(s_training_on_5_m3156940957298043782, (on, d, b)).
 holds(s_training_on_5_m3156940957298043782, (ontable, a)).
@@ -4892,7 +4892,7 @@ holds(s_training_on_5_m3156940957298043782, (ontable, e)).
 holds(s_training_on_5_m3156940957298043782, (clear, c)).
 holds(s_training_on_5_m3156940957298043782, (clear, d)).
 holds(s_training_on_5_m3156940957298043782, (clear, e)).
-holds(s_training_on_5_p827816643148901670, (handempty)).
+holds(s_training_on_5_p827816643148901670, (handempty,)).
 holds(s_training_on_5_p827816643148901670, (on, b, a)).
 holds(s_training_on_5_p827816643148901670, (on, d, c)).
 holds(s_training_on_5_p827816643148901670, (ontable, a)).
@@ -4901,7 +4901,7 @@ holds(s_training_on_5_p827816643148901670, (ontable, e)).
 holds(s_training_on_5_p827816643148901670, (clear, b)).
 holds(s_training_on_5_p827816643148901670, (clear, d)).
 holds(s_training_on_5_p827816643148901670, (clear, e)).
-holds(s_training_on_5_m7389249146305292748, (handempty)).
+holds(s_training_on_5_m7389249146305292748, (handempty,)).
 holds(s_training_on_5_m7389249146305292748, (on, b, a)).
 holds(s_training_on_5_m7389249146305292748, (on, d, e)).
 holds(s_training_on_5_m7389249146305292748, (ontable, a)).
@@ -4910,7 +4910,7 @@ holds(s_training_on_5_m7389249146305292748, (ontable, e)).
 holds(s_training_on_5_m7389249146305292748, (clear, b)).
 holds(s_training_on_5_m7389249146305292748, (clear, c)).
 holds(s_training_on_5_m7389249146305292748, (clear, d)).
-holds(s_training_on_5_m6989528306430127427, (handempty)).
+holds(s_training_on_5_m6989528306430127427, (handempty,)).
 holds(s_training_on_5_m6989528306430127427, (on, b, a)).
 holds(s_training_on_5_m6989528306430127427, (on, e, b)).
 holds(s_training_on_5_m6989528306430127427, (ontable, a)).
@@ -4919,7 +4919,7 @@ holds(s_training_on_5_m6989528306430127427, (ontable, d)).
 holds(s_training_on_5_m6989528306430127427, (clear, c)).
 holds(s_training_on_5_m6989528306430127427, (clear, d)).
 holds(s_training_on_5_m6989528306430127427, (clear, e)).
-holds(s_training_on_5_p686712235878328546, (handempty)).
+holds(s_training_on_5_p686712235878328546, (handempty,)).
 holds(s_training_on_5_p686712235878328546, (on, b, a)).
 holds(s_training_on_5_p686712235878328546, (on, e, d)).
 holds(s_training_on_5_p686712235878328546, (ontable, a)).
@@ -4928,7 +4928,7 @@ holds(s_training_on_5_p686712235878328546, (ontable, d)).
 holds(s_training_on_5_p686712235878328546, (clear, b)).
 holds(s_training_on_5_p686712235878328546, (clear, c)).
 holds(s_training_on_5_p686712235878328546, (clear, e)).
-holds(s_training_on_5_m6284597919727829828, (handempty)).
+holds(s_training_on_5_m6284597919727829828, (handempty,)).
 holds(s_training_on_5_m6284597919727829828, (on, a, b)).
 holds(s_training_on_5_m6284597919727829828, (on, b, d)).
 holds(s_training_on_5_m6284597919727829828, (ontable, c)).
@@ -4937,7 +4937,7 @@ holds(s_training_on_5_m6284597919727829828, (ontable, e)).
 holds(s_training_on_5_m6284597919727829828, (clear, a)).
 holds(s_training_on_5_m6284597919727829828, (clear, c)).
 holds(s_training_on_5_m6284597919727829828, (clear, e)).
-holds(s_training_on_5_p3456516617604560429, (handempty)).
+holds(s_training_on_5_p3456516617604560429, (handempty,)).
 holds(s_training_on_5_p3456516617604560429, (on, b, d)).
 holds(s_training_on_5_p3456516617604560429, (on, c, b)).
 holds(s_training_on_5_p3456516617604560429, (ontable, a)).
@@ -4946,7 +4946,7 @@ holds(s_training_on_5_p3456516617604560429, (ontable, e)).
 holds(s_training_on_5_p3456516617604560429, (clear, a)).
 holds(s_training_on_5_p3456516617604560429, (clear, c)).
 holds(s_training_on_5_p3456516617604560429, (clear, e)).
-holds(s_training_on_5_m435787037754620449, (handempty)).
+holds(s_training_on_5_m435787037754620449, (handempty,)).
 holds(s_training_on_5_m435787037754620449, (on, b, d)).
 holds(s_training_on_5_m435787037754620449, (on, e, a)).
 holds(s_training_on_5_m435787037754620449, (ontable, a)).
@@ -4955,7 +4955,7 @@ holds(s_training_on_5_m435787037754620449, (ontable, d)).
 holds(s_training_on_5_m435787037754620449, (clear, b)).
 holds(s_training_on_5_m435787037754620449, (clear, c)).
 holds(s_training_on_5_m435787037754620449, (clear, e)).
-holds(s_training_on_5_m8390756548337588896, (handempty)).
+holds(s_training_on_5_m8390756548337588896, (handempty,)).
 holds(s_training_on_5_m8390756548337588896, (on, b, d)).
 holds(s_training_on_5_m8390756548337588896, (on, e, b)).
 holds(s_training_on_5_m8390756548337588896, (ontable, a)).
@@ -4964,7 +4964,7 @@ holds(s_training_on_5_m8390756548337588896, (ontable, d)).
 holds(s_training_on_5_m8390756548337588896, (clear, a)).
 holds(s_training_on_5_m8390756548337588896, (clear, c)).
 holds(s_training_on_5_m8390756548337588896, (clear, e)).
-holds(s_training_on_5_p4698226935815302183, (handempty)).
+holds(s_training_on_5_p4698226935815302183, (handempty,)).
 holds(s_training_on_5_p4698226935815302183, (on, b, d)).
 holds(s_training_on_5_p4698226935815302183, (on, d, a)).
 holds(s_training_on_5_p4698226935815302183, (ontable, a)).
@@ -4973,7 +4973,7 @@ holds(s_training_on_5_p4698226935815302183, (ontable, e)).
 holds(s_training_on_5_p4698226935815302183, (clear, b)).
 holds(s_training_on_5_p4698226935815302183, (clear, c)).
 holds(s_training_on_5_p4698226935815302183, (clear, e)).
-holds(s_training_on_5_p1835005721465678926, (handempty)).
+holds(s_training_on_5_p1835005721465678926, (handempty,)).
 holds(s_training_on_5_p1835005721465678926, (on, d, a)).
 holds(s_training_on_5_p1835005721465678926, (on, e, d)).
 holds(s_training_on_5_p1835005721465678926, (ontable, a)).
@@ -4982,7 +4982,7 @@ holds(s_training_on_5_p1835005721465678926, (ontable, c)).
 holds(s_training_on_5_p1835005721465678926, (clear, b)).
 holds(s_training_on_5_p1835005721465678926, (clear, c)).
 holds(s_training_on_5_p1835005721465678926, (clear, e)).
-holds(s_training_on_5_m2163759603412420496, (handempty)).
+holds(s_training_on_5_m2163759603412420496, (handempty,)).
 holds(s_training_on_5_m2163759603412420496, (on, a, d)).
 holds(s_training_on_5_m2163759603412420496, (on, d, b)).
 holds(s_training_on_5_m2163759603412420496, (ontable, b)).
@@ -4991,7 +4991,7 @@ holds(s_training_on_5_m2163759603412420496, (ontable, e)).
 holds(s_training_on_5_m2163759603412420496, (clear, a)).
 holds(s_training_on_5_m2163759603412420496, (clear, c)).
 holds(s_training_on_5_m2163759603412420496, (clear, e)).
-holds(s_training_on_5_p580571925102399460, (handempty)).
+holds(s_training_on_5_p580571925102399460, (handempty,)).
 holds(s_training_on_5_p580571925102399460, (on, c, d)).
 holds(s_training_on_5_p580571925102399460, (on, d, b)).
 holds(s_training_on_5_p580571925102399460, (ontable, a)).
@@ -5000,7 +5000,7 @@ holds(s_training_on_5_p580571925102399460, (ontable, e)).
 holds(s_training_on_5_p580571925102399460, (clear, a)).
 holds(s_training_on_5_p580571925102399460, (clear, c)).
 holds(s_training_on_5_p580571925102399460, (clear, e)).
-holds(s_training_on_5_p8935270624854669614, (handempty)).
+holds(s_training_on_5_p8935270624854669614, (handempty,)).
 holds(s_training_on_5_p8935270624854669614, (on, d, b)).
 holds(s_training_on_5_p8935270624854669614, (on, e, a)).
 holds(s_training_on_5_p8935270624854669614, (ontable, a)).
@@ -5009,7 +5009,7 @@ holds(s_training_on_5_p8935270624854669614, (ontable, c)).
 holds(s_training_on_5_p8935270624854669614, (clear, c)).
 holds(s_training_on_5_p8935270624854669614, (clear, d)).
 holds(s_training_on_5_p8935270624854669614, (clear, e)).
-holds(s_training_on_5_m7423550670699650098, (handempty)).
+holds(s_training_on_5_m7423550670699650098, (handempty,)).
 holds(s_training_on_5_m7423550670699650098, (on, d, b)).
 holds(s_training_on_5_m7423550670699650098, (on, e, d)).
 holds(s_training_on_5_m7423550670699650098, (ontable, a)).
@@ -5018,7 +5018,7 @@ holds(s_training_on_5_m7423550670699650098, (ontable, c)).
 holds(s_training_on_5_m7423550670699650098, (clear, a)).
 holds(s_training_on_5_m7423550670699650098, (clear, c)).
 holds(s_training_on_5_m7423550670699650098, (clear, e)).
-holds(s_training_on_5_m975139282203674351, (handempty)).
+holds(s_training_on_5_m975139282203674351, (handempty,)).
 holds(s_training_on_5_m975139282203674351, (on, a, b)).
 holds(s_training_on_5_m975139282203674351, (on, d, c)).
 holds(s_training_on_5_m975139282203674351, (ontable, b)).
@@ -5027,7 +5027,7 @@ holds(s_training_on_5_m975139282203674351, (ontable, e)).
 holds(s_training_on_5_m975139282203674351, (clear, a)).
 holds(s_training_on_5_m975139282203674351, (clear, d)).
 holds(s_training_on_5_m975139282203674351, (clear, e)).
-holds(s_training_on_5_p4518372871324991788, (handempty)).
+holds(s_training_on_5_p4518372871324991788, (handempty,)).
 holds(s_training_on_5_p4518372871324991788, (on, a, d)).
 holds(s_training_on_5_p4518372871324991788, (on, d, c)).
 holds(s_training_on_5_p4518372871324991788, (ontable, b)).
@@ -5036,7 +5036,7 @@ holds(s_training_on_5_p4518372871324991788, (ontable, e)).
 holds(s_training_on_5_p4518372871324991788, (clear, a)).
 holds(s_training_on_5_p4518372871324991788, (clear, b)).
 holds(s_training_on_5_p4518372871324991788, (clear, e)).
-holds(s_training_on_5_p2302114223065668347, (handempty)).
+holds(s_training_on_5_p2302114223065668347, (handempty,)).
 holds(s_training_on_5_p2302114223065668347, (on, b, d)).
 holds(s_training_on_5_p2302114223065668347, (on, d, c)).
 holds(s_training_on_5_p2302114223065668347, (ontable, a)).
@@ -5045,7 +5045,7 @@ holds(s_training_on_5_p2302114223065668347, (ontable, e)).
 holds(s_training_on_5_p2302114223065668347, (clear, a)).
 holds(s_training_on_5_p2302114223065668347, (clear, b)).
 holds(s_training_on_5_p2302114223065668347, (clear, e)).
-holds(s_training_on_5_m6679751391878823822, (handempty)).
+holds(s_training_on_5_m6679751391878823822, (handempty,)).
 holds(s_training_on_5_m6679751391878823822, (on, d, c)).
 holds(s_training_on_5_m6679751391878823822, (on, e, a)).
 holds(s_training_on_5_m6679751391878823822, (ontable, a)).
@@ -5054,7 +5054,7 @@ holds(s_training_on_5_m6679751391878823822, (ontable, c)).
 holds(s_training_on_5_m6679751391878823822, (clear, b)).
 holds(s_training_on_5_m6679751391878823822, (clear, d)).
 holds(s_training_on_5_m6679751391878823822, (clear, e)).
-holds(s_training_on_5_p5167471322447485586, (handempty)).
+holds(s_training_on_5_p5167471322447485586, (handempty,)).
 holds(s_training_on_5_p5167471322447485586, (on, d, c)).
 holds(s_training_on_5_p5167471322447485586, (on, e, d)).
 holds(s_training_on_5_p5167471322447485586, (ontable, a)).
@@ -5063,7 +5063,7 @@ holds(s_training_on_5_p5167471322447485586, (ontable, c)).
 holds(s_training_on_5_p5167471322447485586, (clear, a)).
 holds(s_training_on_5_p5167471322447485586, (clear, b)).
 holds(s_training_on_5_p5167471322447485586, (clear, e)).
-holds(s_training_on_5_p6953408470295953923, (handempty)).
+holds(s_training_on_5_p6953408470295953923, (handempty,)).
 holds(s_training_on_5_p6953408470295953923, (on, a, b)).
 holds(s_training_on_5_p6953408470295953923, (on, d, e)).
 holds(s_training_on_5_p6953408470295953923, (ontable, b)).
@@ -5072,7 +5072,7 @@ holds(s_training_on_5_p6953408470295953923, (ontable, e)).
 holds(s_training_on_5_p6953408470295953923, (clear, a)).
 holds(s_training_on_5_p6953408470295953923, (clear, c)).
 holds(s_training_on_5_p6953408470295953923, (clear, d)).
-holds(s_training_on_5_m5999744702750901698, (handempty)).
+holds(s_training_on_5_m5999744702750901698, (handempty,)).
 holds(s_training_on_5_m5999744702750901698, (on, a, d)).
 holds(s_training_on_5_m5999744702750901698, (on, d, e)).
 holds(s_training_on_5_m5999744702750901698, (ontable, b)).
@@ -5081,7 +5081,7 @@ holds(s_training_on_5_m5999744702750901698, (ontable, e)).
 holds(s_training_on_5_m5999744702750901698, (clear, a)).
 holds(s_training_on_5_m5999744702750901698, (clear, b)).
 holds(s_training_on_5_m5999744702750901698, (clear, c)).
-holds(s_training_on_5_m8216215654867230231, (handempty)).
+holds(s_training_on_5_m8216215654867230231, (handempty,)).
 holds(s_training_on_5_m8216215654867230231, (on, b, d)).
 holds(s_training_on_5_m8216215654867230231, (on, d, e)).
 holds(s_training_on_5_m8216215654867230231, (ontable, a)).
@@ -5090,7 +5090,7 @@ holds(s_training_on_5_m8216215654867230231, (ontable, e)).
 holds(s_training_on_5_m8216215654867230231, (clear, a)).
 holds(s_training_on_5_m8216215654867230231, (clear, b)).
 holds(s_training_on_5_m8216215654867230231, (clear, c)).
-holds(s_training_on_5_p5923549633371871428, (handempty)).
+holds(s_training_on_5_p5923549633371871428, (handempty,)).
 holds(s_training_on_5_p5923549633371871428, (on, b, e)).
 holds(s_training_on_5_p5923549633371871428, (on, e, a)).
 holds(s_training_on_5_p5923549633371871428, (ontable, a)).
@@ -5099,7 +5099,7 @@ holds(s_training_on_5_p5923549633371871428, (ontable, d)).
 holds(s_training_on_5_p5923549633371871428, (clear, b)).
 holds(s_training_on_5_p5923549633371871428, (clear, c)).
 holds(s_training_on_5_p5923549633371871428, (clear, d)).
-holds(s_training_on_5_p3550000524188384096, (handempty)).
+holds(s_training_on_5_p3550000524188384096, (handempty,)).
 holds(s_training_on_5_p3550000524188384096, (on, d, e)).
 holds(s_training_on_5_p3550000524188384096, (on, e, a)).
 holds(s_training_on_5_p3550000524188384096, (ontable, a)).
@@ -5108,7 +5108,7 @@ holds(s_training_on_5_p3550000524188384096, (ontable, c)).
 holds(s_training_on_5_p3550000524188384096, (clear, b)).
 holds(s_training_on_5_p3550000524188384096, (clear, c)).
 holds(s_training_on_5_p3550000524188384096, (clear, d)).
-holds(s_training_on_5_m1113281879227581227, (handempty)).
+holds(s_training_on_5_m1113281879227581227, (handempty,)).
 holds(s_training_on_5_m1113281879227581227, (on, a, b)).
 holds(s_training_on_5_m1113281879227581227, (on, e, d)).
 holds(s_training_on_5_m1113281879227581227, (ontable, b)).
@@ -5117,7 +5117,7 @@ holds(s_training_on_5_m1113281879227581227, (ontable, d)).
 holds(s_training_on_5_m1113281879227581227, (clear, a)).
 holds(s_training_on_5_m1113281879227581227, (clear, c)).
 holds(s_training_on_5_m1113281879227581227, (clear, e)).
-holds(s_training_on_5_m2390840246861432450, (handempty)).
+holds(s_training_on_5_m2390840246861432450, (handempty,)).
 holds(s_training_on_5_m2390840246861432450, (on, a, e)).
 holds(s_training_on_5_m2390840246861432450, (on, e, d)).
 holds(s_training_on_5_m2390840246861432450, (ontable, b)).
@@ -5126,7 +5126,7 @@ holds(s_training_on_5_m2390840246861432450, (ontable, d)).
 holds(s_training_on_5_m2390840246861432450, (clear, a)).
 holds(s_training_on_5_m2390840246861432450, (clear, b)).
 holds(s_training_on_5_m2390840246861432450, (clear, c)).
-holds(s_training_on_5_m5274023352516558300, (handempty)).
+holds(s_training_on_5_m5274023352516558300, (handempty,)).
 holds(s_training_on_5_m5274023352516558300, (on, b, e)).
 holds(s_training_on_5_m5274023352516558300, (on, e, d)).
 holds(s_training_on_5_m5274023352516558300, (ontable, a)).
@@ -5135,7 +5135,7 @@ holds(s_training_on_5_m5274023352516558300, (ontable, d)).
 holds(s_training_on_5_m5274023352516558300, (clear, a)).
 holds(s_training_on_5_m5274023352516558300, (clear, b)).
 holds(s_training_on_5_m5274023352516558300, (clear, c)).
-holds(s_training_on_5_p3784366459197613851, (handempty)).
+holds(s_training_on_5_p3784366459197613851, (handempty,)).
 holds(s_training_on_5_p3784366459197613851, (on, a, c)).
 holds(s_training_on_5_p3784366459197613851, (on, b, a)).
 holds(s_training_on_5_p3784366459197613851, (on, d, b)).
@@ -5143,7 +5143,7 @@ holds(s_training_on_5_p3784366459197613851, (ontable, c)).
 holds(s_training_on_5_p3784366459197613851, (ontable, e)).
 holds(s_training_on_5_p3784366459197613851, (clear, d)).
 holds(s_training_on_5_p3784366459197613851, (clear, e)).
-holds(s_training_on_5_p8773173561912419669, (handempty)).
+holds(s_training_on_5_p8773173561912419669, (handempty,)).
 holds(s_training_on_5_p8773173561912419669, (on, a, c)).
 holds(s_training_on_5_p8773173561912419669, (on, b, a)).
 holds(s_training_on_5_p8773173561912419669, (on, d, e)).
@@ -5151,7 +5151,7 @@ holds(s_training_on_5_p8773173561912419669, (ontable, c)).
 holds(s_training_on_5_p8773173561912419669, (ontable, e)).
 holds(s_training_on_5_p8773173561912419669, (clear, b)).
 holds(s_training_on_5_p8773173561912419669, (clear, d)).
-holds(s_training_on_5_p9202185392555549148, (handempty)).
+holds(s_training_on_5_p9202185392555549148, (handempty,)).
 holds(s_training_on_5_p9202185392555549148, (on, a, c)).
 holds(s_training_on_5_p9202185392555549148, (on, b, a)).
 holds(s_training_on_5_p9202185392555549148, (on, e, b)).
@@ -5159,7 +5159,7 @@ holds(s_training_on_5_p9202185392555549148, (ontable, c)).
 holds(s_training_on_5_p9202185392555549148, (ontable, d)).
 holds(s_training_on_5_p9202185392555549148, (clear, d)).
 holds(s_training_on_5_p9202185392555549148, (clear, e)).
-holds(s_training_on_5_m1642900231948395645, (handempty)).
+holds(s_training_on_5_m1642900231948395645, (handempty,)).
 holds(s_training_on_5_m1642900231948395645, (on, a, c)).
 holds(s_training_on_5_m1642900231948395645, (on, b, a)).
 holds(s_training_on_5_m1642900231948395645, (on, e, d)).
@@ -5167,7 +5167,7 @@ holds(s_training_on_5_m1642900231948395645, (ontable, c)).
 holds(s_training_on_5_m1642900231948395645, (ontable, d)).
 holds(s_training_on_5_m1642900231948395645, (clear, b)).
 holds(s_training_on_5_m1642900231948395645, (clear, e)).
-holds(s_training_on_5_p1821506135385224894, (handempty)).
+holds(s_training_on_5_p1821506135385224894, (handempty,)).
 holds(s_training_on_5_p1821506135385224894, (on, a, c)).
 holds(s_training_on_5_p1821506135385224894, (on, b, d)).
 holds(s_training_on_5_p1821506135385224894, (on, e, a)).
@@ -5175,7 +5175,7 @@ holds(s_training_on_5_p1821506135385224894, (ontable, c)).
 holds(s_training_on_5_p1821506135385224894, (ontable, d)).
 holds(s_training_on_5_p1821506135385224894, (clear, b)).
 holds(s_training_on_5_p1821506135385224894, (clear, e)).
-holds(s_training_on_5_p7726634012637140481, (handempty)).
+holds(s_training_on_5_p7726634012637140481, (handempty,)).
 holds(s_training_on_5_p7726634012637140481, (on, a, c)).
 holds(s_training_on_5_p7726634012637140481, (on, b, d)).
 holds(s_training_on_5_p7726634012637140481, (on, e, b)).
@@ -5183,7 +5183,7 @@ holds(s_training_on_5_p7726634012637140481, (ontable, c)).
 holds(s_training_on_5_p7726634012637140481, (ontable, d)).
 holds(s_training_on_5_p7726634012637140481, (clear, a)).
 holds(s_training_on_5_p7726634012637140481, (clear, e)).
-holds(s_training_on_5_m6807195977505611962, (handempty)).
+holds(s_training_on_5_m6807195977505611962, (handempty,)).
 holds(s_training_on_5_m6807195977505611962, (on, a, c)).
 holds(s_training_on_5_m6807195977505611962, (on, b, d)).
 holds(s_training_on_5_m6807195977505611962, (on, d, a)).
@@ -5191,7 +5191,7 @@ holds(s_training_on_5_m6807195977505611962, (ontable, c)).
 holds(s_training_on_5_m6807195977505611962, (ontable, e)).
 holds(s_training_on_5_m6807195977505611962, (clear, b)).
 holds(s_training_on_5_m6807195977505611962, (clear, e)).
-holds(s_training_on_5_m449321846190678225, (handempty)).
+holds(s_training_on_5_m449321846190678225, (handempty,)).
 holds(s_training_on_5_m449321846190678225, (on, a, c)).
 holds(s_training_on_5_m449321846190678225, (on, d, a)).
 holds(s_training_on_5_m449321846190678225, (on, e, d)).
@@ -5199,7 +5199,7 @@ holds(s_training_on_5_m449321846190678225, (ontable, b)).
 holds(s_training_on_5_m449321846190678225, (ontable, c)).
 holds(s_training_on_5_m449321846190678225, (clear, b)).
 holds(s_training_on_5_m449321846190678225, (clear, e)).
-holds(s_training_on_5_m7154818374469432753, (handempty)).
+holds(s_training_on_5_m7154818374469432753, (handempty,)).
 holds(s_training_on_5_m7154818374469432753, (on, a, c)).
 holds(s_training_on_5_m7154818374469432753, (on, d, b)).
 holds(s_training_on_5_m7154818374469432753, (on, e, a)).
@@ -5207,7 +5207,7 @@ holds(s_training_on_5_m7154818374469432753, (ontable, b)).
 holds(s_training_on_5_m7154818374469432753, (ontable, c)).
 holds(s_training_on_5_m7154818374469432753, (clear, d)).
 holds(s_training_on_5_m7154818374469432753, (clear, e)).
-holds(s_training_on_5_p8669060041395638447, (handempty)).
+holds(s_training_on_5_p8669060041395638447, (handempty,)).
 holds(s_training_on_5_p8669060041395638447, (on, a, c)).
 holds(s_training_on_5_p8669060041395638447, (on, d, b)).
 holds(s_training_on_5_p8669060041395638447, (on, e, d)).
@@ -5215,7 +5215,7 @@ holds(s_training_on_5_p8669060041395638447, (ontable, b)).
 holds(s_training_on_5_p8669060041395638447, (ontable, c)).
 holds(s_training_on_5_p8669060041395638447, (clear, a)).
 holds(s_training_on_5_p8669060041395638447, (clear, e)).
-holds(s_training_on_5_p7876422699333751432, (handempty)).
+holds(s_training_on_5_p7876422699333751432, (handempty,)).
 holds(s_training_on_5_p7876422699333751432, (on, a, c)).
 holds(s_training_on_5_p7876422699333751432, (on, b, d)).
 holds(s_training_on_5_p7876422699333751432, (on, d, e)).
@@ -5223,7 +5223,7 @@ holds(s_training_on_5_p7876422699333751432, (ontable, c)).
 holds(s_training_on_5_p7876422699333751432, (ontable, e)).
 holds(s_training_on_5_p7876422699333751432, (clear, a)).
 holds(s_training_on_5_p7876422699333751432, (clear, b)).
-holds(s_training_on_5_m5584425245324301403, (handempty)).
+holds(s_training_on_5_m5584425245324301403, (handempty,)).
 holds(s_training_on_5_m5584425245324301403, (on, a, c)).
 holds(s_training_on_5_m5584425245324301403, (on, b, e)).
 holds(s_training_on_5_m5584425245324301403, (on, e, a)).
@@ -5231,7 +5231,7 @@ holds(s_training_on_5_m5584425245324301403, (ontable, c)).
 holds(s_training_on_5_m5584425245324301403, (ontable, d)).
 holds(s_training_on_5_m5584425245324301403, (clear, b)).
 holds(s_training_on_5_m5584425245324301403, (clear, d)).
-holds(s_training_on_5_m3318962188297910271, (handempty)).
+holds(s_training_on_5_m3318962188297910271, (handempty,)).
 holds(s_training_on_5_m3318962188297910271, (on, a, c)).
 holds(s_training_on_5_m3318962188297910271, (on, d, e)).
 holds(s_training_on_5_m3318962188297910271, (on, e, a)).
@@ -5239,7 +5239,7 @@ holds(s_training_on_5_m3318962188297910271, (ontable, b)).
 holds(s_training_on_5_m3318962188297910271, (ontable, c)).
 holds(s_training_on_5_m3318962188297910271, (clear, b)).
 holds(s_training_on_5_m3318962188297910271, (clear, d)).
-holds(s_training_on_5_p6231407823245078853, (handempty)).
+holds(s_training_on_5_p6231407823245078853, (handempty,)).
 holds(s_training_on_5_p6231407823245078853, (on, a, c)).
 holds(s_training_on_5_p6231407823245078853, (on, b, e)).
 holds(s_training_on_5_p6231407823245078853, (on, e, d)).
@@ -5247,7 +5247,7 @@ holds(s_training_on_5_p6231407823245078853, (ontable, c)).
 holds(s_training_on_5_p6231407823245078853, (ontable, d)).
 holds(s_training_on_5_p6231407823245078853, (clear, a)).
 holds(s_training_on_5_p6231407823245078853, (clear, b)).
-holds(s_training_on_5_p8401635165671088995, (handempty)).
+holds(s_training_on_5_p8401635165671088995, (handempty,)).
 holds(s_training_on_5_p8401635165671088995, (on, a, e)).
 holds(s_training_on_5_p8401635165671088995, (on, b, a)).
 holds(s_training_on_5_p8401635165671088995, (on, c, b)).
@@ -5255,7 +5255,7 @@ holds(s_training_on_5_p8401635165671088995, (ontable, d)).
 holds(s_training_on_5_p8401635165671088995, (ontable, e)).
 holds(s_training_on_5_p8401635165671088995, (clear, c)).
 holds(s_training_on_5_p8401635165671088995, (clear, d)).
-holds(s_training_on_5_m7215068269308463383, (handempty)).
+holds(s_training_on_5_m7215068269308463383, (handempty,)).
 holds(s_training_on_5_m7215068269308463383, (on, a, e)).
 holds(s_training_on_5_m7215068269308463383, (on, b, a)).
 holds(s_training_on_5_m7215068269308463383, (on, d, b)).
@@ -5263,7 +5263,7 @@ holds(s_training_on_5_m7215068269308463383, (ontable, c)).
 holds(s_training_on_5_m7215068269308463383, (ontable, e)).
 holds(s_training_on_5_m7215068269308463383, (clear, c)).
 holds(s_training_on_5_m7215068269308463383, (clear, d)).
-holds(s_training_on_5_p4941110250229501877, (handempty)).
+holds(s_training_on_5_p4941110250229501877, (handempty,)).
 holds(s_training_on_5_p4941110250229501877, (on, a, e)).
 holds(s_training_on_5_p4941110250229501877, (on, b, a)).
 holds(s_training_on_5_p4941110250229501877, (on, d, c)).
@@ -5271,7 +5271,7 @@ holds(s_training_on_5_p4941110250229501877, (ontable, c)).
 holds(s_training_on_5_p4941110250229501877, (ontable, e)).
 holds(s_training_on_5_p4941110250229501877, (clear, b)).
 holds(s_training_on_5_p4941110250229501877, (clear, d)).
-holds(s_training_on_5_p6923902633857946814, (handempty)).
+holds(s_training_on_5_p6923902633857946814, (handempty,)).
 holds(s_training_on_5_p6923902633857946814, (on, a, e)).
 holds(s_training_on_5_p6923902633857946814, (on, b, d)).
 holds(s_training_on_5_p6923902633857946814, (on, c, b)).
@@ -5279,7 +5279,7 @@ holds(s_training_on_5_p6923902633857946814, (ontable, d)).
 holds(s_training_on_5_p6923902633857946814, (ontable, e)).
 holds(s_training_on_5_p6923902633857946814, (clear, a)).
 holds(s_training_on_5_p6923902633857946814, (clear, c)).
-holds(s_training_on_5_p1071245173628997300, (handempty)).
+holds(s_training_on_5_p1071245173628997300, (handempty,)).
 holds(s_training_on_5_p1071245173628997300, (on, a, e)).
 holds(s_training_on_5_p1071245173628997300, (on, b, d)).
 holds(s_training_on_5_p1071245173628997300, (on, d, a)).
@@ -5287,7 +5287,7 @@ holds(s_training_on_5_p1071245173628997300, (ontable, c)).
 holds(s_training_on_5_p1071245173628997300, (ontable, e)).
 holds(s_training_on_5_p1071245173628997300, (clear, b)).
 holds(s_training_on_5_p1071245173628997300, (clear, c)).
-holds(s_training_on_5_p5179205925310328183, (handempty)).
+holds(s_training_on_5_p5179205925310328183, (handempty,)).
 holds(s_training_on_5_p5179205925310328183, (on, a, e)).
 holds(s_training_on_5_p5179205925310328183, (on, c, d)).
 holds(s_training_on_5_p5179205925310328183, (on, d, b)).
@@ -5295,7 +5295,7 @@ holds(s_training_on_5_p5179205925310328183, (ontable, b)).
 holds(s_training_on_5_p5179205925310328183, (ontable, e)).
 holds(s_training_on_5_p5179205925310328183, (clear, a)).
 holds(s_training_on_5_p5179205925310328183, (clear, c)).
-holds(s_training_on_5_p5772603164692281448, (handempty)).
+holds(s_training_on_5_p5772603164692281448, (handempty,)).
 holds(s_training_on_5_p5772603164692281448, (on, a, e)).
 holds(s_training_on_5_p5772603164692281448, (on, b, d)).
 holds(s_training_on_5_p5772603164692281448, (on, d, c)).
@@ -5303,7 +5303,7 @@ holds(s_training_on_5_p5772603164692281448, (ontable, c)).
 holds(s_training_on_5_p5772603164692281448, (ontable, e)).
 holds(s_training_on_5_p5772603164692281448, (clear, a)).
 holds(s_training_on_5_p5772603164692281448, (clear, b)).
-holds(s_training_on_5_p6828138566427206355, (handempty)).
+holds(s_training_on_5_p6828138566427206355, (handempty,)).
 holds(s_training_on_5_p6828138566427206355, (on, c, e)).
 holds(s_training_on_5_p6828138566427206355, (on, d, a)).
 holds(s_training_on_5_p6828138566427206355, (on, e, b)).
@@ -5311,7 +5311,7 @@ holds(s_training_on_5_p6828138566427206355, (ontable, a)).
 holds(s_training_on_5_p6828138566427206355, (ontable, b)).
 holds(s_training_on_5_p6828138566427206355, (clear, c)).
 holds(s_training_on_5_p6828138566427206355, (clear, d)).
-holds(s_training_on_5_p1090613735625743, (handempty)).
+holds(s_training_on_5_p1090613735625743, (handempty,)).
 holds(s_training_on_5_p1090613735625743, (on, c, e)).
 holds(s_training_on_5_p1090613735625743, (on, d, c)).
 holds(s_training_on_5_p1090613735625743, (on, e, b)).
@@ -5319,14 +5319,14 @@ holds(s_training_on_5_p1090613735625743, (ontable, a)).
 holds(s_training_on_5_p1090613735625743, (ontable, b)).
 holds(s_training_on_5_p1090613735625743, (clear, a)).
 holds(s_training_on_5_p1090613735625743, (clear, d)).
-holds(s_training_on_5_m4722336423184182862, (handempty)).
+holds(s_training_on_5_m4722336423184182862, (handempty,)).
 holds(s_training_on_5_m4722336423184182862, (on, a, c)).
 holds(s_training_on_5_m4722336423184182862, (on, c, e)).
 holds(s_training_on_5_m4722336423184182862, (on, d, a)).
 holds(s_training_on_5_m4722336423184182862, (on, e, b)).
 holds(s_training_on_5_m4722336423184182862, (ontable, b)).
 holds(s_training_on_5_m4722336423184182862, (clear, d)).
-holds(s_training_on_5_m8039997896803886388, (handempty)).
+holds(s_training_on_5_m8039997896803886388, (handempty,)).
 holds(s_training_on_5_m8039997896803886388, (on, c, a)).
 holds(s_training_on_5_m8039997896803886388, (on, d, c)).
 holds(s_training_on_5_m8039997896803886388, (on, e, b)).
@@ -5334,7 +5334,7 @@ holds(s_training_on_5_m8039997896803886388, (ontable, a)).
 holds(s_training_on_5_m8039997896803886388, (ontable, b)).
 holds(s_training_on_5_m8039997896803886388, (clear, d)).
 holds(s_training_on_5_m8039997896803886388, (clear, e)).
-holds(s_training_on_5_p172495053301440990, (handempty)).
+holds(s_training_on_5_p172495053301440990, (handempty,)).
 holds(s_training_on_5_p172495053301440990, (on, c, a)).
 holds(s_training_on_5_p172495053301440990, (on, d, e)).
 holds(s_training_on_5_p172495053301440990, (on, e, b)).
@@ -5342,7 +5342,7 @@ holds(s_training_on_5_p172495053301440990, (ontable, a)).
 holds(s_training_on_5_p172495053301440990, (ontable, b)).
 holds(s_training_on_5_p172495053301440990, (clear, c)).
 holds(s_training_on_5_p172495053301440990, (clear, d)).
-holds(s_training_on_5_m6662394913195640254, (handempty)).
+holds(s_training_on_5_m6662394913195640254, (handempty,)).
 holds(s_training_on_5_m6662394913195640254, (on, a, c)).
 holds(s_training_on_5_m6662394913195640254, (on, c, d)).
 holds(s_training_on_5_m6662394913195640254, (on, e, b)).
@@ -5350,7 +5350,7 @@ holds(s_training_on_5_m6662394913195640254, (ontable, b)).
 holds(s_training_on_5_m6662394913195640254, (ontable, d)).
 holds(s_training_on_5_m6662394913195640254, (clear, a)).
 holds(s_training_on_5_m6662394913195640254, (clear, e)).
-holds(s_training_on_5_m3785984461224575360, (handempty)).
+holds(s_training_on_5_m3785984461224575360, (handempty,)).
 holds(s_training_on_5_m3785984461224575360, (on, c, d)).
 holds(s_training_on_5_m3785984461224575360, (on, d, a)).
 holds(s_training_on_5_m3785984461224575360, (on, e, b)).
@@ -5358,7 +5358,7 @@ holds(s_training_on_5_m3785984461224575360, (ontable, a)).
 holds(s_training_on_5_m3785984461224575360, (ontable, b)).
 holds(s_training_on_5_m3785984461224575360, (clear, c)).
 holds(s_training_on_5_m3785984461224575360, (clear, e)).
-holds(s_training_on_5_p8953890593038286792, (handempty)).
+holds(s_training_on_5_p8953890593038286792, (handempty,)).
 holds(s_training_on_5_p8953890593038286792, (on, a, d)).
 holds(s_training_on_5_p8953890593038286792, (on, d, c)).
 holds(s_training_on_5_p8953890593038286792, (on, e, b)).
@@ -5366,7 +5366,7 @@ holds(s_training_on_5_p8953890593038286792, (ontable, b)).
 holds(s_training_on_5_p8953890593038286792, (ontable, c)).
 holds(s_training_on_5_p8953890593038286792, (clear, a)).
 holds(s_training_on_5_p8953890593038286792, (clear, e)).
-holds(s_training_on_5_m1276066974348835622, (handempty)).
+holds(s_training_on_5_m1276066974348835622, (handempty,)).
 holds(s_training_on_5_m1276066974348835622, (on, a, d)).
 holds(s_training_on_5_m1276066974348835622, (on, d, e)).
 holds(s_training_on_5_m1276066974348835622, (on, e, b)).
@@ -5374,7 +5374,7 @@ holds(s_training_on_5_m1276066974348835622, (ontable, b)).
 holds(s_training_on_5_m1276066974348835622, (ontable, c)).
 holds(s_training_on_5_m1276066974348835622, (clear, a)).
 holds(s_training_on_5_m1276066974348835622, (clear, c)).
-holds(s_training_on_5_p557369746511409998, (handempty)).
+holds(s_training_on_5_p557369746511409998, (handempty,)).
 holds(s_training_on_5_p557369746511409998, (on, c, d)).
 holds(s_training_on_5_p557369746511409998, (on, d, e)).
 holds(s_training_on_5_p557369746511409998, (on, e, b)).
@@ -5382,21 +5382,21 @@ holds(s_training_on_5_p557369746511409998, (ontable, a)).
 holds(s_training_on_5_p557369746511409998, (ontable, b)).
 holds(s_training_on_5_p557369746511409998, (clear, a)).
 holds(s_training_on_5_p557369746511409998, (clear, c)).
-holds(s_training_on_5_m2341141951686985633, (handempty)).
+holds(s_training_on_5_m2341141951686985633, (handempty,)).
 holds(s_training_on_5_m2341141951686985633, (on, a, e)).
 holds(s_training_on_5_m2341141951686985633, (on, c, a)).
 holds(s_training_on_5_m2341141951686985633, (on, d, c)).
 holds(s_training_on_5_m2341141951686985633, (on, e, b)).
 holds(s_training_on_5_m2341141951686985633, (ontable, b)).
 holds(s_training_on_5_m2341141951686985633, (clear, d)).
-holds(s_training_on_5_m8891270600463737837, (handempty)).
+holds(s_training_on_5_m8891270600463737837, (handempty,)).
 holds(s_training_on_5_m8891270600463737837, (on, a, e)).
 holds(s_training_on_5_m8891270600463737837, (on, c, d)).
 holds(s_training_on_5_m8891270600463737837, (on, d, a)).
 holds(s_training_on_5_m8891270600463737837, (on, e, b)).
 holds(s_training_on_5_m8891270600463737837, (ontable, b)).
 holds(s_training_on_5_m8891270600463737837, (clear, c)).
-holds(s_training_on_5_p4167094990312261423, (handempty)).
+holds(s_training_on_5_p4167094990312261423, (handempty,)).
 holds(s_training_on_5_p4167094990312261423, (on, b, e)).
 holds(s_training_on_5_p4167094990312261423, (on, d, a)).
 holds(s_training_on_5_p4167094990312261423, (on, e, c)).
@@ -5404,7 +5404,7 @@ holds(s_training_on_5_p4167094990312261423, (ontable, a)).
 holds(s_training_on_5_p4167094990312261423, (ontable, c)).
 holds(s_training_on_5_p4167094990312261423, (clear, b)).
 holds(s_training_on_5_p4167094990312261423, (clear, d)).
-holds(s_training_on_5_m5162956045134362449, (handempty)).
+holds(s_training_on_5_m5162956045134362449, (handempty,)).
 holds(s_training_on_5_m5162956045134362449, (on, b, e)).
 holds(s_training_on_5_m5162956045134362449, (on, d, b)).
 holds(s_training_on_5_m5162956045134362449, (on, e, c)).
@@ -5412,7 +5412,7 @@ holds(s_training_on_5_m5162956045134362449, (ontable, a)).
 holds(s_training_on_5_m5162956045134362449, (ontable, c)).
 holds(s_training_on_5_m5162956045134362449, (clear, a)).
 holds(s_training_on_5_m5162956045134362449, (clear, d)).
-holds(s_training_on_5_p508951026265252457, (handempty)).
+holds(s_training_on_5_p508951026265252457, (handempty,)).
 holds(s_training_on_5_p508951026265252457, (on, b, a)).
 holds(s_training_on_5_p508951026265252457, (on, d, b)).
 holds(s_training_on_5_p508951026265252457, (on, e, c)).
@@ -5420,7 +5420,7 @@ holds(s_training_on_5_p508951026265252457, (ontable, a)).
 holds(s_training_on_5_p508951026265252457, (ontable, c)).
 holds(s_training_on_5_p508951026265252457, (clear, d)).
 holds(s_training_on_5_p508951026265252457, (clear, e)).
-holds(s_training_on_5_p5356046193872822311, (handempty)).
+holds(s_training_on_5_p5356046193872822311, (handempty,)).
 holds(s_training_on_5_p5356046193872822311, (on, b, a)).
 holds(s_training_on_5_p5356046193872822311, (on, d, e)).
 holds(s_training_on_5_p5356046193872822311, (on, e, c)).
@@ -5428,7 +5428,7 @@ holds(s_training_on_5_p5356046193872822311, (ontable, a)).
 holds(s_training_on_5_p5356046193872822311, (ontable, c)).
 holds(s_training_on_5_p5356046193872822311, (clear, b)).
 holds(s_training_on_5_p5356046193872822311, (clear, d)).
-holds(s_training_on_5_p8928665343299455663, (handempty)).
+holds(s_training_on_5_p8928665343299455663, (handempty,)).
 holds(s_training_on_5_p8928665343299455663, (on, a, b)).
 holds(s_training_on_5_p8928665343299455663, (on, b, d)).
 holds(s_training_on_5_p8928665343299455663, (on, e, c)).
@@ -5436,7 +5436,7 @@ holds(s_training_on_5_p8928665343299455663, (ontable, c)).
 holds(s_training_on_5_p8928665343299455663, (ontable, d)).
 holds(s_training_on_5_p8928665343299455663, (clear, a)).
 holds(s_training_on_5_p8928665343299455663, (clear, e)).
-holds(s_training_on_5_m7920962930228372940, (handempty)).
+holds(s_training_on_5_m7920962930228372940, (handempty,)).
 holds(s_training_on_5_m7920962930228372940, (on, b, d)).
 holds(s_training_on_5_m7920962930228372940, (on, d, a)).
 holds(s_training_on_5_m7920962930228372940, (on, e, c)).
@@ -5444,7 +5444,7 @@ holds(s_training_on_5_m7920962930228372940, (ontable, a)).
 holds(s_training_on_5_m7920962930228372940, (ontable, c)).
 holds(s_training_on_5_m7920962930228372940, (clear, b)).
 holds(s_training_on_5_m7920962930228372940, (clear, e)).
-holds(s_training_on_5_p3663865992112574051, (handempty)).
+holds(s_training_on_5_p3663865992112574051, (handempty,)).
 holds(s_training_on_5_p3663865992112574051, (on, a, d)).
 holds(s_training_on_5_p3663865992112574051, (on, d, b)).
 holds(s_training_on_5_p3663865992112574051, (on, e, c)).
@@ -5452,7 +5452,7 @@ holds(s_training_on_5_p3663865992112574051, (ontable, b)).
 holds(s_training_on_5_p3663865992112574051, (ontable, c)).
 holds(s_training_on_5_p3663865992112574051, (clear, a)).
 holds(s_training_on_5_p3663865992112574051, (clear, e)).
-holds(s_training_on_5_m5521665453729188848, (handempty)).
+holds(s_training_on_5_m5521665453729188848, (handempty,)).
 holds(s_training_on_5_m5521665453729188848, (on, a, b)).
 holds(s_training_on_5_m5521665453729188848, (on, d, e)).
 holds(s_training_on_5_m5521665453729188848, (on, e, c)).
@@ -5460,7 +5460,7 @@ holds(s_training_on_5_m5521665453729188848, (ontable, b)).
 holds(s_training_on_5_m5521665453729188848, (ontable, c)).
 holds(s_training_on_5_m5521665453729188848, (clear, a)).
 holds(s_training_on_5_m5521665453729188848, (clear, d)).
-holds(s_training_on_5_p9195503080668531757, (handempty)).
+holds(s_training_on_5_p9195503080668531757, (handempty,)).
 holds(s_training_on_5_p9195503080668531757, (on, a, d)).
 holds(s_training_on_5_p9195503080668531757, (on, d, e)).
 holds(s_training_on_5_p9195503080668531757, (on, e, c)).
@@ -5468,7 +5468,7 @@ holds(s_training_on_5_p9195503080668531757, (ontable, b)).
 holds(s_training_on_5_p9195503080668531757, (ontable, c)).
 holds(s_training_on_5_p9195503080668531757, (clear, a)).
 holds(s_training_on_5_p9195503080668531757, (clear, b)).
-holds(s_training_on_5_p6834847725870159866, (handempty)).
+holds(s_training_on_5_p6834847725870159866, (handempty,)).
 holds(s_training_on_5_p6834847725870159866, (on, b, d)).
 holds(s_training_on_5_p6834847725870159866, (on, d, e)).
 holds(s_training_on_5_p6834847725870159866, (on, e, c)).
@@ -5476,21 +5476,21 @@ holds(s_training_on_5_p6834847725870159866, (ontable, a)).
 holds(s_training_on_5_p6834847725870159866, (ontable, c)).
 holds(s_training_on_5_p6834847725870159866, (clear, a)).
 holds(s_training_on_5_p6834847725870159866, (clear, b)).
-holds(s_training_on_5_p5259798701860126970, (handempty)).
+holds(s_training_on_5_p5259798701860126970, (handempty,)).
 holds(s_training_on_5_p5259798701860126970, (on, a, e)).
 holds(s_training_on_5_p5259798701860126970, (on, b, a)).
 holds(s_training_on_5_p5259798701860126970, (on, d, b)).
 holds(s_training_on_5_p5259798701860126970, (on, e, c)).
 holds(s_training_on_5_p5259798701860126970, (ontable, c)).
 holds(s_training_on_5_p5259798701860126970, (clear, d)).
-holds(s_training_on_5_m2450607593421260633, (handempty)).
+holds(s_training_on_5_m2450607593421260633, (handempty,)).
 holds(s_training_on_5_m2450607593421260633, (on, a, e)).
 holds(s_training_on_5_m2450607593421260633, (on, b, d)).
 holds(s_training_on_5_m2450607593421260633, (on, d, a)).
 holds(s_training_on_5_m2450607593421260633, (on, e, c)).
 holds(s_training_on_5_m2450607593421260633, (ontable, c)).
 holds(s_training_on_5_m2450607593421260633, (clear, b)).
-holds(s_training_on_5_m4015539665493223284, (handempty)).
+holds(s_training_on_5_m4015539665493223284, (handempty,)).
 holds(s_training_on_5_m4015539665493223284, (on, c, e)).
 holds(s_training_on_5_m4015539665493223284, (on, d, a)).
 holds(s_training_on_5_m4015539665493223284, (on, e, d)).
@@ -5498,7 +5498,7 @@ holds(s_training_on_5_m4015539665493223284, (ontable, a)).
 holds(s_training_on_5_m4015539665493223284, (ontable, b)).
 holds(s_training_on_5_m4015539665493223284, (clear, b)).
 holds(s_training_on_5_m4015539665493223284, (clear, c)).
-holds(s_training_on_5_m1258302667314159464, (handempty)).
+holds(s_training_on_5_m1258302667314159464, (handempty,)).
 holds(s_training_on_5_m1258302667314159464, (on, b, c)).
 holds(s_training_on_5_m1258302667314159464, (on, c, d)).
 holds(s_training_on_5_m1258302667314159464, (on, d, a)).
@@ -5506,7 +5506,7 @@ holds(s_training_on_5_m1258302667314159464, (ontable, a)).
 holds(s_training_on_5_m1258302667314159464, (ontable, e)).
 holds(s_training_on_5_m1258302667314159464, (clear, b)).
 holds(s_training_on_5_m1258302667314159464, (clear, e)).
-holds(s_training_on_5_m5876673461411669587, (handempty)).
+holds(s_training_on_5_m5876673461411669587, (handempty,)).
 holds(s_training_on_5_m5876673461411669587, (on, b, e)).
 holds(s_training_on_5_m5876673461411669587, (on, c, d)).
 holds(s_training_on_5_m5876673461411669587, (on, d, a)).
@@ -5514,7 +5514,7 @@ holds(s_training_on_5_m5876673461411669587, (ontable, a)).
 holds(s_training_on_5_m5876673461411669587, (ontable, e)).
 holds(s_training_on_5_m5876673461411669587, (clear, b)).
 holds(s_training_on_5_m5876673461411669587, (clear, c)).
-holds(s_training_on_5_p6531338474721244791, (handempty)).
+holds(s_training_on_5_p6531338474721244791, (handempty,)).
 holds(s_training_on_5_p6531338474721244791, (on, c, d)).
 holds(s_training_on_5_p6531338474721244791, (on, d, a)).
 holds(s_training_on_5_p6531338474721244791, (on, e, c)).
@@ -5522,7 +5522,7 @@ holds(s_training_on_5_p6531338474721244791, (ontable, a)).
 holds(s_training_on_5_p6531338474721244791, (ontable, b)).
 holds(s_training_on_5_p6531338474721244791, (clear, b)).
 holds(s_training_on_5_p6531338474721244791, (clear, e)).
-holds(s_training_on_5_p8880690049895021771, (handempty)).
+holds(s_training_on_5_p8880690049895021771, (handempty,)).
 holds(s_training_on_5_p8880690049895021771, (on, b, c)).
 holds(s_training_on_5_p8880690049895021771, (on, c, e)).
 holds(s_training_on_5_p8880690049895021771, (on, d, a)).
@@ -5530,7 +5530,7 @@ holds(s_training_on_5_p8880690049895021771, (ontable, a)).
 holds(s_training_on_5_p8880690049895021771, (ontable, e)).
 holds(s_training_on_5_p8880690049895021771, (clear, b)).
 holds(s_training_on_5_p8880690049895021771, (clear, d)).
-holds(s_training_on_5_m8069988147553036059, (handempty)).
+holds(s_training_on_5_m8069988147553036059, (handempty,)).
 holds(s_training_on_5_m8069988147553036059, (on, b, d)).
 holds(s_training_on_5_m8069988147553036059, (on, c, e)).
 holds(s_training_on_5_m8069988147553036059, (on, d, a)).
@@ -5538,21 +5538,21 @@ holds(s_training_on_5_m8069988147553036059, (ontable, a)).
 holds(s_training_on_5_m8069988147553036059, (ontable, e)).
 holds(s_training_on_5_m8069988147553036059, (clear, b)).
 holds(s_training_on_5_m8069988147553036059, (clear, c)).
-holds(s_training_on_5_m1675415629803162914, (handempty)).
+holds(s_training_on_5_m1675415629803162914, (handempty,)).
 holds(s_training_on_5_m1675415629803162914, (on, a, d)).
 holds(s_training_on_5_m1675415629803162914, (on, c, b)).
 holds(s_training_on_5_m1675415629803162914, (on, d, c)).
 holds(s_training_on_5_m1675415629803162914, (on, e, a)).
 holds(s_training_on_5_m1675415629803162914, (ontable, b)).
 holds(s_training_on_5_m1675415629803162914, (clear, e)).
-holds(s_training_on_5_m1236022272357821016, (handempty)).
+holds(s_training_on_5_m1236022272357821016, (handempty,)).
 holds(s_training_on_5_m1236022272357821016, (on, a, e)).
 holds(s_training_on_5_m1236022272357821016, (on, c, b)).
 holds(s_training_on_5_m1236022272357821016, (on, d, c)).
 holds(s_training_on_5_m1236022272357821016, (on, e, d)).
 holds(s_training_on_5_m1236022272357821016, (ontable, b)).
 holds(s_training_on_5_m1236022272357821016, (clear, a)).
-holds(s_training_on_5_m1305585834482925505, (handempty)).
+holds(s_training_on_5_m1305585834482925505, (handempty,)).
 holds(s_training_on_5_m1305585834482925505, (on, a, d)).
 holds(s_training_on_5_m1305585834482925505, (on, c, a)).
 holds(s_training_on_5_m1305585834482925505, (on, d, e)).
@@ -5560,7 +5560,7 @@ holds(s_training_on_5_m1305585834482925505, (ontable, b)).
 holds(s_training_on_5_m1305585834482925505, (ontable, e)).
 holds(s_training_on_5_m1305585834482925505, (clear, b)).
 holds(s_training_on_5_m1305585834482925505, (clear, c)).
-holds(s_training_on_5_p2853087552516407238, (handempty)).
+holds(s_training_on_5_p2853087552516407238, (handempty,)).
 holds(s_training_on_5_p2853087552516407238, (on, b, c)).
 holds(s_training_on_5_p2853087552516407238, (on, c, a)).
 holds(s_training_on_5_p2853087552516407238, (on, d, e)).
@@ -5568,7 +5568,7 @@ holds(s_training_on_5_p2853087552516407238, (ontable, a)).
 holds(s_training_on_5_p2853087552516407238, (ontable, e)).
 holds(s_training_on_5_p2853087552516407238, (clear, b)).
 holds(s_training_on_5_p2853087552516407238, (clear, d)).
-holds(s_training_on_5_m3699957754685842456, (handempty)).
+holds(s_training_on_5_m3699957754685842456, (handempty,)).
 holds(s_training_on_5_m3699957754685842456, (on, b, d)).
 holds(s_training_on_5_m3699957754685842456, (on, c, a)).
 holds(s_training_on_5_m3699957754685842456, (on, d, e)).
@@ -5576,7 +5576,7 @@ holds(s_training_on_5_m3699957754685842456, (ontable, a)).
 holds(s_training_on_5_m3699957754685842456, (ontable, e)).
 holds(s_training_on_5_m3699957754685842456, (clear, b)).
 holds(s_training_on_5_m3699957754685842456, (clear, c)).
-holds(s_training_on_5_p2664645307008297618, (handempty)).
+holds(s_training_on_5_p2664645307008297618, (handempty,)).
 holds(s_training_on_5_p2664645307008297618, (on, a, b)).
 holds(s_training_on_5_p2664645307008297618, (on, c, d)).
 holds(s_training_on_5_p2664645307008297618, (on, d, e)).
@@ -5584,7 +5584,7 @@ holds(s_training_on_5_p2664645307008297618, (ontable, b)).
 holds(s_training_on_5_p2664645307008297618, (ontable, e)).
 holds(s_training_on_5_p2664645307008297618, (clear, a)).
 holds(s_training_on_5_p2664645307008297618, (clear, c)).
-holds(s_training_on_5_m6485672588722422069, (handempty)).
+holds(s_training_on_5_m6485672588722422069, (handempty,)).
 holds(s_training_on_5_m6485672588722422069, (on, a, c)).
 holds(s_training_on_5_m6485672588722422069, (on, c, d)).
 holds(s_training_on_5_m6485672588722422069, (on, d, e)).
@@ -5592,7 +5592,7 @@ holds(s_training_on_5_m6485672588722422069, (ontable, b)).
 holds(s_training_on_5_m6485672588722422069, (ontable, e)).
 holds(s_training_on_5_m6485672588722422069, (clear, a)).
 holds(s_training_on_5_m6485672588722422069, (clear, b)).
-holds(s_training_on_5_m2453936310099394907, (handempty)).
+holds(s_training_on_5_m2453936310099394907, (handempty,)).
 holds(s_training_on_5_m2453936310099394907, (on, b, a)).
 holds(s_training_on_5_m2453936310099394907, (on, c, d)).
 holds(s_training_on_5_m2453936310099394907, (on, d, e)).
@@ -5600,7 +5600,7 @@ holds(s_training_on_5_m2453936310099394907, (ontable, a)).
 holds(s_training_on_5_m2453936310099394907, (ontable, e)).
 holds(s_training_on_5_m2453936310099394907, (clear, b)).
 holds(s_training_on_5_m2453936310099394907, (clear, c)).
-holds(s_training_on_5_p2468196354401496406, (handempty)).
+holds(s_training_on_5_p2468196354401496406, (handempty,)).
 holds(s_training_on_5_p2468196354401496406, (on, b, c)).
 holds(s_training_on_5_p2468196354401496406, (on, c, d)).
 holds(s_training_on_5_p2468196354401496406, (on, d, e)).
@@ -5608,7 +5608,7 @@ holds(s_training_on_5_p2468196354401496406, (ontable, a)).
 holds(s_training_on_5_p2468196354401496406, (ontable, e)).
 holds(s_training_on_5_p2468196354401496406, (clear, a)).
 holds(s_training_on_5_p2468196354401496406, (clear, b)).
-holds(s_training_on_5_p8485311986005447665, (handempty)).
+holds(s_training_on_5_p8485311986005447665, (handempty,)).
 holds(s_training_on_5_p8485311986005447665, (on, c, d)).
 holds(s_training_on_5_p8485311986005447665, (on, d, e)).
 holds(s_training_on_5_p8485311986005447665, (on, e, a)).
@@ -5616,7 +5616,7 @@ holds(s_training_on_5_p8485311986005447665, (ontable, a)).
 holds(s_training_on_5_p8485311986005447665, (ontable, b)).
 holds(s_training_on_5_p8485311986005447665, (clear, b)).
 holds(s_training_on_5_p8485311986005447665, (clear, c)).
-holds(s_training_on_5_p6217550354302355808, (handempty)).
+holds(s_training_on_5_p6217550354302355808, (handempty,)).
 holds(s_training_on_5_p6217550354302355808, (on, b, c)).
 holds(s_training_on_5_p6217550354302355808, (on, c, d)).
 holds(s_training_on_5_p6217550354302355808, (on, e, a)).
@@ -5624,7 +5624,7 @@ holds(s_training_on_5_p6217550354302355808, (ontable, a)).
 holds(s_training_on_5_p6217550354302355808, (ontable, d)).
 holds(s_training_on_5_p6217550354302355808, (clear, b)).
 holds(s_training_on_5_p6217550354302355808, (clear, e)).
-holds(s_training_on_5_p1635208955264004181, (handempty)).
+holds(s_training_on_5_p1635208955264004181, (handempty,)).
 holds(s_training_on_5_p1635208955264004181, (on, b, e)).
 holds(s_training_on_5_p1635208955264004181, (on, c, d)).
 holds(s_training_on_5_p1635208955264004181, (on, e, a)).
@@ -5632,7 +5632,7 @@ holds(s_training_on_5_p1635208955264004181, (ontable, a)).
 holds(s_training_on_5_p1635208955264004181, (ontable, d)).
 holds(s_training_on_5_p1635208955264004181, (clear, b)).
 holds(s_training_on_5_p1635208955264004181, (clear, c)).
-holds(s_training_on_5_m4323950480090901197, (handempty)).
+holds(s_training_on_5_m4323950480090901197, (handempty,)).
 holds(s_training_on_5_m4323950480090901197, (on, b, c)).
 holds(s_training_on_5_m4323950480090901197, (on, c, e)).
 holds(s_training_on_5_m4323950480090901197, (on, e, a)).
@@ -5640,7 +5640,7 @@ holds(s_training_on_5_m4323950480090901197, (ontable, a)).
 holds(s_training_on_5_m4323950480090901197, (ontable, d)).
 holds(s_training_on_5_m4323950480090901197, (clear, b)).
 holds(s_training_on_5_m4323950480090901197, (clear, d)).
-holds(s_training_on_5_p2936652585524195613, (handempty)).
+holds(s_training_on_5_p2936652585524195613, (handempty,)).
 holds(s_training_on_5_p2936652585524195613, (on, b, d)).
 holds(s_training_on_5_p2936652585524195613, (on, c, e)).
 holds(s_training_on_5_p2936652585524195613, (on, e, a)).
@@ -5648,7 +5648,7 @@ holds(s_training_on_5_p2936652585524195613, (ontable, a)).
 holds(s_training_on_5_p2936652585524195613, (ontable, d)).
 holds(s_training_on_5_p2936652585524195613, (clear, b)).
 holds(s_training_on_5_p2936652585524195613, (clear, c)).
-holds(s_training_on_5_m5966524849626182164, (handempty)).
+holds(s_training_on_5_m5966524849626182164, (handempty,)).
 holds(s_training_on_5_m5966524849626182164, (on, c, e)).
 holds(s_training_on_5_m5966524849626182164, (on, d, b)).
 holds(s_training_on_5_m5966524849626182164, (on, e, a)).
@@ -5656,7 +5656,7 @@ holds(s_training_on_5_m5966524849626182164, (ontable, a)).
 holds(s_training_on_5_m5966524849626182164, (ontable, b)).
 holds(s_training_on_5_m5966524849626182164, (clear, c)).
 holds(s_training_on_5_m5966524849626182164, (clear, d)).
-holds(s_training_on_5_p8250050773797844144, (handempty)).
+holds(s_training_on_5_p8250050773797844144, (handempty,)).
 holds(s_training_on_5_p8250050773797844144, (on, c, e)).
 holds(s_training_on_5_p8250050773797844144, (on, d, c)).
 holds(s_training_on_5_p8250050773797844144, (on, e, a)).
@@ -5664,7 +5664,7 @@ holds(s_training_on_5_p8250050773797844144, (ontable, a)).
 holds(s_training_on_5_p8250050773797844144, (ontable, b)).
 holds(s_training_on_5_p8250050773797844144, (clear, b)).
 holds(s_training_on_5_p8250050773797844144, (clear, d)).
-holds(s_training_on_5_m6949274038686399617, (handempty)).
+holds(s_training_on_5_m6949274038686399617, (handempty,)).
 holds(s_training_on_5_m6949274038686399617, (on, a, e)).
 holds(s_training_on_5_m6949274038686399617, (on, c, a)).
 holds(s_training_on_5_m6949274038686399617, (on, e, d)).
@@ -5672,7 +5672,7 @@ holds(s_training_on_5_m6949274038686399617, (ontable, b)).
 holds(s_training_on_5_m6949274038686399617, (ontable, d)).
 holds(s_training_on_5_m6949274038686399617, (clear, b)).
 holds(s_training_on_5_m6949274038686399617, (clear, c)).
-holds(s_training_on_5_m5229919220951138032, (handempty)).
+holds(s_training_on_5_m5229919220951138032, (handempty,)).
 holds(s_training_on_5_m5229919220951138032, (on, b, c)).
 holds(s_training_on_5_m5229919220951138032, (on, c, a)).
 holds(s_training_on_5_m5229919220951138032, (on, e, d)).
@@ -5680,7 +5680,7 @@ holds(s_training_on_5_m5229919220951138032, (ontable, a)).
 holds(s_training_on_5_m5229919220951138032, (ontable, d)).
 holds(s_training_on_5_m5229919220951138032, (clear, b)).
 holds(s_training_on_5_m5229919220951138032, (clear, e)).
-holds(s_training_on_5_m606903107263137755, (handempty)).
+holds(s_training_on_5_m606903107263137755, (handempty,)).
 holds(s_training_on_5_m606903107263137755, (on, b, e)).
 holds(s_training_on_5_m606903107263137755, (on, c, a)).
 holds(s_training_on_5_m606903107263137755, (on, e, d)).
@@ -5688,7 +5688,7 @@ holds(s_training_on_5_m606903107263137755, (ontable, a)).
 holds(s_training_on_5_m606903107263137755, (ontable, d)).
 holds(s_training_on_5_m606903107263137755, (clear, b)).
 holds(s_training_on_5_m606903107263137755, (clear, c)).
-holds(s_training_on_5_p2431385312670173207, (handempty)).
+holds(s_training_on_5_p2431385312670173207, (handempty,)).
 holds(s_training_on_5_p2431385312670173207, (on, a, b)).
 holds(s_training_on_5_p2431385312670173207, (on, c, e)).
 holds(s_training_on_5_p2431385312670173207, (on, e, d)).
@@ -5696,7 +5696,7 @@ holds(s_training_on_5_p2431385312670173207, (ontable, b)).
 holds(s_training_on_5_p2431385312670173207, (ontable, d)).
 holds(s_training_on_5_p2431385312670173207, (clear, a)).
 holds(s_training_on_5_p2431385312670173207, (clear, c)).
-holds(s_training_on_5_m6864893335797179314, (handempty)).
+holds(s_training_on_5_m6864893335797179314, (handempty,)).
 holds(s_training_on_5_m6864893335797179314, (on, a, c)).
 holds(s_training_on_5_m6864893335797179314, (on, c, e)).
 holds(s_training_on_5_m6864893335797179314, (on, e, d)).
@@ -5704,7 +5704,7 @@ holds(s_training_on_5_m6864893335797179314, (ontable, b)).
 holds(s_training_on_5_m6864893335797179314, (ontable, d)).
 holds(s_training_on_5_m6864893335797179314, (clear, a)).
 holds(s_training_on_5_m6864893335797179314, (clear, b)).
-holds(s_training_on_5_m2831249949956678624, (handempty)).
+holds(s_training_on_5_m2831249949956678624, (handempty,)).
 holds(s_training_on_5_m2831249949956678624, (on, b, a)).
 holds(s_training_on_5_m2831249949956678624, (on, c, e)).
 holds(s_training_on_5_m2831249949956678624, (on, e, d)).
@@ -5712,7 +5712,7 @@ holds(s_training_on_5_m2831249949956678624, (ontable, a)).
 holds(s_training_on_5_m2831249949956678624, (ontable, d)).
 holds(s_training_on_5_m2831249949956678624, (clear, b)).
 holds(s_training_on_5_m2831249949956678624, (clear, c)).
-holds(s_training_on_5_p2811503216316452819, (handempty)).
+holds(s_training_on_5_p2811503216316452819, (handempty,)).
 holds(s_training_on_5_p2811503216316452819, (on, b, c)).
 holds(s_training_on_5_p2811503216316452819, (on, c, e)).
 holds(s_training_on_5_p2811503216316452819, (on, e, d)).
@@ -5720,7 +5720,7 @@ holds(s_training_on_5_p2811503216316452819, (ontable, a)).
 holds(s_training_on_5_p2811503216316452819, (ontable, d)).
 holds(s_training_on_5_p2811503216316452819, (clear, a)).
 holds(s_training_on_5_p2811503216316452819, (clear, b)).
-holds(s_training_on_5_p7700139287527243144, (handempty)).
+holds(s_training_on_5_p7700139287527243144, (handempty,)).
 holds(s_training_on_5_p7700139287527243144, (on, b, c)).
 holds(s_training_on_5_p7700139287527243144, (on, c, a)).
 holds(s_training_on_5_p7700139287527243144, (on, d, b)).
@@ -5728,7 +5728,7 @@ holds(s_training_on_5_p7700139287527243144, (ontable, a)).
 holds(s_training_on_5_p7700139287527243144, (ontable, e)).
 holds(s_training_on_5_p7700139287527243144, (clear, d)).
 holds(s_training_on_5_p7700139287527243144, (clear, e)).
-holds(s_training_on_5_p2444359518289181519, (handempty)).
+holds(s_training_on_5_p2444359518289181519, (handempty,)).
 holds(s_training_on_5_p2444359518289181519, (on, b, c)).
 holds(s_training_on_5_p2444359518289181519, (on, c, a)).
 holds(s_training_on_5_p2444359518289181519, (on, e, b)).
@@ -5736,7 +5736,7 @@ holds(s_training_on_5_p2444359518289181519, (ontable, a)).
 holds(s_training_on_5_p2444359518289181519, (ontable, d)).
 holds(s_training_on_5_p2444359518289181519, (clear, d)).
 holds(s_training_on_5_p2444359518289181519, (clear, e)).
-holds(s_training_on_5_m3831661671314415775, (handempty)).
+holds(s_training_on_5_m3831661671314415775, (handempty,)).
 holds(s_training_on_5_m3831661671314415775, (on, b, d)).
 holds(s_training_on_5_m3831661671314415775, (on, c, a)).
 holds(s_training_on_5_m3831661671314415775, (on, e, b)).
@@ -5744,7 +5744,7 @@ holds(s_training_on_5_m3831661671314415775, (ontable, a)).
 holds(s_training_on_5_m3831661671314415775, (ontable, d)).
 holds(s_training_on_5_m3831661671314415775, (clear, c)).
 holds(s_training_on_5_m3831661671314415775, (clear, e)).
-holds(s_training_on_5_p6558849158567270294, (handempty)).
+holds(s_training_on_5_p6558849158567270294, (handempty,)).
 holds(s_training_on_5_p6558849158567270294, (on, b, d)).
 holds(s_training_on_5_p6558849158567270294, (on, c, a)).
 holds(s_training_on_5_p6558849158567270294, (on, e, c)).
@@ -5752,7 +5752,7 @@ holds(s_training_on_5_p6558849158567270294, (ontable, a)).
 holds(s_training_on_5_p6558849158567270294, (ontable, d)).
 holds(s_training_on_5_p6558849158567270294, (clear, b)).
 holds(s_training_on_5_p6558849158567270294, (clear, e)).
-holds(s_training_on_5_p3036590642983634109, (handempty)).
+holds(s_training_on_5_p3036590642983634109, (handempty,)).
 holds(s_training_on_5_p3036590642983634109, (on, b, e)).
 holds(s_training_on_5_p3036590642983634109, (on, c, a)).
 holds(s_training_on_5_p3036590642983634109, (on, d, b)).
@@ -5760,7 +5760,7 @@ holds(s_training_on_5_p3036590642983634109, (ontable, a)).
 holds(s_training_on_5_p3036590642983634109, (ontable, e)).
 holds(s_training_on_5_p3036590642983634109, (clear, c)).
 holds(s_training_on_5_p3036590642983634109, (clear, d)).
-holds(s_training_on_5_m763193917880058399, (handempty)).
+holds(s_training_on_5_m763193917880058399, (handempty,)).
 holds(s_training_on_5_m763193917880058399, (on, b, e)).
 holds(s_training_on_5_m763193917880058399, (on, c, a)).
 holds(s_training_on_5_m763193917880058399, (on, d, c)).
@@ -5768,7 +5768,7 @@ holds(s_training_on_5_m763193917880058399, (ontable, a)).
 holds(s_training_on_5_m763193917880058399, (ontable, e)).
 holds(s_training_on_5_m763193917880058399, (clear, b)).
 holds(s_training_on_5_m763193917880058399, (clear, d)).
-holds(s_training_on_5_m2380708504804594841, (handempty)).
+holds(s_training_on_5_m2380708504804594841, (handempty,)).
 holds(s_training_on_5_m2380708504804594841, (on, c, a)).
 holds(s_training_on_5_m2380708504804594841, (on, d, b)).
 holds(s_training_on_5_m2380708504804594841, (on, e, c)).
@@ -5776,7 +5776,7 @@ holds(s_training_on_5_m2380708504804594841, (ontable, a)).
 holds(s_training_on_5_m2380708504804594841, (ontable, b)).
 holds(s_training_on_5_m2380708504804594841, (clear, d)).
 holds(s_training_on_5_m2380708504804594841, (clear, e)).
-holds(s_training_on_5_m2763239167989605937, (handempty)).
+holds(s_training_on_5_m2763239167989605937, (handempty,)).
 holds(s_training_on_5_m2763239167989605937, (on, c, a)).
 holds(s_training_on_5_m2763239167989605937, (on, d, b)).
 holds(s_training_on_5_m2763239167989605937, (on, e, d)).
@@ -5784,7 +5784,7 @@ holds(s_training_on_5_m2763239167989605937, (ontable, a)).
 holds(s_training_on_5_m2763239167989605937, (ontable, b)).
 holds(s_training_on_5_m2763239167989605937, (clear, c)).
 holds(s_training_on_5_m2763239167989605937, (clear, e)).
-holds(s_training_on_5_p6822953240119288058, (handempty)).
+holds(s_training_on_5_p6822953240119288058, (handempty,)).
 holds(s_training_on_5_p6822953240119288058, (on, b, d)).
 holds(s_training_on_5_p6822953240119288058, (on, c, a)).
 holds(s_training_on_5_p6822953240119288058, (on, d, c)).
@@ -5792,7 +5792,7 @@ holds(s_training_on_5_p6822953240119288058, (ontable, a)).
 holds(s_training_on_5_p6822953240119288058, (ontable, e)).
 holds(s_training_on_5_p6822953240119288058, (clear, b)).
 holds(s_training_on_5_p6822953240119288058, (clear, e)).
-holds(s_training_on_5_p498690820755234963, (handempty)).
+holds(s_training_on_5_p498690820755234963, (handempty,)).
 holds(s_training_on_5_p498690820755234963, (on, c, a)).
 holds(s_training_on_5_p498690820755234963, (on, d, c)).
 holds(s_training_on_5_p498690820755234963, (on, e, d)).
@@ -5800,7 +5800,7 @@ holds(s_training_on_5_p498690820755234963, (ontable, a)).
 holds(s_training_on_5_p498690820755234963, (ontable, b)).
 holds(s_training_on_5_p498690820755234963, (clear, b)).
 holds(s_training_on_5_p498690820755234963, (clear, e)).
-holds(s_training_on_5_m1098070780372481395, (handempty)).
+holds(s_training_on_5_m1098070780372481395, (handempty,)).
 holds(s_training_on_5_m1098070780372481395, (on, b, e)).
 holds(s_training_on_5_m1098070780372481395, (on, c, a)).
 holds(s_training_on_5_m1098070780372481395, (on, e, c)).
@@ -5808,7 +5808,7 @@ holds(s_training_on_5_m1098070780372481395, (ontable, a)).
 holds(s_training_on_5_m1098070780372481395, (ontable, d)).
 holds(s_training_on_5_m1098070780372481395, (clear, b)).
 holds(s_training_on_5_m1098070780372481395, (clear, d)).
-holds(s_training_on_5_m7804085200226490071, (handempty)).
+holds(s_training_on_5_m7804085200226490071, (handempty,)).
 holds(s_training_on_5_m7804085200226490071, (on, c, a)).
 holds(s_training_on_5_m7804085200226490071, (on, d, e)).
 holds(s_training_on_5_m7804085200226490071, (on, e, c)).
@@ -5816,7 +5816,7 @@ holds(s_training_on_5_m7804085200226490071, (ontable, a)).
 holds(s_training_on_5_m7804085200226490071, (ontable, b)).
 holds(s_training_on_5_m7804085200226490071, (clear, b)).
 holds(s_training_on_5_m7804085200226490071, (clear, d)).
-holds(s_training_on_5_p8775151834069317545, (handempty)).
+holds(s_training_on_5_p8775151834069317545, (handempty,)).
 holds(s_training_on_5_p8775151834069317545, (on, a, c)).
 holds(s_training_on_5_p8775151834069317545, (on, b, a)).
 holds(s_training_on_5_p8775151834069317545, (on, c, d)).
@@ -5824,7 +5824,7 @@ holds(s_training_on_5_p8775151834069317545, (ontable, d)).
 holds(s_training_on_5_p8775151834069317545, (ontable, e)).
 holds(s_training_on_5_p8775151834069317545, (clear, b)).
 holds(s_training_on_5_p8775151834069317545, (clear, e)).
-holds(s_training_on_5_m4139146095143789201, (handempty)).
+holds(s_training_on_5_m4139146095143789201, (handempty,)).
 holds(s_training_on_5_m4139146095143789201, (on, a, c)).
 holds(s_training_on_5_m4139146095143789201, (on, b, e)).
 holds(s_training_on_5_m4139146095143789201, (on, c, d)).
@@ -5832,7 +5832,7 @@ holds(s_training_on_5_m4139146095143789201, (ontable, d)).
 holds(s_training_on_5_m4139146095143789201, (ontable, e)).
 holds(s_training_on_5_m4139146095143789201, (clear, a)).
 holds(s_training_on_5_m4139146095143789201, (clear, b)).
-holds(s_training_on_5_m3317000358378726659, (handempty)).
+holds(s_training_on_5_m3317000358378726659, (handempty,)).
 holds(s_training_on_5_m3317000358378726659, (on, a, c)).
 holds(s_training_on_5_m3317000358378726659, (on, c, d)).
 holds(s_training_on_5_m3317000358378726659, (on, e, a)).
@@ -5840,7 +5840,7 @@ holds(s_training_on_5_m3317000358378726659, (ontable, b)).
 holds(s_training_on_5_m3317000358378726659, (ontable, d)).
 holds(s_training_on_5_m3317000358378726659, (clear, b)).
 holds(s_training_on_5_m3317000358378726659, (clear, e)).
-holds(s_training_on_5_m2628424422780093908, (handempty)).
+holds(s_training_on_5_m2628424422780093908, (handempty,)).
 holds(s_training_on_5_m2628424422780093908, (on, b, a)).
 holds(s_training_on_5_m2628424422780093908, (on, c, d)).
 holds(s_training_on_5_m2628424422780093908, (on, e, b)).
@@ -5848,7 +5848,7 @@ holds(s_training_on_5_m2628424422780093908, (ontable, a)).
 holds(s_training_on_5_m2628424422780093908, (ontable, d)).
 holds(s_training_on_5_m2628424422780093908, (clear, c)).
 holds(s_training_on_5_m2628424422780093908, (clear, e)).
-holds(s_training_on_5_p5355755653844284123, (handempty)).
+holds(s_training_on_5_p5355755653844284123, (handempty,)).
 holds(s_training_on_5_p5355755653844284123, (on, b, a)).
 holds(s_training_on_5_p5355755653844284123, (on, c, d)).
 holds(s_training_on_5_p5355755653844284123, (on, e, c)).
@@ -5856,7 +5856,7 @@ holds(s_training_on_5_p5355755653844284123, (ontable, a)).
 holds(s_training_on_5_p5355755653844284123, (ontable, d)).
 holds(s_training_on_5_p5355755653844284123, (clear, b)).
 holds(s_training_on_5_p5355755653844284123, (clear, e)).
-holds(s_training_on_5_p536622801668796419, (handempty)).
+holds(s_training_on_5_p536622801668796419, (handempty,)).
 holds(s_training_on_5_p536622801668796419, (on, a, b)).
 holds(s_training_on_5_p536622801668796419, (on, b, c)).
 holds(s_training_on_5_p536622801668796419, (on, c, d)).
@@ -5864,7 +5864,7 @@ holds(s_training_on_5_p536622801668796419, (ontable, d)).
 holds(s_training_on_5_p536622801668796419, (ontable, e)).
 holds(s_training_on_5_p536622801668796419, (clear, a)).
 holds(s_training_on_5_p536622801668796419, (clear, e)).
-holds(s_training_on_5_p2608960246306007519, (handempty)).
+holds(s_training_on_5_p2608960246306007519, (handempty,)).
 holds(s_training_on_5_p2608960246306007519, (on, b, c)).
 holds(s_training_on_5_p2608960246306007519, (on, c, d)).
 holds(s_training_on_5_p2608960246306007519, (on, e, b)).
@@ -5872,7 +5872,7 @@ holds(s_training_on_5_p2608960246306007519, (ontable, a)).
 holds(s_training_on_5_p2608960246306007519, (ontable, d)).
 holds(s_training_on_5_p2608960246306007519, (clear, a)).
 holds(s_training_on_5_p2608960246306007519, (clear, e)).
-holds(s_training_on_5_p5154993622601451830, (handempty)).
+holds(s_training_on_5_p5154993622601451830, (handempty,)).
 holds(s_training_on_5_p5154993622601451830, (on, a, b)).
 holds(s_training_on_5_p5154993622601451830, (on, b, e)).
 holds(s_training_on_5_p5154993622601451830, (on, c, d)).
@@ -5880,7 +5880,7 @@ holds(s_training_on_5_p5154993622601451830, (ontable, d)).
 holds(s_training_on_5_p5154993622601451830, (ontable, e)).
 holds(s_training_on_5_p5154993622601451830, (clear, a)).
 holds(s_training_on_5_p5154993622601451830, (clear, c)).
-holds(s_training_on_5_m5523644873718225172, (handempty)).
+holds(s_training_on_5_m5523644873718225172, (handempty,)).
 holds(s_training_on_5_m5523644873718225172, (on, a, b)).
 holds(s_training_on_5_m5523644873718225172, (on, c, d)).
 holds(s_training_on_5_m5523644873718225172, (on, e, c)).
@@ -5888,7 +5888,7 @@ holds(s_training_on_5_m5523644873718225172, (ontable, b)).
 holds(s_training_on_5_m5523644873718225172, (ontable, d)).
 holds(s_training_on_5_m5523644873718225172, (clear, a)).
 holds(s_training_on_5_m5523644873718225172, (clear, e)).
-holds(s_training_on_5_m7131800540706413753, (handempty)).
+holds(s_training_on_5_m7131800540706413753, (handempty,)).
 holds(s_training_on_5_m7131800540706413753, (on, a, e)).
 holds(s_training_on_5_m7131800540706413753, (on, c, d)).
 holds(s_training_on_5_m7131800540706413753, (on, e, c)).
@@ -5896,7 +5896,7 @@ holds(s_training_on_5_m7131800540706413753, (ontable, b)).
 holds(s_training_on_5_m7131800540706413753, (ontable, d)).
 holds(s_training_on_5_m7131800540706413753, (clear, a)).
 holds(s_training_on_5_m7131800540706413753, (clear, b)).
-holds(s_training_on_5_m785277853410371555, (handempty)).
+holds(s_training_on_5_m785277853410371555, (handempty,)).
 holds(s_training_on_5_m785277853410371555, (on, b, e)).
 holds(s_training_on_5_m785277853410371555, (on, c, d)).
 holds(s_training_on_5_m785277853410371555, (on, e, c)).
@@ -5904,7 +5904,7 @@ holds(s_training_on_5_m785277853410371555, (ontable, a)).
 holds(s_training_on_5_m785277853410371555, (ontable, d)).
 holds(s_training_on_5_m785277853410371555, (clear, a)).
 holds(s_training_on_5_m785277853410371555, (clear, b)).
-holds(s_training_on_5_p361021227463221432, (handempty)).
+holds(s_training_on_5_p361021227463221432, (handempty,)).
 holds(s_training_on_5_p361021227463221432, (on, b, a)).
 holds(s_training_on_5_p361021227463221432, (on, c, e)).
 holds(s_training_on_5_p361021227463221432, (on, d, b)).
@@ -5912,7 +5912,7 @@ holds(s_training_on_5_p361021227463221432, (ontable, a)).
 holds(s_training_on_5_p361021227463221432, (ontable, e)).
 holds(s_training_on_5_p361021227463221432, (clear, c)).
 holds(s_training_on_5_p361021227463221432, (clear, d)).
-holds(s_training_on_5_m2716182045947094556, (handempty)).
+holds(s_training_on_5_m2716182045947094556, (handempty,)).
 holds(s_training_on_5_m2716182045947094556, (on, b, a)).
 holds(s_training_on_5_m2716182045947094556, (on, c, e)).
 holds(s_training_on_5_m2716182045947094556, (on, d, c)).
@@ -5920,7 +5920,7 @@ holds(s_training_on_5_m2716182045947094556, (ontable, a)).
 holds(s_training_on_5_m2716182045947094556, (ontable, e)).
 holds(s_training_on_5_m2716182045947094556, (clear, b)).
 holds(s_training_on_5_m2716182045947094556, (clear, d)).
-holds(s_training_on_5_m381807025769254069, (handempty)).
+holds(s_training_on_5_m381807025769254069, (handempty,)).
 holds(s_training_on_5_m381807025769254069, (on, b, c)).
 holds(s_training_on_5_m381807025769254069, (on, c, e)).
 holds(s_training_on_5_m381807025769254069, (on, d, b)).
@@ -5928,7 +5928,7 @@ holds(s_training_on_5_m381807025769254069, (ontable, a)).
 holds(s_training_on_5_m381807025769254069, (ontable, e)).
 holds(s_training_on_5_m381807025769254069, (clear, a)).
 holds(s_training_on_5_m381807025769254069, (clear, d)).
-holds(s_training_on_5_p8789424987006748798, (handempty)).
+holds(s_training_on_5_p8789424987006748798, (handempty,)).
 holds(s_training_on_5_p8789424987006748798, (on, a, b)).
 holds(s_training_on_5_p8789424987006748798, (on, b, d)).
 holds(s_training_on_5_p8789424987006748798, (on, c, e)).
@@ -5936,7 +5936,7 @@ holds(s_training_on_5_p8789424987006748798, (ontable, d)).
 holds(s_training_on_5_p8789424987006748798, (ontable, e)).
 holds(s_training_on_5_p8789424987006748798, (clear, a)).
 holds(s_training_on_5_p8789424987006748798, (clear, c)).
-holds(s_training_on_5_p3515648928987958450, (handempty)).
+holds(s_training_on_5_p3515648928987958450, (handempty,)).
 holds(s_training_on_5_p3515648928987958450, (on, a, d)).
 holds(s_training_on_5_p3515648928987958450, (on, c, e)).
 holds(s_training_on_5_p3515648928987958450, (on, d, b)).
@@ -5944,7 +5944,7 @@ holds(s_training_on_5_p3515648928987958450, (ontable, b)).
 holds(s_training_on_5_p3515648928987958450, (ontable, e)).
 holds(s_training_on_5_p3515648928987958450, (clear, a)).
 holds(s_training_on_5_p3515648928987958450, (clear, c)).
-holds(s_training_on_5_p2541521082132991443, (handempty)).
+holds(s_training_on_5_p2541521082132991443, (handempty,)).
 holds(s_training_on_5_p2541521082132991443, (on, a, b)).
 holds(s_training_on_5_p2541521082132991443, (on, c, e)).
 holds(s_training_on_5_p2541521082132991443, (on, d, c)).
@@ -5952,7 +5952,7 @@ holds(s_training_on_5_p2541521082132991443, (ontable, b)).
 holds(s_training_on_5_p2541521082132991443, (ontable, e)).
 holds(s_training_on_5_p2541521082132991443, (clear, a)).
 holds(s_training_on_5_p2541521082132991443, (clear, d)).
-holds(s_training_on_5_m1187072164871080466, (handempty)).
+holds(s_training_on_5_m1187072164871080466, (handempty,)).
 holds(s_training_on_5_m1187072164871080466, (on, a, d)).
 holds(s_training_on_5_m1187072164871080466, (on, c, e)).
 holds(s_training_on_5_m1187072164871080466, (on, d, c)).
@@ -5960,7 +5960,7 @@ holds(s_training_on_5_m1187072164871080466, (ontable, b)).
 holds(s_training_on_5_m1187072164871080466, (ontable, e)).
 holds(s_training_on_5_m1187072164871080466, (clear, a)).
 holds(s_training_on_5_m1187072164871080466, (clear, b)).
-holds(s_training_on_5_m3548818121790296519, (handempty)).
+holds(s_training_on_5_m3548818121790296519, (handempty,)).
 holds(s_training_on_5_m3548818121790296519, (on, b, d)).
 holds(s_training_on_5_m3548818121790296519, (on, c, e)).
 holds(s_training_on_5_m3548818121790296519, (on, d, c)).
@@ -5968,35 +5968,35 @@ holds(s_training_on_5_m3548818121790296519, (ontable, a)).
 holds(s_training_on_5_m3548818121790296519, (ontable, e)).
 holds(s_training_on_5_m3548818121790296519, (clear, a)).
 holds(s_training_on_5_m3548818121790296519, (clear, b)).
-holds(s_training_on_5_m6816414458485456373, (handempty)).
+holds(s_training_on_5_m6816414458485456373, (handempty,)).
 holds(s_training_on_5_m6816414458485456373, (on, a, e)).
 holds(s_training_on_5_m6816414458485456373, (on, b, c)).
 holds(s_training_on_5_m6816414458485456373, (on, c, d)).
 holds(s_training_on_5_m6816414458485456373, (on, d, a)).
 holds(s_training_on_5_m6816414458485456373, (ontable, e)).
 holds(s_training_on_5_m6816414458485456373, (clear, b)).
-holds(s_training_on_5_p2680420974421368603, (handempty)).
+holds(s_training_on_5_p2680420974421368603, (handempty,)).
 holds(s_training_on_5_p2680420974421368603, (on, a, e)).
 holds(s_training_on_5_p2680420974421368603, (on, b, c)).
 holds(s_training_on_5_p2680420974421368603, (on, c, a)).
 holds(s_training_on_5_p2680420974421368603, (on, d, b)).
 holds(s_training_on_5_p2680420974421368603, (ontable, e)).
 holds(s_training_on_5_p2680420974421368603, (clear, d)).
-holds(s_training_on_5_p1243372402165564009, (handempty)).
+holds(s_training_on_5_p1243372402165564009, (handempty,)).
 holds(s_training_on_5_p1243372402165564009, (on, a, e)).
 holds(s_training_on_5_p1243372402165564009, (on, b, d)).
 holds(s_training_on_5_p1243372402165564009, (on, c, a)).
 holds(s_training_on_5_p1243372402165564009, (on, d, c)).
 holds(s_training_on_5_p1243372402165564009, (ontable, e)).
 holds(s_training_on_5_p1243372402165564009, (clear, b)).
-holds(s_training_on_5_m1894303268764642343, (handempty)).
+holds(s_training_on_5_m1894303268764642343, (handempty,)).
 holds(s_training_on_5_m1894303268764642343, (on, a, c)).
 holds(s_training_on_5_m1894303268764642343, (on, b, a)).
 holds(s_training_on_5_m1894303268764642343, (on, c, e)).
 holds(s_training_on_5_m1894303268764642343, (on, d, b)).
 holds(s_training_on_5_m1894303268764642343, (ontable, e)).
 holds(s_training_on_5_m1894303268764642343, (clear, d)).
-holds(s_training_on_5_p8121445173818502020, (handempty)).
+holds(s_training_on_5_p8121445173818502020, (handempty,)).
 holds(s_training_on_5_p8121445173818502020, (on, a, c)).
 holds(s_training_on_5_p8121445173818502020, (on, b, d)).
 holds(s_training_on_5_p8121445173818502020, (on, c, e)).
@@ -6618,7 +6618,7 @@ holds(s_training_on_5_p4721070593302567302, (on, d, c)).
 holds(s_training_on_5_p4721070593302567302, (ontable, e)).
 holds(s_training_on_5_p4721070593302567302, (clear, b)).
 holds(s_training_on_5_p4721070593302567302, (holding, a)).
-holds(s_training_on_5_p9114503395490565298, (handempty)).
+holds(s_training_on_5_p9114503395490565298, (handempty,)).
 holds(s_training_on_5_p9114503395490565298, (on, b, c)).
 holds(s_training_on_5_p9114503395490565298, (on, d, a)).
 holds(s_training_on_5_p9114503395490565298, (on, e, d)).
@@ -6626,7 +6626,7 @@ holds(s_training_on_5_p9114503395490565298, (ontable, a)).
 holds(s_training_on_5_p9114503395490565298, (ontable, c)).
 holds(s_training_on_5_p9114503395490565298, (clear, b)).
 holds(s_training_on_5_p9114503395490565298, (clear, e)).
-holds(s_training_on_5_m8722681457853015924, (handempty)).
+holds(s_training_on_5_m8722681457853015924, (handempty,)).
 holds(s_training_on_5_m8722681457853015924, (on, a, d)).
 holds(s_training_on_5_m8722681457853015924, (on, b, c)).
 holds(s_training_on_5_m8722681457853015924, (on, d, b)).
@@ -6634,7 +6634,7 @@ holds(s_training_on_5_m8722681457853015924, (ontable, c)).
 holds(s_training_on_5_m8722681457853015924, (ontable, e)).
 holds(s_training_on_5_m8722681457853015924, (clear, a)).
 holds(s_training_on_5_m8722681457853015924, (clear, e)).
-holds(s_training_on_5_p1948495398783556050, (handempty)).
+holds(s_training_on_5_p1948495398783556050, (handempty,)).
 holds(s_training_on_5_p1948495398783556050, (on, b, c)).
 holds(s_training_on_5_p1948495398783556050, (on, d, b)).
 holds(s_training_on_5_p1948495398783556050, (on, e, a)).
@@ -6642,7 +6642,7 @@ holds(s_training_on_5_p1948495398783556050, (ontable, a)).
 holds(s_training_on_5_p1948495398783556050, (ontable, c)).
 holds(s_training_on_5_p1948495398783556050, (clear, d)).
 holds(s_training_on_5_p1948495398783556050, (clear, e)).
-holds(s_training_on_5_m4441442049178830, (handempty)).
+holds(s_training_on_5_m4441442049178830, (handempty,)).
 holds(s_training_on_5_m4441442049178830, (on, b, c)).
 holds(s_training_on_5_m4441442049178830, (on, d, b)).
 holds(s_training_on_5_m4441442049178830, (on, e, d)).
@@ -6650,7 +6650,7 @@ holds(s_training_on_5_m4441442049178830, (ontable, a)).
 holds(s_training_on_5_m4441442049178830, (ontable, c)).
 holds(s_training_on_5_m4441442049178830, (clear, a)).
 holds(s_training_on_5_m4441442049178830, (clear, e)).
-holds(s_training_on_5_p537475775174353663, (handempty)).
+holds(s_training_on_5_p537475775174353663, (handempty,)).
 holds(s_training_on_5_p537475775174353663, (on, a, b)).
 holds(s_training_on_5_p537475775174353663, (on, b, c)).
 holds(s_training_on_5_p537475775174353663, (on, d, e)).
@@ -6658,7 +6658,7 @@ holds(s_training_on_5_p537475775174353663, (ontable, c)).
 holds(s_training_on_5_p537475775174353663, (ontable, e)).
 holds(s_training_on_5_p537475775174353663, (clear, a)).
 holds(s_training_on_5_p537475775174353663, (clear, d)).
-holds(s_training_on_5_m3767656310967117118, (handempty)).
+holds(s_training_on_5_m3767656310967117118, (handempty,)).
 holds(s_training_on_5_m3767656310967117118, (on, a, d)).
 holds(s_training_on_5_m3767656310967117118, (on, b, c)).
 holds(s_training_on_5_m3767656310967117118, (on, d, e)).
@@ -6666,7 +6666,7 @@ holds(s_training_on_5_m3767656310967117118, (ontable, c)).
 holds(s_training_on_5_m3767656310967117118, (ontable, e)).
 holds(s_training_on_5_m3767656310967117118, (clear, a)).
 holds(s_training_on_5_m3767656310967117118, (clear, b)).
-holds(s_training_on_5_p6218949762540444572, (handempty)).
+holds(s_training_on_5_p6218949762540444572, (handempty,)).
 holds(s_training_on_5_p6218949762540444572, (on, b, c)).
 holds(s_training_on_5_p6218949762540444572, (on, d, e)).
 holds(s_training_on_5_p6218949762540444572, (on, e, a)).
@@ -6674,7 +6674,7 @@ holds(s_training_on_5_p6218949762540444572, (ontable, a)).
 holds(s_training_on_5_p6218949762540444572, (ontable, c)).
 holds(s_training_on_5_p6218949762540444572, (clear, b)).
 holds(s_training_on_5_p6218949762540444572, (clear, d)).
-holds(s_training_on_5_m7528097247346992087, (handempty)).
+holds(s_training_on_5_m7528097247346992087, (handempty,)).
 holds(s_training_on_5_m7528097247346992087, (on, a, b)).
 holds(s_training_on_5_m7528097247346992087, (on, b, c)).
 holds(s_training_on_5_m7528097247346992087, (on, e, d)).
@@ -6682,7 +6682,7 @@ holds(s_training_on_5_m7528097247346992087, (ontable, c)).
 holds(s_training_on_5_m7528097247346992087, (ontable, d)).
 holds(s_training_on_5_m7528097247346992087, (clear, a)).
 holds(s_training_on_5_m7528097247346992087, (clear, e)).
-holds(s_training_on_5_m5055290575690524286, (handempty)).
+holds(s_training_on_5_m5055290575690524286, (handempty,)).
 holds(s_training_on_5_m5055290575690524286, (on, a, e)).
 holds(s_training_on_5_m5055290575690524286, (on, b, c)).
 holds(s_training_on_5_m5055290575690524286, (on, e, d)).
@@ -6690,14 +6690,14 @@ holds(s_training_on_5_m5055290575690524286, (ontable, c)).
 holds(s_training_on_5_m5055290575690524286, (ontable, d)).
 holds(s_training_on_5_m5055290575690524286, (clear, a)).
 holds(s_training_on_5_m5055290575690524286, (clear, b)).
-holds(s_training_on_5_m8556706603001224154, (handempty)).
+holds(s_training_on_5_m8556706603001224154, (handempty,)).
 holds(s_training_on_5_m8556706603001224154, (on, a, d)).
 holds(s_training_on_5_m8556706603001224154, (on, b, c)).
 holds(s_training_on_5_m8556706603001224154, (on, d, e)).
 holds(s_training_on_5_m8556706603001224154, (on, e, b)).
 holds(s_training_on_5_m8556706603001224154, (ontable, c)).
 holds(s_training_on_5_m8556706603001224154, (clear, a)).
-holds(s_training_on_5_p897611270084762773, (handempty)).
+holds(s_training_on_5_p897611270084762773, (handempty,)).
 holds(s_training_on_5_p897611270084762773, (on, b, e)).
 holds(s_training_on_5_p897611270084762773, (on, c, b)).
 holds(s_training_on_5_p897611270084762773, (on, d, a)).
@@ -6705,7 +6705,7 @@ holds(s_training_on_5_p897611270084762773, (ontable, a)).
 holds(s_training_on_5_p897611270084762773, (ontable, e)).
 holds(s_training_on_5_p897611270084762773, (clear, c)).
 holds(s_training_on_5_p897611270084762773, (clear, d)).
-holds(s_training_on_5_p5959740604397087305, (handempty)).
+holds(s_training_on_5_p5959740604397087305, (handempty,)).
 holds(s_training_on_5_p5959740604397087305, (on, b, e)).
 holds(s_training_on_5_p5959740604397087305, (on, c, b)).
 holds(s_training_on_5_p5959740604397087305, (on, d, c)).
@@ -6713,14 +6713,14 @@ holds(s_training_on_5_p5959740604397087305, (ontable, a)).
 holds(s_training_on_5_p5959740604397087305, (ontable, e)).
 holds(s_training_on_5_p5959740604397087305, (clear, a)).
 holds(s_training_on_5_p5959740604397087305, (clear, d)).
-holds(s_training_on_5_m1386973017263558668, (handempty)).
+holds(s_training_on_5_m1386973017263558668, (handempty,)).
 holds(s_training_on_5_m1386973017263558668, (on, a, c)).
 holds(s_training_on_5_m1386973017263558668, (on, b, e)).
 holds(s_training_on_5_m1386973017263558668, (on, c, b)).
 holds(s_training_on_5_m1386973017263558668, (on, d, a)).
 holds(s_training_on_5_m1386973017263558668, (ontable, e)).
 holds(s_training_on_5_m1386973017263558668, (clear, d)).
-holds(s_training_on_5_m4176367827230432839, (handempty)).
+holds(s_training_on_5_m4176367827230432839, (handempty,)).
 holds(s_training_on_5_m4176367827230432839, (on, a, d)).
 holds(s_training_on_5_m4176367827230432839, (on, b, e)).
 holds(s_training_on_5_m4176367827230432839, (on, d, b)).
@@ -6728,7 +6728,7 @@ holds(s_training_on_5_m4176367827230432839, (ontable, c)).
 holds(s_training_on_5_m4176367827230432839, (ontable, e)).
 holds(s_training_on_5_m4176367827230432839, (clear, a)).
 holds(s_training_on_5_m4176367827230432839, (clear, c)).
-holds(s_training_on_5_p3457881174197098029, (handempty)).
+holds(s_training_on_5_p3457881174197098029, (handempty,)).
 holds(s_training_on_5_p3457881174197098029, (on, b, e)).
 holds(s_training_on_5_p3457881174197098029, (on, c, d)).
 holds(s_training_on_5_p3457881174197098029, (on, d, b)).
@@ -6736,7 +6736,7 @@ holds(s_training_on_5_p3457881174197098029, (ontable, a)).
 holds(s_training_on_5_p3457881174197098029, (ontable, e)).
 holds(s_training_on_5_p3457881174197098029, (clear, a)).
 holds(s_training_on_5_p3457881174197098029, (clear, c)).
-holds(s_training_on_5_m3060797993026051880, (handempty)).
+holds(s_training_on_5_m3060797993026051880, (handempty,)).
 holds(s_training_on_5_m3060797993026051880, (on, a, b)).
 holds(s_training_on_5_m3060797993026051880, (on, b, e)).
 holds(s_training_on_5_m3060797993026051880, (on, d, c)).
@@ -6744,7 +6744,7 @@ holds(s_training_on_5_m3060797993026051880, (ontable, c)).
 holds(s_training_on_5_m3060797993026051880, (ontable, e)).
 holds(s_training_on_5_m3060797993026051880, (clear, a)).
 holds(s_training_on_5_m3060797993026051880, (clear, d)).
-holds(s_training_on_5_p1821208673064245477, (handempty)).
+holds(s_training_on_5_p1821208673064245477, (handempty,)).
 holds(s_training_on_5_p1821208673064245477, (on, a, d)).
 holds(s_training_on_5_p1821208673064245477, (on, b, e)).
 holds(s_training_on_5_p1821208673064245477, (on, d, c)).
@@ -6752,7 +6752,7 @@ holds(s_training_on_5_p1821208673064245477, (ontable, c)).
 holds(s_training_on_5_p1821208673064245477, (ontable, e)).
 holds(s_training_on_5_p1821208673064245477, (clear, a)).
 holds(s_training_on_5_p1821208673064245477, (clear, b)).
-holds(s_training_on_5_m1298138303528402801, (handempty)).
+holds(s_training_on_5_m1298138303528402801, (handempty,)).
 holds(s_training_on_5_m1298138303528402801, (on, b, a)).
 holds(s_training_on_5_m1298138303528402801, (on, c, b)).
 holds(s_training_on_5_m1298138303528402801, (on, d, c)).
@@ -6760,7 +6760,7 @@ holds(s_training_on_5_m1298138303528402801, (ontable, a)).
 holds(s_training_on_5_m1298138303528402801, (ontable, e)).
 holds(s_training_on_5_m1298138303528402801, (clear, d)).
 holds(s_training_on_5_m1298138303528402801, (clear, e)).
-holds(s_training_on_5_p9220264558278097821, (handempty)).
+holds(s_training_on_5_p9220264558278097821, (handempty,)).
 holds(s_training_on_5_p9220264558278097821, (on, b, a)).
 holds(s_training_on_5_p9220264558278097821, (on, c, b)).
 holds(s_training_on_5_p9220264558278097821, (on, d, e)).
@@ -6768,7 +6768,7 @@ holds(s_training_on_5_p9220264558278097821, (ontable, a)).
 holds(s_training_on_5_p9220264558278097821, (ontable, e)).
 holds(s_training_on_5_p9220264558278097821, (clear, c)).
 holds(s_training_on_5_p9220264558278097821, (clear, d)).
-holds(s_training_on_5_m1705070635074439197, (handempty)).
+holds(s_training_on_5_m1705070635074439197, (handempty,)).
 holds(s_training_on_5_m1705070635074439197, (on, b, a)).
 holds(s_training_on_5_m1705070635074439197, (on, c, b)).
 holds(s_training_on_5_m1705070635074439197, (on, e, c)).
@@ -6776,7 +6776,7 @@ holds(s_training_on_5_m1705070635074439197, (ontable, a)).
 holds(s_training_on_5_m1705070635074439197, (ontable, d)).
 holds(s_training_on_5_m1705070635074439197, (clear, d)).
 holds(s_training_on_5_m1705070635074439197, (clear, e)).
-holds(s_training_on_5_m1222909899287673525, (handempty)).
+holds(s_training_on_5_m1222909899287673525, (handempty,)).
 holds(s_training_on_5_m1222909899287673525, (on, b, a)).
 holds(s_training_on_5_m1222909899287673525, (on, c, b)).
 holds(s_training_on_5_m1222909899287673525, (on, e, d)).
@@ -6784,7 +6784,7 @@ holds(s_training_on_5_m1222909899287673525, (ontable, a)).
 holds(s_training_on_5_m1222909899287673525, (ontable, d)).
 holds(s_training_on_5_m1222909899287673525, (clear, c)).
 holds(s_training_on_5_m1222909899287673525, (clear, e)).
-holds(s_training_on_5_m8019351774536876821, (handempty)).
+holds(s_training_on_5_m8019351774536876821, (handempty,)).
 holds(s_training_on_5_m8019351774536876821, (on, b, a)).
 holds(s_training_on_5_m8019351774536876821, (on, c, d)).
 holds(s_training_on_5_m8019351774536876821, (on, d, b)).
@@ -6792,7 +6792,7 @@ holds(s_training_on_5_m8019351774536876821, (ontable, a)).
 holds(s_training_on_5_m8019351774536876821, (ontable, e)).
 holds(s_training_on_5_m8019351774536876821, (clear, c)).
 holds(s_training_on_5_m8019351774536876821, (clear, e)).
-holds(s_training_on_5_p18347432476283073, (handempty)).
+holds(s_training_on_5_p18347432476283073, (handempty,)).
 holds(s_training_on_5_p18347432476283073, (on, b, a)).
 holds(s_training_on_5_p18347432476283073, (on, d, b)).
 holds(s_training_on_5_p18347432476283073, (on, e, d)).
@@ -6800,7 +6800,7 @@ holds(s_training_on_5_p18347432476283073, (ontable, a)).
 holds(s_training_on_5_p18347432476283073, (ontable, c)).
 holds(s_training_on_5_p18347432476283073, (clear, c)).
 holds(s_training_on_5_p18347432476283073, (clear, e)).
-holds(s_training_on_5_p5299081978293736386, (handempty)).
+holds(s_training_on_5_p5299081978293736386, (handempty,)).
 holds(s_training_on_5_p5299081978293736386, (on, b, a)).
 holds(s_training_on_5_p5299081978293736386, (on, d, c)).
 holds(s_training_on_5_p5299081978293736386, (on, e, b)).
@@ -6808,7 +6808,7 @@ holds(s_training_on_5_p5299081978293736386, (ontable, a)).
 holds(s_training_on_5_p5299081978293736386, (ontable, c)).
 holds(s_training_on_5_p5299081978293736386, (clear, d)).
 holds(s_training_on_5_p5299081978293736386, (clear, e)).
-holds(s_training_on_5_m2374071203060012643, (handempty)).
+holds(s_training_on_5_m2374071203060012643, (handempty,)).
 holds(s_training_on_5_m2374071203060012643, (on, b, a)).
 holds(s_training_on_5_m2374071203060012643, (on, d, c)).
 holds(s_training_on_5_m2374071203060012643, (on, e, d)).
@@ -6816,7 +6816,7 @@ holds(s_training_on_5_m2374071203060012643, (ontable, a)).
 holds(s_training_on_5_m2374071203060012643, (ontable, c)).
 holds(s_training_on_5_m2374071203060012643, (clear, b)).
 holds(s_training_on_5_m2374071203060012643, (clear, e)).
-holds(s_training_on_5_p5634817879468516991, (handempty)).
+holds(s_training_on_5_p5634817879468516991, (handempty,)).
 holds(s_training_on_5_p5634817879468516991, (on, b, a)).
 holds(s_training_on_5_p5634817879468516991, (on, c, e)).
 holds(s_training_on_5_p5634817879468516991, (on, e, b)).
@@ -6824,7 +6824,7 @@ holds(s_training_on_5_p5634817879468516991, (ontable, a)).
 holds(s_training_on_5_p5634817879468516991, (ontable, d)).
 holds(s_training_on_5_p5634817879468516991, (clear, c)).
 holds(s_training_on_5_p5634817879468516991, (clear, d)).
-holds(s_training_on_5_m2629260853181290288, (handempty)).
+holds(s_training_on_5_m2629260853181290288, (handempty,)).
 holds(s_training_on_5_m2629260853181290288, (on, b, a)).
 holds(s_training_on_5_m2629260853181290288, (on, d, e)).
 holds(s_training_on_5_m2629260853181290288, (on, e, b)).
@@ -6832,7 +6832,7 @@ holds(s_training_on_5_m2629260853181290288, (ontable, a)).
 holds(s_training_on_5_m2629260853181290288, (ontable, c)).
 holds(s_training_on_5_m2629260853181290288, (clear, c)).
 holds(s_training_on_5_m2629260853181290288, (clear, d)).
-holds(s_training_on_5_m3509275671929830068, (handempty)).
+holds(s_training_on_5_m3509275671929830068, (handempty,)).
 holds(s_training_on_5_m3509275671929830068, (on, a, c)).
 holds(s_training_on_5_m3509275671929830068, (on, b, d)).
 holds(s_training_on_5_m3509275671929830068, (on, c, b)).
@@ -6840,7 +6840,7 @@ holds(s_training_on_5_m3509275671929830068, (ontable, d)).
 holds(s_training_on_5_m3509275671929830068, (ontable, e)).
 holds(s_training_on_5_m3509275671929830068, (clear, a)).
 holds(s_training_on_5_m3509275671929830068, (clear, e)).
-holds(s_training_on_5_p2266204727689472118, (handempty)).
+holds(s_training_on_5_p2266204727689472118, (handempty,)).
 holds(s_training_on_5_p2266204727689472118, (on, b, d)).
 holds(s_training_on_5_p2266204727689472118, (on, c, b)).
 holds(s_training_on_5_p2266204727689472118, (on, e, a)).
@@ -6848,7 +6848,7 @@ holds(s_training_on_5_p2266204727689472118, (ontable, a)).
 holds(s_training_on_5_p2266204727689472118, (ontable, d)).
 holds(s_training_on_5_p2266204727689472118, (clear, c)).
 holds(s_training_on_5_p2266204727689472118, (clear, e)).
-holds(s_training_on_5_m227324978107793346, (handempty)).
+holds(s_training_on_5_m227324978107793346, (handempty,)).
 holds(s_training_on_5_m227324978107793346, (on, b, d)).
 holds(s_training_on_5_m227324978107793346, (on, c, b)).
 holds(s_training_on_5_m227324978107793346, (on, e, c)).
@@ -6856,7 +6856,7 @@ holds(s_training_on_5_m227324978107793346, (ontable, a)).
 holds(s_training_on_5_m227324978107793346, (ontable, d)).
 holds(s_training_on_5_m227324978107793346, (clear, a)).
 holds(s_training_on_5_m227324978107793346, (clear, e)).
-holds(s_training_on_5_m4296244730179794957, (handempty)).
+holds(s_training_on_5_m4296244730179794957, (handempty,)).
 holds(s_training_on_5_m4296244730179794957, (on, a, e)).
 holds(s_training_on_5_m4296244730179794957, (on, b, d)).
 holds(s_training_on_5_m4296244730179794957, (on, e, b)).
@@ -6864,7 +6864,7 @@ holds(s_training_on_5_m4296244730179794957, (ontable, c)).
 holds(s_training_on_5_m4296244730179794957, (ontable, d)).
 holds(s_training_on_5_m4296244730179794957, (clear, a)).
 holds(s_training_on_5_m4296244730179794957, (clear, c)).
-holds(s_training_on_5_p6538341999689486754, (handempty)).
+holds(s_training_on_5_p6538341999689486754, (handempty,)).
 holds(s_training_on_5_p6538341999689486754, (on, b, d)).
 holds(s_training_on_5_p6538341999689486754, (on, c, e)).
 holds(s_training_on_5_p6538341999689486754, (on, e, b)).
@@ -6872,7 +6872,7 @@ holds(s_training_on_5_p6538341999689486754, (ontable, a)).
 holds(s_training_on_5_p6538341999689486754, (ontable, d)).
 holds(s_training_on_5_p6538341999689486754, (clear, a)).
 holds(s_training_on_5_p6538341999689486754, (clear, c)).
-holds(s_training_on_5_m6362569982850236018, (handempty)).
+holds(s_training_on_5_m6362569982850236018, (handempty,)).
 holds(s_training_on_5_m6362569982850236018, (on, b, d)).
 holds(s_training_on_5_m6362569982850236018, (on, c, b)).
 holds(s_training_on_5_m6362569982850236018, (on, d, a)).
@@ -6880,7 +6880,7 @@ holds(s_training_on_5_m6362569982850236018, (ontable, a)).
 holds(s_training_on_5_m6362569982850236018, (ontable, e)).
 holds(s_training_on_5_m6362569982850236018, (clear, c)).
 holds(s_training_on_5_m6362569982850236018, (clear, e)).
-holds(s_training_on_5_p271786781981397699, (handempty)).
+holds(s_training_on_5_p271786781981397699, (handempty,)).
 holds(s_training_on_5_p271786781981397699, (on, b, d)).
 holds(s_training_on_5_p271786781981397699, (on, d, a)).
 holds(s_training_on_5_p271786781981397699, (on, e, b)).
@@ -6888,7 +6888,7 @@ holds(s_training_on_5_p271786781981397699, (ontable, a)).
 holds(s_training_on_5_p271786781981397699, (ontable, c)).
 holds(s_training_on_5_p271786781981397699, (clear, c)).
 holds(s_training_on_5_p271786781981397699, (clear, e)).
-holds(s_training_on_5_p4505139455975830919, (handempty)).
+holds(s_training_on_5_p4505139455975830919, (handempty,)).
 holds(s_training_on_5_p4505139455975830919, (on, b, e)).
 holds(s_training_on_5_p4505139455975830919, (on, d, a)).
 holds(s_training_on_5_p4505139455975830919, (on, e, d)).
@@ -6896,7 +6896,7 @@ holds(s_training_on_5_p4505139455975830919, (ontable, a)).
 holds(s_training_on_5_p4505139455975830919, (ontable, c)).
 holds(s_training_on_5_p4505139455975830919, (clear, b)).
 holds(s_training_on_5_p4505139455975830919, (clear, c)).
-holds(s_training_on_5_m6870813561629834639, (handempty)).
+holds(s_training_on_5_m6870813561629834639, (handempty,)).
 holds(s_training_on_5_m6870813561629834639, (on, a, d)).
 holds(s_training_on_5_m6870813561629834639, (on, c, a)).
 holds(s_training_on_5_m6870813561629834639, (on, d, b)).
@@ -6904,7 +6904,7 @@ holds(s_training_on_5_m6870813561629834639, (ontable, b)).
 holds(s_training_on_5_m6870813561629834639, (ontable, e)).
 holds(s_training_on_5_m6870813561629834639, (clear, c)).
 holds(s_training_on_5_m6870813561629834639, (clear, e)).
-holds(s_training_on_5_m3354083691084962261, (handempty)).
+holds(s_training_on_5_m3354083691084962261, (handempty,)).
 holds(s_training_on_5_m3354083691084962261, (on, a, d)).
 holds(s_training_on_5_m3354083691084962261, (on, d, b)).
 holds(s_training_on_5_m3354083691084962261, (on, e, a)).
@@ -6912,7 +6912,7 @@ holds(s_training_on_5_m3354083691084962261, (ontable, b)).
 holds(s_training_on_5_m3354083691084962261, (ontable, c)).
 holds(s_training_on_5_m3354083691084962261, (clear, c)).
 holds(s_training_on_5_m3354083691084962261, (clear, e)).
-holds(s_training_on_5_m1677005073131684731, (handempty)).
+holds(s_training_on_5_m1677005073131684731, (handempty,)).
 holds(s_training_on_5_m1677005073131684731, (on, a, c)).
 holds(s_training_on_5_m1677005073131684731, (on, c, d)).
 holds(s_training_on_5_m1677005073131684731, (on, d, b)).
@@ -6920,7 +6920,7 @@ holds(s_training_on_5_m1677005073131684731, (ontable, b)).
 holds(s_training_on_5_m1677005073131684731, (ontable, e)).
 holds(s_training_on_5_m1677005073131684731, (clear, a)).
 holds(s_training_on_5_m1677005073131684731, (clear, e)).
-holds(s_training_on_5_p4072861182006596031, (handempty)).
+holds(s_training_on_5_p4072861182006596031, (handempty,)).
 holds(s_training_on_5_p4072861182006596031, (on, c, d)).
 holds(s_training_on_5_p4072861182006596031, (on, d, b)).
 holds(s_training_on_5_p4072861182006596031, (on, e, a)).
@@ -6928,7 +6928,7 @@ holds(s_training_on_5_p4072861182006596031, (ontable, a)).
 holds(s_training_on_5_p4072861182006596031, (ontable, b)).
 holds(s_training_on_5_p4072861182006596031, (clear, c)).
 holds(s_training_on_5_p4072861182006596031, (clear, e)).
-holds(s_training_on_5_m2652908557954369033, (handempty)).
+holds(s_training_on_5_m2652908557954369033, (handempty,)).
 holds(s_training_on_5_m2652908557954369033, (on, c, d)).
 holds(s_training_on_5_m2652908557954369033, (on, d, b)).
 holds(s_training_on_5_m2652908557954369033, (on, e, c)).
@@ -6936,7 +6936,7 @@ holds(s_training_on_5_m2652908557954369033, (ontable, a)).
 holds(s_training_on_5_m2652908557954369033, (ontable, b)).
 holds(s_training_on_5_m2652908557954369033, (clear, a)).
 holds(s_training_on_5_m2652908557954369033, (clear, e)).
-holds(s_training_on_5_m2948563969739669155, (handempty)).
+holds(s_training_on_5_m2948563969739669155, (handempty,)).
 holds(s_training_on_5_m2948563969739669155, (on, a, e)).
 holds(s_training_on_5_m2948563969739669155, (on, d, b)).
 holds(s_training_on_5_m2948563969739669155, (on, e, d)).
@@ -6944,7 +6944,7 @@ holds(s_training_on_5_m2948563969739669155, (ontable, b)).
 holds(s_training_on_5_m2948563969739669155, (ontable, c)).
 holds(s_training_on_5_m2948563969739669155, (clear, a)).
 holds(s_training_on_5_m2948563969739669155, (clear, c)).
-holds(s_training_on_5_p5316763204395325196, (handempty)).
+holds(s_training_on_5_p5316763204395325196, (handempty,)).
 holds(s_training_on_5_p5316763204395325196, (on, c, e)).
 holds(s_training_on_5_p5316763204395325196, (on, d, b)).
 holds(s_training_on_5_p5316763204395325196, (on, e, d)).
@@ -6952,7 +6952,7 @@ holds(s_training_on_5_p5316763204395325196, (ontable, a)).
 holds(s_training_on_5_p5316763204395325196, (ontable, b)).
 holds(s_training_on_5_p5316763204395325196, (clear, a)).
 holds(s_training_on_5_p5316763204395325196, (clear, c)).
-holds(s_training_on_5_m6480841267557617117, (handempty)).
+holds(s_training_on_5_m6480841267557617117, (handempty,)).
 holds(s_training_on_5_m6480841267557617117, (on, a, d)).
 holds(s_training_on_5_m6480841267557617117, (on, b, a)).
 holds(s_training_on_5_m6480841267557617117, (on, d, c)).
@@ -6960,7 +6960,7 @@ holds(s_training_on_5_m6480841267557617117, (ontable, c)).
 holds(s_training_on_5_m6480841267557617117, (ontable, e)).
 holds(s_training_on_5_m6480841267557617117, (clear, b)).
 holds(s_training_on_5_m6480841267557617117, (clear, e)).
-holds(s_training_on_5_p1026630028703997815, (handempty)).
+holds(s_training_on_5_p1026630028703997815, (handempty,)).
 holds(s_training_on_5_p1026630028703997815, (on, a, d)).
 holds(s_training_on_5_p1026630028703997815, (on, d, c)).
 holds(s_training_on_5_p1026630028703997815, (on, e, a)).
@@ -6968,7 +6968,7 @@ holds(s_training_on_5_p1026630028703997815, (ontable, b)).
 holds(s_training_on_5_p1026630028703997815, (ontable, c)).
 holds(s_training_on_5_p1026630028703997815, (clear, b)).
 holds(s_training_on_5_p1026630028703997815, (clear, e)).
-holds(s_training_on_5_p9098032725295119811, (handempty)).
+holds(s_training_on_5_p9098032725295119811, (handempty,)).
 holds(s_training_on_5_p9098032725295119811, (on, a, b)).
 holds(s_training_on_5_p9098032725295119811, (on, b, d)).
 holds(s_training_on_5_p9098032725295119811, (on, d, c)).
@@ -6976,7 +6976,7 @@ holds(s_training_on_5_p9098032725295119811, (ontable, c)).
 holds(s_training_on_5_p9098032725295119811, (ontable, e)).
 holds(s_training_on_5_p9098032725295119811, (clear, a)).
 holds(s_training_on_5_p9098032725295119811, (clear, e)).
-holds(s_training_on_5_p3421027135132009632, (handempty)).
+holds(s_training_on_5_p3421027135132009632, (handempty,)).
 holds(s_training_on_5_p3421027135132009632, (on, b, d)).
 holds(s_training_on_5_p3421027135132009632, (on, d, c)).
 holds(s_training_on_5_p3421027135132009632, (on, e, a)).
@@ -6984,7 +6984,7 @@ holds(s_training_on_5_p3421027135132009632, (ontable, a)).
 holds(s_training_on_5_p3421027135132009632, (ontable, c)).
 holds(s_training_on_5_p3421027135132009632, (clear, b)).
 holds(s_training_on_5_p3421027135132009632, (clear, e)).
-holds(s_training_on_5_p6702517958211576863, (handempty)).
+holds(s_training_on_5_p6702517958211576863, (handempty,)).
 holds(s_training_on_5_p6702517958211576863, (on, b, d)).
 holds(s_training_on_5_p6702517958211576863, (on, d, c)).
 holds(s_training_on_5_p6702517958211576863, (on, e, b)).
@@ -6992,7 +6992,7 @@ holds(s_training_on_5_p6702517958211576863, (ontable, a)).
 holds(s_training_on_5_p6702517958211576863, (ontable, c)).
 holds(s_training_on_5_p6702517958211576863, (clear, a)).
 holds(s_training_on_5_p6702517958211576863, (clear, e)).
-holds(s_training_on_5_m8881513034495288901, (handempty)).
+holds(s_training_on_5_m8881513034495288901, (handempty,)).
 holds(s_training_on_5_m8881513034495288901, (on, b, e)).
 holds(s_training_on_5_m8881513034495288901, (on, d, c)).
 holds(s_training_on_5_m8881513034495288901, (on, e, a)).
@@ -7000,7 +7000,7 @@ holds(s_training_on_5_m8881513034495288901, (ontable, a)).
 holds(s_training_on_5_m8881513034495288901, (ontable, c)).
 holds(s_training_on_5_m8881513034495288901, (clear, b)).
 holds(s_training_on_5_m8881513034495288901, (clear, d)).
-holds(s_training_on_5_p2740158851732749738, (handempty)).
+holds(s_training_on_5_p2740158851732749738, (handempty,)).
 holds(s_training_on_5_p2740158851732749738, (on, a, b)).
 holds(s_training_on_5_p2740158851732749738, (on, d, c)).
 holds(s_training_on_5_p2740158851732749738, (on, e, d)).
@@ -7008,7 +7008,7 @@ holds(s_training_on_5_p2740158851732749738, (ontable, b)).
 holds(s_training_on_5_p2740158851732749738, (ontable, c)).
 holds(s_training_on_5_p2740158851732749738, (clear, a)).
 holds(s_training_on_5_p2740158851732749738, (clear, e)).
-holds(s_training_on_5_p601279496363145217, (handempty)).
+holds(s_training_on_5_p601279496363145217, (handempty,)).
 holds(s_training_on_5_p601279496363145217, (on, a, e)).
 holds(s_training_on_5_p601279496363145217, (on, d, c)).
 holds(s_training_on_5_p601279496363145217, (on, e, d)).
@@ -7016,7 +7016,7 @@ holds(s_training_on_5_p601279496363145217, (ontable, b)).
 holds(s_training_on_5_p601279496363145217, (ontable, c)).
 holds(s_training_on_5_p601279496363145217, (clear, a)).
 holds(s_training_on_5_p601279496363145217, (clear, b)).
-holds(s_training_on_5_p6936893928759903067, (handempty)).
+holds(s_training_on_5_p6936893928759903067, (handempty,)).
 holds(s_training_on_5_p6936893928759903067, (on, b, e)).
 holds(s_training_on_5_p6936893928759903067, (on, d, c)).
 holds(s_training_on_5_p6936893928759903067, (on, e, d)).
@@ -7024,7 +7024,7 @@ holds(s_training_on_5_p6936893928759903067, (ontable, a)).
 holds(s_training_on_5_p6936893928759903067, (ontable, c)).
 holds(s_training_on_5_p6936893928759903067, (clear, a)).
 holds(s_training_on_5_p6936893928759903067, (clear, b)).
-holds(s_training_on_5_p3749122310722783537, (handempty)).
+holds(s_training_on_5_p3749122310722783537, (handempty,)).
 holds(s_training_on_5_p3749122310722783537, (on, a, d)).
 holds(s_training_on_5_p3749122310722783537, (on, b, a)).
 holds(s_training_on_5_p3749122310722783537, (on, d, e)).
@@ -7032,7 +7032,7 @@ holds(s_training_on_5_p3749122310722783537, (ontable, c)).
 holds(s_training_on_5_p3749122310722783537, (ontable, e)).
 holds(s_training_on_5_p3749122310722783537, (clear, b)).
 holds(s_training_on_5_p3749122310722783537, (clear, c)).
-holds(s_training_on_5_m1420226681619183919, (handempty)).
+holds(s_training_on_5_m1420226681619183919, (handempty,)).
 holds(s_training_on_5_m1420226681619183919, (on, a, b)).
 holds(s_training_on_5_m1420226681619183919, (on, b, d)).
 holds(s_training_on_5_m1420226681619183919, (on, d, e)).
@@ -7040,7 +7040,7 @@ holds(s_training_on_5_m1420226681619183919, (ontable, c)).
 holds(s_training_on_5_m1420226681619183919, (ontable, e)).
 holds(s_training_on_5_m1420226681619183919, (clear, a)).
 holds(s_training_on_5_m1420226681619183919, (clear, c)).
-holds(s_training_on_5_p7744726441487879232, (handempty)).
+holds(s_training_on_5_p7744726441487879232, (handempty,)).
 holds(s_training_on_5_p7744726441487879232, (on, b, d)).
 holds(s_training_on_5_p7744726441487879232, (on, c, b)).
 holds(s_training_on_5_p7744726441487879232, (on, d, e)).
@@ -7048,7 +7048,7 @@ holds(s_training_on_5_p7744726441487879232, (ontable, a)).
 holds(s_training_on_5_p7744726441487879232, (ontable, e)).
 holds(s_training_on_5_p7744726441487879232, (clear, a)).
 holds(s_training_on_5_p7744726441487879232, (clear, c)).
-holds(s_training_on_5_m5425634894702054035, (handempty)).
+holds(s_training_on_5_m5425634894702054035, (handempty,)).
 holds(s_training_on_5_m5425634894702054035, (on, b, e)).
 holds(s_training_on_5_m5425634894702054035, (on, c, b)).
 holds(s_training_on_5_m5425634894702054035, (on, e, a)).
@@ -7056,7 +7056,7 @@ holds(s_training_on_5_m5425634894702054035, (ontable, a)).
 holds(s_training_on_5_m5425634894702054035, (ontable, d)).
 holds(s_training_on_5_m5425634894702054035, (clear, c)).
 holds(s_training_on_5_m5425634894702054035, (clear, d)).
-holds(s_training_on_5_p6625413830950101223, (handempty)).
+holds(s_training_on_5_p6625413830950101223, (handempty,)).
 holds(s_training_on_5_p6625413830950101223, (on, b, e)).
 holds(s_training_on_5_p6625413830950101223, (on, d, b)).
 holds(s_training_on_5_p6625413830950101223, (on, e, a)).
@@ -7064,7 +7064,7 @@ holds(s_training_on_5_p6625413830950101223, (ontable, a)).
 holds(s_training_on_5_p6625413830950101223, (ontable, c)).
 holds(s_training_on_5_p6625413830950101223, (clear, c)).
 holds(s_training_on_5_p6625413830950101223, (clear, d)).
-holds(s_training_on_5_m4796036901791154254, (handempty)).
+holds(s_training_on_5_m4796036901791154254, (handempty,)).
 holds(s_training_on_5_m4796036901791154254, (on, b, d)).
 holds(s_training_on_5_m4796036901791154254, (on, d, e)).
 holds(s_training_on_5_m4796036901791154254, (on, e, a)).
@@ -7072,7 +7072,7 @@ holds(s_training_on_5_m4796036901791154254, (ontable, a)).
 holds(s_training_on_5_m4796036901791154254, (ontable, c)).
 holds(s_training_on_5_m4796036901791154254, (clear, b)).
 holds(s_training_on_5_m4796036901791154254, (clear, c)).
-holds(s_training_on_5_p5073611116182129265, (handempty)).
+holds(s_training_on_5_p5073611116182129265, (handempty,)).
 holds(s_training_on_5_p5073611116182129265, (on, a, e)).
 holds(s_training_on_5_p5073611116182129265, (on, b, a)).
 holds(s_training_on_5_p5073611116182129265, (on, e, d)).
@@ -7080,7 +7080,7 @@ holds(s_training_on_5_p5073611116182129265, (ontable, c)).
 holds(s_training_on_5_p5073611116182129265, (ontable, d)).
 holds(s_training_on_5_p5073611116182129265, (clear, b)).
 holds(s_training_on_5_p5073611116182129265, (clear, c)).
-holds(s_training_on_5_m2918733283144571620, (handempty)).
+holds(s_training_on_5_m2918733283144571620, (handempty,)).
 holds(s_training_on_5_m2918733283144571620, (on, a, b)).
 holds(s_training_on_5_m2918733283144571620, (on, b, e)).
 holds(s_training_on_5_m2918733283144571620, (on, e, d)).
@@ -7088,7 +7088,7 @@ holds(s_training_on_5_m2918733283144571620, (ontable, c)).
 holds(s_training_on_5_m2918733283144571620, (ontable, d)).
 holds(s_training_on_5_m2918733283144571620, (clear, a)).
 holds(s_training_on_5_m2918733283144571620, (clear, c)).
-holds(s_training_on_5_p5786579591484518285, (handempty)).
+holds(s_training_on_5_p5786579591484518285, (handempty,)).
 holds(s_training_on_5_p5786579591484518285, (on, b, e)).
 holds(s_training_on_5_p5786579591484518285, (on, c, b)).
 holds(s_training_on_5_p5786579591484518285, (on, e, d)).
@@ -7096,287 +7096,287 @@ holds(s_training_on_5_p5786579591484518285, (ontable, a)).
 holds(s_training_on_5_p5786579591484518285, (ontable, d)).
 holds(s_training_on_5_p5786579591484518285, (clear, a)).
 holds(s_training_on_5_p5786579591484518285, (clear, c)).
-holds(s_training_on_5_m2236704382719351904, (handempty)).
+holds(s_training_on_5_m2236704382719351904, (handempty,)).
 holds(s_training_on_5_m2236704382719351904, (on, a, c)).
 holds(s_training_on_5_m2236704382719351904, (on, b, a)).
 holds(s_training_on_5_m2236704382719351904, (on, d, b)).
 holds(s_training_on_5_m2236704382719351904, (on, e, d)).
 holds(s_training_on_5_m2236704382719351904, (ontable, c)).
 holds(s_training_on_5_m2236704382719351904, (clear, e)).
-holds(s_training_on_5_p4266724129332779953, (handempty)).
+holds(s_training_on_5_p4266724129332779953, (handempty,)).
 holds(s_training_on_5_p4266724129332779953, (on, a, c)).
 holds(s_training_on_5_p4266724129332779953, (on, b, a)).
 holds(s_training_on_5_p4266724129332779953, (on, d, e)).
 holds(s_training_on_5_p4266724129332779953, (on, e, b)).
 holds(s_training_on_5_p4266724129332779953, (ontable, c)).
 holds(s_training_on_5_p4266724129332779953, (clear, d)).
-holds(s_training_on_5_m2057833382425140830, (handempty)).
+holds(s_training_on_5_m2057833382425140830, (handempty,)).
 holds(s_training_on_5_m2057833382425140830, (on, a, c)).
 holds(s_training_on_5_m2057833382425140830, (on, b, d)).
 holds(s_training_on_5_m2057833382425140830, (on, d, a)).
 holds(s_training_on_5_m2057833382425140830, (on, e, b)).
 holds(s_training_on_5_m2057833382425140830, (ontable, c)).
 holds(s_training_on_5_m2057833382425140830, (clear, e)).
-holds(s_training_on_5_m2435893634815031578, (handempty)).
+holds(s_training_on_5_m2435893634815031578, (handempty,)).
 holds(s_training_on_5_m2435893634815031578, (on, a, c)).
 holds(s_training_on_5_m2435893634815031578, (on, b, e)).
 holds(s_training_on_5_m2435893634815031578, (on, d, a)).
 holds(s_training_on_5_m2435893634815031578, (on, e, d)).
 holds(s_training_on_5_m2435893634815031578, (ontable, c)).
 holds(s_training_on_5_m2435893634815031578, (clear, b)).
-holds(s_training_on_5_m4952062843152002170, (handempty)).
+holds(s_training_on_5_m4952062843152002170, (handempty,)).
 holds(s_training_on_5_m4952062843152002170, (on, a, c)).
 holds(s_training_on_5_m4952062843152002170, (on, b, e)).
 holds(s_training_on_5_m4952062843152002170, (on, d, b)).
 holds(s_training_on_5_m4952062843152002170, (on, e, a)).
 holds(s_training_on_5_m4952062843152002170, (ontable, c)).
 holds(s_training_on_5_m4952062843152002170, (clear, d)).
-holds(s_training_on_5_p6756949800772209875, (handempty)).
+holds(s_training_on_5_p6756949800772209875, (handempty,)).
 holds(s_training_on_5_p6756949800772209875, (on, a, c)).
 holds(s_training_on_5_p6756949800772209875, (on, b, d)).
 holds(s_training_on_5_p6756949800772209875, (on, d, e)).
 holds(s_training_on_5_p6756949800772209875, (on, e, a)).
 holds(s_training_on_5_p6756949800772209875, (ontable, c)).
 holds(s_training_on_5_p6756949800772209875, (clear, b)).
-holds(s_training_on_5_m6768152294003318244, (handempty)).
+holds(s_training_on_5_m6768152294003318244, (handempty,)).
 holds(s_training_on_5_m6768152294003318244, (on, a, e)).
 holds(s_training_on_5_m6768152294003318244, (on, b, a)).
 holds(s_training_on_5_m6768152294003318244, (on, c, b)).
 holds(s_training_on_5_m6768152294003318244, (on, d, c)).
 holds(s_training_on_5_m6768152294003318244, (ontable, e)).
 holds(s_training_on_5_m6768152294003318244, (clear, d)).
-holds(s_training_on_5_m2352236616410997128, (handempty)).
+holds(s_training_on_5_m2352236616410997128, (handempty,)).
 holds(s_training_on_5_m2352236616410997128, (on, a, e)).
 holds(s_training_on_5_m2352236616410997128, (on, b, a)).
 holds(s_training_on_5_m2352236616410997128, (on, c, d)).
 holds(s_training_on_5_m2352236616410997128, (on, d, b)).
 holds(s_training_on_5_m2352236616410997128, (ontable, e)).
 holds(s_training_on_5_m2352236616410997128, (clear, c)).
-holds(s_training_on_5_m1703140205653564643, (handempty)).
+holds(s_training_on_5_m1703140205653564643, (handempty,)).
 holds(s_training_on_5_m1703140205653564643, (on, a, e)).
 holds(s_training_on_5_m1703140205653564643, (on, b, d)).
 holds(s_training_on_5_m1703140205653564643, (on, c, b)).
 holds(s_training_on_5_m1703140205653564643, (on, d, a)).
 holds(s_training_on_5_m1703140205653564643, (ontable, e)).
 holds(s_training_on_5_m1703140205653564643, (clear, c)).
-holds(s_training_on_5_m5949171519777256694, (handempty)).
+holds(s_training_on_5_m5949171519777256694, (handempty,)).
 holds(s_training_on_5_m5949171519777256694, (on, a, d)).
 holds(s_training_on_5_m5949171519777256694, (on, c, e)).
 holds(s_training_on_5_m5949171519777256694, (on, d, c)).
 holds(s_training_on_5_m5949171519777256694, (on, e, b)).
 holds(s_training_on_5_m5949171519777256694, (ontable, b)).
 holds(s_training_on_5_m5949171519777256694, (clear, a)).
-holds(s_training_on_5_m5830120017180901669, (handempty)).
+holds(s_training_on_5_m5830120017180901669, (handempty,)).
 holds(s_training_on_5_m5830120017180901669, (on, a, d)).
 holds(s_training_on_5_m5830120017180901669, (on, c, a)).
 holds(s_training_on_5_m5830120017180901669, (on, d, e)).
 holds(s_training_on_5_m5830120017180901669, (on, e, b)).
 holds(s_training_on_5_m5830120017180901669, (ontable, b)).
 holds(s_training_on_5_m5830120017180901669, (clear, c)).
-holds(s_training_on_5_m1799008801775255505, (handempty)).
+holds(s_training_on_5_m1799008801775255505, (handempty,)).
 holds(s_training_on_5_m1799008801775255505, (on, a, c)).
 holds(s_training_on_5_m1799008801775255505, (on, c, d)).
 holds(s_training_on_5_m1799008801775255505, (on, d, e)).
 holds(s_training_on_5_m1799008801775255505, (on, e, b)).
 holds(s_training_on_5_m1799008801775255505, (ontable, b)).
 holds(s_training_on_5_m1799008801775255505, (clear, a)).
-holds(s_training_on_5_p1525292253982840746, (handempty)).
+holds(s_training_on_5_p1525292253982840746, (handempty,)).
 holds(s_training_on_5_p1525292253982840746, (on, a, d)).
 holds(s_training_on_5_p1525292253982840746, (on, b, e)).
 holds(s_training_on_5_p1525292253982840746, (on, d, b)).
 holds(s_training_on_5_p1525292253982840746, (on, e, c)).
 holds(s_training_on_5_p1525292253982840746, (ontable, c)).
 holds(s_training_on_5_p1525292253982840746, (clear, a)).
-holds(s_training_on_5_m1790202501302206686, (handempty)).
+holds(s_training_on_5_m1790202501302206686, (handempty,)).
 holds(s_training_on_5_m1790202501302206686, (on, a, d)).
 holds(s_training_on_5_m1790202501302206686, (on, b, a)).
 holds(s_training_on_5_m1790202501302206686, (on, d, e)).
 holds(s_training_on_5_m1790202501302206686, (on, e, c)).
 holds(s_training_on_5_m1790202501302206686, (ontable, c)).
 holds(s_training_on_5_m1790202501302206686, (clear, b)).
-holds(s_training_on_5_p4569524095926710466, (handempty)).
+holds(s_training_on_5_p4569524095926710466, (handempty,)).
 holds(s_training_on_5_p4569524095926710466, (on, a, b)).
 holds(s_training_on_5_p4569524095926710466, (on, b, d)).
 holds(s_training_on_5_p4569524095926710466, (on, d, e)).
 holds(s_training_on_5_p4569524095926710466, (on, e, c)).
 holds(s_training_on_5_p4569524095926710466, (ontable, c)).
 holds(s_training_on_5_p4569524095926710466, (clear, a)).
-holds(s_training_on_5_m5814172940207196048, (handempty)).
+holds(s_training_on_5_m5814172940207196048, (handempty,)).
 holds(s_training_on_5_m5814172940207196048, (on, b, c)).
 holds(s_training_on_5_m5814172940207196048, (on, c, e)).
 holds(s_training_on_5_m5814172940207196048, (on, d, a)).
 holds(s_training_on_5_m5814172940207196048, (on, e, d)).
 holds(s_training_on_5_m5814172940207196048, (ontable, a)).
 holds(s_training_on_5_m5814172940207196048, (clear, b)).
-holds(s_training_on_5_m6016953936735068548, (handempty)).
+holds(s_training_on_5_m6016953936735068548, (handempty,)).
 holds(s_training_on_5_m6016953936735068548, (on, b, c)).
 holds(s_training_on_5_m6016953936735068548, (on, c, d)).
 holds(s_training_on_5_m6016953936735068548, (on, d, a)).
 holds(s_training_on_5_m6016953936735068548, (on, e, b)).
 holds(s_training_on_5_m6016953936735068548, (ontable, a)).
 holds(s_training_on_5_m6016953936735068548, (clear, e)).
-holds(s_training_on_5_p9030207843509579710, (handempty)).
+holds(s_training_on_5_p9030207843509579710, (handempty,)).
 holds(s_training_on_5_p9030207843509579710, (on, b, e)).
 holds(s_training_on_5_p9030207843509579710, (on, c, d)).
 holds(s_training_on_5_p9030207843509579710, (on, d, a)).
 holds(s_training_on_5_p9030207843509579710, (on, e, c)).
 holds(s_training_on_5_p9030207843509579710, (ontable, a)).
 holds(s_training_on_5_p9030207843509579710, (clear, b)).
-holds(s_training_on_5_m8436464832624533309, (handempty)).
+holds(s_training_on_5_m8436464832624533309, (handempty,)).
 holds(s_training_on_5_m8436464832624533309, (on, a, d)).
 holds(s_training_on_5_m8436464832624533309, (on, b, c)).
 holds(s_training_on_5_m8436464832624533309, (on, c, a)).
 holds(s_training_on_5_m8436464832624533309, (on, d, e)).
 holds(s_training_on_5_m8436464832624533309, (ontable, e)).
 holds(s_training_on_5_m8436464832624533309, (clear, b)).
-holds(s_training_on_5_p4415025440312888772, (handempty)).
+holds(s_training_on_5_p4415025440312888772, (handempty,)).
 holds(s_training_on_5_p4415025440312888772, (on, a, c)).
 holds(s_training_on_5_p4415025440312888772, (on, b, a)).
 holds(s_training_on_5_p4415025440312888772, (on, c, d)).
 holds(s_training_on_5_p4415025440312888772, (on, d, e)).
 holds(s_training_on_5_p4415025440312888772, (ontable, e)).
 holds(s_training_on_5_p4415025440312888772, (clear, b)).
-holds(s_training_on_5_p4895623621544757870, (handempty)).
+holds(s_training_on_5_p4895623621544757870, (handempty,)).
 holds(s_training_on_5_p4895623621544757870, (on, a, b)).
 holds(s_training_on_5_p4895623621544757870, (on, b, c)).
 holds(s_training_on_5_p4895623621544757870, (on, c, d)).
 holds(s_training_on_5_p4895623621544757870, (on, d, e)).
 holds(s_training_on_5_p4895623621544757870, (ontable, e)).
 holds(s_training_on_5_p4895623621544757870, (clear, a)).
-holds(s_training_on_5_p1354428160337507085, (handempty)).
+holds(s_training_on_5_p1354428160337507085, (handempty,)).
 holds(s_training_on_5_p1354428160337507085, (on, b, c)).
 holds(s_training_on_5_p1354428160337507085, (on, c, d)).
 holds(s_training_on_5_p1354428160337507085, (on, d, e)).
 holds(s_training_on_5_p1354428160337507085, (on, e, a)).
 holds(s_training_on_5_p1354428160337507085, (ontable, a)).
 holds(s_training_on_5_p1354428160337507085, (clear, b)).
-holds(s_training_on_5_m3875169126692000496, (handempty)).
+holds(s_training_on_5_m3875169126692000496, (handempty,)).
 holds(s_training_on_5_m3875169126692000496, (on, b, c)).
 holds(s_training_on_5_m3875169126692000496, (on, c, e)).
 holds(s_training_on_5_m3875169126692000496, (on, d, b)).
 holds(s_training_on_5_m3875169126692000496, (on, e, a)).
 holds(s_training_on_5_m3875169126692000496, (ontable, a)).
 holds(s_training_on_5_m3875169126692000496, (clear, d)).
-holds(s_training_on_5_m122936369457106846, (handempty)).
+holds(s_training_on_5_m122936369457106846, (handempty,)).
 holds(s_training_on_5_m122936369457106846, (on, b, d)).
 holds(s_training_on_5_m122936369457106846, (on, c, e)).
 holds(s_training_on_5_m122936369457106846, (on, d, c)).
 holds(s_training_on_5_m122936369457106846, (on, e, a)).
 holds(s_training_on_5_m122936369457106846, (ontable, a)).
 holds(s_training_on_5_m122936369457106846, (clear, b)).
-holds(s_training_on_5_m538954882983713917, (handempty)).
+holds(s_training_on_5_m538954882983713917, (handempty,)).
 holds(s_training_on_5_m538954882983713917, (on, a, e)).
 holds(s_training_on_5_m538954882983713917, (on, b, c)).
 holds(s_training_on_5_m538954882983713917, (on, c, a)).
 holds(s_training_on_5_m538954882983713917, (on, e, d)).
 holds(s_training_on_5_m538954882983713917, (ontable, d)).
 holds(s_training_on_5_m538954882983713917, (clear, b)).
-holds(s_training_on_5_p4035769497087602497, (handempty)).
+holds(s_training_on_5_p4035769497087602497, (handempty,)).
 holds(s_training_on_5_p4035769497087602497, (on, a, c)).
 holds(s_training_on_5_p4035769497087602497, (on, b, a)).
 holds(s_training_on_5_p4035769497087602497, (on, c, e)).
 holds(s_training_on_5_p4035769497087602497, (on, e, d)).
 holds(s_training_on_5_p4035769497087602497, (ontable, d)).
 holds(s_training_on_5_p4035769497087602497, (clear, b)).
-holds(s_training_on_5_p5094700893555992811, (handempty)).
+holds(s_training_on_5_p5094700893555992811, (handempty,)).
 holds(s_training_on_5_p5094700893555992811, (on, a, b)).
 holds(s_training_on_5_p5094700893555992811, (on, b, c)).
 holds(s_training_on_5_p5094700893555992811, (on, c, e)).
 holds(s_training_on_5_p5094700893555992811, (on, e, d)).
 holds(s_training_on_5_p5094700893555992811, (ontable, d)).
 holds(s_training_on_5_p5094700893555992811, (clear, a)).
-holds(s_training_on_5_m4707097330069571277, (handempty)).
+holds(s_training_on_5_m4707097330069571277, (handempty,)).
 holds(s_training_on_5_m4707097330069571277, (on, b, c)).
 holds(s_training_on_5_m4707097330069571277, (on, c, a)).
 holds(s_training_on_5_m4707097330069571277, (on, d, b)).
 holds(s_training_on_5_m4707097330069571277, (on, e, d)).
 holds(s_training_on_5_m4707097330069571277, (ontable, a)).
 holds(s_training_on_5_m4707097330069571277, (clear, e)).
-holds(s_training_on_5_p7309012485028217122, (handempty)).
+holds(s_training_on_5_p7309012485028217122, (handempty,)).
 holds(s_training_on_5_p7309012485028217122, (on, b, c)).
 holds(s_training_on_5_p7309012485028217122, (on, c, a)).
 holds(s_training_on_5_p7309012485028217122, (on, d, e)).
 holds(s_training_on_5_p7309012485028217122, (on, e, b)).
 holds(s_training_on_5_p7309012485028217122, (ontable, a)).
 holds(s_training_on_5_p7309012485028217122, (clear, d)).
-holds(s_training_on_5_p2042699024221183518, (handempty)).
+holds(s_training_on_5_p2042699024221183518, (handempty,)).
 holds(s_training_on_5_p2042699024221183518, (on, b, d)).
 holds(s_training_on_5_p2042699024221183518, (on, c, a)).
 holds(s_training_on_5_p2042699024221183518, (on, d, c)).
 holds(s_training_on_5_p2042699024221183518, (on, e, b)).
 holds(s_training_on_5_p2042699024221183518, (ontable, a)).
 holds(s_training_on_5_p2042699024221183518, (clear, e)).
-holds(s_training_on_5_p2385204816601250138, (handempty)).
+holds(s_training_on_5_p2385204816601250138, (handempty,)).
 holds(s_training_on_5_p2385204816601250138, (on, b, e)).
 holds(s_training_on_5_p2385204816601250138, (on, c, a)).
 holds(s_training_on_5_p2385204816601250138, (on, d, c)).
 holds(s_training_on_5_p2385204816601250138, (on, e, d)).
 holds(s_training_on_5_p2385204816601250138, (ontable, a)).
 holds(s_training_on_5_p2385204816601250138, (clear, b)).
-holds(s_training_on_5_m503205008207859026, (handempty)).
+holds(s_training_on_5_m503205008207859026, (handempty,)).
 holds(s_training_on_5_m503205008207859026, (on, b, e)).
 holds(s_training_on_5_m503205008207859026, (on, c, a)).
 holds(s_training_on_5_m503205008207859026, (on, d, b)).
 holds(s_training_on_5_m503205008207859026, (on, e, c)).
 holds(s_training_on_5_m503205008207859026, (ontable, a)).
 holds(s_training_on_5_m503205008207859026, (clear, d)).
-holds(s_training_on_5_p2271923803967565307, (handempty)).
+holds(s_training_on_5_p2271923803967565307, (handempty,)).
 holds(s_training_on_5_p2271923803967565307, (on, b, d)).
 holds(s_training_on_5_p2271923803967565307, (on, c, a)).
 holds(s_training_on_5_p2271923803967565307, (on, d, e)).
 holds(s_training_on_5_p2271923803967565307, (on, e, c)).
 holds(s_training_on_5_p2271923803967565307, (ontable, a)).
 holds(s_training_on_5_p2271923803967565307, (clear, b)).
-holds(s_training_on_5_p4265324718904904013, (handempty)).
+holds(s_training_on_5_p4265324718904904013, (handempty,)).
 holds(s_training_on_5_p4265324718904904013, (on, a, c)).
 holds(s_training_on_5_p4265324718904904013, (on, b, a)).
 holds(s_training_on_5_p4265324718904904013, (on, c, d)).
 holds(s_training_on_5_p4265324718904904013, (on, e, b)).
 holds(s_training_on_5_p4265324718904904013, (ontable, d)).
 holds(s_training_on_5_p4265324718904904013, (clear, e)).
-holds(s_training_on_5_m718919852610141388, (handempty)).
+holds(s_training_on_5_m718919852610141388, (handempty,)).
 holds(s_training_on_5_m718919852610141388, (on, a, c)).
 holds(s_training_on_5_m718919852610141388, (on, b, e)).
 holds(s_training_on_5_m718919852610141388, (on, c, d)).
 holds(s_training_on_5_m718919852610141388, (on, e, a)).
 holds(s_training_on_5_m718919852610141388, (ontable, d)).
 holds(s_training_on_5_m718919852610141388, (clear, b)).
-holds(s_training_on_5_p7771599747208186700, (handempty)).
+holds(s_training_on_5_p7771599747208186700, (handempty,)).
 holds(s_training_on_5_p7771599747208186700, (on, a, e)).
 holds(s_training_on_5_p7771599747208186700, (on, b, c)).
 holds(s_training_on_5_p7771599747208186700, (on, c, d)).
 holds(s_training_on_5_p7771599747208186700, (on, e, b)).
 holds(s_training_on_5_p7771599747208186700, (ontable, d)).
 holds(s_training_on_5_p7771599747208186700, (clear, a)).
-holds(s_training_on_5_p413715619962081352, (handempty)).
+holds(s_training_on_5_p413715619962081352, (handempty,)).
 holds(s_training_on_5_p413715619962081352, (on, a, e)).
 holds(s_training_on_5_p413715619962081352, (on, b, a)).
 holds(s_training_on_5_p413715619962081352, (on, c, d)).
 holds(s_training_on_5_p413715619962081352, (on, e, c)).
 holds(s_training_on_5_p413715619962081352, (ontable, d)).
 holds(s_training_on_5_p413715619962081352, (clear, b)).
-holds(s_training_on_5_m7734275072016089307, (handempty)).
+holds(s_training_on_5_m7734275072016089307, (handempty,)).
 holds(s_training_on_5_m7734275072016089307, (on, a, b)).
 holds(s_training_on_5_m7734275072016089307, (on, b, e)).
 holds(s_training_on_5_m7734275072016089307, (on, c, d)).
 holds(s_training_on_5_m7734275072016089307, (on, e, c)).
 holds(s_training_on_5_m7734275072016089307, (ontable, d)).
 holds(s_training_on_5_m7734275072016089307, (clear, a)).
-holds(s_training_on_5_p6323088399435869262, (handempty)).
+holds(s_training_on_5_p6323088399435869262, (handempty,)).
 holds(s_training_on_5_p6323088399435869262, (on, a, d)).
 holds(s_training_on_5_p6323088399435869262, (on, b, c)).
 holds(s_training_on_5_p6323088399435869262, (on, c, e)).
 holds(s_training_on_5_p6323088399435869262, (on, d, b)).
 holds(s_training_on_5_p6323088399435869262, (ontable, e)).
 holds(s_training_on_5_p6323088399435869262, (clear, a)).
-holds(s_training_on_5_p8592231731325912801, (handempty)).
+holds(s_training_on_5_p8592231731325912801, (handempty,)).
 holds(s_training_on_5_p8592231731325912801, (on, a, d)).
 holds(s_training_on_5_p8592231731325912801, (on, b, a)).
 holds(s_training_on_5_p8592231731325912801, (on, c, e)).
 holds(s_training_on_5_p8592231731325912801, (on, d, c)).
 holds(s_training_on_5_p8592231731325912801, (ontable, e)).
 holds(s_training_on_5_p8592231731325912801, (clear, b)).
-holds(s_training_on_5_m5805029387521472255, (handempty)).
+holds(s_training_on_5_m5805029387521472255, (handempty,)).
 holds(s_training_on_5_m5805029387521472255, (on, a, b)).
 holds(s_training_on_5_m5805029387521472255, (on, b, d)).
 holds(s_training_on_5_m5805029387521472255, (on, c, e)).
@@ -7599,252 +7599,252 @@ holds(s_training_on_5_m2374941326465935310, (on, e, d)).
 holds(s_training_on_5_m2374941326465935310, (ontable, d)).
 holds(s_training_on_5_m2374941326465935310, (clear, c)).
 holds(s_training_on_5_m2374941326465935310, (holding, a)).
-holds(s_training_on_5_m5297955202056796457, (handempty)).
+holds(s_training_on_5_m5297955202056796457, (handempty,)).
 holds(s_training_on_5_m5297955202056796457, (on, a, d)).
 holds(s_training_on_5_m5297955202056796457, (on, b, c)).
 holds(s_training_on_5_m5297955202056796457, (on, d, b)).
 holds(s_training_on_5_m5297955202056796457, (on, e, a)).
 holds(s_training_on_5_m5297955202056796457, (ontable, c)).
 holds(s_training_on_5_m5297955202056796457, (clear, e)).
-holds(s_training_on_5_m5755987600868564575, (handempty)).
+holds(s_training_on_5_m5755987600868564575, (handempty,)).
 holds(s_training_on_5_m5755987600868564575, (on, a, e)).
 holds(s_training_on_5_m5755987600868564575, (on, b, c)).
 holds(s_training_on_5_m5755987600868564575, (on, d, b)).
 holds(s_training_on_5_m5755987600868564575, (on, e, d)).
 holds(s_training_on_5_m5755987600868564575, (ontable, c)).
 holds(s_training_on_5_m5755987600868564575, (clear, a)).
-holds(s_training_on_5_m16093081580489396, (handempty)).
+holds(s_training_on_5_m16093081580489396, (handempty,)).
 holds(s_training_on_5_m16093081580489396, (on, a, d)).
 holds(s_training_on_5_m16093081580489396, (on, b, e)).
 holds(s_training_on_5_m16093081580489396, (on, c, b)).
 holds(s_training_on_5_m16093081580489396, (on, d, c)).
 holds(s_training_on_5_m16093081580489396, (ontable, e)).
 holds(s_training_on_5_m16093081580489396, (clear, a)).
-holds(s_training_on_5_m8694285991704110152, (handempty)).
+holds(s_training_on_5_m8694285991704110152, (handempty,)).
 holds(s_training_on_5_m8694285991704110152, (on, a, d)).
 holds(s_training_on_5_m8694285991704110152, (on, b, e)).
 holds(s_training_on_5_m8694285991704110152, (on, c, a)).
 holds(s_training_on_5_m8694285991704110152, (on, d, b)).
 holds(s_training_on_5_m8694285991704110152, (ontable, e)).
 holds(s_training_on_5_m8694285991704110152, (clear, c)).
-holds(s_training_on_5_m3510464336055671476, (handempty)).
+holds(s_training_on_5_m3510464336055671476, (handempty,)).
 holds(s_training_on_5_m3510464336055671476, (on, a, c)).
 holds(s_training_on_5_m3510464336055671476, (on, b, e)).
 holds(s_training_on_5_m3510464336055671476, (on, c, d)).
 holds(s_training_on_5_m3510464336055671476, (on, d, b)).
 holds(s_training_on_5_m3510464336055671476, (ontable, e)).
 holds(s_training_on_5_m3510464336055671476, (clear, a)).
-holds(s_training_on_5_p4147096310702982196, (handempty)).
+holds(s_training_on_5_p4147096310702982196, (handempty,)).
 holds(s_training_on_5_p4147096310702982196, (on, b, a)).
 holds(s_training_on_5_p4147096310702982196, (on, c, b)).
 holds(s_training_on_5_p4147096310702982196, (on, d, c)).
 holds(s_training_on_5_p4147096310702982196, (on, e, d)).
 holds(s_training_on_5_p4147096310702982196, (ontable, a)).
 holds(s_training_on_5_p4147096310702982196, (clear, e)).
-holds(s_training_on_5_m5992998713398129266, (handempty)).
+holds(s_training_on_5_m5992998713398129266, (handempty,)).
 holds(s_training_on_5_m5992998713398129266, (on, b, a)).
 holds(s_training_on_5_m5992998713398129266, (on, c, b)).
 holds(s_training_on_5_m5992998713398129266, (on, d, e)).
 holds(s_training_on_5_m5992998713398129266, (on, e, c)).
 holds(s_training_on_5_m5992998713398129266, (ontable, a)).
 holds(s_training_on_5_m5992998713398129266, (clear, d)).
-holds(s_training_on_5_p4870054359957146360, (handempty)).
+holds(s_training_on_5_p4870054359957146360, (handempty,)).
 holds(s_training_on_5_p4870054359957146360, (on, b, a)).
 holds(s_training_on_5_p4870054359957146360, (on, c, d)).
 holds(s_training_on_5_p4870054359957146360, (on, d, b)).
 holds(s_training_on_5_p4870054359957146360, (on, e, c)).
 holds(s_training_on_5_p4870054359957146360, (ontable, a)).
 holds(s_training_on_5_p4870054359957146360, (clear, e)).
-holds(s_training_on_5_m3354057004954524669, (handempty)).
+holds(s_training_on_5_m3354057004954524669, (handempty,)).
 holds(s_training_on_5_m3354057004954524669, (on, b, a)).
 holds(s_training_on_5_m3354057004954524669, (on, c, e)).
 holds(s_training_on_5_m3354057004954524669, (on, d, b)).
 holds(s_training_on_5_m3354057004954524669, (on, e, d)).
 holds(s_training_on_5_m3354057004954524669, (ontable, a)).
 holds(s_training_on_5_m3354057004954524669, (clear, c)).
-holds(s_training_on_5_m7441970837200886016, (handempty)).
+holds(s_training_on_5_m7441970837200886016, (handempty,)).
 holds(s_training_on_5_m7441970837200886016, (on, b, a)).
 holds(s_training_on_5_m7441970837200886016, (on, c, e)).
 holds(s_training_on_5_m7441970837200886016, (on, d, c)).
 holds(s_training_on_5_m7441970837200886016, (on, e, b)).
 holds(s_training_on_5_m7441970837200886016, (ontable, a)).
 holds(s_training_on_5_m7441970837200886016, (clear, d)).
-holds(s_training_on_5_m6987548335649128383, (handempty)).
+holds(s_training_on_5_m6987548335649128383, (handempty,)).
 holds(s_training_on_5_m6987548335649128383, (on, b, a)).
 holds(s_training_on_5_m6987548335649128383, (on, c, d)).
 holds(s_training_on_5_m6987548335649128383, (on, d, e)).
 holds(s_training_on_5_m6987548335649128383, (on, e, b)).
 holds(s_training_on_5_m6987548335649128383, (ontable, a)).
 holds(s_training_on_5_m6987548335649128383, (clear, c)).
-holds(s_training_on_5_m15864977612874985, (handempty)).
+holds(s_training_on_5_m15864977612874985, (handempty,)).
 holds(s_training_on_5_m15864977612874985, (on, a, c)).
 holds(s_training_on_5_m15864977612874985, (on, b, d)).
 holds(s_training_on_5_m15864977612874985, (on, c, b)).
 holds(s_training_on_5_m15864977612874985, (on, e, a)).
 holds(s_training_on_5_m15864977612874985, (ontable, d)).
 holds(s_training_on_5_m15864977612874985, (clear, e)).
-holds(s_training_on_5_m5533016919889894739, (handempty)).
+holds(s_training_on_5_m5533016919889894739, (handempty,)).
 holds(s_training_on_5_m5533016919889894739, (on, a, e)).
 holds(s_training_on_5_m5533016919889894739, (on, b, d)).
 holds(s_training_on_5_m5533016919889894739, (on, c, b)).
 holds(s_training_on_5_m5533016919889894739, (on, e, c)).
 holds(s_training_on_5_m5533016919889894739, (ontable, d)).
 holds(s_training_on_5_m5533016919889894739, (clear, a)).
-holds(s_training_on_5_m8845752134245777934, (handempty)).
+holds(s_training_on_5_m8845752134245777934, (handempty,)).
 holds(s_training_on_5_m8845752134245777934, (on, a, e)).
 holds(s_training_on_5_m8845752134245777934, (on, b, d)).
 holds(s_training_on_5_m8845752134245777934, (on, c, a)).
 holds(s_training_on_5_m8845752134245777934, (on, e, b)).
 holds(s_training_on_5_m8845752134245777934, (ontable, d)).
 holds(s_training_on_5_m8845752134245777934, (clear, c)).
-holds(s_training_on_5_m5041686623444770109, (handempty)).
+holds(s_training_on_5_m5041686623444770109, (handempty,)).
 holds(s_training_on_5_m5041686623444770109, (on, a, c)).
 holds(s_training_on_5_m5041686623444770109, (on, b, d)).
 holds(s_training_on_5_m5041686623444770109, (on, c, e)).
 holds(s_training_on_5_m5041686623444770109, (on, e, b)).
 holds(s_training_on_5_m5041686623444770109, (ontable, d)).
 holds(s_training_on_5_m5041686623444770109, (clear, a)).
-holds(s_training_on_5_p8400337970122733469, (handempty)).
+holds(s_training_on_5_p8400337970122733469, (handempty,)).
 holds(s_training_on_5_p8400337970122733469, (on, b, d)).
 holds(s_training_on_5_p8400337970122733469, (on, c, b)).
 holds(s_training_on_5_p8400337970122733469, (on, d, a)).
 holds(s_training_on_5_p8400337970122733469, (on, e, c)).
 holds(s_training_on_5_p8400337970122733469, (ontable, a)).
 holds(s_training_on_5_p8400337970122733469, (clear, e)).
-holds(s_training_on_5_m3245049503947315711, (handempty)).
+holds(s_training_on_5_m3245049503947315711, (handempty,)).
 holds(s_training_on_5_m3245049503947315711, (on, b, d)).
 holds(s_training_on_5_m3245049503947315711, (on, c, e)).
 holds(s_training_on_5_m3245049503947315711, (on, d, a)).
 holds(s_training_on_5_m3245049503947315711, (on, e, b)).
 holds(s_training_on_5_m3245049503947315711, (ontable, a)).
 holds(s_training_on_5_m3245049503947315711, (clear, c)).
-holds(s_training_on_5_m2880737259439630290, (handempty)).
+holds(s_training_on_5_m2880737259439630290, (handempty,)).
 holds(s_training_on_5_m2880737259439630290, (on, b, e)).
 holds(s_training_on_5_m2880737259439630290, (on, c, b)).
 holds(s_training_on_5_m2880737259439630290, (on, d, a)).
 holds(s_training_on_5_m2880737259439630290, (on, e, d)).
 holds(s_training_on_5_m2880737259439630290, (ontable, a)).
 holds(s_training_on_5_m2880737259439630290, (clear, c)).
-holds(s_training_on_5_p8324224240720819298, (handempty)).
+holds(s_training_on_5_p8324224240720819298, (handempty,)).
 holds(s_training_on_5_p8324224240720819298, (on, a, d)).
 holds(s_training_on_5_p8324224240720819298, (on, c, a)).
 holds(s_training_on_5_p8324224240720819298, (on, d, b)).
 holds(s_training_on_5_p8324224240720819298, (on, e, c)).
 holds(s_training_on_5_p8324224240720819298, (ontable, b)).
 holds(s_training_on_5_p8324224240720819298, (clear, e)).
-holds(s_training_on_5_p18356000780145385, (handempty)).
+holds(s_training_on_5_p18356000780145385, (handempty,)).
 holds(s_training_on_5_p18356000780145385, (on, a, d)).
 holds(s_training_on_5_p18356000780145385, (on, c, e)).
 holds(s_training_on_5_p18356000780145385, (on, d, b)).
 holds(s_training_on_5_p18356000780145385, (on, e, a)).
 holds(s_training_on_5_p18356000780145385, (ontable, b)).
 holds(s_training_on_5_p18356000780145385, (clear, c)).
-holds(s_training_on_5_m2868447196565134626, (handempty)).
+holds(s_training_on_5_m2868447196565134626, (handempty,)).
 holds(s_training_on_5_m2868447196565134626, (on, a, c)).
 holds(s_training_on_5_m2868447196565134626, (on, c, d)).
 holds(s_training_on_5_m2868447196565134626, (on, d, b)).
 holds(s_training_on_5_m2868447196565134626, (on, e, a)).
 holds(s_training_on_5_m2868447196565134626, (ontable, b)).
 holds(s_training_on_5_m2868447196565134626, (clear, e)).
-holds(s_training_on_5_m7728072546364794012, (handempty)).
+holds(s_training_on_5_m7728072546364794012, (handempty,)).
 holds(s_training_on_5_m7728072546364794012, (on, a, e)).
 holds(s_training_on_5_m7728072546364794012, (on, c, d)).
 holds(s_training_on_5_m7728072546364794012, (on, d, b)).
 holds(s_training_on_5_m7728072546364794012, (on, e, c)).
 holds(s_training_on_5_m7728072546364794012, (ontable, b)).
 holds(s_training_on_5_m7728072546364794012, (clear, a)).
-holds(s_training_on_5_m7617372766744085668, (handempty)).
+holds(s_training_on_5_m7617372766744085668, (handempty,)).
 holds(s_training_on_5_m7617372766744085668, (on, a, e)).
 holds(s_training_on_5_m7617372766744085668, (on, c, a)).
 holds(s_training_on_5_m7617372766744085668, (on, d, b)).
 holds(s_training_on_5_m7617372766744085668, (on, e, d)).
 holds(s_training_on_5_m7617372766744085668, (ontable, b)).
 holds(s_training_on_5_m7617372766744085668, (clear, c)).
-holds(s_training_on_5_m6234002070481410963, (handempty)).
+holds(s_training_on_5_m6234002070481410963, (handempty,)).
 holds(s_training_on_5_m6234002070481410963, (on, a, c)).
 holds(s_training_on_5_m6234002070481410963, (on, c, e)).
 holds(s_training_on_5_m6234002070481410963, (on, d, b)).
 holds(s_training_on_5_m6234002070481410963, (on, e, d)).
 holds(s_training_on_5_m6234002070481410963, (ontable, b)).
 holds(s_training_on_5_m6234002070481410963, (clear, a)).
-holds(s_training_on_5_m1947370236682597177, (handempty)).
+holds(s_training_on_5_m1947370236682597177, (handempty,)).
 holds(s_training_on_5_m1947370236682597177, (on, a, d)).
 holds(s_training_on_5_m1947370236682597177, (on, b, a)).
 holds(s_training_on_5_m1947370236682597177, (on, d, c)).
 holds(s_training_on_5_m1947370236682597177, (on, e, b)).
 holds(s_training_on_5_m1947370236682597177, (ontable, c)).
 holds(s_training_on_5_m1947370236682597177, (clear, e)).
-holds(s_training_on_5_p3012086944733251262, (handempty)).
+holds(s_training_on_5_p3012086944733251262, (handempty,)).
 holds(s_training_on_5_p3012086944733251262, (on, a, d)).
 holds(s_training_on_5_p3012086944733251262, (on, b, e)).
 holds(s_training_on_5_p3012086944733251262, (on, d, c)).
 holds(s_training_on_5_p3012086944733251262, (on, e, a)).
 holds(s_training_on_5_p3012086944733251262, (ontable, c)).
 holds(s_training_on_5_p3012086944733251262, (clear, b)).
-holds(s_training_on_5_p1363051218226890380, (handempty)).
+holds(s_training_on_5_p1363051218226890380, (handempty,)).
 holds(s_training_on_5_p1363051218226890380, (on, a, e)).
 holds(s_training_on_5_p1363051218226890380, (on, b, d)).
 holds(s_training_on_5_p1363051218226890380, (on, d, c)).
 holds(s_training_on_5_p1363051218226890380, (on, e, b)).
 holds(s_training_on_5_p1363051218226890380, (ontable, c)).
 holds(s_training_on_5_p1363051218226890380, (clear, a)).
-holds(s_training_on_5_m8006487957262513394, (handempty)).
+holds(s_training_on_5_m8006487957262513394, (handempty,)).
 holds(s_training_on_5_m8006487957262513394, (on, a, e)).
 holds(s_training_on_5_m8006487957262513394, (on, b, a)).
 holds(s_training_on_5_m8006487957262513394, (on, d, c)).
 holds(s_training_on_5_m8006487957262513394, (on, e, d)).
 holds(s_training_on_5_m8006487957262513394, (ontable, c)).
 holds(s_training_on_5_m8006487957262513394, (clear, b)).
-holds(s_training_on_5_p140940319735702627, (handempty)).
+holds(s_training_on_5_p140940319735702627, (handempty,)).
 holds(s_training_on_5_p140940319735702627, (on, a, b)).
 holds(s_training_on_5_p140940319735702627, (on, b, e)).
 holds(s_training_on_5_p140940319735702627, (on, d, c)).
 holds(s_training_on_5_p140940319735702627, (on, e, d)).
 holds(s_training_on_5_p140940319735702627, (ontable, c)).
 holds(s_training_on_5_p140940319735702627, (clear, a)).
-holds(s_training_on_5_m3276537854644657000, (handempty)).
+holds(s_training_on_5_m3276537854644657000, (handempty,)).
 holds(s_training_on_5_m3276537854644657000, (on, a, d)).
 holds(s_training_on_5_m3276537854644657000, (on, b, a)).
 holds(s_training_on_5_m3276537854644657000, (on, c, b)).
 holds(s_training_on_5_m3276537854644657000, (on, d, e)).
 holds(s_training_on_5_m3276537854644657000, (ontable, e)).
 holds(s_training_on_5_m3276537854644657000, (clear, c)).
-holds(s_training_on_5_m8372679374506557663, (handempty)).
+holds(s_training_on_5_m8372679374506557663, (handempty,)).
 holds(s_training_on_5_m8372679374506557663, (on, a, c)).
 holds(s_training_on_5_m8372679374506557663, (on, b, d)).
 holds(s_training_on_5_m8372679374506557663, (on, c, b)).
 holds(s_training_on_5_m8372679374506557663, (on, d, e)).
 holds(s_training_on_5_m8372679374506557663, (ontable, e)).
 holds(s_training_on_5_m8372679374506557663, (clear, a)).
-holds(s_training_on_5_p7079216874294047762, (handempty)).
+holds(s_training_on_5_p7079216874294047762, (handempty,)).
 holds(s_training_on_5_p7079216874294047762, (on, b, e)).
 holds(s_training_on_5_p7079216874294047762, (on, c, b)).
 holds(s_training_on_5_p7079216874294047762, (on, d, c)).
 holds(s_training_on_5_p7079216874294047762, (on, e, a)).
 holds(s_training_on_5_p7079216874294047762, (ontable, a)).
 holds(s_training_on_5_p7079216874294047762, (clear, d)).
-holds(s_training_on_5_p2267547186473945206, (handempty)).
+holds(s_training_on_5_p2267547186473945206, (handempty,)).
 holds(s_training_on_5_p2267547186473945206, (on, b, e)).
 holds(s_training_on_5_p2267547186473945206, (on, c, d)).
 holds(s_training_on_5_p2267547186473945206, (on, d, b)).
 holds(s_training_on_5_p2267547186473945206, (on, e, a)).
 holds(s_training_on_5_p2267547186473945206, (ontable, a)).
 holds(s_training_on_5_p2267547186473945206, (clear, c)).
-holds(s_training_on_5_p6625328417238012443, (handempty)).
+holds(s_training_on_5_p6625328417238012443, (handempty,)).
 holds(s_training_on_5_p6625328417238012443, (on, b, d)).
 holds(s_training_on_5_p6625328417238012443, (on, c, b)).
 holds(s_training_on_5_p6625328417238012443, (on, d, e)).
 holds(s_training_on_5_p6625328417238012443, (on, e, a)).
 holds(s_training_on_5_p6625328417238012443, (ontable, a)).
 holds(s_training_on_5_p6625328417238012443, (clear, c)).
-holds(s_training_on_5_m6851665381189933096, (handempty)).
+holds(s_training_on_5_m6851665381189933096, (handempty,)).
 holds(s_training_on_5_m6851665381189933096, (on, a, e)).
 holds(s_training_on_5_m6851665381189933096, (on, b, a)).
 holds(s_training_on_5_m6851665381189933096, (on, c, b)).
 holds(s_training_on_5_m6851665381189933096, (on, e, d)).
 holds(s_training_on_5_m6851665381189933096, (ontable, d)).
 holds(s_training_on_5_m6851665381189933096, (clear, c)).
-holds(s_training_on_5_m5694097316629472020, (handempty)).
+holds(s_training_on_5_m5694097316629472020, (handempty,)).
 holds(s_training_on_5_m5694097316629472020, (on, a, c)).
 holds(s_training_on_5_m5694097316629472020, (on, b, e)).
 holds(s_training_on_5_m5694097316629472020, (on, c, b)).
@@ -7886,8 +7886,8 @@ goal(s_training_on_5_p5094700893555992811).
 goal(s_training_on_5_m7734275072016089307).
 goal(s_training_on_5_m5805029387521472255).
 goal(s_training_on_5_p140940319735702627).
-goal_object(a).
 goal_object(b).
+goal_object(a).
 v_star(s_training_on_5_p2665480133243500654, 0).
 v_star(s_training_on_5_m586080787723137411, 0).
 v_star(s_training_on_5_m734262630019330900, 0).

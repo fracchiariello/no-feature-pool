@@ -23,7 +23,7 @@ def cname(i):
     return clingo.Function(f"add_c{i}")
 #end.
 #const n=0.
-add_concept(C) :- I = 1..n, C = @cname(I).
+add_concept(C) :- I = 1..n, C = cname(I).
 concept(S) :- add_concept(S).
 
 %Role

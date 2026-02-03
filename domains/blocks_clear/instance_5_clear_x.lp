@@ -21,7 +21,7 @@ transition(s_instance_5_clear_x_m173772667364938686, s_instance_5_clear_x_m22676
 transition(s_instance_5_clear_x_p4879139092722371788, s_instance_5_clear_x_m3761597715633354778).
 transition(s_instance_5_clear_x_p4879139092722371788, s_instance_5_clear_x_m230492369893469416).
 transition(s_instance_5_clear_x_m230492369893469416, s_instance_5_clear_x_p4879139092722371788).
-holds(s_instance_5_clear_x_m3380733279326508616, (handempty)).
+holds(s_instance_5_clear_x_m3380733279326508616, (handempty,)).
 holds(s_instance_5_clear_x_m3380733279326508616, (on, a, c)).
 holds(s_instance_5_clear_x_m3380733279326508616, (on, b, a)).
 holds(s_instance_5_clear_x_m3380733279326508616, (on, e, b)).
@@ -42,14 +42,14 @@ holds(s_instance_5_clear_x_p1529651579755100366, (ontable, d)).
 holds(s_instance_5_clear_x_p1529651579755100366, (clear, b)).
 holds(s_instance_5_clear_x_p1529651579755100366, (clear, d)).
 holds(s_instance_5_clear_x_p1529651579755100366, (holding, e)).
-holds(s_instance_5_clear_x_m5637449309521250786, (handempty)).
+holds(s_instance_5_clear_x_m5637449309521250786, (handempty,)).
 holds(s_instance_5_clear_x_m5637449309521250786, (on, a, c)).
 holds(s_instance_5_clear_x_m5637449309521250786, (on, b, a)).
 holds(s_instance_5_clear_x_m5637449309521250786, (on, d, e)).
 holds(s_instance_5_clear_x_m5637449309521250786, (on, e, b)).
 holds(s_instance_5_clear_x_m5637449309521250786, (ontable, c)).
 holds(s_instance_5_clear_x_m5637449309521250786, (clear, d)).
-holds(s_instance_5_clear_x_m7115586358217116700, (handempty)).
+holds(s_instance_5_clear_x_m7115586358217116700, (handempty,)).
 holds(s_instance_5_clear_x_m7115586358217116700, (on, a, c)).
 holds(s_instance_5_clear_x_m7115586358217116700, (on, b, a)).
 holds(s_instance_5_clear_x_m7115586358217116700, (ontable, c)).
@@ -58,7 +58,7 @@ holds(s_instance_5_clear_x_m7115586358217116700, (ontable, e)).
 holds(s_instance_5_clear_x_m7115586358217116700, (clear, b)).
 holds(s_instance_5_clear_x_m7115586358217116700, (clear, d)).
 holds(s_instance_5_clear_x_m7115586358217116700, (clear, e)).
-holds(s_instance_5_clear_x_m6178545820995590374, (handempty)).
+holds(s_instance_5_clear_x_m6178545820995590374, (handempty,)).
 holds(s_instance_5_clear_x_m6178545820995590374, (on, a, c)).
 holds(s_instance_5_clear_x_m6178545820995590374, (on, b, a)).
 holds(s_instance_5_clear_x_m6178545820995590374, (on, e, d)).
@@ -88,7 +88,7 @@ holds(s_instance_5_clear_x_m4131911478580797422, (ontable, d)).
 holds(s_instance_5_clear_x_m4131911478580797422, (clear, a)).
 holds(s_instance_5_clear_x_m4131911478580797422, (clear, e)).
 holds(s_instance_5_clear_x_m4131911478580797422, (holding, b)).
-holds(s_instance_5_clear_x_m3761597715633354778, (handempty)).
+holds(s_instance_5_clear_x_m3761597715633354778, (handempty,)).
 holds(s_instance_5_clear_x_m3761597715633354778, (on, a, c)).
 holds(s_instance_5_clear_x_m3761597715633354778, (on, b, a)).
 holds(s_instance_5_clear_x_m3761597715633354778, (on, d, b)).
@@ -96,7 +96,7 @@ holds(s_instance_5_clear_x_m3761597715633354778, (ontable, c)).
 holds(s_instance_5_clear_x_m3761597715633354778, (ontable, e)).
 holds(s_instance_5_clear_x_m3761597715633354778, (clear, d)).
 holds(s_instance_5_clear_x_m3761597715633354778, (clear, e)).
-holds(s_instance_5_clear_x_m173772667364938686, (handempty)).
+holds(s_instance_5_clear_x_m173772667364938686, (handempty,)).
 holds(s_instance_5_clear_x_m173772667364938686, (on, a, c)).
 holds(s_instance_5_clear_x_m173772667364938686, (on, b, a)).
 holds(s_instance_5_clear_x_m173772667364938686, (on, d, e)).
@@ -117,7 +117,7 @@ holds(s_instance_5_clear_x_m7962566969699718326, (ontable, e)).
 holds(s_instance_5_clear_x_m7962566969699718326, (clear, a)).
 holds(s_instance_5_clear_x_m7962566969699718326, (clear, d)).
 holds(s_instance_5_clear_x_m7962566969699718326, (holding, b)).
-holds(s_instance_5_clear_x_m230492369893469416, (handempty)).
+holds(s_instance_5_clear_x_m230492369893469416, (handempty,)).
 holds(s_instance_5_clear_x_m230492369893469416, (on, a, c)).
 holds(s_instance_5_clear_x_m230492369893469416, (on, b, a)).
 holds(s_instance_5_clear_x_m230492369893469416, (on, d, b)).
